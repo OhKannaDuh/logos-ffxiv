@@ -1,6 +1,6 @@
 # Logos
 
-Logos is a Rust crate for interacting with Final Fantasy XIV’s EXD data files, using Physis as the backend.
+Logos is a Rust crate for working with Final Fantasy XIV’s EXD data files, built on top of the Physis backend. The project draws inspiration from [Icarus](https://github.com/redstrate/Icarus) while offering a more opinionated API aligned with my own design preferences. If Logos doesn’t suit your needs, I recommend taking a look at Icarus as an alternative.
 
 # Reading a sheet
 
