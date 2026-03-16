@@ -1,0 +1,10 @@
+[package]
+name = "logos-ffxiv"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+physis = { git = "https://github.com/redstrate/physis" }
+
+anyhow = "1.0.102"
+thiserror = "2.0.18"
