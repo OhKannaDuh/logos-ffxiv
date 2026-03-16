@@ -64,6 +64,23 @@ macro_rules! string_field {
 pub use string_field;
 
 #[macro_export]
+macro_rules! f32_field {
+    ($fn_name:ident, $idx:expr) => {
+        pub fn $fn_name(&self) -> Result<f32, $crate::ColumnReadError> {
+            match &self[$idx] {
+                physis::excel::Field::Float32(v) => Ok(*v),
+                other => Err($crate::ColumnReadError::UnexpectedType(
+                    other.clone(),
+                    "f32",
+                )),
+            }
+        }
+    };
+}
+
+pub use f32_field;
+
+#[macro_export]
 macro_rules! u8_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<u8, $crate::ColumnReadError> {
