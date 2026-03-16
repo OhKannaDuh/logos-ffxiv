@@ -49,9 +49,9 @@ pub use define_row;
 #[macro_export]
 macro_rules! string_field {
     ($fn_name:ident, $idx:expr) => {
-        pub fn $fn_name(&self) -> Result<String, $crate::ColumnReadError> {
+        pub fn $fn_name(&self) -> Result<&str, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::String(s) => Ok(s.clone()),
+                physis::excel::Field::String(s) => Ok(s.as_str()),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "String",
@@ -68,7 +68,7 @@ macro_rules! u8_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<u8, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::UInt8(s) => Ok(s.clone()),
+                physis::excel::Field::UInt8(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(other.clone(), "u8")),
             }
         }
@@ -82,7 +82,7 @@ macro_rules! u16_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<u16, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::UInt16(s) => Ok(s.clone()),
+                physis::excel::Field::UInt16(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "u16",
@@ -99,7 +99,7 @@ macro_rules! u32_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<u32, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::UInt32(s) => Ok(s.clone()),
+                physis::excel::Field::UInt32(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "u32",
@@ -116,7 +116,7 @@ macro_rules! u64_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<u64, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::UInt64(s) => Ok(s.clone()),
+                physis::excel::Field::UInt64(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "u64",
@@ -133,7 +133,7 @@ macro_rules! i8_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<i8, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::Int8(s) => Ok(s.clone()),
+                physis::excel::Field::Int8(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(other.clone(), "i8")),
             }
         }
@@ -147,7 +147,7 @@ macro_rules! i16_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<i16, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::Int16(s) => Ok(s.clone()),
+                physis::excel::Field::Int16(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "i16",
@@ -164,7 +164,7 @@ macro_rules! i32_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<i32, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::Int32(s) => Ok(s.clone()),
+                physis::excel::Field::Int32(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "i32",
@@ -181,7 +181,7 @@ macro_rules! i64_field {
     ($fn_name:ident, $idx:expr) => {
         pub fn $fn_name(&self) -> Result<i64, $crate::ColumnReadError> {
             match &self[$idx] {
-                physis::excel::Field::Int64(s) => Ok(s.clone()),
+                physis::excel::Field::Int64(v) => Ok(*v),
                 other => Err($crate::ColumnReadError::UnexpectedType(
                     other.clone(),
                     "i64",
@@ -192,6 +192,23 @@ macro_rules! i64_field {
 }
 
 pub use i64_field;
+
+#[macro_export]
+macro_rules! bool_field {
+    ($fn_name:ident, $idx:expr) => {
+        pub fn $fn_name(&self) -> Result<bool, $crate::ColumnReadError> {
+            match &self[$idx] {
+                physis::excel::Field::Bool(v) => Ok(*v),
+                other => Err($crate::ColumnReadError::UnexpectedType(
+                    other.clone(),
+                    "bool",
+                )),
+            }
+        }
+    };
+}
+
+pub use bool_field;
 
 // HELPERS
 #[macro_export]
