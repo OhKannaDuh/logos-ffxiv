@@ -1,5 +1,4 @@
-#[macro_export]
-macro_rules! define_sheet {
+macro_rules! sheet_common {
     ($sheet_ty:ident, $row_ty:ty, $name:literal) => {
         #[derive(Debug, Clone)]
         pub struct $sheet_ty {
@@ -16,6 +15,52 @@ macro_rules! define_sheet {
 
             fn get_sheet(&self) -> &physis::excel::Sheet {
                 &self.sheet
+            }
+        }
+    };
+}
+
+#[macro_export]
+macro_rules! define_sheet {
+    // language-supporting sheet
+    ($sheet_ty:ident, $row_ty:ty, $name:literal, language_support) => {
+        $crate::sheet_common!($sheet_ty, $row_ty, $name);
+
+        impl $sheet_ty {
+            pub fn read_from(
+                resolver: &mut physis::resource::ResourceResolver,
+                language: physis::Language,
+            ) -> Result<Self, $crate::SheetError> {
+                let exh = resolver
+                    .read_excel_sheet_header(Self::NAME)
+                    .map_err(|_| $crate::SheetError::HeaderReadError)?;
+
+                let sheet = resolver
+                    .read_excel_sheet(&exh, Self::NAME, language)
+                    .map_err(|_| $crate::SheetError::DataReadError)?;
+
+                Ok(Self::from_sheet(sheet))
+            }
+        }
+    };
+
+    // language-agnostic sheet
+    ($sheet_ty:ident, $row_ty:ty, $name:literal, no_language_support) => {
+        $crate::sheet_common!($sheet_ty, $row_ty, $name);
+
+        impl $sheet_ty {
+            pub fn read_from(
+                resolver: &mut physis::resource::ResourceResolver,
+            ) -> Result<Self, $crate::SheetError> {
+                let exh = resolver
+                    .read_excel_sheet_header(Self::NAME)
+                    .map_err(|_| $crate::SheetError::HeaderReadError)?;
+
+                let sheet = resolver
+                    .read_excel_sheet(&exh, Self::NAME, physis::Language::None)
+                    .map_err(|_| $crate::SheetError::DataReadError)?;
+
+                Ok(Self::from_sheet(sheet))
             }
         }
     };

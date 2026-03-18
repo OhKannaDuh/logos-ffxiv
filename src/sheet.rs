@@ -1,7 +1,4 @@
-use physis::{
-    excel::{Field, Row},
-    resource::ResourceResolver,
-};
+use physis::excel::{Field, Row};
 
 #[derive(thiserror::Error, Debug)]
 pub enum SheetError {
@@ -64,21 +61,6 @@ pub trait Sheet: Sized {
     fn from_sheet(sheet: physis::excel::Sheet) -> Self;
 
     fn get_sheet(&self) -> &physis::excel::Sheet;
-
-    fn read_from(
-        resolver: &mut ResourceResolver,
-        language: physis::Language,
-    ) -> Result<Self, SheetError> {
-        let exh = resolver
-            .read_excel_sheet_header(Self::NAME)
-            .map_err(|_| SheetError::HeaderReadError)?;
-
-        let sheet = resolver
-            .read_excel_sheet(&exh, Self::NAME, language)
-            .map_err(|_| SheetError::DataReadError)?;
-
-        Ok(Self::from_sheet(sheet))
-    }
 
     fn page_index_for_row(&self, row_id: u32) -> Option<usize> {
         self.get_sheet()
