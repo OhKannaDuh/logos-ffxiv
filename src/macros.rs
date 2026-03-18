@@ -45,7 +45,42 @@ macro_rules! define_row {
 
 pub use define_row;
 
+#[macro_export]
+macro_rules! define_subrow {
+    ($row_ty:ident, $field_count:expr) => {
+        #[derive(Debug, Copy, Clone)]
+        pub struct $row_ty<'a>(&'a [physis::excel::Field]);
+        impl<'a> core::ops::Deref for $row_ty<'a> {
+            type Target = [physis::excel::Field];
+            fn deref(&self) -> &Self::Target {
+                self.0
+            }
+        }
+
+        impl<'a> $row_ty<'a> {
+            pub const FIELD_COUNT: usize = $field_count;
+        }
+    };
+}
+
+pub use define_subrow;
+
 // FIELDS
+#[macro_export]
+macro_rules! array_field {
+    ($fn_name:ident, $idx:expr, $len:expr, $inner:ident) => {
+        pub fn $fn_name(&self) -> impl Iterator<Item = $inner<'_>> {
+            (0..$len).map(|i| {
+                let start = $idx + i * $inner::FIELD_COUNT;
+                let end = start + $inner::FIELD_COUNT;
+                $inner(&self[start..end])
+            })
+        }
+    };
+}
+
+pub use array_field;
+
 #[macro_export]
 macro_rules! string_field {
     ($fn_name:ident, $idx:expr) => {
