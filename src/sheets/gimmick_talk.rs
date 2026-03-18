@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(GimmickTalkRow);
 impl GimmickTalkRow {
-    string_field!(message, 0);
-    u8_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
+    string_field!(message, 2);
+    u8_field!(unknown_1, 0);
+    bool_field!(unknown_2, 1);
 }
 
 define_sheet!(GimmickTalkSheet, GimmickTalkRow, "GimmickTalk");

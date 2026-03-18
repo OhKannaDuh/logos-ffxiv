@@ -8,14 +8,14 @@ use crate::macros::*;
 
 define_subrow!(RecipeNotebookListRecipe, 1);
 impl<'a> RecipeNotebookListRecipe<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 1);
 }
 
 
 define_row!(RecipeNotebookListRow);
 impl RecipeNotebookListRow {
     array_field!(recipe, 0, 160, RecipeNotebookListRecipe);
-    u8_field!(count, 160);
+    u8_field!(count, 0);
 }
 
 define_sheet!(RecipeNotebookListSheet, RecipeNotebookListRow, "RecipeNotebookList");

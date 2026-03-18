@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(GrandCompanyRankRow);
 impl GrandCompanyRankRow {
-    u32_field!(max_seals, 0);
-    u32_field!(required_seals, 1);
-    i32_field!(icon_maelstrom, 2);
-    i32_field!(icon_serpents, 3);
-    i32_field!(icon_flames, 4);
-    i32_field!(quest_maelstrom, 5);
-    i32_field!(quest_serpents, 6);
-    i32_field!(quest_flames, 7);
-    u8_field!(tier, 8);
-    u8_field!(order, 9);
+    u32_field!(max_seals, 2);
+    u32_field!(required_seals, 3);
+    i32_field!(icon_maelstrom, 4);
+    i32_field!(icon_serpents, 5);
+    i32_field!(icon_flames, 6);
+    i32_field!(quest_maelstrom, 7);
+    i32_field!(quest_serpents, 8);
+    i32_field!(quest_flames, 9);
+    u8_field!(tier, 0);
+    u8_field!(order, 1);
     u8_field!(unknown_0, 10);
 }
 

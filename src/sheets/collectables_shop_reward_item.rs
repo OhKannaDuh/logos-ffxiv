@@ -10,15 +10,15 @@ use crate::macros::*;
 define_row!(CollectablesShopRewardItemRow);
 impl CollectablesShopRewardItemRow {
     u32_field!(item, 0);
-    u32_field!(unknown_0, 1);
+    u32_field!(unknown_0, 5);
     u8_field!(reward_low, 2);
     u8_field!(reward_mid, 3);
     u8_field!(reward_high, 4);
-    u8_field!(unknown_1, 5);
-    u8_field!(unknown_2, 6);
-    u8_field!(unknown_3, 7);
-    bool_field!(unknown_4, 8);
-    bool_field!(unknown_5, 9);
+    u8_field!(unknown_1, 7);
+    u8_field!(unknown_2, 8);
+    u8_field!(unknown_3, 9);
+    bool_field!(unknown_4, 1);
+    bool_field!(unknown_5, 6);
 }
 
 define_sheet!(CollectablesShopRewardItemSheet, CollectablesShopRewardItemRow, "CollectablesShopRewardItem");

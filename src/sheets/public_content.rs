@@ -9,24 +9,24 @@ use crate::macros::*;
 
 define_row!(PublicContentRow);
 impl PublicContentRow {
-    string_field!(name, 0);
-    u32_field!(map_icon, 1);
-    u32_field!(text_data_start, 2);
-    u32_field!(text_data_end, 3);
-    u32_field!(start_cutscene, 4);
-    u32_field!(lgb_event_range, 5);
-    u32_field!(lgb_pop_range, 6);
-    u32_field!(end_cutscene, 7);
-    u16_field!(time_limit, 8);
+    string_field!(name, 3);
+    u32_field!(map_icon, 2);
+    u32_field!(text_data_start, 4);
+    u32_field!(text_data_end, 5);
+    u32_field!(start_cutscene, 6);
+    u32_field!(lgb_event_range, 7);
+    u32_field!(lgb_pop_range, 8);
+    u32_field!(end_cutscene, 16);
+    u16_field!(time_limit, 1);
     u16_field!(content_finder_condition, 9);
     u16_field!(additional_data, 10);
-    u16_field!(unknown_0, 11);
-    u16_field!(unknown_1, 12);
-    u16_field!(unknown_2, 13);
-    u16_field!(unknown_3, 14);
-    u16_field!(unknown_5, 15);
-    u8_field!(type_, 16);
-    u8_field!(unknown_4, 17);
+    u16_field!(unknown_0, 12);
+    u16_field!(unknown_1, 13);
+    u16_field!(unknown_2, 14);
+    u16_field!(unknown_3, 15);
+    u16_field!(unknown_5, 17);
+    u8_field!(type_, 0);
+    u8_field!(unknown_4, 11);
 }
 
 define_sheet!(PublicContentSheet, PublicContentRow, "PublicContent");

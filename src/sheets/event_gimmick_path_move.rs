@@ -12,10 +12,10 @@ impl EventGimmickPathMoveRow {
     // Refers to an instanced game object.
     u32_field!(event_range, 0);
     u32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
-    u16_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
+    u16_field!(unknown_2, 3);
+    u16_field!(unknown_3, 4);
+    u16_field!(unknown_4, 5);
+    u8_field!(unknown_5, 2);
 }
 
 define_sheet!(EventGimmickPathMoveSheet, EventGimmickPathMoveRow, "EventGimmickPathMove");

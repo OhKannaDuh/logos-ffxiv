@@ -11,10 +11,10 @@ define_row!(TerritoryAetheryteListRow);
 impl TerritoryAetheryteListRow {
     u32_field!(unknown_0, 0);
     u32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
+    u16_field!(unknown_2, 5);
+    u8_field!(unknown_3, 2);
+    u8_field!(unknown_4, 3);
+    u8_field!(unknown_5, 4);
 }
 
 define_sheet!(TerritoryAetheryteListSheet, TerritoryAetheryteListRow, "TerritoryAetheryteList");

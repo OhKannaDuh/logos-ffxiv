@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(EventVfxRow);
 impl EventVfxRow {
     string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
+    string_field!(unknown_1, 2);
+    u8_field!(unknown_2, 1);
     u8_field!(unknown_3, 3);
     u8_field!(unknown_4, 4);
     u8_field!(unknown_5, 5);

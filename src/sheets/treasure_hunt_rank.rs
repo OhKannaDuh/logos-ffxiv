@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(TreasureHuntRankRow);
 impl TreasureHuntRankRow {
-    u32_field!(icon, 0);
-    i32_field!(item_name, 1);
-    i32_field!(key_item_name, 2);
-    i32_field!(instance_map, 3);
-    u16_field!(unknown_0, 4);
-    u8_field!(unknown_1, 5);
-    u8_field!(max_party_size, 6);
-    u8_field!(treasure_hunt_texture, 7);
+    u32_field!(icon, 1);
+    i32_field!(item_name, 2);
+    i32_field!(key_item_name, 3);
+    i32_field!(instance_map, 4);
+    u16_field!(unknown_0, 7);
+    u8_field!(unknown_1, 0);
+    u8_field!(max_party_size, 5);
+    u8_field!(treasure_hunt_texture, 6);
     bool_field!(unknown_2, 8);
 }
 

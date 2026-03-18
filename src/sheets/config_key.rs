@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(ConfigKeyRow);
 impl ConfigKeyRow {
-    string_field!(text, 0);
-    string_field!(label, 1);
-    u16_field!(unknown_0, 2);
-    u8_field!(param, 3);
-    u8_field!(platform, 4);
-    u8_field!(category, 5);
+    string_field!(text, 7);
+    string_field!(label, 0);
+    u16_field!(unknown_0, 5);
+    u8_field!(param, 1);
+    u8_field!(platform, 2);
+    u8_field!(category, 4);
     u8_field!(backlight_color, 6);
-    bool_field!(required, 7);
+    bool_field!(required, 3);
 }
 
 define_sheet!(ConfigKeySheet, ConfigKeyRow, "ConfigKey");

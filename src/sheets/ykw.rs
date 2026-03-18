@@ -8,15 +8,15 @@ use crate::macros::*;
 
 define_subrow!(YKWLocation, 1);
 impl<'a> YKWLocation<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 8);
 }
 
 
 define_row!(YKWRow);
 impl YKWRow {
-    string_field!(transient, 0);
+    string_field!(transient, 8);
     u32_field!(item, 1);
-    u16_field!(companion, 2);
+    u16_field!(companion, 0);
     array_field!(location, 3, 6, YKWLocation);
 }
 

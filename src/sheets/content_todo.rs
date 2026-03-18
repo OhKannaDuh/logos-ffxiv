@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ContentTodoRow);
 impl ContentTodoRow {
-    u32_field!(unknown_0, 0);
-    u8_field!(text, 1);
+    u32_field!(unknown_0, 1);
+    u8_field!(text, 0);
     u8_field!(unknown_2, 2);
     u8_field!(unknown_3, 3);
     bool_field!(unknown_4, 4);

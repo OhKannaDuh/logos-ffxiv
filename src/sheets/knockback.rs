@@ -11,10 +11,10 @@ define_row!(KnockbackRow);
 impl KnockbackRow {
     u8_field!(distance, 0);
     u8_field!(speed, 1);
-    u8_field!(near_distance, 2);
-    u8_field!(direction, 3);
-    u8_field!(direction_arg, 4);
-    bool_field!(motion, 5);
+    u8_field!(near_distance, 3);
+    u8_field!(direction, 4);
+    u8_field!(direction_arg, 5);
+    bool_field!(motion, 2);
     bool_field!(cancel_move, 6);
 }
 

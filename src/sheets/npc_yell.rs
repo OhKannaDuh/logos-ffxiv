@@ -9,21 +9,21 @@ use crate::macros::*;
 
 define_row!(NpcYellRow);
 impl NpcYellRow {
-    string_field!(text, 0);
-    f32_field!(unknown_6, 1);
-    f32_field!(balloon_time, 2);
-    u32_field!(unknown_0, 3);
-    u32_field!(unknown_7, 4);
-    u16_field!(unknown_8, 5);
-    u8_field!(output_type, 6);
-    u8_field!(unknown_70, 7);
-    u8_field!(unknown_1, 8);
-    u8_field!(unknown_2, 9);
-    bool_field!(unknown_3, 10);
-    bool_field!(unknown_4, 11);
-    bool_field!(unknown_5, 12);
-    bool_field!(is_balloon_slow, 13);
-    bool_field!(battle_talk_time, 14);
+    string_field!(text, 13);
+    f32_field!(unknown_6, 7);
+    f32_field!(balloon_time, 8);
+    u32_field!(unknown_0, 0);
+    u32_field!(unknown_7, 6);
+    u16_field!(unknown_8, 14);
+    u8_field!(output_type, 4);
+    u8_field!(unknown_70, 5);
+    u8_field!(unknown_1, 11);
+    u8_field!(unknown_2, 12);
+    bool_field!(unknown_3, 1);
+    bool_field!(unknown_4, 2);
+    bool_field!(unknown_5, 3);
+    bool_field!(is_balloon_slow, 9);
+    bool_field!(battle_talk_time, 10);
 }
 
 define_sheet!(NpcYellSheet, NpcYellRow, "NpcYell");

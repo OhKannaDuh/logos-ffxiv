@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(DynamicEventSingleBattleRow);
 impl DynamicEventSingleBattleRow {
-    string_field!(text, 0);
+    string_field!(text, 2);
     u32_field!(icon, 1);
-    i32_field!(b_npc_name, 2);
+    i32_field!(b_npc_name, 0);
 }
 
 define_sheet!(DynamicEventSingleBattleSheet, DynamicEventSingleBattleRow, "DynamicEventSingleBattle");

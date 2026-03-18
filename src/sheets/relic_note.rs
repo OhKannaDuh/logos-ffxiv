@@ -42,7 +42,7 @@ impl RelicNoteRow {
     u32_field!(event_item, 0);
     array_field!(monster_note_target_common, 1, 10, RelicNoteMonsterNoteTargetCommon);
     array_field!(monster_note_target_nm, 11, 3, RelicNoteMonsterNoteTargetNM);
-    u16_field!(unknown_0, 14);
+    u16_field!(unknown_0, 24);
     array_field!(fate, 15, 3, RelicNoteFate);
     array_field!(place_name_fate, 18, 3, RelicNotePlaceNameFate);
     array_field!(leve, 21, 3, RelicNoteLeve);

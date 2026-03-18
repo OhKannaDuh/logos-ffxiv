@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(InstanceContentTypeRow);
 impl InstanceContentTypeRow {
-    u32_field!(start_log_message, 0);
+    u32_field!(start_log_message, 3);
     u8_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
-    bool_field!(unknown_3, 3);
+    bool_field!(unknown_2, 0);
+    bool_field!(unknown_3, 2);
     bool_field!(unknown_4, 4);
     bool_field!(unknown_5, 5);
     bool_field!(unknown_6, 6);

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(MainCommandCategoryRow);
 impl MainCommandCategoryRow {
-    string_field!(name, 0);
-    i32_field!(unknown_0, 1);
+    string_field!(name, 1);
+    i32_field!(unknown_0, 0);
 }
 
 define_sheet!(MainCommandCategorySheet, MainCommandCategoryRow, "MainCommandCategory");

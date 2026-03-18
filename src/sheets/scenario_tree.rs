@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(ScenarioTreeRow);
 impl ScenarioTreeRow {
-    string_field!(name, 0);
-    u32_field!(addon, 1);
-    u32_field!(quest_chapter, 2);
-    u32_field!(unknown_0, 3);
-    i32_field!(unknown_1, 4);
-    u16_field!(unknown_2, 5);
-    u8_field!(type_, 6);
+    string_field!(name, 4);
+    u32_field!(addon, 2);
+    u32_field!(quest_chapter, 3);
+    u32_field!(unknown_0, 6);
+    i32_field!(unknown_1, 5);
+    u16_field!(unknown_2, 1);
+    u8_field!(type_, 0);
 }
 
 define_sheet!(ScenarioTreeSheet, ScenarioTreeRow, "ScenarioTree");

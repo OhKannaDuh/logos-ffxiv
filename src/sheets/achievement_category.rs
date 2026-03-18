@@ -11,9 +11,9 @@ define_row!(AchievementCategoryRow);
 impl AchievementCategoryRow {
     string_field!(name, 0);
     u8_field!(achievement_kind, 1);
-    u8_field!(order, 2);
-    bool_field!(show_complete, 3);
-    bool_field!(hide_category, 4);
+    u8_field!(order, 4);
+    bool_field!(show_complete, 2);
+    bool_field!(hide_category, 3);
 }
 
 define_sheet!(AchievementCategorySheet, AchievementCategoryRow, "AchievementCategory");

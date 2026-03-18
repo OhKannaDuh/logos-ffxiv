@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(GcArmyExpeditionTraitRow);
 impl GcArmyExpeditionTraitRow {
-    string_field!(unknown_0, 0);
-    u8_field!(unknown_1, 1);
+    string_field!(unknown_0, 10);
+    u8_field!(unknown_1, 0);
     u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
+    u8_field!(unknown_3, 4);
+    u8_field!(unknown_4, 6);
+    u8_field!(unknown_5, 8);
+    u8_field!(unknown_6, 1);
+    u8_field!(unknown_7, 3);
+    u8_field!(unknown_8, 5);
+    u8_field!(unknown_9, 7);
+    u8_field!(unknown_10, 9);
 }
 
 define_sheet!(GcArmyExpeditionTraitSheet, GcArmyExpeditionTraitRow, "GcArmyExpeditionTrait");

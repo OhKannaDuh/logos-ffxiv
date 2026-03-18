@@ -11,18 +11,18 @@ define_row!(AirshipExplorationPointRow);
 impl AirshipExplorationPointRow {
     string_field!(name, 0);
     string_field!(name_short, 1);
-    u32_field!(exp_reward, 2);
-    u16_field!(ceruleum_tank_req, 3);
-    u16_field!(survey_durationmin, 4);
-    u16_field!(survey_distance, 5);
-    i16_field!(x, 6);
-    i16_field!(y, 7);
-    u8_field!(rank_req, 8);
+    u32_field!(exp_reward, 13);
+    u16_field!(ceruleum_tank_req, 6);
+    u16_field!(survey_durationmin, 7);
+    u16_field!(survey_distance, 8);
+    i16_field!(x, 3);
+    i16_field!(y, 4);
+    u8_field!(rank_req, 5);
     u8_field!(unknown_0, 9);
-    u8_field!(unknown_1, 10);
-    u8_field!(surveillance_req, 11);
+    u8_field!(unknown_1, 11);
+    u8_field!(surveillance_req, 10);
     u8_field!(unknown_2, 12);
-    bool_field!(passengers, 13);
+    bool_field!(passengers, 2);
 }
 
 define_sheet!(AirshipExplorationPointSheet, AirshipExplorationPointRow, "AirshipExplorationPoint");

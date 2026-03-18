@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(ContentDirectorBattleTalkRow);
 impl ContentDirectorBattleTalkRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u16_field!(text, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
+    u32_field!(unknown_0, 3);
+    u32_field!(unknown_1, 4);
+    u16_field!(text, 0);
+    u8_field!(unknown_3, 1);
+    u8_field!(unknown_4, 2);
 }
 
 define_sheet!(ContentDirectorBattleTalkSheet, ContentDirectorBattleTalkRow, "ContentDirectorBattleTalk");

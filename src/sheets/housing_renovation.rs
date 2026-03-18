@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(HousingRenovationRow);
 impl HousingRenovationRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    i32_field!(icon, 2);
+    string_field!(name, 2);
+    string_field!(description, 3);
+    i32_field!(icon, 1);
     // Also links to HousingIndoorTerritory which shares a 1:1 map of ids to TerritoryType
-    u16_field!(territory, 3);
+    u16_field!(territory, 0);
 }
 
 define_sheet!(HousingRenovationSheet, HousingRenovationRow, "HousingRenovation");

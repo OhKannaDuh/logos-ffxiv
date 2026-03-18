@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(MJILivelyActorRow);
 impl MJILivelyActorRow {
-    f32_field!(x, 0);
-    f32_field!(y, 1);
-    f32_field!(z, 2);
-    f32_field!(rot, 3);
-    u32_field!(enpc, 4);
-    u16_field!(behavior, 5);
+    f32_field!(x, 2);
+    f32_field!(y, 3);
+    f32_field!(z, 4);
+    f32_field!(rot, 5);
+    u32_field!(enpc, 0);
+    u16_field!(behavior, 1);
 }
 
 define_sheet!(MJILivelyActorSheet, MJILivelyActorRow, "MJILivelyActor");

@@ -8,28 +8,28 @@ use crate::macros::*;
 
 define_subrow!(WKSAchievementDailyDefineRewardItem, 1);
 impl<'a> WKSAchievementDailyDefineRewardItem<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 define_subrow!(WKSAchievementDailyDefineSuccessPointsRequired, 1);
 impl<'a> WKSAchievementDailyDefineSuccessPointsRequired<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 
 define_row!(WKSAchievementDailyDefineRow);
 impl WKSAchievementDailyDefineRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
+    u32_field!(unknown_0, 1);
+    u32_field!(unknown_1, 4);
+    u32_field!(unknown_2, 7);
+    u32_field!(unknown_3, 10);
     array_field!(reward_item, 4, 2, WKSAchievementDailyDefineRewardItem);
-    u32_field!(unknown_4, 6);
-    u32_field!(unknown_5, 7);
+    u32_field!(unknown_4, 8);
+    u32_field!(unknown_5, 11);
     array_field!(success_points_required, 8, 2, WKSAchievementDailyDefineSuccessPointsRequired);
-    u32_field!(unknown_6, 10);
-    u32_field!(unknown_7, 11);
-    u16_field!(reward_quantity, 12);
+    u32_field!(unknown_6, 9);
+    u32_field!(unknown_7, 12);
+    u16_field!(reward_quantity, 0);
 }
 
 define_sheet!(WKSAchievementDailyDefineSheet, WKSAchievementDailyDefineRow, "WKSAchievementDailyDefine");

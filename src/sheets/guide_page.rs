@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(GuidePageRow);
 impl GuidePageRow {
-    u32_field!(output, 0);
-    u8_field!(key, 1);
-    bool_field!(unknown_70, 2);
+    u32_field!(output, 2);
+    u8_field!(key, 0);
+    bool_field!(unknown_70, 1);
 }
 
 define_sheet!(GuidePageSheet, GuidePageRow, "GuidePage");

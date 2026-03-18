@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(MYCWarResultNotebookRow);
 impl MYCWarResultNotebookRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    string_field!(name_jp, 2);
+    string_field!(name, 9);
+    string_field!(description, 10);
+    string_field!(name_jp, 8);
     i32_field!(quest, 3);
     i32_field!(unknown_0, 4);
     i32_field!(icon, 5);
     i32_field!(image, 6);
-    u8_field!(number, 7);
-    u8_field!(unknown_1, 8);
-    u8_field!(link, 9);
-    u8_field!(rarity, 10);
+    u8_field!(number, 0);
+    u8_field!(unknown_1, 1);
+    u8_field!(link, 2);
+    u8_field!(rarity, 7);
 }
 
 define_sheet!(MYCWarResultNotebookSheet, MYCWarResultNotebookRow, "MYCWarResultNotebook");

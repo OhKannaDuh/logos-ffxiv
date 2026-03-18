@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(CharaCardDecorationRow);
 impl CharaCardDecorationRow {
-    string_field!(name, 0);
-    i32_field!(image, 1);
-    u16_field!(unlock_condition, 2);
-    u16_field!(unknown_70_1, 3);
-    u16_field!(unknown_70_2, 4);
-    u16_field!(unknown_3, 5);
-    u16_field!(sort_key, 6);
-    u8_field!(unknown_2, 7);
-    u8_field!(subtype, 8);
-    u8_field!(unknown_1, 9);
-    u8_field!(category, 10);
+    string_field!(name, 10);
+    i32_field!(image, 2);
+    u16_field!(unlock_condition, 4);
+    u16_field!(unknown_70_1, 5);
+    u16_field!(unknown_70_2, 6);
+    u16_field!(unknown_3, 7);
+    u16_field!(sort_key, 9);
+    u8_field!(unknown_2, 0);
+    u8_field!(subtype, 1);
+    u8_field!(unknown_1, 3);
+    u8_field!(category, 8);
 }
 
 define_sheet!(CharaCardDecorationSheet, CharaCardDecorationRow, "CharaCardDecoration");

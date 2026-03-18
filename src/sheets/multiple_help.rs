@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(MultipleHelpRow);
 impl MultipleHelpRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
+    string_field!(unknown_0, 1);
+    string_field!(unknown_1, 2);
+    u16_field!(unknown_2, 0);
 }
 
 define_sheet!(MultipleHelpSheet, MultipleHelpRow, "MultipleHelp");

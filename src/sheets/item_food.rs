@@ -8,32 +8,32 @@ use crate::macros::*;
 
 define_subrow!(ItemFoodMax, 1);
 impl<'a> ItemFoodMax<'a> {
-    i16_field!(field_0, 0);
+    i16_field!(field_0, 4);
 }
 
 define_subrow!(ItemFoodMaxHQ, 1);
 impl<'a> ItemFoodMaxHQ<'a> {
-    i16_field!(field_0, 0);
+    i16_field!(field_0, 4);
 }
 
 define_subrow!(ItemFoodBaseParam, 1);
 impl<'a> ItemFoodBaseParam<'a> {
-    i16_field!(field_0, 0);
+    i16_field!(field_0, 4);
 }
 
 define_subrow!(ItemFoodValue, 1);
 impl<'a> ItemFoodValue<'a> {
-    i16_field!(field_0, 0);
+    i16_field!(field_0, 4);
 }
 
 define_subrow!(ItemFoodValueHQ, 1);
 impl<'a> ItemFoodValueHQ<'a> {
-    i16_field!(field_0, 0);
+    i16_field!(field_0, 4);
 }
 
 define_subrow!(ItemFoodIsRelative, 1);
 impl<'a> ItemFoodIsRelative<'a> {
-    i16_field!(field_0, 0);
+    i16_field!(field_0, 4);
 }
 
 
@@ -41,7 +41,7 @@ define_row!(ItemFoodRow);
 impl ItemFoodRow {
     array_field!(max, 0, 3, ItemFoodMax);
     array_field!(max_hq, 3, 3, ItemFoodMaxHQ);
-    u8_field!(exp_bonus_percent, 6);
+    u8_field!(exp_bonus_percent, 0);
     array_field!(base_param, 7, 3, ItemFoodBaseParam);
     array_field!(value, 10, 3, ItemFoodValue);
     array_field!(value_hq, 13, 3, ItemFoodValueHQ);

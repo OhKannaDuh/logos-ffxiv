@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(WKSScoreListRow);
 impl WKSScoreListRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    i8_field!(unknown_4, 4);
+    u16_field!(unknown_0, 2);
+    u16_field!(unknown_1, 3);
+    u16_field!(unknown_2, 4);
+    u8_field!(unknown_3, 1);
+    i8_field!(unknown_4, 0);
 }
 
 define_sheet!(WKSScoreListSheet, WKSScoreListRow, "WKSScoreList");

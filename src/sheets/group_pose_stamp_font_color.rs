@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(GroupPoseStampFontColorRow);
 impl GroupPoseStampFontColorRow {
-    string_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
+    string_field!(unknown_0, 3);
+    i32_field!(unknown_1, 0);
+    i32_field!(unknown_2, 1);
+    u8_field!(unknown_3, 2);
 }
 
 define_sheet!(GroupPoseStampFontColorSheet, GroupPoseStampFontColorRow, "GroupPoseStampFontColor");

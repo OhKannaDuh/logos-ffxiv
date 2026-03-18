@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(GatheringItemRow);
 impl GatheringItemRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(sublime_variant, 1);
-    i32_field!(item, 2);
-    u16_field!(gathering_item_level, 3);
+    u32_field!(unknown_0, 5);
+    u32_field!(sublime_variant, 7);
+    i32_field!(item, 0);
+    u16_field!(gathering_item_level, 1);
     u16_field!(perception_req, 4);
-    u16_field!(unknown_2, 5);
-    u8_field!(unknown_3, 6);
-    bool_field!(unknown_4, 7);
-    bool_field!(unknown_5, 8);
-    bool_field!(is_hidden, 9);
+    u16_field!(unknown_2, 9);
+    u8_field!(unknown_3, 8);
+    bool_field!(unknown_4, 2);
+    bool_field!(unknown_5, 3);
+    bool_field!(is_hidden, 6);
 }
 
 define_sheet!(GatheringItemSheet, GatheringItemRow, "GatheringItem");

@@ -11,17 +11,17 @@ define_row!(PointMenuChoiceRow);
 impl PointMenuChoiceRow {
     f32_field!(unknown_0, 0);
     f32_field!(unknown_1, 1);
-    f32_field!(unknown_2, 2);
-    f32_field!(unknown_3, 3);
-    f32_field!(unknown_4, 4);
-    f32_field!(unknown_5, 5);
-    u16_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
-    u8_field!(unknown_11, 11);
-    u8_field!(unknown_12, 12);
+    f32_field!(unknown_2, 4);
+    f32_field!(unknown_3, 5);
+    f32_field!(unknown_4, 6);
+    f32_field!(unknown_5, 7);
+    u16_field!(unknown_6, 12);
+    u8_field!(unknown_7, 2);
+    u8_field!(unknown_8, 3);
+    u8_field!(unknown_9, 8);
+    u8_field!(unknown_10, 9);
+    u8_field!(unknown_11, 10);
+    u8_field!(unknown_12, 11);
 }
 
 define_sheet!(PointMenuChoiceSheet, PointMenuChoiceRow, "PointMenuChoice");

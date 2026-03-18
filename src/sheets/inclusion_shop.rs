@@ -8,16 +8,16 @@ use crate::macros::*;
 
 define_subrow!(InclusionShopCategory, 1);
 impl<'a> InclusionShopCategory<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 2);
 }
 
 
 define_row!(InclusionShopRow);
 impl InclusionShopRow {
-    string_field!(unknown_0, 0);
+    string_field!(unknown_0, 2);
     array_field!(category, 1, 30, InclusionShopCategory);
-    u32_field!(unknown_1, 31);
-    u8_field!(unknown_2, 32);
+    u32_field!(unknown_1, 0);
+    u8_field!(unknown_2, 1);
 }
 
 define_sheet!(InclusionShopSheet, InclusionShopRow, "InclusionShop");

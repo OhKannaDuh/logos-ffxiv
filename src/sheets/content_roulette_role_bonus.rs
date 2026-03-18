@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(ContentRouletteRoleBonusRow);
 impl ContentRouletteRoleBonusRow {
-    u32_field!(item_reward_type, 0);
-    u32_field!(unknown_0, 1);
-    u16_field!(unknown_1, 2);
-    u16_field!(unknown_2, 3);
-    u16_field!(unknown_3, 4);
-    u16_field!(unknown_4, 5);
-    u16_field!(unknown_5, 6);
-    u16_field!(unknown_6, 7);
-    u8_field!(reward_amount, 8);
-    u8_field!(unknown_7, 9);
-    u8_field!(unknown_8, 10);
+    u32_field!(item_reward_type, 6);
+    u32_field!(unknown_0, 9);
+    u16_field!(unknown_1, 0);
+    u16_field!(unknown_2, 1);
+    u16_field!(unknown_3, 2);
+    u16_field!(unknown_4, 3);
+    u16_field!(unknown_5, 4);
+    u16_field!(unknown_6, 5);
+    u8_field!(reward_amount, 7);
+    u8_field!(unknown_7, 10);
+    u8_field!(unknown_8, 8);
     u8_field!(unknown_9, 11);
 }
 

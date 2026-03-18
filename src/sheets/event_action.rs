@@ -11,10 +11,10 @@ define_row!(EventActionRow);
 impl EventActionRow {
     string_field!(name, 0);
     u16_field!(icon, 1);
-    u16_field!(start_animation, 2);
-    u16_field!(loop_animation, 3);
-    u16_field!(end_animation, 4);
-    u8_field!(cast_time, 5);
+    u16_field!(start_animation, 3);
+    u16_field!(loop_animation, 4);
+    u16_field!(end_animation, 5);
+    u8_field!(cast_time, 2);
 }
 
 define_sheet!(EventActionSheet, EventActionRow, "EventAction");

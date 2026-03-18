@@ -8,22 +8,22 @@ use crate::macros::*;
 
 define_subrow!(MonsterNoteTargetPlaceNameZone, 1);
 impl<'a> MonsterNoteTargetPlaceNameZone<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 1);
 }
 
 define_subrow!(MonsterNoteTargetPlaceNameLocation, 1);
 impl<'a> MonsterNoteTargetPlaceNameLocation<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 1);
 }
 
 
 define_row!(MonsterNoteTargetRow);
 impl MonsterNoteTargetRow {
-    i32_field!(icon, 0);
-    u16_field!(b_npc_name, 1);
+    i32_field!(icon, 1);
+    u16_field!(b_npc_name, 0);
     array_field!(place_name_zone, 2, 3, MonsterNoteTargetPlaceNameZone);
     array_field!(place_name_location, 5, 3, MonsterNoteTargetPlaceNameLocation);
-    u8_field!(town, 8);
+    u8_field!(town, 2);
 }
 
 define_sheet!(MonsterNoteTargetSheet, MonsterNoteTargetRow, "MonsterNoteTarget");

@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(DeepDungeonDemicloneRow);
 impl DeepDungeonDemicloneRow {
-    string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(title_case, 2);
-    string_field!(description, 3);
-    i8_field!(unknown_4, 4);
-    i8_field!(unknown_5, 5);
-    i8_field!(unknown_6, 6);
-    i8_field!(unknown_7, 7);
-    i8_field!(unknown_8, 8);
-    i8_field!(unknown_9, 9);
-    u32_field!(icon, 10);
+    string_field!(singular, 1);
+    string_field!(plural, 3);
+    string_field!(title_case, 9);
+    string_field!(description, 10);
+    i8_field!(unknown_4, 2);
+    i8_field!(unknown_5, 4);
+    i8_field!(unknown_6, 5);
+    i8_field!(unknown_7, 6);
+    i8_field!(unknown_8, 7);
+    i8_field!(unknown_9, 8);
+    u32_field!(icon, 0);
 }
 
 define_sheet!(DeepDungeonDemicloneSheet, DeepDungeonDemicloneRow, "DeepDungeonDemiclone");

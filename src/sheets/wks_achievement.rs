@@ -10,11 +10,11 @@ use crate::macros::*;
 define_row!(WKSAchievementRow);
 impl WKSAchievementRow {
     string_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
-    u16_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
+    u32_field!(unknown_1, 2);
+    u32_field!(unknown_2, 3);
+    u16_field!(unknown_3, 4);
+    u16_field!(unknown_4, 5);
+    u8_field!(unknown_5, 1);
 }
 
 define_sheet!(WKSAchievementSheet, WKSAchievementRow, "WKSAchievement");

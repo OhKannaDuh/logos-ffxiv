@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(HWDInfoBoardArticleRow);
 impl HWDInfoBoardArticleRow {
-    string_field!(text, 0);
-    u16_field!(unknown_0, 1);
-    u8_field!(type_, 2);
-    u8_field!(unknown_1, 3);
-    bool_field!(unknown_2, 4);
+    string_field!(text, 4);
+    u16_field!(unknown_0, 2);
+    u8_field!(type_, 0);
+    u8_field!(unknown_1, 1);
+    bool_field!(unknown_2, 3);
 }
 
 define_sheet!(HWDInfoBoardArticleSheet, HWDInfoBoardArticleRow, "HWDInfoBoardArticle");

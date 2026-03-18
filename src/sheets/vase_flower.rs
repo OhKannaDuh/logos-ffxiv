@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(VaseFlowerRow);
 impl VaseFlowerRow {
-    u32_field!(item, 0);
-    u16_field!(unknown_0, 1);
-    u8_field!(unknown_1, 2);
-    u8_field!(unknown_2, 3);
+    u32_field!(item, 3);
+    u16_field!(unknown_0, 0);
+    u8_field!(unknown_1, 1);
+    u8_field!(unknown_2, 2);
 }
 
 define_sheet!(VaseFlowerSheet, VaseFlowerRow, "VaseFlower");

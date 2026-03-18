@@ -10,9 +10,9 @@ use crate::macros::*;
 define_row!(ScenarioTreeTipsClassQuestRow);
 impl ScenarioTreeTipsClassQuestRow {
     u32_field!(quest, 0);
-    u32_field!(required_quest, 1);
-    u16_field!(required_level, 2);
-    u8_field!(required_expansion, 3);
+    u32_field!(required_quest, 3);
+    u16_field!(required_level, 1);
+    u8_field!(required_expansion, 2);
     bool_field!(unknown_0, 4);
     bool_field!(unknown_1, 5);
 }

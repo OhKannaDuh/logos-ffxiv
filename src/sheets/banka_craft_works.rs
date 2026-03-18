@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(BankaCraftWorksRow);
 impl BankaCraftWorksRow {
-    string_field!(description, 0);
-    u32_field!(questgiver, 1);
-    u16_field!(unknown_2, 2);
+    string_field!(description, 2);
+    u32_field!(questgiver, 0);
+    u16_field!(unknown_2, 1);
 }
 
 define_sheet!(BankaCraftWorksSheet, BankaCraftWorksRow, "BankaCraftWorks");

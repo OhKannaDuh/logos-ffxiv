@@ -9,25 +9,25 @@ use crate::macros::*;
 
 define_row!(PresetCameraRow);
 impl PresetCameraRow {
-    f32_field!(pos_x, 0);
-    f32_field!(pos_y, 1);
-    f32_field!(pos_z, 2);
-    f32_field!(elezen, 3);
-    f32_field!(lalafell, 4);
-    f32_field!(miqote, 5);
-    f32_field!(roe, 6);
-    f32_field!(hrothgar, 7);
-    f32_field!(viera, 8);
-    f32_field!(unknown_0, 9);
-    f32_field!(hyur_f, 10);
-    f32_field!(elezen_f, 11);
-    f32_field!(lalafell_f, 12);
-    f32_field!(miqote_f, 13);
-    f32_field!(roe_f, 14);
-    f32_field!(hrothgar_f, 15);
-    f32_field!(viera_f, 16);
-    f32_field!(unknown_70, 17);
-    u16_field!(eid, 18);
+    f32_field!(pos_x, 1);
+    f32_field!(pos_y, 2);
+    f32_field!(pos_z, 3);
+    f32_field!(elezen, 4);
+    f32_field!(lalafell, 5);
+    f32_field!(miqote, 6);
+    f32_field!(roe, 7);
+    f32_field!(hrothgar, 8);
+    f32_field!(viera, 9);
+    f32_field!(unknown_0, 10);
+    f32_field!(hyur_f, 11);
+    f32_field!(elezen_f, 12);
+    f32_field!(lalafell_f, 13);
+    f32_field!(miqote_f, 14);
+    f32_field!(roe_f, 15);
+    f32_field!(hrothgar_f, 16);
+    f32_field!(viera_f, 17);
+    f32_field!(unknown_70, 18);
+    u16_field!(eid, 0);
 }
 
 define_sheet!(PresetCameraSheet, PresetCameraRow, "PresetCamera");

@@ -15,8 +15,8 @@ impl<'a> StatusLoopVFXVFX<'a> {
 define_row!(StatusLoopVFXRow);
 impl StatusLoopVFXRow {
     array_field!(vfx, 0, 4, StatusLoopVFXVFX);
-    u8_field!(unknown_0, 4);
-    u8_field!(unknown_1, 5);
+    u8_field!(unknown_0, 1);
+    u8_field!(unknown_1, 3);
     u8_field!(unknown_2, 6);
     u8_field!(unknown_3, 7);
     bool_field!(unknown_4, 8);

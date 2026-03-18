@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ModelStateRow);
 impl ModelStateRow {
-    u16_field!(start, 0);
-    u8_field!(unknown_0, 1);
+    u16_field!(start, 1);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(ModelStateSheet, ModelStateRow, "ModelState");

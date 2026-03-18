@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(DawnQuestMemberRow);
 impl DawnQuestMemberRow {
-    u32_field!(member, 0);
-    u32_field!(big_image_old, 1);
-    u32_field!(big_image_new, 2);
-    u16_field!(unknown_0, 3);
-    u8_field!(unknown_1, 4);
+    u32_field!(member, 2);
+    u32_field!(big_image_old, 3);
+    u32_field!(big_image_new, 4);
+    u16_field!(unknown_0, 0);
+    u8_field!(unknown_1, 1);
     u8_field!(class, 5);
 }
 

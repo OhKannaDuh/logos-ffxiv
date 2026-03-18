@@ -10,14 +10,14 @@ use crate::macros::*;
 define_row!(GrandCompanyRow);
 impl GrandCompanyRow {
     string_field!(name, 0);
-    string_field!(unknown_0, 1);
-    string_field!(unknown_1, 2);
-    i8_field!(unknown_2, 3);
-    i8_field!(unknown_3, 4);
-    i8_field!(unknown_4, 5);
-    i8_field!(unknown_5, 6);
-    i8_field!(unknown_6, 7);
-    i8_field!(unknown_7, 8);
+    string_field!(unknown_0, 2);
+    string_field!(unknown_1, 8);
+    i8_field!(unknown_2, 1);
+    i8_field!(unknown_3, 3);
+    i8_field!(unknown_4, 4);
+    i8_field!(unknown_5, 5);
+    i8_field!(unknown_6, 6);
+    i8_field!(unknown_7, 7);
     i8_field!(monster_note, 9);
 }
 

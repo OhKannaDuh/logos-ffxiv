@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(HousingYardObjectRow);
 impl HousingYardObjectRow {
-    u32_field!(usage_parameter, 0);
-    u32_field!(custom_talk, 1);
-    u32_field!(item, 2);
-    u16_field!(model_key, 3);
-    u8_field!(housing_item_category, 4);
-    u8_field!(usage_type, 5);
-    u8_field!(unknown_0, 6);
-    u8_field!(unknown_1, 7);
-    u8_field!(unknown_2, 8);
-    u8_field!(unknown_3, 9);
-    bool_field!(destroy_on_removal, 10);
-    bool_field!(unknown_4, 11);
-    bool_field!(unknown_5, 12);
+    u32_field!(usage_parameter, 3);
+    u32_field!(custom_talk, 5);
+    u32_field!(item, 6);
+    u16_field!(model_key, 0);
+    u8_field!(housing_item_category, 1);
+    u8_field!(usage_type, 2);
+    u8_field!(unknown_0, 4);
+    u8_field!(unknown_1, 10);
+    u8_field!(unknown_2, 11);
+    u8_field!(unknown_3, 12);
+    bool_field!(destroy_on_removal, 7);
+    bool_field!(unknown_4, 8);
+    bool_field!(unknown_5, 9);
     bool_field!(unknown_6, 13);
     bool_field!(unknown_7, 14);
 }

@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(GimmickAccessorRow);
 impl GimmickAccessorRow {
-    u32_field!(param_1, 0);
-    u32_field!(param_2, 1);
-    u32_field!(type_, 2);
-    u32_field!(unknown_0, 3);
-    u32_field!(unknown_1, 4);
-    u32_field!(unknown_2, 5);
-    i32_field!(param_0, 6);
+    u32_field!(param_1, 1);
+    u32_field!(param_2, 2);
+    u32_field!(type_, 3);
+    u32_field!(unknown_0, 4);
+    u32_field!(unknown_1, 5);
+    u32_field!(unknown_2, 6);
+    i32_field!(param_0, 0);
     bool_field!(unknown_6, 7);
     bool_field!(unknown_3, 8);
     bool_field!(unknown_4, 9);

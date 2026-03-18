@@ -10,12 +10,12 @@ use crate::macros::*;
 define_row!(MiniGameRANotesRow);
 impl MiniGameRANotesRow {
     u32_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    i32_field!(unknown_3, 3);
-    u16_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
+    i32_field!(unknown_1, 4);
+    i32_field!(unknown_2, 5);
+    i32_field!(unknown_3, 6);
+    u16_field!(unknown_4, 1);
+    u8_field!(unknown_5, 2);
+    u8_field!(unknown_6, 3);
 }
 
 define_sheet!(MiniGameRANotesSheet, MiniGameRANotesRow, "MiniGameRANotes");

@@ -13,15 +13,15 @@ impl<'a> SpecialShopItem<'a> {
     array_field!(item, 5, 2, SpecialShopItem);
     array_field!(category, 7, 2, SpecialShopItem);
     array_field!(item_cost, 9, 3, SpecialShopItem);
-    i32_field!(quest, 12);
+    i32_field!(quest, 961);
     array_field!(unknown_0, 13, 4, SpecialShopItem);
-    i32_field!(achievement_unlock, 17);
-    i32_field!(unknown_2, 18);
+    i32_field!(achievement_unlock, 1681);
+    i32_field!(unknown_2, 1741);
     array_field!(collectability_cost, 19, 3, SpecialShopItem);
-    u16_field!(patch_number, 22);
+    u16_field!(patch_number, 1141);
     array_field!(hq_cost, 23, 3, SpecialShopItem);
     array_field!(unknown_1, 26, 5, SpecialShopItem);
-    u8_field!(order, 31);
+    u8_field!(order, 1801);
     array_field!(receive_hq, 32, 2, SpecialShopItem);
 }
 
@@ -80,15 +80,15 @@ define_row!(SpecialShopRow);
 impl SpecialShopRow {
     string_field!(name, 0);
     array_field!(item, 1, 60, SpecialShopItem);
-    u32_field!(quest, 2041);
-    u32_field!(unknown_0, 2042);
-    u32_field!(required_content_finder_condition, 2043);
-    i32_field!(complete_text, 2044);
-    i32_field!(not_complete_text, 2045);
-    u16_field!(required_festival, 2046);
-    u16_field!(required_festival_phase, 2047);
-    u8_field!(use_currency_type, 2048);
-    bool_field!(unknown_3, 2049);
+    u32_field!(quest, 2042);
+    u32_field!(unknown_0, 2045);
+    u32_field!(required_content_finder_condition, 2049);
+    i32_field!(complete_text, 2043);
+    i32_field!(not_complete_text, 2044);
+    u16_field!(required_festival, 2047);
+    u16_field!(required_festival_phase, 2048);
+    u8_field!(use_currency_type, 2041);
+    bool_field!(unknown_3, 2046);
     // If this is true, then the CFC needs to be completed; If this is false, then the CFC just needs to be unlocked
     bool_field!(required_content_finder_condition_complete, 2050);
     bool_field!(unknown_4, 2051);

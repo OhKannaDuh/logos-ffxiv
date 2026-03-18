@@ -11,8 +11,8 @@ define_row!(MobHuntRewardRow);
 impl MobHuntRewardRow {
     u32_field!(exp_reward, 0);
     u16_field!(gil_reward, 1);
-    u16_field!(currency_reward, 2);
-    u8_field!(expansion, 3);
+    u16_field!(currency_reward, 3);
+    u8_field!(expansion, 2);
 }
 
 define_sheet!(MobHuntRewardSheet, MobHuntRewardRow, "MobHuntReward");

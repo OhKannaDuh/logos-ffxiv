@@ -10,21 +10,21 @@ use crate::macros::*;
 define_row!(BuddyEquipRow);
 impl BuddyEquipRow {
     string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(name, 2);
-    i8_field!(adjective, 3);
-    i8_field!(possessive_pronoun, 4);
-    i8_field!(starts_with_vowel, 5);
-    i8_field!(unknown_0, 6);
-    i8_field!(pronoun, 7);
-    i8_field!(article, 8);
+    string_field!(plural, 2);
+    string_field!(name, 8);
+    i8_field!(adjective, 1);
+    i8_field!(possessive_pronoun, 3);
+    i8_field!(starts_with_vowel, 4);
+    i8_field!(unknown_0, 5);
+    i8_field!(pronoun, 6);
+    i8_field!(article, 7);
     i32_field!(model_top, 9);
     i32_field!(model_body, 10);
     i32_field!(model_legs, 11);
-    u16_field!(icon_head, 12);
-    u16_field!(icon_body, 13);
-    u16_field!(icon_legs, 14);
-    u8_field!(grand_company, 15);
+    u16_field!(icon_head, 13);
+    u16_field!(icon_body, 14);
+    u16_field!(icon_legs, 15);
+    u8_field!(grand_company, 12);
     u8_field!(order, 16);
 }
 

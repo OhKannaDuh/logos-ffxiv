@@ -26,10 +26,10 @@ define_row!(PhysicsGroupRow);
 impl PhysicsGroupRow {
     array_field!(simulation_time, 0, 6, PhysicsGroupSimulationTime);
     array_field!(ps_3_simulation_time, 6, 6, PhysicsGroupPS3SimulationTime);
-    f32_field!(root_following_game, 12);
-    f32_field!(root_following_cut_scene, 13);
+    f32_field!(root_following_game, 13);
+    f32_field!(root_following_cut_scene, 14);
     array_field!(config_switch, 14, 3, PhysicsGroupConfigSwitch);
-    bool_field!(reset_by_look_at, 17);
+    bool_field!(reset_by_look_at, 12);
     bool_field!(force_attract_by_physics_off, 18);
 }
 

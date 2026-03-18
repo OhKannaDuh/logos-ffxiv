@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(SnipeTalkRow);
 impl SnipeTalkRow {
-    string_field!(text, 0);
-    string_field!(unknown_0, 1);
-    string_field!(unknown_1, 2);
-    u16_field!(name, 3);
-    u8_field!(unknown_2, 4);
-    u8_field!(unknown_3, 5);
+    string_field!(text, 3);
+    string_field!(unknown_0, 4);
+    string_field!(unknown_1, 5);
+    u16_field!(name, 2);
+    u8_field!(unknown_2, 0);
+    u8_field!(unknown_3, 1);
 }
 
 define_sheet!(SnipeTalkSheet, SnipeTalkRow, "SnipeTalk");

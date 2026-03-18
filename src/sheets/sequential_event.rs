@@ -8,20 +8,20 @@ use crate::macros::*;
 
 define_subrow!(SequentialEventUnknownStruct, 5);
 impl<'a> SequentialEventUnknownStruct<'a> {
-    u32_field!(unknown_1, 0);
-    u32_field!(unknown_2, 1);
-    u16_field!(unknown_3, 2);
-    u16_field!(unknown_4, 3);
-    u16_field!(unknown_5, 4);
+    u32_field!(unknown_1, 67);
+    u32_field!(unknown_2, 131);
+    u16_field!(unknown_3, 3);
+    u16_field!(unknown_4, 195);
+    u16_field!(unknown_5, 259);
 }
 
 
 define_row!(SequentialEventRow);
 impl SequentialEventRow {
     array_field!(unknown_struct, 0, 64, SequentialEventUnknownStruct);
-    u32_field!(unknown_320, 320);
-    u32_field!(unknown_70, 321);
-    u16_field!(unknown_321, 322);
+    u32_field!(unknown_320, 1);
+    u32_field!(unknown_70, 2);
+    u16_field!(unknown_321, 0);
 }
 
 define_sheet!(SequentialEventSheet, SequentialEventRow, "SequentialEvent");

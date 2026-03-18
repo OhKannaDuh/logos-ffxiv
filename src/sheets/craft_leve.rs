@@ -23,7 +23,7 @@ impl CraftLeveRow {
     i32_field!(craft_leve_talk, 1);
     array_field!(item, 2, 4, CraftLeveItem);
     array_field!(item_count, 6, 4, CraftLeveItemCount);
-    u8_field!(repeats, 10);
+    u8_field!(repeats, 2);
 }
 
 define_sheet!(CraftLeveSheet, CraftLeveRow, "CraftLeve");

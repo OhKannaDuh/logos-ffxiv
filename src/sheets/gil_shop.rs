@@ -14,9 +14,9 @@ impl GilShopRow {
     u32_field!(quest, 2);
     i32_field!(accept_talk, 3);
     i32_field!(fail_talk, 4);
-    u16_field!(festival_id, 5);
-    u16_field!(festival_phase, 6);
-    bool_field!(unknown_2, 7);
+    u16_field!(festival_id, 6);
+    u16_field!(festival_phase, 7);
+    bool_field!(unknown_2, 5);
 }
 
 define_sheet!(GilShopSheet, GilShopRow, "GilShop");

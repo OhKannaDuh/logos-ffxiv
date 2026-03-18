@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(MapMarkerRegionRow);
 impl MapMarkerRegionRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
-    i16_field!(x, 4);
-    i16_field!(unknown_4, 5);
-    i16_field!(unknown_5, 6);
-    i16_field!(unknown_6, 7);
-    i16_field!(unknown_7, 8);
-    i16_field!(unknown_8, 9);
-    u8_field!(unknown_9, 10);
+    u16_field!(unknown_0, 3);
+    u16_field!(unknown_1, 4);
+    u16_field!(unknown_2, 7);
+    u16_field!(unknown_3, 8);
+    i16_field!(x, 1);
+    i16_field!(unknown_4, 2);
+    i16_field!(unknown_5, 5);
+    i16_field!(unknown_6, 6);
+    i16_field!(unknown_7, 9);
+    i16_field!(unknown_8, 10);
+    u8_field!(unknown_9, 0);
     bool_field!(unknown_10, 11);
 }
 

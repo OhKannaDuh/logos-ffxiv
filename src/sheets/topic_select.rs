@@ -16,9 +16,9 @@ define_row!(TopicSelectRow);
 impl TopicSelectRow {
     string_field!(name, 0);
     array_field!(shop, 1, 10, TopicSelectShop);
-    u16_field!(unknown_0, 11);
-    u8_field!(unknown_1, 12);
-    bool_field!(unknown_2, 13);
+    u16_field!(unknown_0, 3);
+    u8_field!(unknown_1, 2);
+    bool_field!(unknown_2, 1);
 }
 
 define_sheet!(TopicSelectSheet, TopicSelectRow, "TopicSelect");

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(HousingMerchantPoseRow);
 impl HousingMerchantPoseRow {
-    string_field!(pose, 0);
-    u16_field!(action_timeline, 1);
+    string_field!(pose, 1);
+    u16_field!(action_timeline, 0);
 }
 
 define_sheet!(HousingMerchantPoseSheet, HousingMerchantPoseRow, "HousingMerchantPose");

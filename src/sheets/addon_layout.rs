@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(AddonLayoutRow);
 impl AddonLayoutRow {
-    f32_field!(unknown_0, 0);
-    f32_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
+    f32_field!(unknown_0, 1);
+    f32_field!(unknown_1, 2);
+    i32_field!(unknown_2, 0);
     i32_field!(unknown_3, 3);
 }
 

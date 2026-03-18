@@ -10,9 +10,9 @@ use crate::macros::*;
 define_row!(WKSItemInfoRow);
 impl WKSItemInfoRow {
     u32_field!(item, 0);
-    u16_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(wks_item_sub_category, 3);
+    u16_field!(unknown_1, 3);
+    u8_field!(unknown_2, 1);
+    u8_field!(wks_item_sub_category, 2);
     bool_field!(unknown_3, 4);
 }
 

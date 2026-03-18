@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(RecipeSubCategoryRow);
 impl RecipeSubCategoryRow {
-    string_field!(unknown_0, 0);
-    u8_field!(unknown_1, 1);
+    string_field!(unknown_0, 1);
+    u8_field!(unknown_1, 0);
 }
 
 define_sheet!(RecipeSubCategorySheet, RecipeSubCategoryRow, "RecipeSubCategory");

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ContentTalkRow);
 impl ContentTalkRow {
-    string_field!(text, 0);
-    u8_field!(content_talk_param, 1);
+    string_field!(text, 1);
+    u8_field!(content_talk_param, 0);
 }
 
 define_sheet!(ContentTalkSheet, ContentTalkRow, "ContentTalk");

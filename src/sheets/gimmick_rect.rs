@@ -18,8 +18,8 @@ impl GimmickRectRow {
     u32_field!(layout_id, 0);
     array_field!(params, 1, 8, GimmickRectParams);
     // 8 &#x3D; Jump
-    u8_field!(trigger_in, 9);
-    u8_field!(trigger_out, 10);
+    u8_field!(trigger_in, 1);
+    u8_field!(trigger_out, 6);
 }
 
 define_sheet!(GimmickRectSheet, GimmickRectRow, "GimmickRect");

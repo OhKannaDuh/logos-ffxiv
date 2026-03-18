@@ -9,20 +9,20 @@ use crate::macros::*;
 
 define_row!(GlassesRow);
 impl GlassesRow {
-    string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(description, 2);
-    string_field!(name, 3);
-    i8_field!(unknown_70_1, 4);
-    i8_field!(unknown_70_2, 5);
-    i8_field!(unknown_70_3, 6);
-    i8_field!(unknown_70_4, 7);
-    i8_field!(unknown_70_5, 8);
-    i8_field!(unknown_70_6, 9);
-    u32_field!(unknown_70_7, 10);
-    i32_field!(icon, 11);
-    u16_field!(unknown_70_8, 12);
-    i16_field!(style, 13);
+    string_field!(singular, 4);
+    string_field!(plural, 6);
+    string_field!(description, 12);
+    string_field!(name, 13);
+    i8_field!(unknown_70_1, 5);
+    i8_field!(unknown_70_2, 7);
+    i8_field!(unknown_70_3, 8);
+    i8_field!(unknown_70_4, 9);
+    i8_field!(unknown_70_5, 10);
+    i8_field!(unknown_70_6, 11);
+    u32_field!(unknown_70_7, 0);
+    i32_field!(icon, 2);
+    u16_field!(unknown_70_8, 3);
+    i16_field!(style, 1);
 }
 
 define_sheet!(GlassesSheet, GlassesRow, "Glasses");

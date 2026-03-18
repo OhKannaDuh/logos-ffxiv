@@ -11,11 +11,11 @@ define_row!(ActionSettingRow);
 impl ActionSettingRow {
     i32_field!(unknown_0, 0);
     i32_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    bool_field!(unknown_3, 3);
-    bool_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
-    bool_field!(unknown_6, 6);
+    u8_field!(unknown_2, 6);
+    bool_field!(unknown_3, 2);
+    bool_field!(unknown_4, 3);
+    bool_field!(unknown_5, 4);
+    bool_field!(unknown_6, 5);
 }
 
 define_sheet!(ActionSettingSheet, ActionSettingRow, "ActionSetting");

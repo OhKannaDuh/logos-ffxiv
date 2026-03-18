@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(LobbyRow);
 impl LobbyRow {
-    string_field!(text, 0);
-    string_field!(unknown_0, 1);
-    string_field!(unknown_1, 2);
-    u32_field!(type_, 3);
-    u32_field!(param, 4);
-    u32_field!(link, 5);
+    string_field!(text, 3);
+    string_field!(unknown_0, 4);
+    string_field!(unknown_1, 5);
+    u32_field!(type_, 0);
+    u32_field!(param, 1);
+    u32_field!(link, 2);
 }
 
 define_sheet!(LobbySheet, LobbyRow, "Lobby");

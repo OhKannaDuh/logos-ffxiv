@@ -10,7 +10,7 @@ define_subrow!(FccShopItemData, 3);
 impl<'a> FccShopItemData<'a> {
     string_field!(item, 0);
     u32_field!(cost, 1);
-    u32_field!(fc_rank_required, 2);
+    u32_field!(fc_rank_required, 11);
 }
 
 

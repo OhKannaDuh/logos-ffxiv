@@ -11,11 +11,11 @@ define_row!(MotionTimelineRow);
 impl MotionTimelineRow {
     string_field!(filename, 0);
     u8_field!(blend_group, 1);
-    u8_field!(unknown_70_1, 2);
-    u8_field!(unknown_70_2, 3);
-    bool_field!(is_loop, 4);
-    bool_field!(is_blink_enable, 5);
-    bool_field!(is_lip_enable, 6);
+    u8_field!(unknown_70_1, 5);
+    u8_field!(unknown_70_2, 6);
+    bool_field!(is_loop, 2);
+    bool_field!(is_blink_enable, 3);
+    bool_field!(is_lip_enable, 4);
     bool_field!(unknown_0, 7);
 }
 

@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(QuestAcceptAdditionConditionRow);
 impl QuestAcceptAdditionConditionRow {
-    u32_field!(requirement_0, 0);
-    u32_field!(requirement_1, 1);
-    u32_field!(unknown_0, 2);
-    bool_field!(unknown_2, 3);
+    u32_field!(requirement_0, 1);
+    u32_field!(requirement_1, 2);
+    u32_field!(unknown_0, 3);
+    bool_field!(unknown_2, 0);
     bool_field!(unknown_1, 4);
 }
 

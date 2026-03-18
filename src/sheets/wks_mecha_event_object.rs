@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(WKSMechaEventObjectRow);
 impl WKSMechaEventObjectRow {
-    u32_field!(unknown_0, 0);
+    u32_field!(unknown_0, 2);
     i32_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    u16_field!(unknown_5, 3);
-    u8_field!(unknown_3, 4);
+    i32_field!(unknown_2, 3);
+    u16_field!(unknown_5, 4);
+    u8_field!(unknown_3, 0);
     u8_field!(unknown_4, 5);
 }
 

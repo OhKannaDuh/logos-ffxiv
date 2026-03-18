@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(WeeklyBingoRewardDataRow);
 impl WeeklyBingoRewardDataRow {
-    u32_field!(reward_item_1, 0);
-    u32_field!(reward_item_2, 1);
-    u32_field!(reward_item_3, 2);
+    u32_field!(reward_item_1, 1);
+    u32_field!(reward_item_2, 6);
+    u32_field!(reward_item_3, 10);
     u16_field!(reward_quantity_1, 3);
-    u16_field!(reward_quantity_2, 4);
-    u16_field!(reward_quantity_3, 5);
-    u8_field!(reward_type_1, 6);
-    u8_field!(unknown_0, 7);
-    u8_field!(reward_type_2, 8);
+    u16_field!(reward_quantity_2, 8);
+    u16_field!(reward_quantity_3, 12);
+    u8_field!(reward_type_1, 0);
+    u8_field!(unknown_0, 4);
+    u8_field!(reward_type_2, 5);
     u8_field!(reward_type_3, 9);
-    bool_field!(reward_hq_2, 10);
+    bool_field!(reward_hq_2, 7);
     bool_field!(reward_hq_3, 11);
-    bool_field!(reward_hq_1, 12);
+    bool_field!(reward_hq_1, 2);
 }
 
 define_sheet!(WeeklyBingoRewardDataSheet, WeeklyBingoRewardDataRow, "WeeklyBingoRewardData");

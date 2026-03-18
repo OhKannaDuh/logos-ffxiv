@@ -16,13 +16,13 @@ define_row!(GilShopItemRow);
 impl GilShopItemRow {
     i32_field!(item, 0);
     array_field!(quest_required, 1, 2, GilShopItemQuestRequired);
-    i32_field!(achievement_required, 3);
-    u16_field!(state_required, 4);
-    u16_field!(patch, 5);
-    u8_field!(unknown_70_1, 6);
-    u8_field!(unknown_70_2, 7);
-    u8_field!(unknown_1, 8);
-    bool_field!(is_hq, 9);
+    i32_field!(achievement_required, 6);
+    u16_field!(state_required, 8);
+    u16_field!(patch, 9);
+    u8_field!(unknown_70_1, 2);
+    u8_field!(unknown_70_2, 3);
+    u8_field!(unknown_1, 7);
+    bool_field!(is_hq, 1);
 }
 
 define_sheet!(GilShopItemSheet, GilShopItemRow, "GilShopItem");

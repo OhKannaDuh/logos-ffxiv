@@ -15,56 +15,56 @@ impl ContentRouletteRow {
     string_field!(description, 3);
     string_field!(duty_type, 4);
     // This would show Addon#102618, but the row is empty.
-    u32_field!(unknown_1, 5);
-    u32_field!(image, 6);
-    u32_field!(unknown_2, 7);
-    u32_field!(unknown_3, 8);
-    i32_field!(unknown_6, 9);
-    u16_field!(item_level_required, 10);
-    u16_field!(item_level_sync, 11);
-    u16_field!(reward_tome_a, 12);
-    u16_field!(reward_tome_b, 13);
-    u16_field!(reward_tome_c, 14);
-    u16_field!(unknown_5, 15);
-    u16_field!(instance_content, 16);
-    u8_field!(required_ex_version, 17);
-    u8_field!(open_rule, 18);
-    u8_field!(required_level, 19);
-    u8_field!(synced_from_level, 20);
-    u8_field!(content_roulette_role_bonus, 21);
-    u8_field!(sort_key, 22);
-    u8_field!(class_job_category, 23);
-    u8_field!(content_member_type, 24);
-    u8_field!(unknown_9, 25);
-    u8_field!(queue_max_players, 26);
-    u8_field!(content_type, 27);
-    u8_field!(unknown_12, 28);
+    u32_field!(unknown_1, 6);
+    u32_field!(image, 16);
+    u32_field!(unknown_2, 21);
+    u32_field!(unknown_3, 23);
+    i32_field!(unknown_6, 47);
+    u16_field!(item_level_required, 13);
+    u16_field!(item_level_sync, 15);
+    u16_field!(reward_tome_a, 18);
+    u16_field!(reward_tome_b, 19);
+    u16_field!(reward_tome_c, 20);
+    u16_field!(unknown_5, 22);
+    u16_field!(instance_content, 41);
+    u8_field!(required_ex_version, 5);
+    u8_field!(open_rule, 9);
+    u8_field!(required_level, 11);
+    u8_field!(synced_from_level, 12);
+    u8_field!(content_roulette_role_bonus, 17);
+    u8_field!(sort_key, 24);
+    u8_field!(class_job_category, 25);
+    u8_field!(content_member_type, 26);
+    u8_field!(unknown_9, 27);
+    u8_field!(queue_max_players, 28);
+    u8_field!(content_type, 31);
+    u8_field!(unknown_12, 32);
     // In minutes.
-    u8_field!(time_limit, 29);
+    u8_field!(time_limit, 33);
     // In minutes. If 0, only TimeLimit is displayed.
-    u8_field!(time_limit_max, 30);
-    u8_field!(loot_mode_type, 31);
-    u8_field!(unknown_15, 32);
+    u8_field!(time_limit_max, 34);
+    u8_field!(loot_mode_type, 40);
+    u8_field!(unknown_15, 43);
     // Index in PlayerState.PenaltyTimestamps
-    u8_field!(penalty_timestamp_array_index, 33);
+    u8_field!(penalty_timestamp_array_index, 48);
     // Index in PlayerState.ContentRouletteCompletion
-    i8_field!(completion_array_index, 34);
-    bool_field!(is_gold_saucer, 35);
-    bool_field!(is_in_duty_finder, 36);
-    bool_field!(is_pv_p, 37);
+    i8_field!(completion_array_index, 29);
+    bool_field!(is_gold_saucer, 7);
+    bool_field!(is_in_duty_finder, 8);
+    bool_field!(is_pv_p, 10);
     // Displays Addon#2828.
-    bool_field!(applies_highest_average_duty_item_level, 38);
-    bool_field!(unknown_18, 39);
-    bool_field!(allow_consumable_items, 40);
-    bool_field!(allow_phoenix_down, 41);
-    bool_field!(allow_replacement, 42);
-    bool_field!(rated_match, 43);
-    bool_field!(rated, 44);
+    bool_field!(applies_highest_average_duty_item_level, 14);
+    bool_field!(unknown_18, 30);
+    bool_field!(allow_consumable_items, 35);
+    bool_field!(allow_phoenix_down, 36);
+    bool_field!(allow_replacement, 37);
+    bool_field!(rated_match, 38);
+    bool_field!(rated, 39);
     // This would show Addon#10833, but the row does not exist.
-    bool_field!(unknown_22, 45);
-    bool_field!(unknown_23, 46);
-    bool_field!(unknown_24, 47);
-    bool_field!(is_registration_allowed_from_any_data_center, 48);
+    bool_field!(unknown_22, 42);
+    bool_field!(unknown_23, 44);
+    bool_field!(unknown_24, 45);
+    bool_field!(is_registration_allowed_from_any_data_center, 46);
 }
 
 define_sheet!(ContentRouletteSheet, ContentRouletteRow, "ContentRoulette");

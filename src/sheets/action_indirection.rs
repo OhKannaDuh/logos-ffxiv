@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(ActionIndirectionRow);
 impl ActionIndirectionRow {
     i32_field!(name, 0);
-    i32_field!(previous_combo_action, 1);
-    i8_field!(class_job, 2);
+    i32_field!(previous_combo_action, 2);
+    i8_field!(class_job, 1);
 }
 
 define_sheet!(ActionIndirectionSheet, ActionIndirectionRow, "ActionIndirection");

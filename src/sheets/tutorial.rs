@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(TutorialRow);
 impl TutorialRow {
-    u32_field!(exp, 0);
-    u32_field!(gil, 1);
-    u32_field!(reward_tank, 2);
-    u32_field!(reward_melee, 3);
-    u32_field!(reward_ranged, 4);
-    u32_field!(unknown_4, 5);
-    u32_field!(objective, 6);
-    u8_field!(unknown_5, 7);
-    u8_field!(unknown_0, 8);
-    u8_field!(unknown_1, 9);
-    u8_field!(unknown_2, 10);
-    u8_field!(unknown_3, 11);
+    u32_field!(exp, 5);
+    u32_field!(gil, 6);
+    u32_field!(reward_tank, 7);
+    u32_field!(reward_melee, 8);
+    u32_field!(reward_ranged, 9);
+    u32_field!(unknown_4, 10);
+    u32_field!(objective, 11);
+    u8_field!(unknown_5, 0);
+    u8_field!(unknown_0, 1);
+    u8_field!(unknown_1, 2);
+    u8_field!(unknown_2, 3);
+    u8_field!(unknown_3, 4);
 }
 
 define_sheet!(TutorialSheet, TutorialRow, "Tutorial");

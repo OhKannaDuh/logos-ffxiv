@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(WeddingBGMRow);
 impl WeddingBGMRow {
-    string_field!(song_name, 0);
-    u16_field!(song, 1);
+    string_field!(song_name, 1);
+    u16_field!(song, 0);
 }
 
 define_sheet!(WeddingBGMSheet, WeddingBGMRow, "WeddingBGM");

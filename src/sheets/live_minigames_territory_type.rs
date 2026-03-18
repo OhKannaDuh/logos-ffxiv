@@ -10,11 +10,11 @@ use crate::macros::*;
 define_row!(LiveMinigamesTerritoryTypeRow);
 impl LiveMinigamesTerritoryTypeRow {
     u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    bool_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
+    u32_field!(unknown_1, 3);
+    u32_field!(unknown_2, 4);
+    u32_field!(unknown_3, 5);
+    bool_field!(unknown_4, 1);
+    bool_field!(unknown_5, 2);
 }
 
 define_sheet!(LiveMinigamesTerritoryTypeSheet, LiveMinigamesTerritoryTypeRow, "LiveMinigamesTerritoryType");

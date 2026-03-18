@@ -12,8 +12,8 @@ impl AttractRow {
     u16_field!(max_distance, 0);
     u16_field!(speed, 1);
     i16_field!(min_remaining_distance, 2);
-    u8_field!(direction, 3);
-    bool_field!(use_distance_between_hitboxes, 4);
+    u8_field!(direction, 4);
+    bool_field!(use_distance_between_hitboxes, 3);
 }
 
 define_sheet!(AttractSheet, AttractRow, "Attract");

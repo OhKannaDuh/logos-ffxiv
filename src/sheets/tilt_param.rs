@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(TiltParamRow);
 impl TiltParamRow {
-    f32_field!(unknown_0, 0);
-    u8_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
+    f32_field!(unknown_0, 3);
+    u8_field!(unknown_1, 0);
+    u8_field!(unknown_2, 1);
+    u8_field!(unknown_3, 4);
+    u8_field!(unknown_4, 5);
+    bool_field!(unknown_5, 2);
 }
 
 define_sheet!(TiltParamSheet, TiltParamRow, "TiltParam");

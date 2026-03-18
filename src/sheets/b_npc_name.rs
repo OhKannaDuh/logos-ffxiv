@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(BNpcNameRow);
 impl BNpcNameRow {
     string_field!(singular, 0);
-    string_field!(plural, 1);
-    i8_field!(adjective, 2);
+    string_field!(plural, 2);
+    i8_field!(adjective, 1);
     i8_field!(possessive_pronoun, 3);
     i8_field!(starts_with_vowel, 4);
     i8_field!(unknown_0, 5);

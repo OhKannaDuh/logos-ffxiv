@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(DynamicEventManagerRow);
 impl DynamicEventManagerRow {
-    u32_field!(unknown_1, 0);
-    u16_field!(unknown_0, 1);
-    u8_field!(unknown_2, 2);
+    u32_field!(unknown_1, 2);
+    u16_field!(unknown_0, 0);
+    u8_field!(unknown_2, 1);
 }
 
 define_sheet!(DynamicEventManagerSheet, DynamicEventManagerRow, "DynamicEventManager");

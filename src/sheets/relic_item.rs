@@ -9,23 +9,23 @@ use crate::macros::*;
 
 define_row!(RelicItemRow);
 impl RelicItemRow {
-    u32_field!(gladiator_item, 0);
-    u32_field!(pugilist_item, 1);
-    u32_field!(marauder_item, 2);
-    u32_field!(lancer_item, 3);
-    u32_field!(archer_item, 4);
-    u32_field!(conjurer_item, 5);
-    u32_field!(thaumaturge_item, 6);
-    u32_field!(arcanist_smn_item, 7);
-    u32_field!(arcanist_sch_item, 8);
-    u32_field!(shield_item, 9);
-    u32_field!(rogue_item, 10);
-    u32_field!(unknown_0, 11);
-    u32_field!(unknown_1, 12);
-    u32_field!(unknown_2, 13);
-    u32_field!(unknown_3, 14);
-    u32_field!(unknown_4, 15);
-    u8_field!(unknown_5, 16);
+    u32_field!(gladiator_item, 1);
+    u32_field!(pugilist_item, 2);
+    u32_field!(marauder_item, 3);
+    u32_field!(lancer_item, 4);
+    u32_field!(archer_item, 5);
+    u32_field!(conjurer_item, 6);
+    u32_field!(thaumaturge_item, 7);
+    u32_field!(arcanist_smn_item, 8);
+    u32_field!(arcanist_sch_item, 9);
+    u32_field!(shield_item, 10);
+    u32_field!(rogue_item, 11);
+    u32_field!(unknown_0, 12);
+    u32_field!(unknown_1, 13);
+    u32_field!(unknown_2, 14);
+    u32_field!(unknown_3, 15);
+    u32_field!(unknown_4, 16);
+    u8_field!(unknown_5, 0);
 }
 
 define_sheet!(RelicItemSheet, RelicItemRow, "RelicItem");

@@ -9,48 +9,48 @@ use crate::macros::*;
 
 define_row!(TerritoryIntendedUseRow);
 impl TerritoryIntendedUseRow {
-    u16_field!(unknown_0, 0);
+    u16_field!(unknown_0, 19);
     // Ambient noise of people talking in a crowd. Values: 0 &#x3D; None, 1 &#x3D; sound/strm/GAYA_LestArea_01.scd, 2 &#x3D; sound/strm/GAYA_Village_01.scd
-    u8_field!(gaya_sound_id, 1);
-    u8_field!(chat_rule, 2);
-    u8_field!(unknown_3, 3);
-    bool_field!(enable_crafting, 4);
-    bool_field!(enable_gathering, 5);
-    bool_field!(enable_repairs, 6);
-    bool_field!(unknown_7, 7);
-    bool_field!(unknown_8, 8);
-    bool_field!(enable_job_change_to_limited_job, 9);
+    u8_field!(gaya_sound_id, 20);
+    u8_field!(chat_rule, 33);
+    u8_field!(unknown_3, 36);
+    bool_field!(enable_crafting, 0);
+    bool_field!(enable_gathering, 1);
+    bool_field!(enable_repairs, 2);
+    bool_field!(unknown_7, 3);
+    bool_field!(unknown_8, 4);
+    bool_field!(enable_job_change_to_limited_job, 5);
     // Enables summoning Chocobo Companion
-    bool_field!(enable_companion, 10);
+    bool_field!(enable_companion, 6);
     // Enables summoning Summoner/Scholar pets
-    bool_field!(enable_pets, 11);
-    bool_field!(enable_ride_pillion, 12);
-    bool_field!(disable_logout_timer, 13);
-    bool_field!(enable_teleport, 14);
-    bool_field!(enable_return, 15);
-    bool_field!(unknown_16, 16);
-    bool_field!(unknown_17, 17);
-    bool_field!(enable_recommend_list, 18);
-    bool_field!(unknown_19, 19);
-    bool_field!(unknown_20, 20);
+    bool_field!(enable_pets, 7);
+    bool_field!(enable_ride_pillion, 8);
+    bool_field!(disable_logout_timer, 9);
+    bool_field!(enable_teleport, 10);
+    bool_field!(enable_return, 11);
+    bool_field!(unknown_16, 12);
+    bool_field!(unknown_17, 13);
+    bool_field!(enable_recommend_list, 14);
+    bool_field!(unknown_19, 15);
+    bool_field!(unknown_20, 16);
     // Related to Map in Island Sanctuary, Cosmic Exploration
-    bool_field!(unknown_21, 21);
-    bool_field!(disable_field_markers, 22);
-    bool_field!(unknown_23, 23);
-    bool_field!(enable_actions, 24);
-    bool_field!(enable_consumable_items, 25);
-    bool_field!(unknown_26, 26);
-    bool_field!(enable_triple_triad_matches, 27);
-    bool_field!(enable_triple_triad_matches_anywhere, 28);
-    bool_field!(unknown_29, 29);
-    bool_field!(unknown_30, 30);
+    bool_field!(unknown_21, 17);
+    bool_field!(disable_field_markers, 18);
+    bool_field!(unknown_23, 21);
+    bool_field!(enable_actions, 22);
+    bool_field!(enable_consumable_items, 23);
+    bool_field!(unknown_26, 24);
+    bool_field!(enable_triple_triad_matches, 25);
+    bool_field!(enable_triple_triad_matches_anywhere, 26);
+    bool_field!(unknown_29, 27);
+    bool_field!(unknown_30, 28);
     // Related to Idle Cam
-    bool_field!(unknown_31, 31);
-    bool_field!(can_pause_time_weather, 32);
-    bool_field!(unknown_33, 33);
-    bool_field!(enable_pv_p_quick_chat, 34);
-    bool_field!(unknown_35, 35);
-    bool_field!(unknown_36, 36);
+    bool_field!(unknown_31, 29);
+    bool_field!(can_pause_time_weather, 30);
+    bool_field!(unknown_33, 31);
+    bool_field!(enable_pv_p_quick_chat, 32);
+    bool_field!(unknown_35, 34);
+    bool_field!(unknown_36, 35);
     bool_field!(can_apply_glamour_plates_anywhere, 37);
     // Related to idle timer
     bool_field!(unknown_38, 38);

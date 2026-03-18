@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(MKDRelicGrowth2MonsterRow);
 impl MKDRelicGrowth2MonsterRow {
-    string_field!(description, 0);
-    u32_field!(unknown_1, 1);
+    string_field!(description, 3);
+    u32_field!(unknown_1, 0);
     u32_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
+    u8_field!(unknown_3, 1);
 }
 
 define_sheet!(MKDRelicGrowth2MonsterSheet, MKDRelicGrowth2MonsterRow, "MKDRelicGrowth2Monster");

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(QuestEquipModelRow);
 impl QuestEquipModelRow {
-    u64_field!(unknown_0, 0);
-    i8_field!(unknown_1, 1);
+    u64_field!(unknown_0, 1);
+    i8_field!(unknown_1, 0);
 }
 
 define_sheet!(QuestEquipModelSheet, QuestEquipModelRow, "QuestEquipModel");

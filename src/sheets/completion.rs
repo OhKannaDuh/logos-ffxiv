@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(CompletionRow);
 impl CompletionRow {
-    string_field!(text, 0);
-    string_field!(group_title, 1);
+    string_field!(text, 3);
+    string_field!(group_title, 4);
     string_field!(lookup_table, 2);
-    u16_field!(group, 3);
-    u16_field!(key, 4);
+    u16_field!(group, 0);
+    u16_field!(key, 1);
 }
 
 define_sheet!(CompletionSheet, CompletionRow, "Completion");

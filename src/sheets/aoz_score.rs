@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(AOZScoreRow);
 impl AOZScoreRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    i32_field!(score, 2);
-    bool_field!(is_visible, 3);
+    string_field!(name, 2);
+    string_field!(description, 3);
+    i32_field!(score, 1);
+    bool_field!(is_visible, 0);
 }
 
 define_sheet!(AOZScoreSheet, AOZScoreRow, "AOZScore");

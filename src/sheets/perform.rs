@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(PerformRow);
 impl PerformRow {
-    u16_field!(animation_play_01, 0);
-    u16_field!(animation_play_02, 1);
-    string_field!(instrument, 2);
-    u64_field!(model_key, 3);
-    string_field!(name, 4);
-    i32_field!(unlock_link, 5);
-    i32_field!(icon, 6);
-    u16_field!(animation_start, 7);
-    u16_field!(animation_end, 8);
-    u16_field!(animation_idle, 9);
-    u8_field!(transient, 10);
-    u8_field!(perform_group, 11);
-    bool_field!(unknown_1, 12);
+    u16_field!(animation_play_01, 6);
+    u16_field!(animation_play_02, 7);
+    string_field!(instrument, 9);
+    u64_field!(model_key, 2);
+    string_field!(name, 0);
+    i32_field!(unlock_link, 8);
+    i32_field!(icon, 10);
+    u16_field!(animation_start, 3);
+    u16_field!(animation_end, 4);
+    u16_field!(animation_idle, 5);
+    u8_field!(transient, 11);
+    u8_field!(perform_group, 12);
+    bool_field!(unknown_1, 1);
 }
 
 define_sheet!(PerformSheet, PerformRow, "Perform");

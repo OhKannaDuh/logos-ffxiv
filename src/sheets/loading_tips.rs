@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(LoadingTipsRow);
 impl LoadingTipsRow {
-    bool_field!(unknown_0, 0);
+    bool_field!(unknown_0, 2);
     i32_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
+    u8_field!(unknown_2, 0);
 }
 
 define_sheet!(LoadingTipsSheet, LoadingTipsRow, "LoadingTips");

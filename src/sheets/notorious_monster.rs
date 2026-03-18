@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(NotoriousMonsterRow);
 impl NotoriousMonsterRow {
-    u32_field!(b_npc_name, 0);
-    i32_field!(b_npc_base, 1);
-    u16_field!(unknown_0, 2);
-    u8_field!(rank, 3);
+    u32_field!(b_npc_name, 2);
+    i32_field!(b_npc_base, 0);
+    u16_field!(unknown_0, 3);
+    u8_field!(rank, 1);
 }
 
 define_sheet!(NotoriousMonsterSheet, NotoriousMonsterRow, "NotoriousMonster");

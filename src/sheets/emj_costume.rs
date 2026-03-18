@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(EmjCostumeRow);
 impl EmjCostumeRow {
-    f32_field!(unknown_2, 0);
-    f32_field!(unknown_3, 1);
-    f32_field!(unknown_4, 2);
-    u32_field!(image, 3);
-    u32_field!(unlock_quest, 4);
-    u16_field!(data, 5);
-    u8_field!(unknown_5, 6);
+    f32_field!(unknown_2, 4);
+    f32_field!(unknown_3, 5);
+    f32_field!(unknown_4, 6);
+    u32_field!(image, 0);
+    u32_field!(unlock_quest, 1);
+    u16_field!(data, 2);
+    u8_field!(unknown_5, 3);
 }
 
 define_sheet!(EmjCostumeSheet, EmjCostumeRow, "EmjCostume");

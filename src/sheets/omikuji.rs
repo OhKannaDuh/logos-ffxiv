@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(OmikujiRow);
 impl OmikujiRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    i32_field!(unknown_3, 3);
-    i32_field!(unknown_4, 4);
-    i32_field!(unknown_5, 5);
-    i32_field!(unknown_6, 6);
+    string_field!(unknown_0, 5);
+    string_field!(unknown_1, 6);
+    i32_field!(unknown_2, 0);
+    i32_field!(unknown_3, 1);
+    i32_field!(unknown_4, 2);
+    i32_field!(unknown_5, 3);
+    i32_field!(unknown_6, 4);
 }
 
 define_sheet!(OmikujiSheet, OmikujiRow, "Omikuji");

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(MapConditionRow);
 impl MapConditionRow {
-    i32_field!(quest, 0);
-    u16_field!(instance_content, 1);
+    i32_field!(quest, 1);
+    u16_field!(instance_content, 0);
     u8_field!(quest_sequence, 2);
 }
 

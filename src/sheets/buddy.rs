@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(BuddyRow);
 impl BuddyRow {
-    string_field!(sound_effect_4, 0);
-    string_field!(sound_effect_3, 1);
-    string_field!(sound_effect_2, 2);
-    string_field!(sound_effect_1, 3);
-    i32_field!(quest_requirement_2, 4);
-    i32_field!(quest_requirement_1, 5);
-    i32_field!(base_equip, 6);
-    u8_field!(base, 7);
+    string_field!(sound_effect_4, 4);
+    string_field!(sound_effect_3, 5);
+    string_field!(sound_effect_2, 6);
+    string_field!(sound_effect_1, 7);
+    i32_field!(quest_requirement_2, 1);
+    i32_field!(quest_requirement_1, 2);
+    i32_field!(base_equip, 3);
+    u8_field!(base, 0);
 }
 
 define_sheet!(BuddySheet, BuddyRow, "Buddy");

@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(JournalGenreRow);
 impl JournalGenreRow {
-    string_field!(name, 0);
-    i32_field!(icon, 1);
-    u8_field!(journal_category, 2);
-    bool_field!(unknown_0, 3);
+    string_field!(name, 3);
+    i32_field!(icon, 0);
+    u8_field!(journal_category, 1);
+    bool_field!(unknown_0, 2);
 }
 
 define_sheet!(JournalGenreSheet, JournalGenreRow, "JournalGenre");

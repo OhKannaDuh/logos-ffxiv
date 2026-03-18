@@ -25,8 +25,8 @@ impl MKDSupportJobRow {
     string_field!(description, 3);
     string_field!(name_english, 4);
     array_field!(action, 5, 5, MKDSupportJobAction);
-    u8_field!(level_max, 10);
-    u8_field!(job_index, 11);
+    u8_field!(level_max, 5);
+    u8_field!(job_index, 6);
     array_field!(level_unlock, 12, 5, MKDSupportJobLevelUnlock);
 }
 

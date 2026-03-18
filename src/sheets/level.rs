@@ -14,11 +14,11 @@ impl LevelRow {
     f32_field!(z, 2);
     f32_field!(yaw, 3);
     f32_field!(radius, 4);
-    u32_field!(object, 5);
-    u32_field!(event_id, 6);
+    u32_field!(object, 6);
+    u32_field!(event_id, 8);
     u16_field!(map, 7);
-    u16_field!(territory, 8);
-    u8_field!(type_, 9);
+    u16_field!(territory, 9);
+    u8_field!(type_, 5);
 }
 
 define_sheet!(LevelSheet, LevelRow, "Level");

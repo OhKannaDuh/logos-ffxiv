@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(WKSPlanetSelectRow);
 impl WKSPlanetSelectRow {
-    string_field!(unknown_0, 0);
+    string_field!(unknown_0, 4);
     u32_field!(unknown_1, 1);
     u32_field!(unknown_2, 2);
     u32_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
+    u8_field!(unknown_4, 0);
 }
 
 define_sheet!(WKSPlanetSelectSheet, WKSPlanetSelectRow, "WKSPlanetSelect");

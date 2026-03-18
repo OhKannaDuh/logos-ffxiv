@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(LogKindRow);
 impl LogKindRow {
-    string_field!(format, 0);
-    u8_field!(unknown_0, 1);
-    u8_field!(unknown_2, 2);
-    bool_field!(unknown_1, 3);
+    string_field!(format, 2);
+    u8_field!(unknown_0, 0);
+    u8_field!(unknown_2, 3);
+    bool_field!(unknown_1, 1);
 }
 
 define_sheet!(LogKindSheet, LogKindRow, "LogKind");

@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(FGSStageUIRow);
 impl FGSStageUIRow {
-    i32_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    i32_field!(unknown_3, 3);
-    i32_field!(unknown_4, 4);
-    u16_field!(unknown_5, 5);
-    u16_field!(unknown_6, 6);
-    u16_field!(unknown_7, 7);
+    i32_field!(unknown_0, 3);
+    i32_field!(unknown_1, 4);
+    i32_field!(unknown_2, 5);
+    i32_field!(unknown_3, 6);
+    i32_field!(unknown_4, 7);
+    u16_field!(unknown_5, 0);
+    u16_field!(unknown_6, 1);
+    u16_field!(unknown_7, 2);
 }
 
 define_sheet!(FGSStageUISheet, FGSStageUIRow, "FGSStageUI");

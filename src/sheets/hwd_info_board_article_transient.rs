@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(HWDInfoBoardArticleTransientRow);
 impl HWDInfoBoardArticleTransientRow {
-    string_field!(text, 0);
-    string_field!(npc_name, 1);
-    u32_field!(image, 2);
+    string_field!(text, 1);
+    string_field!(npc_name, 2);
+    u32_field!(image, 0);
 }
 
 define_sheet!(HWDInfoBoardArticleTransientSheet, HWDInfoBoardArticleTransientRow, "HWDInfoBoardArticleTransient");

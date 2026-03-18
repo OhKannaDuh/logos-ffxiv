@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(GcArmyCaptureTacticsRow);
 impl GcArmyCaptureTacticsRow {
-    u32_field!(tactic, 0);
-    u32_field!(icon, 1);
-    i32_field!(name, 2);
-    u8_field!(hp, 3);
-    u8_field!(damage_dealt, 4);
-    u8_field!(damage_received, 5);
+    u32_field!(tactic, 4);
+    u32_field!(icon, 5);
+    i32_field!(name, 0);
+    u8_field!(hp, 1);
+    u8_field!(damage_dealt, 2);
+    u8_field!(damage_received, 3);
 }
 
 define_sheet!(GcArmyCaptureTacticsSheet, GcArmyCaptureTacticsRow, "GcArmyCaptureTactics");

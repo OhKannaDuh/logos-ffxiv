@@ -8,22 +8,22 @@ use crate::macros::*;
 
 define_subrow!(QuestClassJobRewardRewardItem, 1);
 impl<'a> QuestClassJobRewardRewardItem<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 define_subrow!(QuestClassJobRewardRequiredItem, 1);
 impl<'a> QuestClassJobRewardRequiredItem<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 define_subrow!(QuestClassJobRewardRewardAmount, 1);
 impl<'a> QuestClassJobRewardRewardAmount<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 define_subrow!(QuestClassJobRewardRequiredAmount, 1);
 impl<'a> QuestClassJobRewardRequiredAmount<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 
@@ -31,9 +31,9 @@ define_row!(QuestClassJobRewardRow);
 impl QuestClassJobRewardRow {
     array_field!(reward_item, 0, 4, QuestClassJobRewardRewardItem);
     array_field!(required_item, 4, 4, QuestClassJobRewardRequiredItem);
-    u32_field!(unknown_8, 8);
-    u32_field!(unknown_9, 9);
-    u8_field!(class_job_category, 10);
+    u32_field!(unknown_8, 13);
+    u32_field!(unknown_9, 14);
+    u8_field!(class_job_category, 0);
     array_field!(reward_amount, 11, 4, QuestClassJobRewardRewardAmount);
     array_field!(required_amount, 15, 4, QuestClassJobRewardRequiredAmount);
     u8_field!(unknown_10, 19);

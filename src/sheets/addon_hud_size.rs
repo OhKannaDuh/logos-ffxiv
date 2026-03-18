@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(AddonHudSizeRow);
 impl AddonHudSizeRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    i16_field!(unknown_2, 2);
-    i16_field!(unknown_3, 3);
+    u16_field!(unknown_0, 2);
+    u16_field!(unknown_1, 3);
+    i16_field!(unknown_2, 0);
+    i16_field!(unknown_3, 1);
 }
 
 define_sheet!(AddonHudSizeSheet, AddonHudSizeRow, "AddonHudSize");

@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(FCReputationRow);
 impl FCReputationRow {
-    string_field!(name, 0);
-    u32_field!(points_to_next, 1);
-    u32_field!(required_points, 2);
+    string_field!(name, 4);
+    u32_field!(points_to_next, 0);
+    u32_field!(required_points, 1);
     u32_field!(color, 3);
-    u8_field!(discount_rate, 4);
+    u8_field!(discount_rate, 2);
 }
 
 define_sheet!(FCReputationSheet, FCReputationRow, "FCReputation");

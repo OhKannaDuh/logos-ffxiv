@@ -8,9 +8,9 @@ use crate::macros::*;
 
 define_subrow!(QuestEffectUnknownStruct, 3);
 impl<'a> QuestEffectUnknownStruct<'a> {
-    u32_field!(unknown_1, 0);
-    u32_field!(unknown_70, 1);
-    u8_field!(unknown_2, 2);
+    u32_field!(unknown_1, 4);
+    u32_field!(unknown_70, 8);
+    u8_field!(unknown_2, 0);
 }
 
 

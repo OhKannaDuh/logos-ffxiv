@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(ScenarioTreeTipsRow);
 impl ScenarioTreeTipsRow {
-    u32_field!(tips_1, 0);
-    u32_field!(tips_2, 1);
+    u32_field!(tips_1, 1);
+    u32_field!(tips_2, 3);
     u16_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
+    u8_field!(unknown_1, 0);
 }
 
 define_sheet!(ScenarioTreeTipsSheet, ScenarioTreeTipsRow, "ScenarioTreeTips");

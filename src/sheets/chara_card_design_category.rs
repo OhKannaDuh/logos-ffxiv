@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(CharaCardDesignCategoryRow);
 impl CharaCardDesignCategoryRow {
-    string_field!(name, 0);
-    u8_field!(sort_key, 1);
+    string_field!(name, 1);
+    u8_field!(sort_key, 0);
 }
 
 define_sheet!(CharaCardDesignCategorySheet, CharaCardDesignCategoryRow, "CharaCardDesignCategory");

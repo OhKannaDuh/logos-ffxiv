@@ -8,32 +8,32 @@ use crate::macros::*;
 
 define_subrow!(RideShootingRideShootingParams, 14);
 impl<'a> RideShootingRideShootingParams<'a> {
-    u32_field!(unknown_0, 0);
-    u32_field!(pop_range, 1);
-    u32_field!(e_npc, 2);
-    u32_field!(unknown_1, 3);
-    u32_field!(unknown_2, 4);
-    u32_field!(unknown_3, 5);
-    u32_field!(unknown_4, 6);
-    u32_field!(unknown_5, 7);
-    u8_field!(e_npc_scale, 8);
-    u8_field!(unknown_6, 9);
-    u8_field!(unknown_7, 10);
-    u8_field!(unknown_8, 11);
-    u8_field!(unknown_9, 12);
-    u8_field!(unknown_10, 13);
+    u32_field!(unknown_0, 6);
+    u32_field!(pop_range, 14);
+    u32_field!(e_npc, 22);
+    u32_field!(unknown_1, 38);
+    u32_field!(unknown_2, 54);
+    u32_field!(unknown_3, 70);
+    u32_field!(unknown_4, 86);
+    u32_field!(unknown_5, 102);
+    u8_field!(e_npc_scale, 30);
+    u8_field!(unknown_6, 46);
+    u8_field!(unknown_7, 62);
+    u8_field!(unknown_8, 78);
+    u8_field!(unknown_9, 94);
+    u8_field!(unknown_10, 110);
 }
 
 
 define_row!(RideShootingRow);
 impl RideShootingRow {
     array_field!(ride_shooting_params, 0, 8, RideShootingRideShootingParams);
-    u16_field!(g_fate_ride_shooting, 112);
-    u16_field!(unknown_0, 113);
-    u16_field!(unknown_1, 114);
-    u16_field!(start_text, 115);
-    i16_field!(unknown_2, 116);
-    i16_field!(unknown_3, 117);
+    u16_field!(g_fate_ride_shooting, 0);
+    u16_field!(unknown_0, 3);
+    u16_field!(unknown_1, 4);
+    u16_field!(start_text, 5);
+    i16_field!(unknown_2, 1);
+    i16_field!(unknown_3, 2);
 }
 
 define_sheet!(RideShootingSheet, RideShootingRow, "RideShooting");

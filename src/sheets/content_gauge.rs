@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(ContentGaugeRow);
 impl ContentGaugeRow {
-    string_field!(name, 0);
-    string_field!(text_string, 1);
-    i16_field!(unknown_0, 2);
-    i16_field!(unknown_1, 3);
-    i16_field!(unknown_2, 4);
-    u8_field!(unknown_3, 5);
-    u8_field!(color, 6);
+    string_field!(name, 1);
+    string_field!(text_string, 4);
+    i16_field!(unknown_0, 5);
+    i16_field!(unknown_1, 8);
+    i16_field!(unknown_2, 11);
+    u8_field!(unknown_3, 0);
+    u8_field!(color, 2);
     u8_field!(unknown_4, 7);
-    u8_field!(unknown_5, 8);
-    i8_field!(unknown_6, 9);
-    i8_field!(unknown_7, 10);
-    bool_field!(unknown_8, 11);
+    u8_field!(unknown_5, 10);
+    i8_field!(unknown_6, 6);
+    i8_field!(unknown_7, 9);
+    bool_field!(unknown_8, 3);
 }
 
 define_sheet!(ContentGaugeSheet, ContentGaugeRow, "ContentGauge");

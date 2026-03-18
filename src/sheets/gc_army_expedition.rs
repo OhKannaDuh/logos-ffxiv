@@ -8,31 +8,31 @@ use crate::macros::*;
 
 define_subrow!(GcArmyExpeditionExpeditionParams, 9);
 impl<'a> GcArmyExpeditionExpeditionParams<'a> {
-    string_field!(reward_item, 0);
-    string_field!(required_physical, 1);
-    i32_field!(required_mental, 2);
-    u16_field!(required_tactical, 3);
-    u16_field!(reward_quantity, 4);
-    u16_field!(percent_physical_met, 5);
-    u8_field!(percent_mental_met, 6);
-    u8_field!(percent_tactical_met, 7);
-    u8_field!(percent_all_met, 8);
+    string_field!(reward_item, 8);
+    string_field!(required_physical, 9);
+    i32_field!(required_mental, 10);
+    u16_field!(required_tactical, 22);
+    u16_field!(reward_quantity, 34);
+    u16_field!(percent_physical_met, 46);
+    u8_field!(percent_mental_met, 16);
+    u8_field!(percent_tactical_met, 28);
+    u8_field!(percent_all_met, 40);
 }
 
 
 define_row!(GcArmyExpeditionRow);
 impl GcArmyExpeditionRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
+    string_field!(name, 8);
+    string_field!(description, 9);
     array_field!(expedition_params, 2, 6, GcArmyExpeditionExpeditionParams);
-    u32_field!(reward_experience, 56);
-    u16_field!(required_seals, 57);
-    u8_field!(required_flag, 58);
-    u8_field!(unlock_flag, 59);
-    u8_field!(required_level, 60);
-    u8_field!(percent_base, 61);
-    u8_field!(unknown_0, 62);
-    u8_field!(gc_army_expedition_type, 63);
+    u32_field!(reward_experience, 4);
+    u16_field!(required_seals, 3);
+    u8_field!(required_flag, 0);
+    u8_field!(unlock_flag, 1);
+    u8_field!(required_level, 2);
+    u8_field!(percent_base, 5);
+    u8_field!(unknown_0, 6);
+    u8_field!(gc_army_expedition_type, 7);
 }
 
 define_sheet!(GcArmyExpeditionSheet, GcArmyExpeditionRow, "GcArmyExpedition");

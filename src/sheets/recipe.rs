@@ -8,50 +8,50 @@ use crate::macros::*;
 
 define_subrow!(RecipeIngredient, 1);
 impl<'a> RecipeIngredient<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 29);
 }
 
 define_subrow!(RecipeAmountIngredient, 1);
 impl<'a> RecipeAmountIngredient<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 29);
 }
 
 
 define_row!(RecipeRow);
 impl RecipeRow {
-    u32_field!(required_quality, 0);
-    u32_field!(quest, 1);
-    i32_field!(number, 2);
-    i32_field!(craft_type, 3);
+    u32_field!(required_quality, 29);
+    u32_field!(quest, 35);
+    i32_field!(number, 0);
+    i32_field!(craft_type, 1);
     i32_field!(item_result, 4);
     array_field!(ingredient, 5, 8, RecipeIngredient);
-    i32_field!(status_required, 13);
-    i32_field!(item_required, 14);
-    u16_field!(recipe_level_table, 15);
-    u16_field!(max_adjustable_job_level, 16);
-    u16_field!(recipe_notebook_list, 17);
-    u16_field!(display_priority, 18);
-    u16_field!(difficulty_factor, 19);
-    u16_field!(quality_factor, 20);
-    u16_field!(durability_factor, 21);
-    u16_field!(required_craftsmanship, 22);
-    u16_field!(required_control, 23);
-    u16_field!(quick_synth_craftsmanship, 24);
-    u16_field!(quick_synth_control, 25);
-    u16_field!(secret_recipe_book, 26);
-    u16_field!(collectable_metadata, 27);
-    u16_field!(patch_number, 28);
-    u8_field!(amount_result, 29);
+    i32_field!(status_required, 40);
+    i32_field!(item_required, 41);
+    u16_field!(recipe_level_table, 2);
+    u16_field!(max_adjustable_job_level, 3);
+    u16_field!(recipe_notebook_list, 22);
+    u16_field!(display_priority, 23);
+    u16_field!(difficulty_factor, 26);
+    u16_field!(quality_factor, 27);
+    u16_field!(durability_factor, 28);
+    u16_field!(required_craftsmanship, 30);
+    u16_field!(required_control, 31);
+    u16_field!(quick_synth_craftsmanship, 32);
+    u16_field!(quick_synth_control, 33);
+    u16_field!(secret_recipe_book, 34);
+    u16_field!(collectable_metadata, 45);
+    u16_field!(patch_number, 46);
+    u8_field!(amount_result, 5);
     array_field!(amount_ingredient, 30, 8, RecipeAmountIngredient);
-    u8_field!(material_quality_factor, 38);
-    u8_field!(collectable_metadata_key, 39);
-    bool_field!(is_secondary, 40);
-    bool_field!(can_quick_synth, 41);
-    bool_field!(can_hq, 42);
-    bool_field!(exp_rewarded, 43);
-    bool_field!(unknown_1, 44);
-    bool_field!(is_specialization_required, 45);
-    bool_field!(is_expert, 46);
+    u8_field!(material_quality_factor, 25);
+    u8_field!(collectable_metadata_key, 44);
+    bool_field!(is_secondary, 24);
+    bool_field!(can_quick_synth, 36);
+    bool_field!(can_hq, 37);
+    bool_field!(exp_rewarded, 38);
+    bool_field!(unknown_1, 39);
+    bool_field!(is_specialization_required, 42);
+    bool_field!(is_expert, 43);
 }
 
 define_sheet!(RecipeSheet, RecipeRow, "Recipe");

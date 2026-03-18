@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(McGuffinUIDataRow);
 impl McGuffinUIDataRow {
-    string_field!(name, 0);
+    string_field!(name, 2);
     u32_field!(icon, 1);
-    u16_field!(order, 2);
+    u16_field!(order, 0);
 }
 
 define_sheet!(McGuffinUIDataSheet, McGuffinUIDataRow, "McGuffinUIData");

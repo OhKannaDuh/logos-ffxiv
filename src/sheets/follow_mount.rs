@@ -9,24 +9,24 @@ use crate::macros::*;
 
 define_row!(FollowMountRow);
 impl FollowMountRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    u32_field!(unknown_4, 4);
-    u16_field!(unknown_5, 5);
-    u16_field!(unknown_6, 6);
-    u16_field!(unknown_7, 7);
-    u16_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
-    u8_field!(unknown_11, 11);
-    u8_field!(unknown_12, 12);
-    u8_field!(unknown_13, 13);
-    u8_field!(unknown_14, 14);
-    u8_field!(unknown_15, 15);
-    u8_field!(unknown_16, 16);
-    bool_field!(unknown_17, 17);
+    u32_field!(unknown_0, 8);
+    u32_field!(unknown_1, 9);
+    u32_field!(unknown_2, 10);
+    u32_field!(unknown_3, 11);
+    u32_field!(unknown_4, 12);
+    u16_field!(unknown_5, 0);
+    u16_field!(unknown_6, 1);
+    u16_field!(unknown_7, 16);
+    u16_field!(unknown_8, 17);
+    u8_field!(unknown_9, 2);
+    u8_field!(unknown_10, 3);
+    u8_field!(unknown_11, 4);
+    u8_field!(unknown_12, 5);
+    u8_field!(unknown_13, 6);
+    u8_field!(unknown_14, 7);
+    u8_field!(unknown_15, 13);
+    u8_field!(unknown_16, 14);
+    bool_field!(unknown_17, 15);
 }
 
 define_sheet!(FollowMountSheet, FollowMountRow, "FollowMount");

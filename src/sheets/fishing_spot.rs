@@ -8,28 +8,28 @@ use crate::macros::*;
 
 define_subrow!(FishingSpotItem, 1);
 impl<'a> FishingSpotItem<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 1);
 }
 
 
 define_row!(FishingSpotRow);
 impl FishingSpotRow {
-    string_field!(big_fish_on_reach, 0);
-    string_field!(big_fish_on_end, 1);
-    string_field!(big_fish_on_refresh, 2);
+    string_field!(big_fish_on_reach, 1);
+    string_field!(big_fish_on_end, 2);
+    string_field!(big_fish_on_refresh, 3);
     array_field!(item, 3, 10, FishingSpotItem);
-    u16_field!(territory_type, 13);
-    u16_field!(place_name_main, 14);
-    u16_field!(place_name_sub, 15);
-    u16_field!(radius, 16);
-    u16_field!(place_name, 17);
-    u16_field!(order, 18);
-    i16_field!(x, 19);
-    i16_field!(z, 20);
-    u8_field!(gathering_level, 21);
-    u8_field!(fishing_spot_category, 22);
-    u8_field!(unknown_0, 23);
-    bool_field!(rare, 24);
+    u16_field!(territory_type, 6);
+    u16_field!(place_name_main, 7);
+    u16_field!(place_name_sub, 8);
+    u16_field!(radius, 11);
+    u16_field!(place_name, 23);
+    u16_field!(order, 24);
+    i16_field!(x, 9);
+    i16_field!(z, 10);
+    u8_field!(gathering_level, 0);
+    u8_field!(fishing_spot_category, 4);
+    u8_field!(unknown_0, 12);
+    bool_field!(rare, 5);
 }
 
 define_sheet!(FishingSpotSheet, FishingSpotRow, "FishingSpot");

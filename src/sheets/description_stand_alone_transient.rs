@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(DescriptionStandAloneTransientRow);
 impl DescriptionStandAloneTransientRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
+    string_field!(unknown_0, 1);
+    string_field!(unknown_1, 2);
+    u32_field!(unknown_2, 0);
 }
 
 define_sheet!(DescriptionStandAloneTransientSheet, DescriptionStandAloneTransientRow, "DescriptionStandAloneTransient");

@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(MKDTraitRow);
 impl MKDTraitRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
+    string_field!(name, 3);
+    string_field!(description, 4);
     i32_field!(icon, 2);
-    u8_field!(mkd_support_job, 3);
-    u8_field!(level_unlock, 4);
+    u8_field!(mkd_support_job, 0);
+    u8_field!(level_unlock, 1);
 }
 
 define_sheet!(MKDTraitSheet, MKDTraitRow, "MKDTrait");

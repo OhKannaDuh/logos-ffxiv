@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(ConditionRow);
 impl ConditionRow {
-    u32_field!(log_message, 0);
+    u32_field!(log_message, 2);
     u8_field!(permission, 1);
     // The lower this number is, the higher the priority. Used to determine which conditions LogMessage should be printed.
-    u8_field!(log_message_priority, 2);
+    u8_field!(log_message_priority, 3);
     // Allows this Condition to be set by a packet received from the server.
-    bool_field!(is_networked, 3);
+    bool_field!(is_networked, 0);
 }
 
 define_sheet!(ConditionSheet, ConditionRow, "Condition");

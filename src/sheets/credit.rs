@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(CreditRow);
 impl CreditRow {
-    u16_field!(roles_1, 0);
-    u16_field!(japanese_cast_1, 1);
-    u16_field!(english_cast_1, 2);
-    u16_field!(french_cast_1, 3);
-    u16_field!(german_cast_1, 4);
-    u16_field!(roles_2, 5);
-    u16_field!(japanese_cast_2, 6);
-    u16_field!(english_cast_2, 7);
-    u16_field!(french_cast_2, 8);
-    u16_field!(german_cast_2, 9);
-    u8_field!(unknown_0, 10);
+    u16_field!(roles_1, 1);
+    u16_field!(japanese_cast_1, 2);
+    u16_field!(english_cast_1, 3);
+    u16_field!(french_cast_1, 4);
+    u16_field!(german_cast_1, 5);
+    u16_field!(roles_2, 6);
+    u16_field!(japanese_cast_2, 7);
+    u16_field!(english_cast_2, 8);
+    u16_field!(french_cast_2, 9);
+    u16_field!(german_cast_2, 10);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(CreditSheet, CreditRow, "Credit");

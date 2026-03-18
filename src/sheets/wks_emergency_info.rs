@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(WKSEmergencyInfoEmergencyProblem, 1);
 impl<'a> WKSEmergencyInfoEmergencyProblem<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 2);
 }
 
 
@@ -16,9 +16,9 @@ define_row!(WKSEmergencyInfoRow);
 impl WKSEmergencyInfoRow {
     array_field!(emergency_problem, 0, 2, WKSEmergencyInfoEmergencyProblem);
     // Has between 5 and 6 subrows
-    u16_field!(wks_emergency_mission_row_id, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(wks_emergency_warning_text, 4);
+    u16_field!(wks_emergency_mission_row_id, 4);
+    u8_field!(unknown_3, 0);
+    u8_field!(wks_emergency_warning_text, 1);
 }
 
 define_sheet!(WKSEmergencyInfoSheet, WKSEmergencyInfoRow, "WKSEmergencyInfo");

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(HWDCrafterSupplyRewardRow);
 impl HWDCrafterSupplyRewardRow {
-    u32_field!(exp_reward, 0);
-    u16_field!(script_reward_amount, 1);
+    u32_field!(exp_reward, 1);
+    u16_field!(script_reward_amount, 0);
     u16_field!(points, 2);
 }
 

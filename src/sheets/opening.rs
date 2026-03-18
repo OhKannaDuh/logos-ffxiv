@@ -8,16 +8,16 @@ use crate::macros::*;
 
 define_subrow!(OpeningVariables, 2);
 impl<'a> OpeningVariables<'a> {
-    string_field!(name, 0);
-    u32_field!(value, 1);
+    string_field!(name, 2);
+    u32_field!(value, 42);
 }
 
 
 define_row!(OpeningRow);
 impl OpeningRow {
     array_field!(variables, 0, 40, OpeningVariables);
-    string_field!(name, 80);
-    u32_field!(quest, 81);
+    string_field!(name, 0);
+    u32_field!(quest, 1);
 }
 
 define_sheet!(OpeningSheet, OpeningRow, "Opening");

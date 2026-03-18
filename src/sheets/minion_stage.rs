@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(MinionStageRow);
 impl MinionStageRow {
     string_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
+    u16_field!(unknown_1, 2);
+    bool_field!(unknown_2, 1);
 }
 
 define_sheet!(MinionStageSheet, MinionStageRow, "MinionStage");

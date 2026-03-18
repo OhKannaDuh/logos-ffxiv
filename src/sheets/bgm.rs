@@ -10,12 +10,12 @@ use crate::macros::*;
 define_row!(BGMRow);
 impl BGMRow {
     string_field!(file, 0);
-    f32_field!(disable_restart_reset_time, 1);
-    u8_field!(priority, 2);
-    u8_field!(special_mode, 3);
-    bool_field!(disable_restart_time_out, 4);
-    bool_field!(disable_restart, 5);
-    bool_field!(pass_end, 6);
+    f32_field!(disable_restart_reset_time, 5);
+    u8_field!(priority, 1);
+    u8_field!(special_mode, 6);
+    bool_field!(disable_restart_time_out, 2);
+    bool_field!(disable_restart, 3);
+    bool_field!(pass_end, 4);
 }
 
 define_sheet!(BGMSheet, BGMRow, "BGM");

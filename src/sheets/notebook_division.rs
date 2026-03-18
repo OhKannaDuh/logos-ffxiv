@@ -20,15 +20,15 @@ impl<'a> NotebookDivisionAllowedCraftTypes<'a> {
 define_row!(NotebookDivisionRow);
 impl NotebookDivisionRow {
     string_field!(name, 0);
-    u32_field!(quest_unlock, 1);
-    u8_field!(notebook_division_category, 2);
-    u8_field!(craft_opening_level, 3);
-    u8_field!(gathering_opening_level, 4);
+    u32_field!(quest_unlock, 4);
+    u8_field!(notebook_division_category, 1);
+    u8_field!(craft_opening_level, 2);
+    u8_field!(gathering_opening_level, 3);
     u8_field!(unknown_0, 5);
     array_field!(secret_recipe_book_groups, 6, 2, NotebookDivisionSecretRecipeBookGroups);
     // Index is CraftType
     array_field!(allowed_craft_types, 8, 8, NotebookDivisionAllowedCraftTypes);
-    bool_field!(requires_secret_recipe_book_group_unlock, 16);
+    bool_field!(requires_secret_recipe_book_group_unlock, 6);
 }
 
 define_sheet!(NotebookDivisionSheet, NotebookDivisionRow, "NotebookDivision");

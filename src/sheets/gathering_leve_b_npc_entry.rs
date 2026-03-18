@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(GatheringLeveBNpcEntryRow);
 impl GatheringLeveBNpcEntryRow {
-    u32_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    i32_field!(unknown_4, 4);
+    u32_field!(unknown_0, 8);
+    i32_field!(unknown_1, 0);
+    u16_field!(unknown_2, 4);
+    u32_field!(unknown_3, 9);
+    i32_field!(unknown_4, 1);
     u16_field!(unknown_5, 5);
-    u32_field!(unknown_6, 6);
-    i32_field!(unknown_7, 7);
-    u16_field!(unknown_8, 8);
-    u32_field!(unknown_9, 9);
-    i32_field!(unknown_10, 10);
-    u16_field!(unknown_11, 11);
+    u32_field!(unknown_6, 10);
+    i32_field!(unknown_7, 2);
+    u16_field!(unknown_8, 6);
+    u32_field!(unknown_9, 11);
+    i32_field!(unknown_10, 3);
+    u16_field!(unknown_11, 7);
 }
 
 define_sheet!(GatheringLeveBNpcEntrySheet, GatheringLeveBNpcEntryRow, "GatheringLeveBNpcEntry");

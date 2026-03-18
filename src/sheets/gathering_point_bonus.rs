@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(GatheringPointBonusRow);
 impl GatheringPointBonusRow {
-    u32_field!(condition_value, 0);
-    u32_field!(unknown_0, 1);
+    u32_field!(condition_value, 1);
+    u32_field!(unknown_0, 7);
     u16_field!(unknown_1, 2);
-    u16_field!(bonus_value, 3);
-    u16_field!(unknown_2, 4);
-    u8_field!(condition, 5);
-    u8_field!(bonus_type, 6);
-    bool_field!(unknown_3, 7);
+    u16_field!(bonus_value, 4);
+    u16_field!(unknown_2, 5);
+    u8_field!(condition, 0);
+    u8_field!(bonus_type, 3);
+    bool_field!(unknown_3, 6);
 }
 
 define_sheet!(GatheringPointBonusSheet, GatheringPointBonusRow, "GatheringPointBonus");

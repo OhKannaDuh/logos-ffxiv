@@ -10,10 +10,10 @@ use crate::macros::*;
 define_row!(CutActionTimelineRow);
 impl CutActionTimelineRow {
     string_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    i8_field!(unknown_4, 4);
+    i32_field!(unknown_1, 2);
+    u8_field!(unknown_2, 1);
+    u8_field!(unknown_3, 4);
+    i8_field!(unknown_4, 3);
 }
 
 define_sheet!(CutActionTimelineSheet, CutActionTimelineRow, "CutActionTimeline");

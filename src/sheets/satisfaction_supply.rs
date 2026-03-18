@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(SatisfactionSupplyRow);
 impl SatisfactionSupplyRow {
-    i32_field!(item, 0);
-    u16_field!(collectability_low, 1);
-    u16_field!(collectability_mid, 2);
-    u16_field!(collectability_high, 3);
-    u16_field!(reward, 4);
-    u16_field!(fishing_spot_id, 5);
-    u16_field!(spear_fishing_spot_id, 6);
-    u8_field!(slot, 7);
-    u8_field!(probability_percent, 8);
-    bool_field!(is_bonus, 9);
+    i32_field!(item, 2);
+    u16_field!(collectability_low, 3);
+    u16_field!(collectability_mid, 4);
+    u16_field!(collectability_high, 5);
+    u16_field!(reward, 6);
+    u16_field!(fishing_spot_id, 8);
+    u16_field!(spear_fishing_spot_id, 9);
+    u8_field!(slot, 0);
+    u8_field!(probability_percent, 1);
+    bool_field!(is_bonus, 7);
 }
 
 define_sheet!(SatisfactionSupplySheet, SatisfactionSupplyRow, "SatisfactionSupply");

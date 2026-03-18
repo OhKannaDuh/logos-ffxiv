@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(WKSMechaEventRewardUIRow);
 impl WKSMechaEventRewardUIRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
-    bool_field!(unknown_3, 3);
-    bool_field!(unknown_4, 4);
+    u32_field!(unknown_0, 3);
+    u32_field!(unknown_1, 4);
+    bool_field!(unknown_2, 0);
+    bool_field!(unknown_3, 1);
+    bool_field!(unknown_4, 2);
 }
 
 define_sheet!(WKSMechaEventRewardUISheet, WKSMechaEventRewardUIRow, "WKSMechaEventRewardUI");

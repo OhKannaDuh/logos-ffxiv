@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(AnimaWeapon5ParamRow);
 impl AnimaWeapon5ParamRow {
-    string_field!(name, 0);
-    u8_field!(base_param, 1);
+    string_field!(name, 1);
+    u8_field!(base_param, 0);
 }
 
 define_sheet!(AnimaWeapon5ParamSheet, AnimaWeapon5ParamRow, "AnimaWeapon5Param");

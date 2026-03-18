@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(MassivePcContentBattleTalkRow);
 impl MassivePcContentBattleTalkRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
+    u32_field!(unknown_0, 1);
+    u32_field!(unknown_1, 5);
+    u32_field!(unknown_2, 6);
+    u16_field!(unknown_3, 2);
+    u8_field!(unknown_4, 0);
+    u8_field!(unknown_5, 3);
+    u8_field!(unknown_6, 4);
 }
 
 define_sheet!(MassivePcContentBattleTalkSheet, MassivePcContentBattleTalkRow, "MassivePcContentBattleTalk");

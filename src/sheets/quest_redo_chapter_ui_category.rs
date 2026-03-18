@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(QuestRedoChapterUICategoryRow);
 impl QuestRedoChapterUICategoryRow {
-    string_field!(expac, 0);
-    u8_field!(unknown_0, 1);
+    string_field!(expac, 1);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(QuestRedoChapterUICategorySheet, QuestRedoChapterUICategoryRow, "QuestRedoChapterUICategory");

@@ -16,7 +16,7 @@ define_row!(MJIRankRow);
 impl MJIRankRow {
     u32_field!(exp_to_next, 0);
     array_field!(log_message, 1, 3, MJIRankLogMessage);
-    u8_field!(unknown_0, 4);
+    u8_field!(unknown_0, 1);
 }
 
 define_sheet!(MJIRankSheet, MJIRankRow, "MJIRank");

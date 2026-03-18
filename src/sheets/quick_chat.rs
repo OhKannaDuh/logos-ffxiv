@@ -12,8 +12,8 @@ impl QuickChatRow {
     string_field!(name_action, 0);
     i32_field!(icon, 1);
     i32_field!(addon, 2);
-    u16_field!(unknown_0, 3);
-    i8_field!(quick_chat_transient, 4);
+    u16_field!(unknown_0, 4);
+    i8_field!(quick_chat_transient, 3);
 }
 
 define_sheet!(QuickChatSheet, QuickChatRow, "QuickChat");

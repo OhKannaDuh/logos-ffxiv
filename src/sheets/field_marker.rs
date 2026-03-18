@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(FieldMarkerRow);
 impl FieldMarkerRow {
-    string_field!(name, 0);
-    i32_field!(vfx, 1);
-    u16_field!(ui_icon, 2);
-    u16_field!(map_icon, 3);
+    string_field!(name, 3);
+    i32_field!(vfx, 0);
+    u16_field!(ui_icon, 1);
+    u16_field!(map_icon, 2);
 }
 
 define_sheet!(FieldMarkerSheet, FieldMarkerRow, "FieldMarker");

@@ -8,14 +8,14 @@ use crate::macros::*;
 
 define_subrow!(ContentNpcTalkContentTalk, 1);
 impl<'a> ContentNpcTalkContentTalk<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 
 define_row!(ContentNpcTalkRow);
 impl ContentNpcTalkRow {
     array_field!(content_talk, 0, 8, ContentNpcTalkContentTalk);
-    i32_field!(type_, 8);
+    i32_field!(type_, 0);
 }
 
 define_sheet!(ContentNpcTalkSheet, ContentNpcTalkRow, "ContentNpcTalk");

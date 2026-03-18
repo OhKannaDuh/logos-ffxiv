@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(WarpConditionRow);
 impl WarpConditionRow {
-    u32_field!(required_quest_1, 0);
-    u32_field!(required_quest_2, 1);
-    u32_field!(required_quest_3, 2);
-    u32_field!(required_quest_4, 3);
-    u16_field!(gil, 4);
-    u16_field!(quest_reward, 5);
-    u16_field!(class_level, 6);
-    u8_field!(complete_param, 7);
+    u32_field!(required_quest_1, 2);
+    u32_field!(required_quest_2, 3);
+    u32_field!(required_quest_3, 4);
+    u32_field!(required_quest_4, 5);
+    u16_field!(gil, 0);
+    u16_field!(quest_reward, 6);
+    u16_field!(class_level, 7);
+    u8_field!(complete_param, 1);
 }
 
 define_sheet!(WarpConditionSheet, WarpConditionRow, "WarpCondition");

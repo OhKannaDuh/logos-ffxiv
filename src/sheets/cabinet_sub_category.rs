@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(CabinetSubCategoryRow);
 impl CabinetSubCategoryRow {
-    string_field!(name, 0);
-    u16_field!(menu_order, 1);
+    string_field!(name, 1);
+    u16_field!(menu_order, 0);
 }
 
 define_sheet!(CabinetSubCategorySheet, CabinetSubCategoryRow, "CabinetSubCategory");

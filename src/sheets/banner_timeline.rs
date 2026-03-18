@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(BannerTimelineRow);
 impl BannerTimelineRow {
-    string_field!(name, 0);
+    string_field!(name, 10);
     u32_field!(additional_data, 1);
-    i32_field!(icon, 2);
-    u16_field!(unlock_condition, 3);
-    u16_field!(unknown_70_1, 4);
-    u16_field!(unknown_70_2, 5);
-    u16_field!(unknown_0, 6);
-    u16_field!(sort_key, 7);
-    u8_field!(type_, 8);
-    u8_field!(accept_class_job_category, 9);
-    u8_field!(category, 10);
+    i32_field!(icon, 9);
+    u16_field!(unlock_condition, 4);
+    u16_field!(unknown_70_1, 5);
+    u16_field!(unknown_70_2, 6);
+    u16_field!(unknown_0, 7);
+    u16_field!(sort_key, 8);
+    u8_field!(type_, 0);
+    u8_field!(accept_class_job_category, 2);
+    u8_field!(category, 3);
 }
 
 define_sheet!(BannerTimelineSheet, BannerTimelineRow, "BannerTimeline");

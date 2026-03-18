@@ -8,18 +8,18 @@ use crate::macros::*;
 
 define_subrow!(QuestBattleQuestBattleParams, 2);
 impl<'a> QuestBattleQuestBattleParams<'a> {
-    string_field!(script_instruction, 0);
-    u32_field!(script_value, 1);
+    string_field!(script_instruction, 4);
+    u32_field!(script_value, 224);
 }
 
 
 define_row!(QuestBattleRow);
 impl QuestBattleRow {
     array_field!(quest_battle_params, 0, 220, QuestBattleQuestBattleParams);
-    i32_field!(quest, 440);
-    u16_field!(time_limit, 441);
-    u16_field!(level_sync, 442);
-    u8_field!(quest_battle_scene, 443);
+    i32_field!(quest, 0);
+    u16_field!(time_limit, 2);
+    u16_field!(level_sync, 3);
+    u8_field!(quest_battle_scene, 1);
 }
 
 define_sheet!(QuestBattleSheet, QuestBattleRow, "QuestBattle");

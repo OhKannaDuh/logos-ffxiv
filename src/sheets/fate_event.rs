@@ -8,18 +8,18 @@ use crate::macros::*;
 
 define_subrow!(FateEventEventParameters, 7);
 impl<'a> FateEventEventParameters<'a> {
-    u32_field!(gesture, 0);
-    i32_field!(lip_sync, 1);
-    i32_field!(facial, 2);
-    i32_field!(shape, 3);
-    u8_field!(turn, 4);
-    u8_field!(widget_type, 5);
-    bool_field!(is_auto_shake, 6);
+    u32_field!(gesture, 8);
+    i32_field!(lip_sync, 16);
+    i32_field!(facial, 24);
+    i32_field!(shape, 32);
+    u8_field!(turn, 0);
+    u8_field!(widget_type, 48);
+    bool_field!(is_auto_shake, 40);
 }
 
 define_subrow!(FateEventText, 1);
 impl<'a> FateEventText<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 8);
 }
 
 

@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(CabinetCategoryRow);
 impl CabinetCategoryRow {
-    i32_field!(icon, 0);
-    i32_field!(category, 1);
-    u8_field!(menu_order, 2);
-    u8_field!(hide_order, 3);
+    i32_field!(icon, 2);
+    i32_field!(category, 3);
+    u8_field!(menu_order, 0);
+    u8_field!(hide_order, 1);
 }
 
 define_sheet!(CabinetCategorySheet, CabinetCategoryRow, "CabinetCategory");

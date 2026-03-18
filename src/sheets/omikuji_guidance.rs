@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(OmikujiGuidanceRow);
 impl OmikujiGuidanceRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
+    string_field!(unknown_0, 1);
+    string_field!(unknown_1, 2);
+    bool_field!(unknown_2, 0);
 }
 
 define_sheet!(OmikujiGuidanceSheet, OmikujiGuidanceRow, "OmikujiGuidance");

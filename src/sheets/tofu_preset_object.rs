@@ -12,10 +12,10 @@ impl TofuPresetObjectRow {
     i32_field!(object, 0);
     u16_field!(unknown_1, 1);
     u16_field!(unknown_2, 2);
-    i16_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    i8_field!(unknown_6, 6);
+    i16_field!(unknown_3, 4);
+    u8_field!(unknown_4, 3);
+    u8_field!(unknown_5, 6);
+    i8_field!(unknown_6, 5);
     bool_field!(unknown_7, 7);
     bool_field!(unknown_8, 8);
 }

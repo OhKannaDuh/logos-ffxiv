@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(CraftTypeRow);
 impl CraftTypeRow {
-    string_field!(name, 0);
-    u8_field!(main_physical, 1);
-    u8_field!(sub_physical, 2);
+    string_field!(name, 2);
+    u8_field!(main_physical, 0);
+    u8_field!(sub_physical, 1);
 }
 
 define_sheet!(CraftTypeSheet, CraftTypeRow, "CraftType");

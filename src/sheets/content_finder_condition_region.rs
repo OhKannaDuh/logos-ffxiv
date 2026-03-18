@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ContentFinderConditionRegionRow);
 impl ContentFinderConditionRegionRow {
-    i32_field!(unknown_0, 0);
-    i8_field!(unknown_1, 1);
+    i32_field!(unknown_0, 1);
+    i8_field!(unknown_1, 0);
 }
 
 define_sheet!(ContentFinderConditionRegionSheet, ContentFinderConditionRegionRow, "ContentFinderConditionRegion");

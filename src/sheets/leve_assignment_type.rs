@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(LeveAssignmentTypeRow);
 impl LeveAssignmentTypeRow {
-    string_field!(name, 0);
-    i32_field!(icon, 1);
+    string_field!(name, 1);
+    i32_field!(icon, 0);
 }
 
 define_sheet!(LeveAssignmentTypeSheet, LeveAssignmentTypeRow, "LeveAssignmentType");

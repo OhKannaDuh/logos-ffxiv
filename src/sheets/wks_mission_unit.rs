@@ -22,22 +22,22 @@ impl WKSMissionUnitRow {
     string_field!(name, 0);
     u16_field!(wks_mission_text, 1);
     array_field!(class_job_category, 2, 2, WKSMissionUnitClassJobCategory);
-    u16_field!(mission_time, 4);
-    u16_field!(mission_reward, 5);
-    u16_field!(silver_star_requirement, 6);
-    u16_field!(gold_star_requirement, 7);
+    u16_field!(mission_time, 7);
+    u16_field!(mission_reward, 8);
+    u16_field!(silver_star_requirement, 9);
+    u16_field!(gold_star_requirement, 10);
     array_field!(mission_to_do, 8, 3, WKSMissionUnitMissionToDo);
-    u16_field!(locked_behind, 11);
-    u16_field!(wks_mission_supply_item, 12);
-    u16_field!(wks_mission_recipe, 13);
-    u16_field!(place_name, 14);
-    u16_field!(sort_key, 15);
-    u8_field!(wks_function, 16);
-    u8_field!(level_group, 17);
-    u8_field!(unknown_0, 18);
-    u8_field!(wks_mission_lottery_special_cond, 19);
-    u8_field!(is_synced, 20);
-    bool_field!(is_special_quest, 21);
+    u16_field!(locked_behind, 16);
+    u16_field!(wks_mission_supply_item, 17);
+    u16_field!(wks_mission_recipe, 19);
+    u16_field!(place_name, 20);
+    u16_field!(sort_key, 21);
+    u8_field!(wks_function, 4);
+    u8_field!(level_group, 6);
+    u8_field!(unknown_0, 14);
+    u8_field!(wks_mission_lottery_special_cond, 15);
+    u8_field!(is_synced, 18);
+    bool_field!(is_special_quest, 5);
 }
 
 define_sheet!(WKSMissionUnitSheet, WKSMissionUnitRow, "WKSMissionUnit");

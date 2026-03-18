@@ -8,29 +8,29 @@ use crate::macros::*;
 
 define_subrow!(GoldSaucerTalkChoicesText, 1);
 impl<'a> GoldSaucerTalkChoicesText<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 17);
 }
 
 define_subrow!(GoldSaucerTalkChoicesTalk, 1);
 impl<'a> GoldSaucerTalkChoicesTalk<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 17);
 }
 
 
 define_row!(GoldSaucerTalkRow);
 impl GoldSaucerTalkRow {
-    string_field!(message, 0);
+    string_field!(message, 17);
     array_field!(choices_text, 1, 10, GoldSaucerTalkChoicesText);
     // The next GoldSaucerTalk message.
-    u16_field!(next_talk, 11);
-    u16_field!(action_timeline, 12);
+    u16_field!(next_talk, 3);
+    u16_field!(action_timeline, 5);
     // The next GoldSaucerTalk for the ChoicesText of the same index.
     array_field!(choices_talk, 13, 10, GoldSaucerTalkChoicesTalk);
-    u8_field!(unknown_23, 23);
-    u8_field!(unknown_24, 24);
-    u8_field!(unknown_25, 25);
-    bool_field!(unknown_26, 26);
-    bool_field!(unknown_27, 27);
+    u8_field!(unknown_23, 0);
+    u8_field!(unknown_24, 1);
+    u8_field!(unknown_25, 4);
+    bool_field!(unknown_26, 2);
+    bool_field!(unknown_27, 6);
 }
 
 define_sheet!(GoldSaucerTalkSheet, GoldSaucerTalkRow, "GoldSaucerTalk");

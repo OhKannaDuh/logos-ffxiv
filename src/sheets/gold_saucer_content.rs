@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(GoldSaucerContentRow);
 impl GoldSaucerContentRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(content_finder_condition, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(time_limit, 3);
+    u16_field!(unknown_0, 2);
+    u16_field!(content_finder_condition, 3);
+    u8_field!(unknown_2, 0);
+    u8_field!(time_limit, 1);
 }
 
 define_sheet!(GoldSaucerContentSheet, GoldSaucerContentRow, "GoldSaucerContent");

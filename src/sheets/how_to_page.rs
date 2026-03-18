@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(HowToPageText, 1);
 impl<'a> HowToPageText<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 4);
 }
 
 
 define_row!(HowToPageRow);
 impl HowToPageRow {
     array_field!(text, 0, 3, HowToPageText);
-    i32_field!(image, 3);
-    u8_field!(type_, 4);
-    u8_field!(icon_type, 5);
-    u8_field!(text_type, 6);
+    i32_field!(image, 2);
+    u8_field!(type_, 0);
+    u8_field!(icon_type, 1);
+    u8_field!(text_type, 3);
 }
 
 define_sheet!(HowToPageSheet, HowToPageRow, "HowToPage");

@@ -9,15 +9,15 @@ use crate::macros::*;
 
 define_row!(BannerDecorationRow);
 impl BannerDecorationRow {
-    string_field!(name, 0);
-    i32_field!(image, 1);
-    i32_field!(icon, 2);
+    string_field!(name, 8);
+    i32_field!(image, 0);
+    i32_field!(icon, 1);
     u16_field!(unlock_condition, 3);
     u16_field!(unknown_70_1, 4);
     u16_field!(unknown_70_2, 5);
     u16_field!(unknown_0, 6);
     u16_field!(sort_key, 7);
-    u8_field!(category, 8);
+    u8_field!(category, 2);
 }
 
 define_sheet!(BannerDecorationSheet, BannerDecorationRow, "BannerDecoration");

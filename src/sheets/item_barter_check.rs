@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(ItemBarterCheckRow);
 impl ItemBarterCheckRow {
-    u32_field!(question, 0);
-    u32_field!(confirm, 1);
-    u16_field!(category, 2);
+    u32_field!(question, 1);
+    u32_field!(confirm, 2);
+    u16_field!(category, 0);
 }
 
 define_sheet!(ItemBarterCheckSheet, ItemBarterCheckRow, "ItemBarterCheck");

@@ -10,10 +10,10 @@ use crate::macros::*;
 define_row!(BuddyItemRow);
 impl BuddyItemRow {
     u16_field!(item, 0);
-    u8_field!(status, 1);
-    bool_field!(use_field, 2);
-    bool_field!(use_training, 3);
-    bool_field!(unknown_0, 4);
+    u8_field!(status, 4);
+    bool_field!(use_field, 1);
+    bool_field!(use_training, 2);
+    bool_field!(unknown_0, 3);
 }
 
 define_sheet!(BuddyItemSheet, BuddyItemRow, "BuddyItem");

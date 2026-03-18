@@ -20,9 +20,9 @@ impl<'a> CompanyCraftDraftRequiredItemCount<'a> {
 define_row!(CompanyCraftDraftRow);
 impl CompanyCraftDraftRow {
     string_field!(name, 0);
-    u32_field!(order, 1);
+    u32_field!(order, 8);
     array_field!(required_item, 2, 3, CompanyCraftDraftRequiredItem);
-    u8_field!(company_craft_draft_category, 5);
+    u8_field!(company_craft_draft_category, 1);
     array_field!(required_item_count, 6, 3, CompanyCraftDraftRequiredItemCount);
 }
 

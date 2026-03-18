@@ -11,20 +11,20 @@ define_row!(MateriaParamRow);
 impl MateriaParamRow {
     u8_field!(unknown_0, 0);
     u8_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
-    bool_field!(unknown_3, 3);
-    bool_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
-    bool_field!(unknown_6, 6);
-    bool_field!(unknown_7, 7);
-    bool_field!(unknown_8, 8);
-    bool_field!(unknown_9, 9);
-    bool_field!(unknown_10, 10);
-    bool_field!(unknown_11, 11);
-    bool_field!(unknown_12, 12);
-    bool_field!(unknown_13, 13);
-    bool_field!(unknown_14, 14);
-    bool_field!(unknown_15, 15);
+    bool_field!(unknown_2, 3);
+    bool_field!(unknown_3, 4);
+    bool_field!(unknown_4, 5);
+    bool_field!(unknown_5, 6);
+    bool_field!(unknown_6, 7);
+    bool_field!(unknown_7, 8);
+    bool_field!(unknown_8, 9);
+    bool_field!(unknown_9, 10);
+    bool_field!(unknown_10, 11);
+    bool_field!(unknown_11, 12);
+    bool_field!(unknown_12, 13);
+    bool_field!(unknown_13, 14);
+    bool_field!(unknown_14, 15);
+    bool_field!(unknown_15, 2);
 }
 
 define_sheet!(MateriaParamSheet, MateriaParamRow, "MateriaParam");

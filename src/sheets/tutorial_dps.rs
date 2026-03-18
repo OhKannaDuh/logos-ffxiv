@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(TutorialDPSRow);
 impl TutorialDPSRow {
-    u32_field!(image, 0);
-    u8_field!(objective, 1);
+    u32_field!(image, 1);
+    u8_field!(objective, 0);
 }
 
 define_sheet!(TutorialDPSSheet, TutorialDPSRow, "TutorialDPS");

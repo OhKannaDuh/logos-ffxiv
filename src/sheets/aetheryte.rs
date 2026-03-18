@@ -15,27 +15,27 @@ impl<'a> AetheryteLevel<'a> {
 define_row!(AetheryteRow);
 impl AetheryteRow {
     string_field!(singular, 0);
-    string_field!(plural, 1);
-    i8_field!(adjective, 2);
+    string_field!(plural, 2);
+    i8_field!(adjective, 1);
     i8_field!(possessive_pronoun, 3);
     i8_field!(starts_with_vowel, 4);
     i8_field!(unknown_0, 5);
     i8_field!(pronoun, 6);
     i8_field!(article, 7);
-    string_field!(unknown_1, 8);
+    string_field!(unknown_1, 17);
     array_field!(level, 9, 4, AetheryteLevel);
-    u32_field!(required_quest, 13);
-    u16_field!(place_name, 14);
-    u16_field!(aethernet_name, 15);
-    u16_field!(territory, 16);
-    u16_field!(map, 17);
-    i16_field!(aetherstream_x, 18);
-    i16_field!(aetherstream_y, 19);
-    u8_field!(unknown_2, 20);
-    u8_field!(aethernet_group, 21);
-    u8_field!(order, 22);
-    bool_field!(is_aetheryte, 23);
-    bool_field!(invisible, 24);
+    u32_field!(required_quest, 20);
+    u16_field!(place_name, 8);
+    u16_field!(aethernet_name, 9);
+    u16_field!(territory, 10);
+    u16_field!(map, 21);
+    i16_field!(aetherstream_x, 22);
+    i16_field!(aetherstream_y, 23);
+    u8_field!(unknown_2, 16);
+    u8_field!(aethernet_group, 18);
+    u8_field!(order, 24);
+    bool_field!(is_aetheryte, 15);
+    bool_field!(invisible, 19);
 }
 
 define_sheet!(AetheryteSheet, AetheryteRow, "Aetheryte");

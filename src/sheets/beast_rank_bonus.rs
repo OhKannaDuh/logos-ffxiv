@@ -8,21 +8,21 @@ use crate::macros::*;
 
 define_subrow!(BeastRankBonusItemQuantity, 1);
 impl<'a> BeastRankBonusItemQuantity<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 8);
 }
 
 
 define_row!(BeastRankBonusRow);
 impl BeastRankBonusRow {
-    u32_field!(item, 0);
-    u16_field!(neutral, 1);
-    u16_field!(recognized, 2);
-    u16_field!(friendly, 3);
-    u16_field!(trusted, 4);
-    u16_field!(respected, 5);
-    u16_field!(honored, 6);
-    u16_field!(sworn, 7);
-    u16_field!(allied_bloodsworn, 8);
+    u32_field!(item, 8);
+    u16_field!(neutral, 0);
+    u16_field!(recognized, 1);
+    u16_field!(friendly, 2);
+    u16_field!(trusted, 3);
+    u16_field!(respected, 4);
+    u16_field!(honored, 5);
+    u16_field!(sworn, 6);
+    u16_field!(allied_bloodsworn, 7);
     array_field!(item_quantity, 9, 8, BeastRankBonusItemQuantity);
 }
 

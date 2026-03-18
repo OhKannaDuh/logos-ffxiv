@@ -22,9 +22,9 @@ impl HowToRow {
     string_field!(name, 0);
     array_field!(how_to_page_pc, 1, 5, HowToHowToPagePC);
     array_field!(how_to_page_controller, 6, 5, HowToHowToPageController);
-    u8_field!(sort, 11);
+    u8_field!(sort, 13);
     i8_field!(category, 12);
-    bool_field!(announce, 13);
+    bool_field!(announce, 1);
 }
 
 define_sheet!(HowToSheet, HowToRow, "HowTo");

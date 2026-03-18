@@ -8,83 +8,83 @@ use crate::macros::*;
 
 define_subrow!(InstanceContentBossExp, 1);
 impl<'a> InstanceContentBossExp<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 17);
 }
 
 define_subrow!(InstanceContentBossCurrencyA, 1);
 impl<'a> InstanceContentBossCurrencyA<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 17);
 }
 
 define_subrow!(InstanceContentBossCurrencyB, 1);
 impl<'a> InstanceContentBossCurrencyB<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 17);
 }
 
 define_subrow!(InstanceContentBossCurrencyC, 1);
 impl<'a> InstanceContentBossCurrencyC<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 17);
 }
 
 
 define_row!(InstanceContentRow);
 impl InstanceContentRow {
-    u32_field!(new_player_bonus_gil, 0);
-    u32_field!(new_player_bonus_exp, 1);
-    u32_field!(final_boss_exp, 2);
-    u32_field!(unknown_0, 3);
+    u32_field!(new_player_bonus_gil, 17);
+    u32_field!(new_player_bonus_exp, 18);
+    u32_field!(final_boss_exp, 21);
+    u32_field!(unknown_0, 23);
     array_field!(boss_exp, 4, 5, InstanceContentBossExp);
-    u32_field!(instance_clear_exp, 9);
-    u32_field!(instance_clear_gil, 10);
-    u32_field!(instance_content_reward_item, 11);
-    u16_field!(new_player_bonus_a, 12);
-    u16_field!(new_player_bonus_b, 13);
-    u16_field!(final_boss_currency_a, 14);
-    u16_field!(final_boss_currency_b, 15);
-    u16_field!(final_boss_currency_c, 16);
+    u32_field!(instance_clear_exp, 47);
+    u32_field!(instance_clear_gil, 48);
+    u32_field!(instance_content_reward_item, 49);
+    u16_field!(new_player_bonus_a, 19);
+    u16_field!(new_player_bonus_b, 20);
+    u16_field!(final_boss_currency_a, 24);
+    u16_field!(final_boss_currency_b, 25);
+    u16_field!(final_boss_currency_c, 26);
     array_field!(boss_currency_a, 17, 5, InstanceContentBossCurrencyA);
     array_field!(boss_currency_b, 22, 5, InstanceContentBossCurrencyB);
     array_field!(boss_currency_c, 27, 5, InstanceContentBossCurrencyC);
-    u16_field!(unknown_1, 32);
-    u8_field!(unknown_8, 33);
-    bool_field!(limited_time_bonus, 34);
-    u32_field!(cutscene, 35);
-    u32_field!(lgb_event_range, 36);
-    u32_field!(instance_content_text_data_boss_start, 37);
-    u32_field!(instance_content_text_data_boss_end, 38);
-    u32_field!(b_npc_base_boss, 39);
-    u32_field!(instance_content_text_data_objective_start, 40);
-    u32_field!(instance_content_text_data_objective_end, 41);
-    u32_field!(unknown_2, 42);
-    u32_field!(req_instance, 43);
-    i32_field!(instance_content_buff, 44);
-    u16_field!(time_limitmin, 45);
-    u16_field!(bgm, 46);
-    u16_field!(win_bgm, 47);
-    u16_field!(content_finder_condition, 48);
-    u16_field!(sort_key, 49);
-    u16_field!(content_route, 50);
-    u16_field!(content_director_managed_sg, 51);
-    u16_field!(content_todo, 52);
-    u16_field!(unknown_6, 53);
-    u16_field!(unknown_7, 54);
-    u16_field!(content_event_item, 55);
-    u16_field!(content_director_battle_talk, 56);
-    i16_field!(party_condition, 57);
-    u8_field!(instance_content_type, 58);
-    u8_field!(week_restriction, 59);
-    u8_field!(colosseum, 60);
-    u8_field!(unknown_9, 61);
-    u8_field!(qte_1, 62);
-    u8_field!(qte_2, 63);
-    u8_field!(unknown_12, 64);
-    u8_field!(content_attribute_rect, 65);
+    u16_field!(unknown_1, 50);
+    u8_field!(unknown_8, 22);
+    bool_field!(limited_time_bonus, 51);
+    u32_field!(cutscene, 6);
+    u32_field!(lgb_event_range, 7);
+    u32_field!(instance_content_text_data_boss_start, 11);
+    u32_field!(instance_content_text_data_boss_end, 12);
+    u32_field!(b_npc_base_boss, 13);
+    u32_field!(instance_content_text_data_objective_start, 14);
+    u32_field!(instance_content_text_data_objective_end, 15);
+    u32_field!(unknown_2, 52);
+    u32_field!(req_instance, 55);
+    i32_field!(instance_content_buff, 53);
+    u16_field!(time_limitmin, 2);
+    u16_field!(bgm, 4);
+    u16_field!(win_bgm, 5);
+    u16_field!(content_finder_condition, 8);
+    u16_field!(sort_key, 16);
+    u16_field!(content_route, 63);
+    u16_field!(content_director_managed_sg, 64);
+    u16_field!(content_todo, 65);
+    u16_field!(unknown_6, 67);
+    u16_field!(unknown_7, 68);
+    u16_field!(content_event_item, 70);
+    u16_field!(content_director_battle_talk, 71);
+    i16_field!(party_condition, 56);
+    u8_field!(instance_content_type, 0);
+    u8_field!(week_restriction, 1);
+    u8_field!(colosseum, 9);
+    u8_field!(unknown_9, 57);
+    u8_field!(qte_1, 58);
+    u8_field!(qte_2, 59);
+    u8_field!(unknown_12, 60);
+    u8_field!(content_attribute_rect, 61);
     u8_field!(unknown_13, 66);
-    bool_field!(unknown_14, 67);
-    bool_field!(unknown_15, 68);
-    bool_field!(unknown_16, 69);
-    bool_field!(unknown_17, 70);
-    bool_field!(unknown_18, 71);
+    bool_field!(unknown_14, 3);
+    bool_field!(unknown_15, 10);
+    bool_field!(unknown_16, 54);
+    bool_field!(unknown_17, 62);
+    bool_field!(unknown_18, 69);
     bool_field!(allow_phoenix_down, 72);
 }
 

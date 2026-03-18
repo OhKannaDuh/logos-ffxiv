@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(DeepDungeonLayerRow);
 impl DeepDungeonLayerRow {
-    u16_field!(room_a, 0);
-    u16_field!(room_b, 1);
-    u16_field!(room_c, 2);
-    u8_field!(deep_dungeon, 3);
-    u8_field!(floor_set, 4);
+    u16_field!(room_a, 2);
+    u16_field!(room_b, 3);
+    u16_field!(room_c, 4);
+    u8_field!(deep_dungeon, 0);
+    u8_field!(floor_set, 1);
     u8_field!(wep_min_lv, 5);
     u8_field!(armour_min_lv, 6);
     bool_field!(unknown_0, 7);

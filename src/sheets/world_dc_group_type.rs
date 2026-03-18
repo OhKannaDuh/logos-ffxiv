@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(WorldDCGroupTypeRow);
 impl WorldDCGroupTypeRow {
     string_field!(name, 0);
-    u16_field!(pv_p_region, 1);
-    u8_field!(neolobby_id, 2);
+    u16_field!(pv_p_region, 2);
+    u8_field!(neolobby_id, 1);
     u8_field!(region, 3);
     bool_field!(is_cloud, 4);
 }

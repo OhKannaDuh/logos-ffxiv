@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(MovieStaffListRow);
 impl MovieStaffListRow {
-    f32_field!(start_time, 0);
-    f32_field!(end_time, 1);
-    u32_field!(image, 2);
+    f32_field!(start_time, 1);
+    f32_field!(end_time, 2);
+    u32_field!(image, 0);
     i8_field!(unknown_0, 3);
 }
 

@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(SpearfishingRecordPageRow);
 impl SpearfishingRecordPageRow {
-    i32_field!(place_name, 0);
-    i32_field!(image, 1);
-    u16_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
-    u8_field!(unknown_2, 4);
-    u8_field!(unknown_3, 5);
+    i32_field!(place_name, 3);
+    i32_field!(image, 4);
+    u16_field!(unknown_0, 5);
+    u8_field!(unknown_1, 0);
+    u8_field!(unknown_2, 1);
+    u8_field!(unknown_3, 2);
     u8_field!(unknown_4, 6);
 }
 

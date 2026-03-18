@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(QuestClassJobSupplyRow);
 impl QuestClassJobSupplyRow {
-    u8_field!(unknown_70_1, 0);
-    u32_field!(e_npc_resident, 1);
-    u32_field!(item, 2);
-    u32_field!(unknown_70_2, 3);
-    u32_field!(unknown_70_3, 4);
-    u32_field!(unknown_1, 5);
-    u16_field!(unknown_2, 6);
-    u8_field!(class_job_category, 7);
-    u8_field!(unknown_0, 8);
-    u8_field!(amount_required, 9);
+    u8_field!(unknown_70_1, 11);
+    u32_field!(e_npc_resident, 2);
+    u32_field!(item, 3);
+    u32_field!(unknown_70_2, 6);
+    u32_field!(unknown_70_3, 7);
+    u32_field!(unknown_1, 8);
+    u16_field!(unknown_2, 9);
+    u8_field!(class_job_category, 0);
+    u8_field!(unknown_0, 1);
+    u8_field!(amount_required, 4);
     u8_field!(unknown_3, 10);
-    bool_field!(item_hq, 11);
+    bool_field!(item_hq, 5);
 }
 
 define_sheet!(QuestClassJobSupplySheet, QuestClassJobSupplyRow, "QuestClassJobSupply");

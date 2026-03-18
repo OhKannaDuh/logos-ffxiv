@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(EurekaRow);
 impl EurekaRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
+    u16_field!(unknown_0, 2);
+    u16_field!(unknown_1, 3);
+    u8_field!(unknown_2, 0);
+    u8_field!(unknown_3, 1);
     bool_field!(unknown_4, 4);
 }
 

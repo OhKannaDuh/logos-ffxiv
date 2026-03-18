@@ -9,20 +9,20 @@ use crate::macros::*;
 
 define_row!(BNpcStateRow);
 impl BNpcStateRow {
-    f32_field!(scale, 0);
-    i32_field!(loop_timeline, 1);
-    u16_field!(idle, 2);
-    u8_field!(slot, 3);
-    u8_field!(unknown_0, 4);
+    f32_field!(scale, 11);
+    i32_field!(loop_timeline, 13);
+    u16_field!(idle, 4);
+    u8_field!(slot, 0);
+    u8_field!(unknown_0, 3);
     u8_field!(attribute_0, 5);
-    u8_field!(attribute_1, 6);
-    u8_field!(attribute_2, 7);
-    u8_field!(unknown_1, 8);
-    i8_field!(over_ray, 9);
-    i8_field!(unknown_2, 10);
-    bool_field!(attribute_flag_0, 11);
-    bool_field!(attribute_flag_1, 12);
-    bool_field!(attribute_flag_2, 13);
+    u8_field!(attribute_1, 7);
+    u8_field!(attribute_2, 9);
+    u8_field!(unknown_1, 12);
+    i8_field!(over_ray, 1);
+    i8_field!(unknown_2, 2);
+    bool_field!(attribute_flag_0, 6);
+    bool_field!(attribute_flag_1, 8);
+    bool_field!(attribute_flag_2, 10);
     bool_field!(unknown_3, 14);
 }
 

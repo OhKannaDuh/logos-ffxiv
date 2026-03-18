@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(SkyIsland2MissionDetailRow);
 impl SkyIsland2MissionDetailRow {
-    string_field!(objective, 0);
-    string_field!(unknown_0, 1);
-    string_field!(unknown_1, 2);
-    string_field!(unknown_2, 3);
+    string_field!(objective, 7);
+    string_field!(unknown_0, 8);
+    string_field!(unknown_1, 9);
+    string_field!(unknown_2, 10);
     u32_field!(e_obj, 4);
     u32_field!(unknown_3, 5);
     u32_field!(unknown_4, 6);
-    u8_field!(type_, 7);
-    u8_field!(unknown_5, 8);
-    u8_field!(range, 9);
-    i8_field!(unknown_6, 10);
+    u8_field!(type_, 0);
+    u8_field!(unknown_5, 1);
+    u8_field!(range, 2);
+    i8_field!(unknown_6, 3);
 }
 
 define_sheet!(SkyIsland2MissionDetailSheet, SkyIsland2MissionDetailRow, "SkyIsland2MissionDetail");

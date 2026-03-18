@@ -10,14 +10,14 @@ use crate::macros::*;
 define_row!(ClassJobActionUIRow);
 impl ClassJobActionUIRow {
     u32_field!(upgrade_action, 0);
-    u32_field!(base_action, 1);
+    u32_field!(base_action, 3);
     // Used to position the action within a combo tree diagram. Non-zero digits identify branches within the combo (eg, Hakaze -&gt; Shifu -&gt; Kasha is 100 -&gt; 120 -&gt; 121)
-    u16_field!(combo_tree_layout, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
+    u16_field!(combo_tree_layout, 4);
+    u8_field!(unknown_3, 1);
+    u8_field!(unknown_4, 2);
+    u8_field!(unknown_5, 6);
     // Currently only used for MNK actions; displays a set of actions in a shared rectangular cell instead of a tree.
-    bool_field!(grouped_cell, 6);
+    bool_field!(grouped_cell, 5);
 }
 
 define_sheet!(ClassJobActionUISheet, ClassJobActionUIRow, "ClassJobActionUI");

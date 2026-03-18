@@ -9,15 +9,15 @@ use crate::macros::*;
 
 define_row!(CSBonusContentRow);
 impl CSBonusContentRow {
-    i32_field!(score_1, 0);
-    i32_field!(score_2, 1);
-    i32_field!(score_3, 2);
-    i32_field!(score_4, 3);
-    i32_field!(score_5, 4);
-    u16_field!(content_0, 5);
-    u16_field!(content_1, 6);
-    u16_field!(score_0, 7);
-    u8_field!(content_type, 8);
+    i32_field!(score_1, 4);
+    i32_field!(score_2, 5);
+    i32_field!(score_3, 6);
+    i32_field!(score_4, 7);
+    i32_field!(score_5, 8);
+    u16_field!(content_0, 1);
+    u16_field!(content_1, 2);
+    u16_field!(score_0, 3);
+    u8_field!(content_type, 0);
     u8_field!(reward_count_0, 9);
     u8_field!(reward_count_1, 10);
     u8_field!(reward_count_2, 11);

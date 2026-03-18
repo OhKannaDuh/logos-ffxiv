@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ContentsNoteCategoryRow);
 impl ContentsNoteCategoryRow {
-    string_field!(name, 0);
-    i8_field!(sort_key, 1);
+    string_field!(name, 1);
+    i8_field!(sort_key, 0);
 }
 
 define_sheet!(ContentsNoteCategorySheet, ContentsNoteCategoryRow, "ContentsNoteCategory");

@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(SnipePerformanceCameraRow);
 impl SnipePerformanceCameraRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    i16_field!(unknown_3, 3);
-    i16_field!(unknown_4, 4);
-    i16_field!(unknown_5, 5);
-    i16_field!(unknown_6, 6);
-    i16_field!(unknown_7, 7);
-    i16_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
+    u16_field!(unknown_0, 5);
+    u16_field!(unknown_1, 8);
+    u16_field!(unknown_2, 9);
+    i16_field!(unknown_3, 1);
+    i16_field!(unknown_4, 2);
+    i16_field!(unknown_5, 3);
+    i16_field!(unknown_6, 4);
+    i16_field!(unknown_7, 6);
+    i16_field!(unknown_8, 7);
+    u8_field!(unknown_9, 0);
 }
 
 define_sheet!(SnipePerformanceCameraSheet, SnipePerformanceCameraRow, "SnipePerformanceCamera");

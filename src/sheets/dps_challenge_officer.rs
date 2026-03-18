@@ -8,14 +8,14 @@ use crate::macros::*;
 
 define_subrow!(DpsChallengeOfficerChallengeName, 1);
 impl<'a> DpsChallengeOfficerChallengeName<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 1);
 }
 
 
 define_row!(DpsChallengeOfficerRow);
 impl DpsChallengeOfficerRow {
     array_field!(challenge_name, 0, 25, DpsChallengeOfficerChallengeName);
-    u32_field!(unlock_quest, 25);
+    u32_field!(unlock_quest, 0);
 }
 
 define_sheet!(DpsChallengeOfficerSheet, DpsChallengeOfficerRow, "DpsChallengeOfficer");

@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(FishingNoteInfoRow);
 impl FishingNoteInfoRow {
-    i32_field!(item, 0);
-    u8_field!(size, 1);
-    u8_field!(aquarium_water, 2);
-    u8_field!(weather_restriction, 3);
-    u8_field!(time_restriction, 4);
-    u8_field!(special_conditions, 5);
-    u8_field!(is_collectable, 6);
+    i32_field!(item, 6);
+    u8_field!(size, 0);
+    u8_field!(aquarium_water, 1);
+    u8_field!(weather_restriction, 2);
+    u8_field!(time_restriction, 3);
+    u8_field!(special_conditions, 4);
+    u8_field!(is_collectable, 5);
 }
 
 define_sheet!(FishingNoteInfoSheet, FishingNoteInfoRow, "FishingNoteInfo");

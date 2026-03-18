@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(MJIMinionPopAreasRow);
 impl MJIMinionPopAreasRow {
-    i32_field!(text, 0);
+    i32_field!(text, 3);
     i16_field!(x, 1);
     i16_field!(y, 2);
-    u8_field!(required_function, 3);
+    u8_field!(required_function, 0);
     bool_field!(unknown_4, 4);
 }
 

@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(MJIGatheringObjectRow);
 impl MJIGatheringObjectRow {
-    u32_field!(map_icon, 0);
-    u32_field!(unknown_0, 1);
-    u32_field!(name, 2);
-    u16_field!(sgb, 3);
+    u32_field!(map_icon, 1);
+    u32_field!(unknown_0, 2);
+    u32_field!(name, 3);
+    u16_field!(sgb, 0);
     u16_field!(unknown_1, 4);
 }
 

@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(LFGExtensionContentRow);
 impl LFGExtensionContentRow {
-    u32_field!(unknown_0, 0);
-    u8_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
+    u32_field!(unknown_0, 2);
+    u8_field!(unknown_1, 0);
+    u8_field!(unknown_2, 1);
     u8_field!(unknown_3, 3);
 }
 

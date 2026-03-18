@@ -17,12 +17,12 @@ impl CompanionTransientRow {
     u8_field!(attack, 5);
     u8_field!(defense, 6);
     u8_field!(speed, 7);
-    u8_field!(minion_skill_type, 8);
-    bool_field!(has_area_attack, 9);
-    bool_field!(strength_gate, 10);
-    bool_field!(strength_eye, 11);
-    bool_field!(strength_shield, 12);
-    bool_field!(strength_arcana, 13);
+    u8_field!(minion_skill_type, 13);
+    bool_field!(has_area_attack, 8);
+    bool_field!(strength_gate, 9);
+    bool_field!(strength_eye, 10);
+    bool_field!(strength_shield, 11);
+    bool_field!(strength_arcana, 12);
 }
 
 define_sheet!(CompanionTransientSheet, CompanionTransientRow, "CompanionTransient");

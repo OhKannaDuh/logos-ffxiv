@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(BalloonRow);
 impl BalloonRow {
-    string_field!(dialogue, 0);
-    bool_field!(slowly, 1);
+    string_field!(dialogue, 1);
+    bool_field!(slowly, 0);
 }
 
 define_sheet!(BalloonSheet, BalloonRow, "Balloon");

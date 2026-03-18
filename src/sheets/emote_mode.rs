@@ -11,11 +11,11 @@ define_row!(EmoteModeRow);
 impl EmoteModeRow {
     u16_field!(start_emote, 0);
     u16_field!(end_emote, 1);
-    u8_field!(condition_mode, 2);
-    bool_field!(move_, 3);
-    bool_field!(camera, 4);
-    bool_field!(end_on_rotate, 5);
-    bool_field!(end_on_emote, 6);
+    u8_field!(condition_mode, 6);
+    bool_field!(move_, 2);
+    bool_field!(camera, 3);
+    bool_field!(end_on_rotate, 4);
+    bool_field!(end_on_emote, 5);
     bool_field!(unknown_0, 7);
 }
 

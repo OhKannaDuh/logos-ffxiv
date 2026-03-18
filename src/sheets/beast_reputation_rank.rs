@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(BeastReputationRankRow);
 impl BeastReputationRankRow {
-    string_field!(name, 0);
-    string_field!(allied_names, 1);
-    u32_field!(color, 2);
-    u16_field!(required_reputation, 3);
+    string_field!(name, 1);
+    string_field!(allied_names, 2);
+    u32_field!(color, 3);
+    u16_field!(required_reputation, 0);
 }
 
 define_sheet!(BeastReputationRankSheet, BeastReputationRankRow, "BeastReputationRank");

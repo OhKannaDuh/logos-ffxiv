@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(SecretRecipeBookRow);
 impl SecretRecipeBookRow {
-    string_field!(name, 0);
-    i32_field!(item, 1);
+    string_field!(name, 1);
+    i32_field!(item, 0);
 }
 
 define_sheet!(SecretRecipeBookSheet, SecretRecipeBookRow, "SecretRecipeBook");

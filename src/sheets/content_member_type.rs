@@ -9,30 +9,30 @@ use crate::macros::*;
 
 define_row!(ContentMemberTypeRow);
 impl ContentMemberTypeRow {
-    u8_field!(unknown_0, 0);
-    u8_field!(unknown_1, 1);
+    u8_field!(unknown_0, 1);
+    u8_field!(unknown_1, 4);
     // Used as parameter for Addon#16461.
-    u8_field!(alliance_registration_min_players, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(members_per_party, 4);
-    u8_field!(party_count, 5);
+    u8_field!(alliance_registration_min_players, 5);
+    u8_field!(unknown_3, 6);
+    u8_field!(members_per_party, 7);
+    u8_field!(party_count, 8);
     // For example, used for The Occult Crescent: South Horn, to allow queuing with alliance parties. If 0, use PartyCount.
-    u8_field!(alliance_party_count, 6);
+    u8_field!(alliance_party_count, 9);
     // Unknown party count. If 0, use PartyCount.
-    u8_field!(unknown_6, 7);
-    u8_field!(tanks_per_party, 8);
-    u8_field!(healers_per_party, 9);
-    u8_field!(melees_per_party, 10);
-    u8_field!(ranged_per_party, 11);
-    u8_field!(unknown_16, 12);
-    bool_field!(unknown_7, 13);
+    u8_field!(unknown_6, 10);
+    u8_field!(tanks_per_party, 11);
+    u8_field!(healers_per_party, 12);
+    u8_field!(melees_per_party, 13);
+    u8_field!(ranged_per_party, 14);
+    u8_field!(unknown_16, 17);
+    bool_field!(unknown_7, 0);
     // Displays Addon#10826.
-    bool_field!(allow_alliance_registration, 14);
-    bool_field!(unknown_10, 15);
+    bool_field!(allow_alliance_registration, 2);
+    bool_field!(unknown_10, 3);
     // If true, displays MeleesPerParty and RangedPerParty separately (Addon#102593) instead of combining them (Addon#2513).
-    bool_field!(separated_dps_roles, 16);
+    bool_field!(separated_dps_roles, 15);
     // If true, displays Addon#102599 instead of Addon#2513 or Addon#102593.
-    bool_field!(role_independent, 17);
+    bool_field!(role_independent, 16);
     bool_field!(unknown_12, 18);
     // Displays Addon#102617.
     bool_field!(only_pv_p_team_members, 19);

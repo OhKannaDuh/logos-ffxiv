@@ -8,40 +8,40 @@ use crate::macros::*;
 
 define_subrow!(BaseParamMeldParam, 1);
 impl<'a> BaseParamMeldParam<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 1);
 }
 
 
 define_row!(BaseParamRow);
 impl BaseParamRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u16_field!(one_hand_weapon_percent, 2);
-    u16_field!(off_hand_percent, 3);
-    u16_field!(head_percent, 4);
-    u16_field!(chest_percent, 5);
-    u16_field!(hands_percent, 6);
-    u16_field!(waist_percent, 7);
-    u16_field!(legs_percent, 8);
-    u16_field!(feet_percent, 9);
-    u16_field!(earring_percent, 10);
-    u16_field!(necklace_percent, 11);
-    u16_field!(bracelet_percent, 12);
-    u16_field!(ring_percent, 13);
-    u16_field!(two_hand_weapon_percent, 14);
-    u16_field!(under_armor_percent, 15);
-    u16_field!(chest_head_percent, 16);
-    u16_field!(chest_head_legs_feet_percent, 17);
-    u16_field!(unknown_0, 18);
-    u16_field!(legs_feet_percent, 19);
-    u16_field!(head_chest_hands_legs_feet_percent, 20);
-    u16_field!(chest_legs_gloves_percent, 21);
-    u16_field!(chest_legs_feet_percent, 22);
-    u16_field!(unknown_1, 23);
-    u16_field!(unknown_3, 24);
-    u8_field!(order_priority, 25);
+    string_field!(name, 1);
+    string_field!(description, 2);
+    u16_field!(one_hand_weapon_percent, 4);
+    u16_field!(off_hand_percent, 5);
+    u16_field!(head_percent, 6);
+    u16_field!(chest_percent, 7);
+    u16_field!(hands_percent, 8);
+    u16_field!(waist_percent, 9);
+    u16_field!(legs_percent, 10);
+    u16_field!(feet_percent, 11);
+    u16_field!(earring_percent, 12);
+    u16_field!(necklace_percent, 13);
+    u16_field!(bracelet_percent, 14);
+    u16_field!(ring_percent, 15);
+    u16_field!(two_hand_weapon_percent, 16);
+    u16_field!(under_armor_percent, 17);
+    u16_field!(chest_head_percent, 18);
+    u16_field!(chest_head_legs_feet_percent, 19);
+    u16_field!(unknown_0, 20);
+    u16_field!(legs_feet_percent, 21);
+    u16_field!(head_chest_hands_legs_feet_percent, 22);
+    u16_field!(chest_legs_gloves_percent, 23);
+    u16_field!(chest_legs_feet_percent, 24);
+    u16_field!(unknown_1, 25);
+    u16_field!(unknown_3, 26);
+    u8_field!(order_priority, 3);
     array_field!(meld_param, 26, 13, BaseParamMeldParam);
-    i8_field!(packet_index, 39);
+    i8_field!(packet_index, 0);
     bool_field!(unknown_2, 40);
 }
 

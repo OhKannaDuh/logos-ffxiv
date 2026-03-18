@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(WKSMissionLotterySpecialCondRow);
 impl WKSMissionLotterySpecialCondRow {
-    u16_field!(weather_required, 0);
-    u8_field!(start_time_hour, 1);
-    u8_field!(end_time_hour, 2);
+    u16_field!(weather_required, 2);
+    u8_field!(start_time_hour, 0);
+    u8_field!(end_time_hour, 1);
 }
 
 define_sheet!(WKSMissionLotterySpecialCondSheet, WKSMissionLotterySpecialCondRow, "WKSMissionLotterySpecialCond");

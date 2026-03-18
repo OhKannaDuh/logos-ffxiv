@@ -9,24 +9,24 @@ use crate::macros::*;
 
 define_row!(SkyIslandSubjectRow);
 impl SkyIslandSubjectRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    u32_field!(unknown_4, 4);
-    u32_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
+    u32_field!(unknown_0, 2);
+    u32_field!(unknown_1, 5);
+    u32_field!(unknown_2, 8);
+    u32_field!(unknown_3, 11);
+    u32_field!(unknown_4, 14);
+    u32_field!(unknown_5, 17);
+    u8_field!(unknown_6, 0);
+    u8_field!(unknown_7, 3);
+    u8_field!(unknown_8, 6);
     u8_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
-    u8_field!(unknown_11, 11);
-    u8_field!(unknown_12, 12);
-    u8_field!(unknown_13, 13);
-    u8_field!(unknown_14, 14);
-    u8_field!(unknown_15, 15);
-    u8_field!(unknown_16, 16);
-    u8_field!(unknown_17, 17);
+    u8_field!(unknown_10, 12);
+    u8_field!(unknown_11, 15);
+    u8_field!(unknown_12, 1);
+    u8_field!(unknown_13, 4);
+    u8_field!(unknown_14, 7);
+    u8_field!(unknown_15, 10);
+    u8_field!(unknown_16, 13);
+    u8_field!(unknown_17, 16);
 }
 
 define_sheet!(SkyIslandSubjectSheet, SkyIslandSubjectRow, "SkyIslandSubject");

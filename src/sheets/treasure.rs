@@ -10,17 +10,17 @@ use crate::macros::*;
 define_row!(TreasureRow);
 impl TreasureRow {
     string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    i8_field!(unknown_2, 2);
+    string_field!(unknown_1, 2);
+    i8_field!(unknown_2, 1);
     i8_field!(unknown_3, 3);
     i8_field!(unknown_4, 4);
     i8_field!(unknown_5, 5);
     i8_field!(unknown_6, 6);
     i8_field!(unknown_7, 7);
     u32_field!(sgb, 8);
-    u8_field!(unknown_70, 9);
-    bool_field!(unknown_8, 10);
-    bool_field!(unknown_9, 11);
+    u8_field!(unknown_70, 11);
+    bool_field!(unknown_8, 9);
+    bool_field!(unknown_9, 10);
 }
 
 define_sheet!(TreasureSheet, TreasureRow, "Treasure");

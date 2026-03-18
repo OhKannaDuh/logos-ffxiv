@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(GCScripShopItemRow);
 impl GCScripShopItemRow {
-    u32_field!(cost_gc_seals, 0);
-    i32_field!(item, 1);
-    i32_field!(required_grand_company_rank, 2);
+    u32_field!(cost_gc_seals, 2);
+    i32_field!(item, 0);
+    i32_field!(required_grand_company_rank, 1);
     u8_field!(sort_key, 3);
 }
 

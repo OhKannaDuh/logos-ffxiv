@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(QuestRedoChapterUITabRow);
 impl QuestRedoChapterUITabRow {
-    string_field!(text, 0);
+    string_field!(text, 3);
     u32_field!(icon_1, 1);
     u32_field!(icon_2, 2);
-    u8_field!(unknown_0, 3);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(QuestRedoChapterUITabSheet, QuestRedoChapterUITabRow, "QuestRedoChapterUITab");

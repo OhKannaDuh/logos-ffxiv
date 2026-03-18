@@ -15,24 +15,24 @@ impl<'a> EmoteActionTimeline<'a> {
 define_row!(EmoteRow);
 impl EmoteRow {
     string_field!(name, 0);
-    u32_field!(icon, 1);
-    u32_field!(unlock_link, 2);
-    i32_field!(text_command, 3);
+    u32_field!(icon, 20);
+    u32_field!(unlock_link, 23);
+    i32_field!(text_command, 19);
     array_field!(action_timeline, 4, 7, EmoteActionTimeline);
-    u16_field!(order, 11);
-    u16_field!(log_message_targeted, 12);
-    u16_field!(log_message_untargeted, 13);
-    u16_field!(patch, 14);
-    u8_field!(emote_category, 15);
-    u8_field!(emote_mode, 16);
-    bool_field!(unknown_1, 17);
-    bool_field!(unknown_2, 18);
-    bool_field!(unknown_3, 19);
-    bool_field!(unknown_4, 20);
-    bool_field!(unknown_5, 21);
-    bool_field!(has_cancel_emote, 22);
-    bool_field!(draws_weapon, 23);
-    bool_field!(unknown_6, 24);
+    u16_field!(order, 18);
+    u16_field!(log_message_targeted, 21);
+    u16_field!(log_message_untargeted, 22);
+    u16_field!(patch, 24);
+    u8_field!(emote_category, 11);
+    u8_field!(emote_mode, 12);
+    bool_field!(unknown_1, 8);
+    bool_field!(unknown_2, 9);
+    bool_field!(unknown_3, 10);
+    bool_field!(unknown_4, 13);
+    bool_field!(unknown_5, 14);
+    bool_field!(has_cancel_emote, 15);
+    bool_field!(draws_weapon, 16);
+    bool_field!(unknown_6, 17);
 }
 
 define_sheet!(EmoteSheet, EmoteRow, "Emote");

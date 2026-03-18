@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(SubmarineRankRow);
 impl SubmarineRankRow {
-    u32_field!(exp_to_next, 0);
-    u16_field!(capacity, 1);
+    u32_field!(exp_to_next, 1);
+    u16_field!(capacity, 0);
     u8_field!(surveillance_bonus, 2);
     u8_field!(retrieval_bonus, 3);
     u8_field!(speed_bonus, 4);

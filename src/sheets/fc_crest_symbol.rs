@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(FCCrestSymbolRow);
 impl FCCrestSymbolRow {
-    u16_field!(unknown_0, 0);
-    u8_field!(color_num, 1);
-    u8_field!(fc_right, 2);
+    u16_field!(unknown_0, 2);
+    u8_field!(color_num, 0);
+    u8_field!(fc_right, 1);
 }
 
 define_sheet!(FCCrestSymbolSheet, FCCrestSymbolRow, "FCCrestSymbol");

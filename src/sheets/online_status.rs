@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(OnlineStatusRow);
 impl OnlineStatusRow {
-    string_field!(name, 0);
-    u32_field!(icon, 1);
-    i32_field!(unknown_0, 2);
+    string_field!(name, 6);
+    u32_field!(icon, 4);
+    i32_field!(unknown_0, 5);
     u8_field!(priority, 3);
-    bool_field!(unknown_1, 4);
-    bool_field!(list, 5);
-    bool_field!(unknown_2, 6);
+    bool_field!(unknown_1, 0);
+    bool_field!(list, 1);
+    bool_field!(unknown_2, 2);
 }
 
 define_sheet!(OnlineStatusSheet, OnlineStatusRow, "OnlineStatus");

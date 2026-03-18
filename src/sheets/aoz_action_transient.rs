@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(AozActionTransientRow);
 impl AozActionTransientRow {
-    string_field!(stats, 0);
-    string_field!(description, 1);
-    u32_field!(icon, 2);
-    u32_field!(required_for_quest, 3);
-    u32_field!(previous_quest, 4);
+    string_field!(stats, 2);
+    string_field!(description, 3);
+    u32_field!(icon, 1);
+    u32_field!(required_for_quest, 6);
+    u32_field!(previous_quest, 7);
     u16_field!(location, 5);
-    u8_field!(number, 6);
-    u8_field!(location_key, 7);
+    u8_field!(number, 0);
+    u8_field!(location_key, 4);
     bool_field!(targets_enemy, 8);
     bool_field!(targets_self_or_ally, 9);
     bool_field!(cause_slow, 10);

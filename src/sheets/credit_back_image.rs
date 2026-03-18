@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(CreditBackImageRow);
 impl CreditBackImageRow {
-    u32_field!(back_image, 0);
-    u16_field!(unknown_0, 1);
-    u16_field!(unknown_1, 2);
-    u8_field!(unknown_2, 3);
-    bool_field!(unknown_3, 4);
-    bool_field!(unknown_4, 5);
-    bool_field!(unknown_5, 6);
+    u32_field!(back_image, 5);
+    u16_field!(unknown_0, 0);
+    u16_field!(unknown_1, 1);
+    u8_field!(unknown_2, 6);
+    bool_field!(unknown_3, 2);
+    bool_field!(unknown_4, 3);
+    bool_field!(unknown_5, 4);
 }
 
 define_sheet!(CreditBackImageSheet, CreditBackImageRow, "CreditBackImage");

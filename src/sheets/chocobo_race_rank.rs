@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(ChocoboRaceRankRow);
 impl ChocoboRaceRankRow {
-    i32_field!(icon, 0);
-    u16_field!(rating_min, 1);
-    u16_field!(rating_max, 2);
-    u16_field!(name, 3);
-    u16_field!(fee, 4);
+    i32_field!(icon, 4);
+    u16_field!(rating_min, 0);
+    u16_field!(rating_max, 1);
+    u16_field!(name, 2);
+    u16_field!(fee, 3);
 }
 
 define_sheet!(ChocoboRaceRankSheet, ChocoboRaceRankRow, "ChocoboRaceRank");

@@ -8,19 +8,19 @@ use crate::macros::*;
 
 define_subrow!(TofuPresetObjects, 1);
 impl<'a> TofuPresetObjects<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 3);
 }
 
 
 define_row!(TofuPresetRow);
 impl TofuPresetRow {
-    string_field!(name, 0);
+    string_field!(name, 3);
     i32_field!(category, 1);
     array_field!(objects, 2, 8, TofuPresetObjects);
-    i32_field!(unknown_10, 10);
-    i32_field!(unknown_11, 11);
-    u16_field!(unknown_12, 12);
-    bool_field!(unknown_13, 13);
+    i32_field!(unknown_10, 12);
+    i32_field!(unknown_11, 13);
+    u16_field!(unknown_12, 2);
+    bool_field!(unknown_13, 0);
 }
 
 define_sheet!(TofuPresetSheet, TofuPresetRow, "TofuPreset");

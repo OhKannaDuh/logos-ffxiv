@@ -9,24 +9,24 @@ use crate::macros::*;
 
 define_row!(DynamicEventRow);
 impl DynamicEventRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(lgb_event_object, 2);
-    u32_field!(lgb_map_range, 3);
-    u32_field!(quest, 4);
-    u32_field!(announce, 5);
-    u32_field!(unknown_0, 6);
-    u32_field!(unknown_1, 7);
-    i16_field!(unknown_6, 8);
-    i16_field!(unknown_7, 9);
-    i16_field!(unknown_2, 10);
-    u8_field!(event_type, 11);
-    u8_field!(enemy_type, 12);
-    u8_field!(max_participants, 13);
-    u8_field!(unknown_4, 14);
-    u8_field!(unknown_5, 15);
-    u8_field!(single_battle, 16);
-    bool_field!(unknown_8, 17);
+    string_field!(name, 11);
+    string_field!(description, 12);
+    u32_field!(lgb_event_object, 5);
+    u32_field!(lgb_map_range, 6);
+    u32_field!(quest, 7);
+    u32_field!(announce, 10);
+    u32_field!(unknown_0, 16);
+    u32_field!(unknown_1, 17);
+    i16_field!(unknown_6, 13);
+    i16_field!(unknown_7, 14);
+    i16_field!(unknown_2, 15);
+    u8_field!(event_type, 0);
+    u8_field!(enemy_type, 1);
+    u8_field!(max_participants, 2);
+    u8_field!(unknown_4, 3);
+    u8_field!(unknown_5, 8);
+    u8_field!(single_battle, 9);
+    bool_field!(unknown_8, 4);
 }
 
 define_sheet!(DynamicEventSheet, DynamicEventRow, "DynamicEvent");

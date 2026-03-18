@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(EventPathMoveRow);
 impl EventPathMoveRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    u32_field!(unknown_4, 4);
-    u32_field!(unknown_5, 5);
-    u32_field!(unknown_6, 6);
-    u32_field!(unknown_7, 7);
-    u16_field!(unknown_8, 8);
-    u16_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
-    bool_field!(unknown_11, 11);
+    string_field!(unknown_0, 10);
+    string_field!(unknown_1, 11);
+    u32_field!(unknown_2, 0);
+    u32_field!(unknown_3, 5);
+    u32_field!(unknown_4, 6);
+    u32_field!(unknown_5, 7);
+    u32_field!(unknown_6, 8);
+    u32_field!(unknown_7, 9);
+    u16_field!(unknown_8, 1);
+    u16_field!(unknown_9, 4);
+    u8_field!(unknown_10, 3);
+    bool_field!(unknown_11, 2);
 }
 
 define_sheet!(EventPathMoveSheet, EventPathMoveRow, "EventPathMove");

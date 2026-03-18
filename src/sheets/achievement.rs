@@ -8,29 +8,29 @@ use crate::macros::*;
 
 define_subrow!(AchievementData, 1);
 impl<'a> AchievementData<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 1);
 }
 
 
 define_row!(AchievementRow);
 impl AchievementRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(item, 2);
-    u32_field!(icon, 3);
-    i32_field!(key, 4);
+    string_field!(name, 1);
+    string_field!(description, 2);
+    u32_field!(item, 7);
+    u32_field!(icon, 11);
+    i32_field!(key, 14);
     array_field!(data, 5, 8, AchievementData);
-    u16_field!(title, 13);
-    u16_field!(order, 14);
-    u8_field!(achievement_category, 15);
-    u8_field!(achievement_target, 16);
-    u8_field!(unknown_0, 17);
-    u8_field!(points, 18);
-    u8_field!(unknown_1, 19);
-    u8_field!(unknown_2, 20);
-    u8_field!(unknown_3, 21);
-    u8_field!(unknown_4, 22);
-    u8_field!(type_, 23);
+    u16_field!(title, 6);
+    u16_field!(order, 23);
+    u8_field!(achievement_category, 0);
+    u8_field!(achievement_target, 3);
+    u8_field!(unknown_0, 4);
+    u8_field!(points, 5);
+    u8_field!(unknown_1, 8);
+    u8_field!(unknown_2, 9);
+    u8_field!(unknown_3, 10);
+    u8_field!(unknown_4, 12);
+    u8_field!(type_, 13);
     u8_field!(unknown_5, 24);
     u8_field!(achievement_hide_condition, 25);
 }

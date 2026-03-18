@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(GimmickJumpRow);
 impl GimmickJumpRow {
-    u32_field!(loop_motion, 0);
-    u32_field!(end_motion, 1);
-    u16_field!(fall_damage, 2);
-    u16_field!(height, 3);
-    u16_field!(unknown_1, 4);
-    u16_field!(unknown_2, 5);
-    bool_field!(start_client, 6);
-    bool_field!(unknown_0, 7);
+    u32_field!(loop_motion, 2);
+    u32_field!(end_motion, 3);
+    u16_field!(fall_damage, 0);
+    u16_field!(height, 1);
+    u16_field!(unknown_1, 6);
+    u16_field!(unknown_2, 7);
+    bool_field!(start_client, 4);
+    bool_field!(unknown_0, 5);
     bool_field!(unknown_3, 8);
 }
 

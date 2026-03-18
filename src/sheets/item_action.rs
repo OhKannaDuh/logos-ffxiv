@@ -8,24 +8,24 @@ use crate::macros::*;
 
 define_subrow!(ItemActionData, 1);
 impl<'a> ItemActionData<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 4);
 }
 
 define_subrow!(ItemActionDataHQ, 1);
 impl<'a> ItemActionDataHQ<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 4);
 }
 
 
 define_row!(ItemActionRow);
 impl ItemActionRow {
-    u16_field!(action, 0);
+    u16_field!(action, 4);
     array_field!(data, 1, 9, ItemActionData);
     array_field!(data_hq, 10, 9, ItemActionDataHQ);
-    u8_field!(cond_lv, 19);
-    bool_field!(cond_battle, 20);
-    bool_field!(cond_pvp, 21);
-    bool_field!(cond_pvp_only, 22);
+    u8_field!(cond_lv, 0);
+    bool_field!(cond_battle, 1);
+    bool_field!(cond_pvp, 2);
+    bool_field!(cond_pvp_only, 3);
 }
 
 define_sheet!(ItemActionSheet, ItemActionRow, "ItemAction");

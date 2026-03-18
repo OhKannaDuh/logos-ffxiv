@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(WebGuidanceRow);
 impl WebGuidanceRow {
-    string_field!(name, 0);
-    string_field!(unknown_0, 1);
-    string_field!(description, 2);
-    i32_field!(image, 3);
-    u8_field!(url, 4);
+    string_field!(name, 2);
+    string_field!(unknown_0, 3);
+    string_field!(description, 4);
+    i32_field!(image, 0);
+    u8_field!(url, 1);
 }
 
 define_sheet!(WebGuidanceSheet, WebGuidanceRow, "WebGuidance");

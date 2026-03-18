@@ -10,13 +10,13 @@ use crate::macros::*;
 define_row!(GcArmyCaptureRow);
 impl GcArmyCaptureRow {
     u32_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
-    u16_field!(unknown_4, 4);
-    u16_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
+    i32_field!(unknown_1, 5);
+    u16_field!(unknown_2, 3);
+    u16_field!(unknown_3, 4);
+    u16_field!(unknown_4, 6);
+    u16_field!(unknown_5, 7);
+    u8_field!(unknown_6, 1);
+    u8_field!(unknown_7, 2);
 }
 
 define_sheet!(GcArmyCaptureSheet, GcArmyCaptureRow, "GcArmyCapture");

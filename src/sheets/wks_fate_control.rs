@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(WKSFateControlRow);
 impl WKSFateControlRow {
-    string_field!(startup_text, 0);
-    string_field!(running_text, 1);
-    u16_field!(unknown_0, 2);
+    string_field!(startup_text, 1);
+    string_field!(running_text, 2);
+    u16_field!(unknown_0, 0);
 }
 
 define_sheet!(WKSFateControlSheet, WKSFateControlRow, "WKSFateControl");

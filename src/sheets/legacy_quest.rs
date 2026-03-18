@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(LegacyQuestRow);
 impl LegacyQuestRow {
-    string_field!(text, 0);
-    string_field!(string, 1);
-    u32_field!(genre, 2);
-    u16_field!(legacy_quest_id, 3);
-    u16_field!(sort_key, 4);
+    string_field!(text, 1);
+    string_field!(string, 2);
+    u32_field!(genre, 4);
+    u16_field!(legacy_quest_id, 0);
+    u16_field!(sort_key, 3);
 }
 
 define_sheet!(LegacyQuestSheet, LegacyQuestRow, "LegacyQuest");

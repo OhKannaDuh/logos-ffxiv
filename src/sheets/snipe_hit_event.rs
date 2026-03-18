@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(SnipeHitEventRow);
 impl SnipeHitEventRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
+    u16_field!(unknown_0, 1);
+    u16_field!(unknown_1, 2);
+    u16_field!(unknown_2, 3);
+    u8_field!(unknown_3, 0);
     u8_field!(unknown_4, 4);
 }
 

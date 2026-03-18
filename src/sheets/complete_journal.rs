@@ -8,19 +8,19 @@ use crate::macros::*;
 
 define_subrow!(CompleteJournalCutscene, 1);
 impl<'a> CompleteJournalCutscene<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 5);
 }
 
 
 define_row!(CompleteJournalRow);
 impl CompleteJournalRow {
-    string_field!(name, 0);
-    u32_field!(unknown_0, 1);
-    u32_field!(unknown_1, 2);
+    string_field!(name, 5);
+    u32_field!(unknown_0, 0);
+    u32_field!(unknown_1, 4);
     i32_field!(icon, 3);
     array_field!(cutscene, 4, 24, CompleteJournalCutscene);
-    u16_field!(required_level, 28);
-    u8_field!(unknown_2, 29);
+    u16_field!(required_level, 1);
+    u8_field!(unknown_2, 2);
 }
 
 define_sheet!(CompleteJournalSheet, CompleteJournalRow, "CompleteJournal");

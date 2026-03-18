@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(WeatherRow);
 impl WeatherRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    string_field!(unknown_0, 2);
-    string_field!(unknown_1, 3);
-    string_field!(unknown_2, 4);
-    string_field!(unknown_3, 5);
-    i32_field!(icon, 6);
+    string_field!(name, 1);
+    string_field!(description, 2);
+    string_field!(unknown_0, 3);
+    string_field!(unknown_1, 4);
+    string_field!(unknown_2, 5);
+    string_field!(unknown_3, 6);
+    i32_field!(icon, 0);
 }
 
 define_sheet!(WeatherSheet, WeatherRow, "Weather");

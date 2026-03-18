@@ -8,16 +8,16 @@ use crate::macros::*;
 
 define_subrow!(OrnamentCustomizeGroupCustomize, 1);
 impl<'a> OrnamentCustomizeGroupCustomize<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 1);
 }
 
 
 define_row!(OrnamentCustomizeGroupRow);
 impl OrnamentCustomizeGroupRow {
     array_field!(customize, 0, 19, OrnamentCustomizeGroupCustomize);
-    u16_field!(unknown_19, 19);
-    u16_field!(unknown_20, 20);
-    u8_field!(unknown_18, 21);
+    u16_field!(unknown_19, 20);
+    u16_field!(unknown_20, 21);
+    u8_field!(unknown_18, 0);
 }
 
 define_sheet!(OrnamentCustomizeGroupSheet, OrnamentCustomizeGroupRow, "OrnamentCustomizeGroup");

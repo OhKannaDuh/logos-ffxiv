@@ -8,22 +8,22 @@ use crate::macros::*;
 
 define_subrow!(GcArmyMemberGrowMemberParams, 4);
 impl<'a> GcArmyMemberGrowMemberParams<'a> {
-    u16_field!(equip_preset, 0);
-    u8_field!(physical, 1);
-    u8_field!(mental, 2);
-    u8_field!(tactical, 3);
+    u16_field!(equip_preset, 2);
+    u8_field!(physical, 63);
+    u8_field!(mental, 124);
+    u8_field!(tactical, 185);
 }
 
 
 define_row!(GcArmyMemberGrowRow);
 impl GcArmyMemberGrowRow {
     array_field!(member_params, 0, 60, GcArmyMemberGrowMemberParams);
-    u16_field!(unknown_0, 240);
-    u8_field!(unknown_1, 241);
-    u8_field!(unknown_2, 242);
-    u8_field!(unknown_3, 243);
-    i32_field!(class_book, 244);
-    u8_field!(class_job, 245);
+    u16_field!(unknown_0, 62);
+    u8_field!(unknown_1, 123);
+    u8_field!(unknown_2, 184);
+    u8_field!(unknown_3, 245);
+    i32_field!(class_book, 1);
+    u8_field!(class_job, 0);
 }
 
 define_sheet!(GcArmyMemberGrowSheet, GcArmyMemberGrowRow, "GcArmyMemberGrow");

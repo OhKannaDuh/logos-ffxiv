@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ContentRouletteOpenRuleRow);
 impl ContentRouletteOpenRuleRow {
-    u32_field!(type_, 0);
-    bool_field!(has_duty_requirements, 1);
+    u32_field!(type_, 1);
+    bool_field!(has_duty_requirements, 0);
 }
 
 define_sheet!(ContentRouletteOpenRuleSheet, ContentRouletteOpenRuleRow, "ContentRouletteOpenRule");

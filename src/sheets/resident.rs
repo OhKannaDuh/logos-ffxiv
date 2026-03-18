@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(ResidentRow);
 impl ResidentRow {
-    u64_field!(model, 0);
-    i32_field!(npc_yell, 1);
-    u16_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
+    u64_field!(model, 1);
+    i32_field!(npc_yell, 2);
+    u16_field!(unknown_0, 3);
+    u8_field!(unknown_1, 0);
     u8_field!(resident_motion_type, 4);
 }
 

@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(DeepDungeonFloorEffectUIRow);
 impl DeepDungeonFloorEffectUIRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(icon, 2);
+    string_field!(name, 1);
+    string_field!(description, 2);
+    u32_field!(icon, 0);
 }
 
 define_sheet!(DeepDungeonFloorEffectUISheet, DeepDungeonFloorEffectUIRow, "DeepDungeonFloorEffectUI");

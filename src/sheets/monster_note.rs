@@ -8,19 +8,19 @@ use crate::macros::*;
 
 define_subrow!(MonsterNoteMonsterNoteTarget, 1);
 impl<'a> MonsterNoteMonsterNoteTarget<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 9);
 }
 
 define_subrow!(MonsterNoteCount, 1);
 impl<'a> MonsterNoteCount<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 9);
 }
 
 
 define_row!(MonsterNoteRow);
 impl MonsterNoteRow {
-    string_field!(name, 0);
-    u32_field!(reward, 1);
+    string_field!(name, 9);
+    u32_field!(reward, 8);
     array_field!(monster_note_target, 2, 4, MonsterNoteMonsterNoteTarget);
     array_field!(count, 6, 4, MonsterNoteCount);
 }

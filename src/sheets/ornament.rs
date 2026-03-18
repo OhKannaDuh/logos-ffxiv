@@ -9,22 +9,22 @@ use crate::macros::*;
 
 define_row!(OrnamentRow);
 impl OrnamentRow {
-    string_field!(singular, 0);
-    string_field!(plural, 1);
-    i8_field!(adjective, 2);
-    i8_field!(possessive_pronoun, 3);
-    i8_field!(starts_with_vowel, 4);
-    i8_field!(unknown_0, 5);
-    i8_field!(pronoun, 6);
-    i8_field!(article, 7);
-    u16_field!(model, 8);
-    u16_field!(action, 9);
-    u16_field!(icon, 10);
-    u16_field!(transient, 11);
-    i16_field!(order, 12);
-    u8_field!(attachment_point, 13);
-    u8_field!(unknown_3, 14);
-    u8_field!(unknown_4, 15);
+    string_field!(singular, 8);
+    string_field!(plural, 10);
+    i8_field!(adjective, 9);
+    i8_field!(possessive_pronoun, 11);
+    i8_field!(starts_with_vowel, 12);
+    i8_field!(unknown_0, 13);
+    i8_field!(pronoun, 14);
+    i8_field!(article, 15);
+    u16_field!(model, 0);
+    u16_field!(action, 4);
+    u16_field!(icon, 6);
+    u16_field!(transient, 7);
+    i16_field!(order, 5);
+    u8_field!(attachment_point, 1);
+    u8_field!(unknown_3, 2);
+    u8_field!(unknown_4, 3);
 }
 
 define_sheet!(OrnamentSheet, OrnamentRow, "Ornament");

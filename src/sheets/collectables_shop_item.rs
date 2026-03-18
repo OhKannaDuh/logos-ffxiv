@@ -10,14 +10,14 @@ use crate::macros::*;
 define_row!(CollectablesShopItemRow);
 impl CollectablesShopItemRow {
     u32_field!(item, 0);
-    u32_field!(required_quest, 1);
+    u32_field!(required_quest, 3);
     u16_field!(level_min, 2);
-    u16_field!(level_max, 3);
-    u16_field!(collectables_shop_refine, 4);
-    u16_field!(collectables_shop_reward_scrip, 5);
-    u8_field!(collectables_shop_item_group, 6);
-    u8_field!(stars, 7);
-    u8_field!(key, 8);
+    u16_field!(level_max, 4);
+    u16_field!(collectables_shop_refine, 7);
+    u16_field!(collectables_shop_reward_scrip, 8);
+    u8_field!(collectables_shop_item_group, 1);
+    u8_field!(stars, 5);
+    u8_field!(key, 6);
 }
 
 define_sheet!(CollectablesShopItemSheet, CollectablesShopItemRow, "CollectablesShopItem");

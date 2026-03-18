@@ -9,15 +9,15 @@ use crate::macros::*;
 
 define_row!(QuestCustomTodoRow);
 impl QuestCustomTodoRow {
-    u16_field!(unknown_0, 0);
-    u16_field!(unknown_2, 1);
-    u16_field!(unknown_3, 2);
-    u16_field!(unknown_4, 3);
-    u16_field!(unknown_1, 4);
-    u16_field!(unknown_5, 5);
+    u16_field!(unknown_0, 1);
+    u16_field!(unknown_2, 3);
+    u16_field!(unknown_3, 5);
+    u16_field!(unknown_4, 7);
+    u16_field!(unknown_1, 2);
+    u16_field!(unknown_5, 4);
     u16_field!(unknown_6, 6);
-    u16_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
+    u16_field!(unknown_7, 8);
+    u8_field!(unknown_8, 0);
 }
 
 define_sheet!(QuestCustomTodoSheet, QuestCustomTodoRow, "QuestCustomTodo");

@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(CharaCardDesignPresetRow);
 impl CharaCardDesignPresetRow {
-    string_field!(name, 0);
-    u16_field!(base_plate, 1);
-    u16_field!(backing, 2);
-    u16_field!(pattern_overlay, 3);
-    u16_field!(portrait_frame, 4);
-    u16_field!(plate_frame, 5);
-    u16_field!(accent, 6);
-    u16_field!(sort_key, 7);
-    u8_field!(top_border, 8);
-    u8_field!(bottom_border, 9);
+    string_field!(name, 9);
+    u16_field!(base_plate, 0);
+    u16_field!(backing, 3);
+    u16_field!(pattern_overlay, 4);
+    u16_field!(portrait_frame, 5);
+    u16_field!(plate_frame, 6);
+    u16_field!(accent, 7);
+    u16_field!(sort_key, 8);
+    u8_field!(top_border, 1);
+    u8_field!(bottom_border, 2);
 }
 
 define_sheet!(CharaCardDesignPresetSheet, CharaCardDesignPresetRow, "CharaCardDesignPreset");

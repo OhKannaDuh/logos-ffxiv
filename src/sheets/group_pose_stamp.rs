@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(GroupPoseStampRow);
 impl GroupPoseStampRow {
-    string_field!(name, 0);
-    u32_field!(unknown_0, 1);
-    i32_field!(stamp_icon, 2);
-    i32_field!(unknown_1, 3);
-    i32_field!(category, 4);
-    i32_field!(unknown_2, 5);
-    u16_field!(unknown_3, 6);
-    u8_field!(unknown_4, 7);
-    bool_field!(unknown_5, 8);
-    bool_field!(unknown_6, 9);
-    bool_field!(unknown_7, 10);
+    string_field!(name, 10);
+    u32_field!(unknown_0, 5);
+    i32_field!(stamp_icon, 0);
+    i32_field!(unknown_1, 1);
+    i32_field!(category, 2);
+    i32_field!(unknown_2, 6);
+    u16_field!(unknown_3, 3);
+    u8_field!(unknown_4, 4);
+    bool_field!(unknown_5, 7);
+    bool_field!(unknown_6, 8);
+    bool_field!(unknown_7, 9);
 }
 
 define_sheet!(GroupPoseStampSheet, GroupPoseStampRow, "GroupPoseStamp");

@@ -8,13 +8,13 @@ use crate::macros::*;
 
 define_subrow!(ChocoboTaxiStandTargetLocations, 1);
 impl<'a> ChocoboTaxiStandTargetLocations<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 8);
 }
 
 
 define_row!(ChocoboTaxiStandRow);
 impl ChocoboTaxiStandRow {
-    string_field!(place_name, 0);
+    string_field!(place_name, 8);
     array_field!(target_locations, 1, 8, ChocoboTaxiStandTargetLocations);
 }
 

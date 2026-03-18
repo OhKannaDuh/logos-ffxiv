@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(HousingExteriorRow);
 impl HousingExteriorRow {
-    string_field!(model, 0);
-    u16_field!(place_name, 1);
-    u8_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
-    u8_field!(housing_size, 4);
+    string_field!(model, 4);
+    u16_field!(place_name, 2);
+    u8_field!(unknown_0, 0);
+    u8_field!(unknown_1, 1);
+    u8_field!(housing_size, 3);
 }
 
 define_sheet!(HousingExteriorSheet, HousingExteriorRow, "HousingExterior");

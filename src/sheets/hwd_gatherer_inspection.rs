@@ -9,11 +9,11 @@ use crate::macros::*;
 define_subrow!(HWDGathererInspectionHWDGathererInspectionData, 6);
 impl<'a> HWDGathererInspectionHWDGathererInspectionData<'a> {
     u32_field!(required_item, 0);
-    u32_field!(fish_parameter, 1);
-    u32_field!(item_received, 2);
+    u32_field!(fish_parameter, 79);
+    u32_field!(item_received, 237);
     array_field!(reward, 3, 2, HWDGathererInspectionHWDGathererInspectionData);
-    u8_field!(amount_required, 5);
-    u8_field!(phase, 6);
+    u8_field!(amount_required, 158);
+    u8_field!(phase, 474);
 }
 
 define_subrow!(HWDGathererInspectionHWDGathererInspectionDataReward, 1);

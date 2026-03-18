@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(MKDRelicGrowth2ContentListRow);
 impl MKDRelicGrowth2ContentListRow {
-    string_field!(description, 0);
+    string_field!(description, 3);
     u32_field!(unknown_1, 1);
     u32_field!(level, 2);
-    u8_field!(category, 3);
+    u8_field!(category, 0);
 }
 
 define_sheet!(MKDRelicGrowth2ContentListSheet, MKDRelicGrowth2ContentListRow, "MKDRelicGrowth2ContentList");

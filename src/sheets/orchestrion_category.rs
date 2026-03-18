@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(OrchestrionCategoryRow);
 impl OrchestrionCategoryRow {
     string_field!(name, 0);
-    u32_field!(icon, 1);
-    u8_field!(hide_order, 2);
+    u32_field!(icon, 2);
+    u8_field!(hide_order, 1);
     u8_field!(order, 3);
     bool_field!(unknown_0, 4);
 }

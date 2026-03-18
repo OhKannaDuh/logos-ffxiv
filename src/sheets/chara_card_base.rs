@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(CharaCardBaseRow);
 impl CharaCardBaseRow {
-    string_field!(name, 0);
-    i32_field!(image, 1);
-    u16_field!(unlock_condition, 2);
-    u16_field!(unknown_70_1, 3);
-    u16_field!(unknown_70_2, 4);
-    u16_field!(unknown_4, 5);
-    u16_field!(sort_key, 6);
-    u8_field!(font_color, 7);
-    u8_field!(unknown_3, 8);
+    string_field!(name, 11);
+    i32_field!(image, 0);
+    u16_field!(unlock_condition, 5);
+    u16_field!(unknown_70_1, 6);
+    u16_field!(unknown_70_2, 7);
+    u16_field!(unknown_4, 8);
+    u16_field!(sort_key, 10);
+    u8_field!(font_color, 1);
+    u8_field!(unknown_3, 4);
     u8_field!(category, 9);
-    bool_field!(unknown_1, 10);
-    bool_field!(unknown_2, 11);
+    bool_field!(unknown_1, 2);
+    bool_field!(unknown_2, 3);
 }
 
 define_sheet!(CharaCardBaseSheet, CharaCardBaseRow, "CharaCardBase");

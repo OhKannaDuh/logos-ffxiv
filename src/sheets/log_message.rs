@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(LogMessageRow);
 impl LogMessageRow {
-    string_field!(text, 0);
-    u16_field!(log_kind, 1);
-    u16_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
-    u8_field!(unknown_70, 4);
-    bool_field!(unknown_2, 5);
+    string_field!(text, 5);
+    u16_field!(log_kind, 0);
+    u16_field!(unknown_0, 1);
+    u8_field!(unknown_1, 2);
+    u8_field!(unknown_70, 3);
+    bool_field!(unknown_2, 4);
 }
 
 define_sheet!(LogMessageSheet, LogMessageRow, "LogMessage");

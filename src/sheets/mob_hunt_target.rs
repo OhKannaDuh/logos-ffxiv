@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(MobHuntTargetRow);
 impl MobHuntTargetRow {
-    u32_field!(icon, 0);
-    u16_field!(name, 1);
-    u16_field!(fate, 2);
+    u32_field!(icon, 2);
+    u16_field!(name, 0);
+    u16_field!(fate, 1);
     u16_field!(territory_type, 3);
     u16_field!(place_name, 4);
 }

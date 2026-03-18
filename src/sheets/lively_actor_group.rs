@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(LivelyActorGroupRow);
 impl LivelyActorGroupRow {
-    f32_field!(unknown_0, 0);
-    f32_field!(unknown_1, 1);
-    f32_field!(unknown_2, 2);
-    f32_field!(unknown_3, 3);
-    u32_field!(unknown_4, 4);
-    u16_field!(unknown_5, 5);
+    f32_field!(unknown_0, 2);
+    f32_field!(unknown_1, 3);
+    f32_field!(unknown_2, 4);
+    f32_field!(unknown_3, 5);
+    u32_field!(unknown_4, 0);
+    u16_field!(unknown_5, 1);
 }
 
 define_sheet!(LivelyActorGroupSheet, LivelyActorGroupRow, "LivelyActorGroup");

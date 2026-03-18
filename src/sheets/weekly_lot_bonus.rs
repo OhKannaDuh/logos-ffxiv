@@ -8,9 +8,9 @@ use crate::macros::*;
 
 define_subrow!(WeeklyLotBonusWeeklyLotBonusParam, 3);
 impl<'a> WeeklyLotBonusWeeklyLotBonusParam<'a> {
-    u16_field!(unknown_0, 0);
-    u8_field!(weekly_lot_bonus_threshold, 1);
-    u8_field!(unknown_1, 2);
+    u16_field!(unknown_0, 32);
+    u8_field!(weekly_lot_bonus_threshold, 0);
+    u8_field!(unknown_1, 64);
 }
 
 

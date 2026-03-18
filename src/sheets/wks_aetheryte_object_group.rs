@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(WKSAetheryteObjectGroupRow);
 impl WKSAetheryteObjectGroupRow {
-    u32_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
+    u32_field!(unknown_0, 2);
+    u16_field!(unknown_1, 0);
+    u16_field!(unknown_2, 1);
 }
 
 define_sheet!(WKSAetheryteObjectGroupSheet, WKSAetheryteObjectGroupRow, "WKSAetheryteObjectGroup");

@@ -8,16 +8,16 @@ use crate::macros::*;
 
 define_subrow!(WKSCosmoToolClassStages, 3);
 impl<'a> WKSCosmoToolClassStages<'a> {
-    u32_field!(unknown_0, 0);
-    i32_field!(item, 1);
-    u16_field!(name, 2);
+    u32_field!(unknown_0, 34);
+    i32_field!(item, 17);
+    u16_field!(name, 0);
 }
 
 define_subrow!(WKSCosmoToolClassTypes, 3);
 impl<'a> WKSCosmoToolClassTypes<'a> {
-    u32_field!(icon, 0);
-    i32_field!(name, 1);
-    u16_field!(cosmic_name, 2);
+    u32_field!(icon, 34);
+    i32_field!(name, 17);
+    u16_field!(cosmic_name, 0);
 }
 
 
@@ -25,8 +25,8 @@ define_row!(WKSCosmoToolClassRow);
 impl WKSCosmoToolClassRow {
     array_field!(stages, 0, 17, WKSCosmoToolClassStages);
     array_field!(types, 51, 6, WKSCosmoToolClassTypes);
-    u16_field!(name, 69);
-    u8_field!(data_amount, 70);
+    u16_field!(name, 70);
+    u8_field!(data_amount, 69);
 }
 
 define_sheet!(WKSCosmoToolClassSheet, WKSCosmoToolClassRow, "WKSCosmoToolClass");

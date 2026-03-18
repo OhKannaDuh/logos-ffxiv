@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(CharaCardHeaderRow);
 impl CharaCardHeaderRow {
-    string_field!(name, 0);
-    i32_field!(top_image, 1);
-    i32_field!(bottom_image, 2);
-    u16_field!(unlock_condition, 3);
-    u16_field!(unknown_70_1, 4);
-    u16_field!(unknown_70_2, 5);
-    u16_field!(unknown_4, 6);
-    u16_field!(unknown_5, 7);
-    u8_field!(font_color, 8);
-    u8_field!(unknown_2, 9);
-    u8_field!(unknown_1, 10);
-    u8_field!(unknown_0, 11);
-    u8_field!(category, 12);
+    string_field!(name, 12);
+    i32_field!(top_image, 0);
+    i32_field!(bottom_image, 1);
+    u16_field!(unlock_condition, 6);
+    u16_field!(unknown_70_1, 7);
+    u16_field!(unknown_70_2, 8);
+    u16_field!(unknown_4, 9);
+    u16_field!(unknown_5, 11);
+    u8_field!(font_color, 2);
+    u8_field!(unknown_2, 3);
+    u8_field!(unknown_1, 4);
+    u8_field!(unknown_0, 5);
+    u8_field!(category, 10);
 }
 
 define_sheet!(CharaCardHeaderSheet, CharaCardHeaderRow, "CharaCardHeader");

@@ -10,10 +10,10 @@ use crate::macros::*;
 define_row!(ChatBubbleTypeRow);
 impl ChatBubbleTypeRow {
     string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    string_field!(unknown_2, 2);
-    string_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
+    string_field!(unknown_1, 2);
+    string_field!(unknown_2, 3);
+    string_field!(unknown_3, 4);
+    u8_field!(unknown_4, 1);
     u8_field!(unknown_5, 5);
     u8_field!(unknown_6, 6);
 }

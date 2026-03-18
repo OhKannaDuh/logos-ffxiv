@@ -11,9 +11,9 @@ define_row!(Relic3Row);
 impl Relic3Row {
     u32_field!(item_animus, 0);
     u32_field!(item_scroll, 1);
-    u32_field!(item_novus, 2);
-    i32_field!(icon, 3);
-    u8_field!(materia_limit, 4);
+    u32_field!(item_novus, 3);
+    i32_field!(icon, 4);
+    u8_field!(materia_limit, 2);
     i8_field!(unknown_0, 5);
 }
 

@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(CSBonusSeasonRow);
 impl CSBonusSeasonRow {
-    u32_field!(item, 0);
+    u32_field!(item, 5);
     u16_field!(unknown_1, 1);
     u16_field!(unknown_2, 2);
-    u16_field!(category_0, 3);
-    u16_field!(category_1, 4);
-    u16_field!(category_2, 5);
-    u16_field!(category_3, 6);
-    u8_field!(text_0, 7);
-    u8_field!(text_1, 8);
-    u8_field!(unknown_12, 9);
-    bool_field!(unknown_3, 10);
-    bool_field!(unknown_4, 11);
-    bool_field!(unknown_0, 12);
+    u16_field!(category_0, 6);
+    u16_field!(category_1, 7);
+    u16_field!(category_2, 8);
+    u16_field!(category_3, 9);
+    u8_field!(text_0, 10);
+    u8_field!(text_1, 11);
+    u8_field!(unknown_12, 12);
+    bool_field!(unknown_3, 3);
+    bool_field!(unknown_4, 4);
+    bool_field!(unknown_0, 0);
 }
 
 define_sheet!(CSBonusSeasonSheet, CSBonusSeasonRow, "CSBonusSeason");

@@ -9,15 +9,15 @@ use crate::macros::*;
 
 define_row!(SubmarinePartRow);
 impl SubmarinePartRow {
-    u16_field!(class, 0);
-    i16_field!(surveillance, 1);
-    i16_field!(retrieval, 2);
-    i16_field!(speed, 3);
-    i16_field!(range, 4);
-    i16_field!(favor, 5);
-    u8_field!(slot, 6);
-    u8_field!(rank, 7);
-    u8_field!(components, 8);
+    u16_field!(class, 8);
+    i16_field!(surveillance, 3);
+    i16_field!(retrieval, 4);
+    i16_field!(speed, 5);
+    i16_field!(range, 6);
+    i16_field!(favor, 7);
+    u8_field!(slot, 0);
+    u8_field!(rank, 1);
+    u8_field!(components, 2);
     u8_field!(repair_materials, 9);
 }
 

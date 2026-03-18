@@ -11,9 +11,9 @@ define_row!(CompanyActionRow);
 impl CompanyActionRow {
     string_field!(name, 0);
     string_field!(description, 1);
-    u32_field!(cost, 2);
-    i32_field!(icon, 3);
-    u8_field!(fc_rank, 4);
+    u32_field!(cost, 4);
+    i32_field!(icon, 2);
+    u8_field!(fc_rank, 3);
     u8_field!(order, 5);
     bool_field!(purchasable, 6);
 }

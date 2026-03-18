@@ -8,21 +8,21 @@ use crate::macros::*;
 
 define_subrow!(GatheringPointGatheringPointBonus, 1);
 impl<'a> GatheringPointGatheringPointBonus<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 3);
 }
 
 
 define_row!(GatheringPointRow);
 impl GatheringPointRow {
-    i32_field!(gathering_point_base, 0);
+    i32_field!(gathering_point_base, 3);
     array_field!(gathering_point_bonus, 1, 2, GatheringPointGatheringPointBonus);
-    u16_field!(territory_type, 3);
-    u16_field!(place_name, 4);
-    u16_field!(gathering_sub_category, 5);
-    u8_field!(type_, 6);
-    u8_field!(unknown_0, 7);
-    u8_field!(count, 8);
-    bool_field!(unknown_1, 9);
+    u16_field!(territory_type, 7);
+    u16_field!(place_name, 8);
+    u16_field!(gathering_sub_category, 9);
+    u8_field!(type_, 0);
+    u8_field!(unknown_0, 1);
+    u8_field!(count, 4);
+    bool_field!(unknown_1, 2);
 }
 
 define_sheet!(GatheringPointSheet, GatheringPointRow, "GatheringPoint");

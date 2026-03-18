@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(TreasureSpotRow);
 impl TreasureSpotRow {
-    f32_field!(map_offset_x, 0);
-    f32_field!(map_offset_y, 1);
-    i32_field!(location, 2);
+    f32_field!(map_offset_x, 1);
+    f32_field!(map_offset_y, 2);
+    i32_field!(location, 0);
 }
 
 define_sheet!(TreasureSpotSheet, TreasureSpotRow, "TreasureSpot");

@@ -10,9 +10,9 @@ use crate::macros::*;
 define_row!(AOZReportRewardRow);
 impl AOZReportRewardRow {
     u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
+    u32_field!(unknown_1, 3);
+    u16_field!(unknown_2, 1);
+    u16_field!(unknown_3, 2);
     u16_field!(unknown_4, 4);
     u16_field!(unknown_5, 5);
 }

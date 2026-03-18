@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(YardCatalogItemListRow);
 impl YardCatalogItemListRow {
-    i32_field!(item, 0);
-    u16_field!(category, 1);
+    i32_field!(item, 1);
+    u16_field!(category, 0);
     u16_field!(patch, 2);
 }
 

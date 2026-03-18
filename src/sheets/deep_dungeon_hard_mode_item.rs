@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(DeepDungeonHardModeItemRow);
 impl DeepDungeonHardModeItemRow {
-    u64_field!(unknown_0, 0);
+    u64_field!(unknown_0, 2);
     u32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
+    u16_field!(unknown_2, 0);
 }
 
 define_sheet!(DeepDungeonHardModeItemSheet, DeepDungeonHardModeItemRow, "DeepDungeonHardModeItem");

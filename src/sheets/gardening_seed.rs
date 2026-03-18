@@ -10,11 +10,11 @@ use crate::macros::*;
 define_row!(GardeningSeedRow);
 impl GardeningSeedRow {
     u32_field!(item, 0);
-    u32_field!(icon, 1);
-    u16_field!(model_id, 2);
-    u8_field!(unknown_0, 3);
-    bool_field!(se, 4);
-    bool_field!(unknown_1, 5);
+    u32_field!(icon, 2);
+    u16_field!(model_id, 1);
+    u8_field!(unknown_0, 5);
+    bool_field!(se, 3);
+    bool_field!(unknown_1, 4);
 }
 
 define_sheet!(GardeningSeedSheet, GardeningSeedRow, "GardeningSeed");

@@ -10,10 +10,10 @@ use crate::macros::*;
 define_row!(AdvancedVibrationRow);
 impl AdvancedVibrationRow {
     string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    string_field!(unknown_2, 2);
-    i32_field!(unknown_3, 3);
-    i32_field!(unknown_4, 4);
+    string_field!(unknown_1, 2);
+    string_field!(unknown_2, 4);
+    i32_field!(unknown_3, 1);
+    i32_field!(unknown_4, 3);
     i32_field!(unknown_5, 5);
 }
 

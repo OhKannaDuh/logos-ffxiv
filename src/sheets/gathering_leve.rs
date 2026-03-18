@@ -31,12 +31,12 @@ define_row!(GatheringLeveRow);
 impl GatheringLeveRow {
     array_field!(route, 0, 4, GatheringLeveRoute);
     array_field!(required_item, 4, 4, GatheringLeveRequiredItem);
-    i32_field!(rule, 8);
-    i32_field!(b_npc_entry, 9);
+    i32_field!(rule, 13);
+    i32_field!(b_npc_entry, 17);
     array_field!(objective, 10, 2, GatheringLeveObjective);
     array_field!(required_item_quantity, 12, 4, GatheringLeveRequiredItemQuantity);
-    u8_field!(item_number, 16);
-    u8_field!(varient, 17);
+    u8_field!(item_number, 12);
+    u8_field!(varient, 14);
     bool_field!(use_secondary_tool, 18);
 }
 

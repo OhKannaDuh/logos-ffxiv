@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(BehaviorPathRow);
 impl BehaviorPathRow {
-    f32_field!(speed, 0);
-    bool_field!(is_turn_transition, 1);
-    bool_field!(is_fade_out, 2);
-    bool_field!(is_fade_in, 3);
-    bool_field!(is_walking, 4);
-    bool_field!(unknown_0, 5);
+    f32_field!(speed, 5);
+    bool_field!(is_turn_transition, 0);
+    bool_field!(is_fade_out, 1);
+    bool_field!(is_fade_in, 2);
+    bool_field!(is_walking, 3);
+    bool_field!(unknown_0, 4);
 }
 
 define_sheet!(BehaviorPathSheet, BehaviorPathRow, "BehaviorPath");

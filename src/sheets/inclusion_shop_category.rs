@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(InclusionShopCategoryRow);
 impl InclusionShopCategoryRow {
     string_field!(name, 0);
-    u16_field!(inclusion_shop_series, 1);
-    u8_field!(class_job_category, 2);
+    u16_field!(inclusion_shop_series, 2);
+    u8_field!(class_job_category, 1);
 }
 
 define_sheet!(InclusionShopCategorySheet, InclusionShopCategoryRow, "InclusionShopCategory");

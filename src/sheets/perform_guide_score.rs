@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(PerformGuideScoreRow);
 impl PerformGuideScoreRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
+    string_field!(unknown_0, 2);
+    string_field!(unknown_1, 0);
+    u8_field!(unknown_2, 1);
 }
 
 define_sheet!(PerformGuideScoreSheet, PerformGuideScoreRow, "PerformGuideScore");

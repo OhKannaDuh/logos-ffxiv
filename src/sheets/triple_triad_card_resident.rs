@@ -9,22 +9,22 @@ use crate::macros::*;
 
 define_row!(TripleTriadCardResidentRow);
 impl TripleTriadCardResidentRow {
-    u32_field!(acquisition, 0);
-    u32_field!(location, 1);
-    u32_field!(quest, 2);
-    u16_field!(unknown_0, 3);
-    u16_field!(sale_value, 4);
-    u16_field!(order, 5);
-    u8_field!(top, 6);
-    u8_field!(bottom, 7);
-    u8_field!(left, 8);
-    u8_field!(right, 9);
-    u8_field!(triple_triad_card_rarity, 10);
-    u8_field!(triple_triad_card_type, 11);
-    u8_field!(sort_key, 12);
-    u8_field!(ui_priority, 13);
-    u8_field!(acquisition_type, 14);
-    bool_field!(unknown_1, 15);
+    u32_field!(acquisition, 13);
+    u32_field!(location, 14);
+    u32_field!(quest, 15);
+    u16_field!(unknown_0, 0);
+    u16_field!(sale_value, 7);
+    u16_field!(order, 9);
+    u8_field!(top, 1);
+    u8_field!(bottom, 2);
+    u8_field!(left, 3);
+    u8_field!(right, 4);
+    u8_field!(triple_triad_card_rarity, 5);
+    u8_field!(triple_triad_card_type, 6);
+    u8_field!(sort_key, 8);
+    u8_field!(ui_priority, 10);
+    u8_field!(acquisition_type, 12);
+    bool_field!(unknown_1, 11);
 }
 
 define_sheet!(TripleTriadCardResidentSheet, TripleTriadCardResidentRow, "TripleTriadCardResident");

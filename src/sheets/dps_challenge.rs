@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(DpsChallengeRow);
 impl DpsChallengeRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(icon, 2);
-    u16_field!(player_level, 3);
-    u16_field!(unknown_0, 4);
-    u16_field!(place_name, 5);
-    u16_field!(order, 6);
-    bool_field!(unknown_1, 7);
+    string_field!(name, 6);
+    string_field!(description, 7);
+    u32_field!(icon, 4);
+    u16_field!(player_level, 0);
+    u16_field!(unknown_0, 2);
+    u16_field!(place_name, 3);
+    u16_field!(order, 5);
+    bool_field!(unknown_1, 1);
 }
 
 define_sheet!(DpsChallengeSheet, DpsChallengeRow, "DpsChallenge");

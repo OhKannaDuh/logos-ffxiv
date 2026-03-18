@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(RecipeLevelTableRow);
 impl RecipeLevelTableRow {
-    u32_field!(quality, 0);
-    u16_field!(suggested_craftsmanship, 1);
-    u16_field!(difficulty, 2);
-    u16_field!(durability, 3);
-    u16_field!(conditions_flag, 4);
-    u8_field!(class_job_level, 5);
-    u8_field!(stars, 6);
-    u8_field!(progress_divider, 7);
-    u8_field!(quality_divider, 8);
-    u8_field!(progress_modifier, 9);
-    u8_field!(quality_modifier, 10);
+    u32_field!(quality, 4);
+    u16_field!(suggested_craftsmanship, 2);
+    u16_field!(difficulty, 3);
+    u16_field!(durability, 9);
+    u16_field!(conditions_flag, 10);
+    u8_field!(class_job_level, 0);
+    u8_field!(stars, 1);
+    u8_field!(progress_divider, 5);
+    u8_field!(quality_divider, 6);
+    u8_field!(progress_modifier, 7);
+    u8_field!(quality_modifier, 8);
 }
 
 define_sheet!(RecipeLevelTableSheet, RecipeLevelTableRow, "RecipeLevelTable");

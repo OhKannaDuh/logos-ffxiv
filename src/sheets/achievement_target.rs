@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(AchievementTargetRow);
 impl AchievementTargetRow {
-    u32_field!(value, 0);
-    u8_field!(type_, 1);
+    u32_field!(value, 1);
+    u8_field!(type_, 0);
 }
 
 define_sheet!(AchievementTargetSheet, AchievementTargetRow, "AchievementTarget");

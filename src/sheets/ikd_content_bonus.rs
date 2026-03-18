@@ -11,8 +11,8 @@ define_row!(IKDContentBonusRow);
 impl IKDContentBonusRow {
     string_field!(objective, 0);
     string_field!(requirement, 1);
-    u32_field!(image, 2);
-    u16_field!(unknown_0, 3);
+    u32_field!(image, 3);
+    u16_field!(unknown_0, 2);
     u8_field!(order, 4);
 }
 

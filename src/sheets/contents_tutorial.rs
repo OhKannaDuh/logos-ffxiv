@@ -8,15 +8,15 @@ use crate::macros::*;
 
 define_subrow!(ContentsTutorialPage, 1);
 impl<'a> ContentsTutorialPage<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 9);
 }
 
 
 define_row!(ContentsTutorialRow);
 impl ContentsTutorialRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(unknown_1, 2);
+    string_field!(name, 9);
+    string_field!(description, 10);
+    u32_field!(unknown_1, 8);
     array_field!(page, 3, 8, ContentsTutorialPage);
 }
 

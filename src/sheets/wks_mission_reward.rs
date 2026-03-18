@@ -8,37 +8,37 @@ use crate::macros::*;
 
 define_subrow!(WKSMissionRewardExpModifier, 1);
 impl<'a> WKSMissionRewardExpModifier<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 16);
 }
 
 define_subrow!(WKSMissionRewardResearchReward, 1);
 impl<'a> WKSMissionRewardResearchReward<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 16);
 }
 
 define_subrow!(WKSMissionRewardTool, 1);
 impl<'a> WKSMissionRewardTool<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 16);
 }
 
 define_subrow!(WKSMissionRewardTypeIndex, 1);
 impl<'a> WKSMissionRewardTypeIndex<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 16);
 }
 
 
 define_row!(WKSMissionRewardRow);
 impl WKSMissionRewardRow {
-    u32_field!(item, 0);
+    u32_field!(item, 16);
     // ExpReward &#x3D; ExpToNex * (lvl &lt; 50 ? ExpModifier[0] : lvl &lt; 90 ? ExpModifier[1] : ExpModifier[2]) / 100
     array_field!(exp_modifier, 1, 3, WKSMissionRewardExpModifier);
-    u16_field!(cosmo_credits, 4);
-    u16_field!(planet_credits, 5);
-    u16_field!(unknown_20, 6);
+    u16_field!(cosmo_credits, 3);
+    u16_field!(planet_credits, 4);
+    u16_field!(unknown_20, 5);
     array_field!(research_reward, 7, 3, WKSMissionRewardResearchReward);
-    u16_field!(item_count, 10);
+    u16_field!(item_count, 17);
     // Needs to match WKSEmergencyProblem.Unknown2 to be active?
-    u8_field!(unknown_19, 11);
+    u8_field!(unknown_19, 6);
     array_field!(tool, 12, 3, WKSMissionRewardTool);
     array_field!(type_index, 15, 3, WKSMissionRewardTypeIndex);
 }

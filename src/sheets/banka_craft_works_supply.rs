@@ -8,16 +8,16 @@ use crate::macros::*;
 
 define_subrow!(BankaCraftWorksSupplyItem, 10);
 impl<'a> BankaCraftWorksSupplyItem<'a> {
-    u32_field!(item_id, 0);
-    u32_field!(xp_reward, 1);
-    u16_field!(collectability, 2);
-    u16_field!(gil_reward, 3);
-    u8_field!(level, 4);
-    u8_field!(high_xp_multiplier, 5);
-    u8_field!(high_gil_multiplier, 6);
-    u8_field!(unknown_8, 7);
-    u8_field!(scrip_reward, 8);
-    u8_field!(high_scrip_multiplier, 9);
+    u32_field!(item_id, 4);
+    u32_field!(xp_reward, 12);
+    u16_field!(collectability, 8);
+    u16_field!(gil_reward, 20);
+    u8_field!(level, 0);
+    u8_field!(high_xp_multiplier, 16);
+    u8_field!(high_gil_multiplier, 24);
+    u8_field!(unknown_8, 28);
+    u8_field!(scrip_reward, 32);
+    u8_field!(high_scrip_multiplier, 36);
 }
 
 

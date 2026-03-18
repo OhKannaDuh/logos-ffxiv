@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(ContentTalkParamRow);
 impl ContentTalkParamRow {
-    u32_field!(test_action, 0);
+    u32_field!(test_action, 2);
     u8_field!(unknown_0, 1);
-    u8_field!(unknown_1, 2);
+    u8_field!(unknown_1, 5);
     i8_field!(unknown_2, 3);
     i8_field!(unknown_3, 4);
-    bool_field!(param, 5);
+    bool_field!(param, 0);
 }
 
 define_sheet!(ContentTalkParamSheet, ContentTalkParamRow, "ContentTalkParam");

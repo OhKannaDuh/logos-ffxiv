@@ -16,7 +16,7 @@ define_row!(ActionComboRouteRow);
 impl ActionComboRouteRow {
     string_field!(name, 0);
     array_field!(action, 1, 7, ActionComboRouteAction);
-    i8_field!(unknown_3, 8);
+    i8_field!(unknown_3, 1);
     bool_field!(unknown_4, 9);
 }
 

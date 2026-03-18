@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(MarkerRow);
 impl MarkerRow {
-    string_field!(name, 0);
-    i32_field!(icon, 1);
-    u8_field!(sort_order, 2);
+    string_field!(name, 2);
+    i32_field!(icon, 0);
+    u8_field!(sort_order, 1);
 }
 
 define_sheet!(MarkerSheet, MarkerRow, "Marker");

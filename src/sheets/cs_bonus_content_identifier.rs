@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(CSBonusContentIdentifierRow);
 impl CSBonusContentIdentifierRow {
-    u32_field!(content, 0);
-    u32_field!(unlock_quest_0, 1);
-    u32_field!(unlock_quest_1, 2);
-    u32_field!(unlock_quest_2, 3);
-    u32_field!(unknown_6, 4);
-    u32_field!(map, 5);
-    u8_field!(content_link_type, 6);
-    bool_field!(unknown_2, 7);
+    u32_field!(content, 1);
+    u32_field!(unlock_quest_0, 3);
+    u32_field!(unlock_quest_1, 4);
+    u32_field!(unlock_quest_2, 5);
+    u32_field!(unknown_6, 6);
+    u32_field!(map, 7);
+    u8_field!(content_link_type, 0);
+    bool_field!(unknown_2, 2);
 }
 
 define_sheet!(CSBonusContentIdentifierSheet, CSBonusContentIdentifierRow, "CSBonusContentIdentifier");

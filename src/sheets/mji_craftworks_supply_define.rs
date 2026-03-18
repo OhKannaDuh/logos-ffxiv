@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(MJICraftworksSupplyDefineRow);
 impl MJICraftworksSupplyDefineRow {
-    u16_field!(ratio, 0);
-    i16_field!(supply, 1);
+    u16_field!(ratio, 1);
+    i16_field!(supply, 0);
 }
 
 define_sheet!(MJICraftworksSupplyDefineSheet, MJICraftworksSupplyDefineRow, "MJICraftworksSupplyDefine");

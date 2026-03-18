@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(MapMarkerRow);
 impl MapMarkerRow {
-    u16_field!(icon, 0);
-    u16_field!(place_name_subtext, 1);
-    u16_field!(data_key, 2);
-    u16_field!(unknown_1, 3);
-    i16_field!(x, 4);
-    i16_field!(y, 5);
-    u8_field!(subtext_orientation, 6);
-    u8_field!(map_marker_region, 7);
-    u8_field!(type_, 8);
-    u8_field!(data_type, 9);
-    u8_field!(unknown_0, 10);
+    u16_field!(icon, 2);
+    u16_field!(place_name_subtext, 3);
+    u16_field!(data_key, 8);
+    u16_field!(unknown_1, 10);
+    i16_field!(x, 0);
+    i16_field!(y, 1);
+    u8_field!(subtext_orientation, 4);
+    u8_field!(map_marker_region, 5);
+    u8_field!(type_, 6);
+    u8_field!(data_type, 7);
+    u8_field!(unknown_0, 9);
 }
 
 define_sheet!(MapMarkerSheet, MapMarkerRow, "MapMarker");

@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(GatheringPointTransientRow);
 impl GatheringPointTransientRow {
-    i32_field!(gathering_rare_pop_time_table, 0);
-    u16_field!(ephemeral_start_time, 1);
-    u16_field!(ephemeral_end_time, 2);
+    i32_field!(gathering_rare_pop_time_table, 2);
+    u16_field!(ephemeral_start_time, 0);
+    u16_field!(ephemeral_end_time, 1);
 }
 
 define_sheet!(GatheringPointTransientSheet, GatheringPointTransientRow, "GatheringPointTransient");

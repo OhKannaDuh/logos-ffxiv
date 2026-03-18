@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(MassivePcContentRow);
 impl MassivePcContentRow {
-    string_field!(unknown_0, 0);
+    string_field!(unknown_0, 2);
     u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_8, 3);
-    u32_field!(unknown_9, 4);
-    u32_field!(unknown_10, 5);
-    u32_field!(unknown_11, 6);
-    u32_field!(unknown_3, 7);
-    u32_field!(unknown_4, 8);
-    u32_field!(unknown_5, 9);
-    u8_field!(unknown_6, 10);
+    u32_field!(unknown_2, 3);
+    u32_field!(unknown_8, 4);
+    u32_field!(unknown_9, 5);
+    u32_field!(unknown_10, 6);
+    u32_field!(unknown_11, 7);
+    u32_field!(unknown_3, 8);
+    u32_field!(unknown_4, 9);
+    u32_field!(unknown_5, 10);
+    u8_field!(unknown_6, 0);
     u8_field!(unknown_7, 11);
 }
 

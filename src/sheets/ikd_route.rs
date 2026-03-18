@@ -8,24 +8,24 @@ use crate::macros::*;
 
 define_subrow!(IKDRouteSpot, 1);
 impl<'a> IKDRouteSpot<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 11);
 }
 
 define_subrow!(IKDRouteTime, 1);
 impl<'a> IKDRouteTime<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 11);
 }
 
 
 define_row!(IKDRouteRow);
 impl IKDRouteRow {
-    string_field!(name, 0);
+    string_field!(name, 11);
     array_field!(spot, 1, 3, IKDRouteSpot);
-    u32_field!(image, 4);
-    u32_field!(unknown_0, 5);
-    u32_field!(unknown_1, 6);
-    u32_field!(instance, 7);
-    u32_field!(unknown_2, 8);
+    u32_field!(image, 6);
+    u32_field!(unknown_0, 7);
+    u32_field!(unknown_1, 8);
+    u32_field!(instance, 9);
+    u32_field!(unknown_2, 10);
     array_field!(time, 9, 3, IKDRouteTime);
 }
 

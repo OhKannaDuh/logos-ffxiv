@@ -8,16 +8,16 @@ use crate::macros::*;
 
 define_subrow!(StanceChangeAction, 1);
 impl<'a> StanceChangeAction<'a> {
-    f32_field!(field_0, 0);
+    f32_field!(field_0, 4);
 }
 
 
 define_row!(StanceChangeRow);
 impl StanceChangeRow {
-    f32_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
+    f32_field!(unknown_0, 4);
+    u16_field!(unknown_1, 0);
     array_field!(action, 2, 2, StanceChangeAction);
-    u16_field!(unknown_2, 4);
+    u16_field!(unknown_2, 3);
 }
 
 define_sheet!(StanceChangeSheet, StanceChangeRow, "StanceChange");

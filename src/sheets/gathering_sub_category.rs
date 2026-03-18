@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(GatheringSubCategoryRow);
 impl GatheringSubCategoryRow {
-    string_field!(folklore_book, 0);
-    u32_field!(quest, 1);
-    i32_field!(item, 2);
+    string_field!(folklore_book, 5);
+    u32_field!(quest, 2);
+    i32_field!(item, 4);
     u16_field!(division, 3);
-    u8_field!(gathering_type, 4);
-    u8_field!(class_job, 5);
+    u8_field!(gathering_type, 0);
+    u8_field!(class_job, 1);
     u8_field!(unknown_0, 6);
 }
 

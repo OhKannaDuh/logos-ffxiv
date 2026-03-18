@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(GroupPoseFrameRow);
 impl GroupPoseFrameRow {
-    string_field!(text, 0);
-    string_field!(grid_text, 1);
-    u32_field!(unknown_0, 2);
-    u32_field!(unknown_5, 3);
-    i32_field!(unknown_1, 4);
-    i32_field!(image, 5);
-    i32_field!(unknown_2, 6);
-    i32_field!(unknown_3, 7);
-    u8_field!(unknown_4, 8);
-    u8_field!(unknown_6, 9);
+    string_field!(text, 9);
+    string_field!(grid_text, 2);
+    u32_field!(unknown_0, 4);
+    u32_field!(unknown_5, 7);
+    i32_field!(unknown_1, 0);
+    i32_field!(image, 1);
+    i32_field!(unknown_2, 3);
+    i32_field!(unknown_3, 8);
+    u8_field!(unknown_4, 5);
+    u8_field!(unknown_6, 6);
 }
 
 define_sheet!(GroupPoseFrameSheet, GroupPoseFrameRow, "GroupPoseFrame");

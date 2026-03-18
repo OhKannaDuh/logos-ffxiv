@@ -8,15 +8,15 @@ use crate::macros::*;
 
 define_subrow!(ResistanceWeaponAdjustBaseParam, 1);
 impl<'a> ResistanceWeaponAdjustBaseParam<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 6);
 }
 
 
 define_row!(ResistanceWeaponAdjustRow);
 impl ResistanceWeaponAdjustRow {
-    u32_field!(image, 0);
-    u16_field!(max_total_stats, 1);
-    u16_field!(max_each_stat, 2);
+    u32_field!(image, 6);
+    u16_field!(max_total_stats, 0);
+    u16_field!(max_each_stat, 1);
     array_field!(base_param, 3, 4, ResistanceWeaponAdjustBaseParam);
     u8_field!(unknown_0, 7);
 }

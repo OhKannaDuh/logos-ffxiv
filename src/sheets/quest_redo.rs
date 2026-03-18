@@ -8,18 +8,18 @@ use crate::macros::*;
 
 define_subrow!(QuestRedoQuestRedoParam, 2);
 impl<'a> QuestRedoQuestRedoParam<'a> {
-    u32_field!(quest, 0);
-    u8_field!(unknown_param, 1);
+    u32_field!(quest, 4);
+    u8_field!(unknown_param, 36);
 }
 
 
 define_row!(QuestRedoRow);
 impl QuestRedoRow {
     array_field!(quest_redo_param, 0, 32, QuestRedoQuestRedoParam);
-    u32_field!(final_quest, 64);
-    u32_field!(unknown_0, 65);
-    u16_field!(chapter, 66);
-    u8_field!(unknown_1, 67);
+    u32_field!(final_quest, 0);
+    u32_field!(unknown_0, 1);
+    u16_field!(chapter, 3);
+    u8_field!(unknown_1, 2);
 }
 
 define_sheet!(QuestRedoSheet, QuestRedoRow, "QuestRedo");

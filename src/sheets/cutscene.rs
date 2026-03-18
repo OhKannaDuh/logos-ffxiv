@@ -10,14 +10,14 @@ use crate::macros::*;
 define_row!(CutsceneRow);
 impl CutsceneRow {
     string_field!(path, 0);
-    i32_field!(unknown_0, 1);
-    i32_field!(unknown_1, 2);
-    i32_field!(unknown_2, 3);
-    i32_field!(unknown_3, 4);
-    u16_field!(unknown_4, 5);
-    u8_field!(unknown_5, 6);
-    u8_field!(unknown_6, 7);
-    bool_field!(unknown_7, 8);
+    i32_field!(unknown_0, 4);
+    i32_field!(unknown_1, 5);
+    i32_field!(unknown_2, 6);
+    i32_field!(unknown_3, 7);
+    u16_field!(unknown_4, 8);
+    u8_field!(unknown_5, 1);
+    u8_field!(unknown_6, 2);
+    bool_field!(unknown_7, 3);
     bool_field!(unknown_8, 9);
 }
 

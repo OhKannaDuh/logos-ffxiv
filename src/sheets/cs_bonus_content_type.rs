@@ -8,20 +8,20 @@ use crate::macros::*;
 
 define_subrow!(CSBonusContentTypeDialogue, 1);
 impl<'a> CSBonusContentTypeDialogue<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 
 define_row!(CSBonusContentTypeRow);
 impl CSBonusContentTypeRow {
     array_field!(dialogue, 0, 4, CSBonusContentTypeDialogue);
-    u32_field!(image, 4);
-    u32_field!(level, 5);
-    u32_field!(unlock_quest, 6);
-    u32_field!(unlock_link, 7);
-    u32_field!(content_finder_condition, 8);
-    u8_field!(content_type, 9);
-    bool_field!(unknown_6, 10);
+    u32_field!(image, 5);
+    u32_field!(level, 6);
+    u32_field!(unlock_quest, 8);
+    u32_field!(unlock_link, 9);
+    u32_field!(content_finder_condition, 10);
+    u8_field!(content_type, 0);
+    bool_field!(unknown_6, 7);
 }
 
 define_sheet!(CSBonusContentTypeSheet, CSBonusContentTypeRow, "CSBonusContentType");

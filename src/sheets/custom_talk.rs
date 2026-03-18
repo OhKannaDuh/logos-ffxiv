@@ -8,32 +8,32 @@ use crate::macros::*;
 
 define_subrow!(CustomTalkScript, 2);
 impl<'a> CustomTalkScript<'a> {
-    string_field!(script_instruction, 0);
-    u32_field!(script_arg, 1);
+    string_field!(script_instruction, 3);
+    u32_field!(script_arg, 33);
 }
 
 
 define_row!(CustomTalkRow);
 impl CustomTalkRow {
     array_field!(script, 0, 30, CustomTalkScript);
-    string_field!(main_option, 60);
-    string_field!(sub_option, 61);
-    string_field!(name, 62);
-    u32_field!(icon_actor, 63);
-    u32_field!(icon_map, 64);
-    u32_field!(special_links, 65);
-    u8_field!(unknown_0, 66);
-    u8_field!(unknown_1, 67);
-    bool_field!(unknown_2, 68);
-    bool_field!(unknown_3, 69);
-    bool_field!(unknown_4, 70);
-    bool_field!(unknown_5, 71);
-    bool_field!(unknown_6, 72);
-    bool_field!(unknown_7, 73);
-    bool_field!(unknown_8, 74);
-    bool_field!(unknown_9, 75);
-    bool_field!(unknown_10, 76);
-    bool_field!(unknown_11, 77);
+    string_field!(main_option, 64);
+    string_field!(sub_option, 65);
+    string_field!(name, 2);
+    u32_field!(icon_actor, 0);
+    u32_field!(icon_map, 1);
+    u32_field!(special_links, 75);
+    u8_field!(unknown_0, 76);
+    u8_field!(unknown_1, 77);
+    bool_field!(unknown_2, 63);
+    bool_field!(unknown_3, 66);
+    bool_field!(unknown_4, 67);
+    bool_field!(unknown_5, 68);
+    bool_field!(unknown_6, 69);
+    bool_field!(unknown_7, 70);
+    bool_field!(unknown_8, 71);
+    bool_field!(unknown_9, 72);
+    bool_field!(unknown_10, 73);
+    bool_field!(unknown_11, 74);
     bool_field!(unknown_12, 78);
 }
 

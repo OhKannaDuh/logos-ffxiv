@@ -12,15 +12,15 @@ impl EmjDaniRow {
     u32_field!(icon, 0);
     u16_field!(unknown_0, 1);
     u16_field!(unknown_1, 2);
-    i16_field!(unknown_2, 3);
-    i16_field!(unknown_3, 4);
-    i16_field!(unknown_4, 5);
-    i16_field!(unknown_5, 6);
-    i16_field!(unknown_6, 7);
-    i16_field!(unknown_7, 8);
-    i16_field!(unknown_8, 9);
-    i16_field!(unknown_9, 10);
-    bool_field!(unknown_10, 11);
+    i16_field!(unknown_2, 4);
+    i16_field!(unknown_3, 5);
+    i16_field!(unknown_4, 6);
+    i16_field!(unknown_5, 7);
+    i16_field!(unknown_6, 8);
+    i16_field!(unknown_7, 9);
+    i16_field!(unknown_8, 10);
+    i16_field!(unknown_9, 11);
+    bool_field!(unknown_10, 3);
 }
 
 define_sheet!(EmjDaniSheet, EmjDaniRow, "EmjDani");

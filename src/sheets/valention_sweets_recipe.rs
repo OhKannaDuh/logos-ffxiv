@@ -11,20 +11,20 @@ define_row!(ValentionSweetsRecipeRow);
 impl ValentionSweetsRecipeRow {
     string_field!(unknown_0, 0);
     u8_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
-    u8_field!(unknown_11, 11);
-    u8_field!(unknown_12, 12);
-    u8_field!(unknown_13, 13);
-    u8_field!(unknown_14, 14);
-    u8_field!(unknown_15, 15);
+    u8_field!(unknown_2, 3);
+    u8_field!(unknown_3, 5);
+    u8_field!(unknown_4, 7);
+    u8_field!(unknown_5, 9);
+    u8_field!(unknown_6, 11);
+    u8_field!(unknown_7, 13);
+    u8_field!(unknown_8, 15);
+    u8_field!(unknown_9, 2);
+    u8_field!(unknown_10, 4);
+    u8_field!(unknown_11, 6);
+    u8_field!(unknown_12, 8);
+    u8_field!(unknown_13, 10);
+    u8_field!(unknown_14, 12);
+    u8_field!(unknown_15, 14);
     u8_field!(unknown_16, 16);
 }
 

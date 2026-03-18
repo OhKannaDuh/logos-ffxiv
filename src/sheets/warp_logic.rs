@@ -8,20 +8,20 @@ use crate::macros::*;
 
 define_subrow!(WarpLogicWarpParams, 2);
 impl<'a> WarpLogicWarpParams<'a> {
-    string_field!(function, 0);
-    u32_field!(argument, 1);
+    string_field!(function, 3);
+    u32_field!(argument, 13);
 }
 
 
 define_row!(WarpLogicRow);
 impl WarpLogicRow {
     array_field!(warp_params, 0, 10, WarpLogicWarpParams);
-    string_field!(question, 20);
-    string_field!(response_yes, 21);
-    string_field!(response_no, 22);
-    string_field!(warp_name, 23);
-    u32_field!(unknown_0, 24);
-    bool_field!(can_skip_cutscene, 25);
+    string_field!(question, 23);
+    string_field!(response_yes, 24);
+    string_field!(response_no, 25);
+    string_field!(warp_name, 1);
+    u32_field!(unknown_0, 0);
+    bool_field!(can_skip_cutscene, 2);
 }
 
 define_sheet!(WarpLogicSheet, WarpLogicRow, "WarpLogic");

@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(ManeuversArmorRow);
 impl ManeuversArmorRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(falcon_name, 2);
-    u32_field!(raven_name, 3);
-    u32_field!(neutral_map_icon, 4);
-    u32_field!(falcon_image, 5);
-    u32_field!(raven_image, 6);
-    u32_field!(falcon_map_image, 7);
-    u32_field!(raven_map_image, 8);
-    u16_field!(unknown_0, 9);
-    u8_field!(unknown_1, 10);
-    bool_field!(unknown_2, 11);
+    string_field!(name, 10);
+    string_field!(description, 11);
+    u32_field!(falcon_name, 1);
+    u32_field!(raven_name, 2);
+    u32_field!(neutral_map_icon, 5);
+    u32_field!(falcon_image, 6);
+    u32_field!(raven_image, 7);
+    u32_field!(falcon_map_image, 8);
+    u32_field!(raven_map_image, 9);
+    u16_field!(unknown_0, 0);
+    u8_field!(unknown_1, 3);
+    bool_field!(unknown_2, 4);
 }
 
 define_sheet!(ManeuversArmorSheet, ManeuversArmorRow, "ManeuversArmor");

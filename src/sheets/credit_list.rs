@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(CreditListRow);
 impl CreditListRow {
-    u32_field!(icon, 0);
-    u32_field!(font, 1);
-    u32_field!(cast, 2);
-    u16_field!(scale, 3);
-    u8_field!(unknown_0, 4);
-    u8_field!(unknown_1, 5);
+    u32_field!(icon, 1);
+    u32_field!(font, 2);
+    u32_field!(cast, 5);
+    u16_field!(scale, 0);
+    u8_field!(unknown_0, 3);
+    u8_field!(unknown_1, 4);
 }
 
 define_sheet!(CreditListSheet, CreditListRow, "CreditList");

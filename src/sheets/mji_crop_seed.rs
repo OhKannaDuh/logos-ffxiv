@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(MJICropSeedRow);
 impl MJICropSeedRow {
     u32_field!(item, 0);
-    u32_field!(name, 1);
-    u16_field!(sgb, 2);
+    u32_field!(name, 2);
+    u16_field!(sgb, 1);
 }
 
 define_sheet!(MJICropSeedSheet, MJICropSeedRow, "MJICropSeed");

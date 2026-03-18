@@ -9,14 +9,14 @@ use crate::macros::*;
 define_subrow!(MJIFarmPastureRankRankData, 9);
 impl<'a> MJIFarmPastureRankRankData<'a> {
     array_field!(sgb, 0, 4, MJIFarmPastureRankRankData);
-    u32_field!(unknown_0, 4);
-    u32_field!(unknown_1, 5);
-    u16_field!(unknown_2, 6);
-    u16_field!(unknown_3, 7);
-    u8_field!(unknown_4, 8);
-    u8_field!(unknown_5, 9);
-    u8_field!(unknown_6, 10);
-    u8_field!(unknown_7, 11);
+    u32_field!(unknown_0, 28);
+    u32_field!(unknown_1, 32);
+    u16_field!(unknown_2, 40);
+    u16_field!(unknown_3, 44);
+    u8_field!(unknown_4, 16);
+    u8_field!(unknown_5, 20);
+    u8_field!(unknown_6, 24);
+    u8_field!(unknown_7, 36);
 }
 
 define_subrow!(MJIFarmPastureRankRankDataSGB, 1);

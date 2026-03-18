@@ -13,8 +13,8 @@ impl FateProgressUIRow {
     u8_field!(req_fates_to_rank_2, 1);
     u8_field!(req_fates_to_rank_3, 2);
     u8_field!(req_fates_to_rank_4, 3);
-    u8_field!(display_order, 4);
-    i8_field!(unknown_0, 5);
+    u8_field!(display_order, 5);
+    i8_field!(unknown_0, 4);
 }
 
 define_sheet!(FateProgressUISheet, FateProgressUIRow, "FateProgressUI");

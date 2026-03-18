@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(OrchestrionUiparamRow);
 impl OrchestrionUiparamRow {
-    u16_field!(order, 0);
-    u8_field!(orchestrion_category, 1);
+    u16_field!(order, 1);
+    u8_field!(orchestrion_category, 0);
 }
 
 define_sheet!(OrchestrionUiparamSheet, OrchestrionUiparamRow, "OrchestrionUiparam");

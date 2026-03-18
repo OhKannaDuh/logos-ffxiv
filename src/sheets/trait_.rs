@@ -10,15 +10,15 @@ use crate::macros::*;
 define_row!(TraitRow);
 impl TraitRow {
     string_field!(name, 0);
-    u32_field!(quest, 1);
-    i32_field!(icon, 2);
-    i16_field!(value, 3);
-    u8_field!(class_job, 4);
-    u8_field!(unknown_70, 5);
-    u8_field!(level, 6);
-    u8_field!(class_job_category, 7);
-    u8_field!(unknown_0, 8);
-    bool_field!(unknown_1, 9);
+    u32_field!(quest, 6);
+    i32_field!(icon, 1);
+    i16_field!(value, 7);
+    u8_field!(class_job, 3);
+    u8_field!(unknown_70, 4);
+    u8_field!(level, 5);
+    u8_field!(class_job_category, 8);
+    u8_field!(unknown_0, 9);
+    bool_field!(unknown_1, 2);
 }
 
 define_sheet!(TraitSheet, TraitRow, "Trait");

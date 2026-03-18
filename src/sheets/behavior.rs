@@ -9,23 +9,23 @@ use crate::macros::*;
 
 define_row!(BehaviorRow);
 impl BehaviorRow {
-    u32_field!(content_argument_0, 0);
-    u32_field!(unknown_0, 1);
-    i32_field!(unknown_1, 2);
-    i32_field!(unknown_2, 3);
-    u16_field!(unknown_3, 4);
-    u16_field!(balloon, 5);
-    u16_field!(unknown_4, 6);
-    i16_field!(unknown_5, 7);
-    u8_field!(unknown_6, 8);
-    u8_field!(unknown_7, 9);
-    u8_field!(condition_0_target, 10);
-    u8_field!(condition_0_type, 11);
-    u8_field!(condition_1_target, 12);
-    u8_field!(condition_1_type, 13);
-    u8_field!(content_argument_1, 14);
-    u8_field!(unknown_8, 15);
-    u8_field!(unknown_9, 16);
+    u32_field!(content_argument_0, 11);
+    u32_field!(unknown_0, 15);
+    i32_field!(unknown_1, 4);
+    i32_field!(unknown_2, 6);
+    u16_field!(unknown_3, 7);
+    u16_field!(balloon, 8);
+    u16_field!(unknown_4, 16);
+    i16_field!(unknown_5, 5);
+    u8_field!(unknown_6, 0);
+    u8_field!(unknown_7, 1);
+    u8_field!(condition_0_target, 2);
+    u8_field!(condition_0_type, 3);
+    u8_field!(condition_1_target, 9);
+    u8_field!(condition_1_type, 10);
+    u8_field!(content_argument_1, 12);
+    u8_field!(unknown_8, 13);
+    u8_field!(unknown_9, 14);
 }
 
 define_sheet!(BehaviorSheet, BehaviorRow, "Behavior");

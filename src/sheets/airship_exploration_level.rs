@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(AirshipExplorationLevelRow);
 impl AirshipExplorationLevelRow {
-    u32_field!(exp_to_next, 0);
-    u16_field!(capacity, 1);
+    u32_field!(exp_to_next, 1);
+    u16_field!(capacity, 0);
 }
 
 define_sheet!(AirshipExplorationLevelSheet, AirshipExplorationLevelRow, "AirshipExplorationLevel");

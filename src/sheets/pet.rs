@@ -17,19 +17,19 @@ impl PetRow {
     string_field!(name, 0);
     array_field!(abilities, 1, 4, PetAbilities);
     u16_field!(auto_action, 5);
-    u8_field!(small_scale_percentage, 6);
-    u8_field!(medium_scale_percentage, 7);
-    u8_field!(large_scale_percentage, 8);
-    u8_field!(unknown_8, 9);
-    u8_field!(unknown_9, 10);
-    u8_field!(unknown_10, 11);
-    u8_field!(unknown_11, 12);
-    u8_field!(unknown_12, 13);
-    u8_field!(unknown_13, 14);
-    i8_field!(unknown_14, 15);
-    bool_field!(unknown_15, 16);
-    bool_field!(non_combat_summon, 17);
-    bool_field!(unknown_17, 18);
+    u8_field!(small_scale_percentage, 9);
+    u8_field!(medium_scale_percentage, 10);
+    u8_field!(large_scale_percentage, 11);
+    u8_field!(unknown_8, 13);
+    u8_field!(unknown_9, 14);
+    u8_field!(unknown_10, 15);
+    u8_field!(unknown_11, 16);
+    u8_field!(unknown_12, 17);
+    u8_field!(unknown_13, 18);
+    i8_field!(unknown_14, 12);
+    bool_field!(unknown_15, 6);
+    bool_field!(non_combat_summon, 7);
+    bool_field!(unknown_17, 8);
 }
 
 define_sheet!(PetSheet, PetRow, "Pet");

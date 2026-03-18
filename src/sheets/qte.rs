@@ -9,21 +9,21 @@ use crate::macros::*;
 
 define_row!(QTERow);
 impl QTERow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    string_field!(unknown_2, 2);
-    string_field!(unknown_3, 3);
-    string_field!(unknown_4, 4);
-    i32_field!(unknown_5, 5);
-    i32_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
-    u8_field!(unknown_10, 10);
-    bool_field!(unknown_11, 11);
-    bool_field!(unknown_12, 12);
-    bool_field!(unknown_13, 13);
-    bool_field!(unknown_14, 14);
+    string_field!(unknown_0, 13);
+    string_field!(unknown_1, 14);
+    string_field!(unknown_2, 6);
+    string_field!(unknown_3, 7);
+    string_field!(unknown_4, 8);
+    i32_field!(unknown_5, 0);
+    i32_field!(unknown_6, 5);
+    u8_field!(unknown_7, 1);
+    u8_field!(unknown_8, 2);
+    u8_field!(unknown_9, 3);
+    u8_field!(unknown_10, 4);
+    bool_field!(unknown_11, 9);
+    bool_field!(unknown_12, 10);
+    bool_field!(unknown_13, 11);
+    bool_field!(unknown_14, 12);
 }
 
 define_sheet!(QTESheet, QTERow, "QTE");

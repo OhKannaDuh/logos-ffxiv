@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(BoosterRow);
 impl BoosterRow {
-    u32_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
+    u32_field!(unknown_0, 1);
+    u16_field!(unknown_1, 3);
+    u8_field!(unknown_2, 0);
+    u8_field!(unknown_3, 2);
     bool_field!(unknown_70, 4);
 }
 

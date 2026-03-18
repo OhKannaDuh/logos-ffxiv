@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(VVDNotebookContentsRow);
 impl VVDNotebookContentsRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    i32_field!(icon, 2);
-    i32_field!(image, 3);
+    string_field!(name, 2);
+    string_field!(description, 3);
+    i32_field!(icon, 0);
+    i32_field!(image, 1);
 }
 
 define_sheet!(VVDNotebookContentsSheet, VVDNotebookContentsRow, "VVDNotebookContents");

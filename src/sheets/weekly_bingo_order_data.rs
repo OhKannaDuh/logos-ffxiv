@@ -12,9 +12,9 @@ impl WeeklyBingoOrderDataRow {
     u32_field!(type_, 0);
     u32_field!(data, 1);
     u32_field!(unknown_2, 2);
-    u32_field!(icon, 3);
-    u8_field!(unknown_0, 4);
-    u8_field!(text, 5);
+    u32_field!(icon, 5);
+    u8_field!(unknown_0, 3);
+    u8_field!(text, 4);
     u8_field!(unknown_1, 6);
 }
 

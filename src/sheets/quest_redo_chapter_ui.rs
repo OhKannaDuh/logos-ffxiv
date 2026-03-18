@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(QuestRedoChapterUIRow);
 impl QuestRedoChapterUIRow {
-    string_field!(chapter_name, 0);
-    string_field!(chapter_part, 1);
-    string_field!(transient, 2);
-    u32_field!(quest, 3);
-    u32_field!(unknown_0, 4);
+    string_field!(chapter_name, 8);
+    string_field!(chapter_part, 9);
+    string_field!(transient, 10);
+    u32_field!(quest, 0);
+    u32_field!(unknown_0, 1);
     u32_field!(quest_redo_ui_small, 5);
     u32_field!(quest_redo_ui_large, 6);
     u32_field!(quest_redo_ui_wide, 7);
-    u8_field!(ui_tab, 8);
-    u8_field!(category, 9);
-    u8_field!(unknown_1, 10);
+    u8_field!(ui_tab, 2);
+    u8_field!(category, 3);
+    u8_field!(unknown_1, 4);
 }
 
 define_sheet!(QuestRedoChapterUISheet, QuestRedoChapterUIRow, "QuestRedoChapterUI");

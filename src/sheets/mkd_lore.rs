@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(MKDLoreRow);
 impl MKDLoreRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(unlock_link, 2);
-    u32_field!(image, 3);
+    string_field!(name, 5);
+    string_field!(description, 6);
+    u32_field!(unlock_link, 0);
+    u32_field!(image, 1);
     u32_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
+    u8_field!(unknown_5, 2);
+    u8_field!(unknown_6, 3);
 }
 
 define_sheet!(MKDLoreSheet, MKDLoreRow, "MKDLore");

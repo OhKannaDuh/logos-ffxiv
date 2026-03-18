@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(WKSPraiseUIRow);
 impl WKSPraiseUIRow {
-    string_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
+    string_field!(unknown_0, 1);
+    i32_field!(unknown_1, 0);
 }
 
 define_sheet!(WKSPraiseUISheet, WKSPraiseUIRow, "WKSPraiseUI");

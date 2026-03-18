@@ -17,9 +17,9 @@ impl MJILandmarkPlaceRow {
     u32_field!(unknown_0, 0);
     u32_field!(name, 1);
     array_field!(sgb, 2, 2, MJILandmarkPlaceSGB);
-    i16_field!(unknown_1, 4);
-    i16_field!(unknown_2, 5);
-    u8_field!(unknown_3, 6);
+    i16_field!(unknown_1, 5);
+    i16_field!(unknown_2, 6);
+    u8_field!(unknown_3, 4);
 }
 
 define_sheet!(MJILandmarkPlaceSheet, MJILandmarkPlaceRow, "MJILandmarkPlace");

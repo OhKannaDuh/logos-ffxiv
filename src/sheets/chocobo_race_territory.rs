@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ChocoboRaceTerritoryRow);
 impl ChocoboRaceTerritoryRow {
-    i32_field!(icon, 0);
-    u16_field!(name, 1);
+    i32_field!(icon, 1);
+    u16_field!(name, 0);
 }
 
 define_sheet!(ChocoboRaceTerritorySheet, ChocoboRaceTerritoryRow, "ChocoboRaceTerritory");

@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(DefaultTalkDefaultTalkParams, 6);
 impl<'a> DefaultTalkDefaultTalkParams<'a> {
-    u16_field!(action_timeline_pose, 0);
-    u16_field!(unknown_0, 1);
+    u16_field!(action_timeline_pose, 5);
+    u16_field!(unknown_0, 11);
     u8_field!(unknown_1, 2);
-    u8_field!(unknown_2, 3);
-    u8_field!(unknown_3, 4);
-    bool_field!(unknown_4, 5);
+    u8_field!(unknown_2, 8);
+    u8_field!(unknown_3, 14);
+    bool_field!(unknown_4, 17);
 }
 
 define_subrow!(DefaultTalkText, 1);
 impl<'a> DefaultTalkText<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 5);
 }
 
 
@@ -26,8 +26,8 @@ define_row!(DefaultTalkRow);
 impl DefaultTalkRow {
     array_field!(default_talk_params, 0, 3, DefaultTalkDefaultTalkParams);
     array_field!(text, 18, 3, DefaultTalkText);
-    u32_field!(unknown_0, 21);
-    u8_field!(unknown_1, 22);
+    u32_field!(unknown_0, 0);
+    u8_field!(unknown_1, 1);
 }
 
 define_sheet!(DefaultTalkSheet, DefaultTalkRow, "DefaultTalk");

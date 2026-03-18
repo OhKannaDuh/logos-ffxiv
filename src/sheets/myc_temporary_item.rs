@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(MYCTemporaryItemRow);
 impl MYCTemporaryItemRow {
-    u32_field!(action, 0);
-    u8_field!(category, 1);
-    u8_field!(type_, 2);
+    u32_field!(action, 2);
+    u8_field!(category, 0);
+    u8_field!(type_, 1);
     u8_field!(max, 3);
     u8_field!(weight, 4);
     u8_field!(order, 5);

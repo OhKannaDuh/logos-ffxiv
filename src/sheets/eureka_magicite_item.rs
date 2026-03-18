@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(EurekaMagiciteItemRow);
 impl EurekaMagiciteItemRow {
-    u32_field!(item, 0);
-    u8_field!(eureka_magicite_item_type, 1);
-    u8_field!(class_job_category, 2);
+    u32_field!(item, 2);
+    u8_field!(eureka_magicite_item_type, 0);
+    u8_field!(class_job_category, 1);
 }
 
 define_sheet!(EurekaMagiciteItemSheet, EurekaMagiciteItemRow, "EurekaMagiciteItem");

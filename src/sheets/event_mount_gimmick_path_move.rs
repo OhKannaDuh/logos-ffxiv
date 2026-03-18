@@ -13,9 +13,9 @@ impl EventMountGimmickPathMoveRow {
     i32_field!(unknown_1, 1);
     i32_field!(unknown_3, 2);
     u16_field!(unknown_2, 3);
-    u16_field!(unknown_4, 4);
-    u16_field!(unknown_5, 5);
-    bool_field!(unknown_6, 6);
+    u16_field!(unknown_4, 5);
+    u16_field!(unknown_5, 6);
+    bool_field!(unknown_6, 4);
     bool_field!(unknown_7, 7);
     bool_field!(unknown_8, 8);
 }

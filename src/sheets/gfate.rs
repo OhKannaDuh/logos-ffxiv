@@ -8,29 +8,29 @@ use crate::macros::*;
 
 define_subrow!(GFATEGFATEParams, 5);
 impl<'a> GFATEGFATEParams<'a> {
-    u32_field!(lgb_pop_range, 0);
-    u32_field!(icon, 1);
-    bool_field!(unknown_0, 2);
-    bool_field!(unknown_1, 3);
-    bool_field!(unknown_2, 4);
+    u32_field!(lgb_pop_range, 7);
+    u32_field!(icon, 23);
+    bool_field!(unknown_0, 39);
+    bool_field!(unknown_1, 55);
+    bool_field!(unknown_2, 71);
 }
 
 
 define_row!(GFATERow);
 impl GFATERow {
     array_field!(gfate_params, 0, 15, GFATEGFATEParams);
-    u32_field!(unknown_0, 75);
-    u32_field!(unknown_1, 76);
-    bool_field!(unknown_2, 77);
-    bool_field!(unknown_3, 78);
-    bool_field!(unknown_4, 79);
-    u32_field!(unknown_5, 80);
-    u32_field!(unknown_6, 81);
-    u16_field!(unknown_7, 82);
-    u16_field!(unknown_8, 83);
-    u16_field!(unknown_9, 84);
-    u8_field!(unknown_10, 85);
-    u8_field!(unknown_11, 86);
+    u32_field!(unknown_0, 22);
+    u32_field!(unknown_1, 38);
+    bool_field!(unknown_2, 54);
+    bool_field!(unknown_3, 70);
+    bool_field!(unknown_4, 86);
+    u32_field!(unknown_5, 2);
+    u32_field!(unknown_6, 6);
+    u16_field!(unknown_7, 3);
+    u16_field!(unknown_8, 4);
+    u16_field!(unknown_9, 5);
+    u8_field!(unknown_10, 0);
+    u8_field!(unknown_11, 1);
 }
 
 define_sheet!(GFATESheet, GFATERow, "GFATE");

@@ -16,10 +16,10 @@ define_row!(MJIAnimalsRow);
 impl MJIAnimalsRow {
     u32_field!(b_npc_base, 0);
     array_field!(reward, 1, 2, MJIAnimalsReward);
-    i32_field!(icon, 3);
-    u8_field!(size, 4);
-    u8_field!(unknown_0, 5);
-    u8_field!(unknown_1, 6);
+    i32_field!(icon, 6);
+    u8_field!(size, 1);
+    u8_field!(unknown_0, 2);
+    u8_field!(unknown_1, 3);
 }
 
 define_sheet!(MJIAnimalsSheet, MJIAnimalsRow, "MJIAnimals");

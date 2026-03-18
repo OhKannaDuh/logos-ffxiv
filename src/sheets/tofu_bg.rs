@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(TofuBgRow);
 impl TofuBgRow {
-    string_field!(name, 0);
-    u32_field!(icon, 1);
-    u16_field!(unknown_2, 2);
-    bool_field!(unknown_3, 3);
+    string_field!(name, 3);
+    u32_field!(icon, 2);
+    u16_field!(unknown_2, 1);
+    bool_field!(unknown_3, 0);
 }
 
 define_sheet!(TofuBgSheet, TofuBgRow, "TofuBg");

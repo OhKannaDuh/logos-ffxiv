@@ -12,8 +12,8 @@ impl AdventureExPhaseRow {
     u32_field!(quest, 0);
     u32_field!(adventure_begin, 1);
     u32_field!(adventure_end, 2);
-    u32_field!(all_vistas_completed_screen_image, 3);
-    u8_field!(expansion, 4);
+    u32_field!(all_vistas_completed_screen_image, 4);
+    u8_field!(expansion, 3);
 }
 
 define_sheet!(AdventureExPhaseSheet, AdventureExPhaseRow, "AdventureExPhase");

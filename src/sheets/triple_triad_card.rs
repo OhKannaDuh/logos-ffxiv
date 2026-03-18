@@ -10,14 +10,14 @@ use crate::macros::*;
 define_row!(TripleTriadCardRow);
 impl TripleTriadCardRow {
     string_field!(name, 0);
-    string_field!(unknown_0, 1);
-    string_field!(description, 2);
-    i8_field!(unknown_1, 3);
-    i8_field!(unknown_2, 4);
-    i8_field!(starts_with_vowel, 5);
-    i8_field!(unknown_3, 6);
-    i8_field!(unknown_4, 7);
-    i8_field!(unknown_5, 8);
+    string_field!(unknown_0, 2);
+    string_field!(description, 8);
+    i8_field!(unknown_1, 1);
+    i8_field!(unknown_2, 3);
+    i8_field!(starts_with_vowel, 4);
+    i8_field!(unknown_3, 5);
+    i8_field!(unknown_4, 6);
+    i8_field!(unknown_5, 7);
 }
 
 define_sheet!(TripleTriadCardSheet, TripleTriadCardRow, "TripleTriadCard");

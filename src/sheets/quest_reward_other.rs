@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(QuestRewardOtherRow);
 impl QuestRewardOtherRow {
-    string_field!(name, 0);
-    u32_field!(icon, 1);
+    string_field!(name, 1);
+    u32_field!(icon, 0);
 }
 
 define_sheet!(QuestRewardOtherSheet, QuestRewardOtherRow, "QuestRewardOther");

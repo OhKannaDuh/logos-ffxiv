@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(VVDDataRow);
 impl VVDDataRow {
-    u32_field!(content_finder_condition, 0);
-    u32_field!(currency_item, 1);
-    u32_field!(content_ex_action, 2);
-    u32_field!(unlock_quest, 3);
+    u32_field!(content_finder_condition, 2);
+    u32_field!(currency_item, 3);
+    u32_field!(content_ex_action, 4);
+    u32_field!(unlock_quest, 5);
     // RowId of VVDRouteData and VVDNotebookSeries
-    u8_field!(series, 4);
-    u8_field!(unknown_5, 5);
+    u8_field!(series, 0);
+    u8_field!(unknown_5, 1);
     u8_field!(unknown_6, 6);
 }
 

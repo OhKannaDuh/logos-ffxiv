@@ -11,9 +11,9 @@ define_row!(ExportedGatheringPointRow);
 impl ExportedGatheringPointRow {
     f32_field!(x, 0);
     f32_field!(y, 1);
-    u16_field!(radius, 2);
-    u8_field!(gathering_type, 3);
-    u8_field!(gathering_point_type, 4);
+    u16_field!(radius, 4);
+    u8_field!(gathering_type, 2);
+    u8_field!(gathering_point_type, 3);
 }
 
 define_sheet!(ExportedGatheringPointSheet, ExportedGatheringPointRow, "ExportedGatheringPoint");

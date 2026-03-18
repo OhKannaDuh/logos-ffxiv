@@ -10,15 +10,15 @@ use crate::macros::*;
 define_row!(GCRankUldahMaleTextRow);
 impl GCRankUldahMaleTextRow {
     string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(name_rank, 2);
-    string_field!(unknown_0, 3);
-    i8_field!(adjective, 4);
-    i8_field!(possessive_pronoun, 5);
-    i8_field!(starts_with_vowel, 6);
-    i8_field!(unknown_1, 7);
-    i8_field!(pronoun, 8);
-    i8_field!(article, 9);
+    string_field!(plural, 2);
+    string_field!(name_rank, 8);
+    string_field!(unknown_0, 9);
+    i8_field!(adjective, 1);
+    i8_field!(possessive_pronoun, 3);
+    i8_field!(starts_with_vowel, 4);
+    i8_field!(unknown_1, 5);
+    i8_field!(pronoun, 6);
+    i8_field!(article, 7);
 }
 
 define_sheet!(GCRankUldahMaleTextSheet, GCRankUldahMaleTextRow, "GCRankUldahMaleText");

@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(MobHuntOrderTypeRow);
 impl MobHuntOrderTypeRow {
-    u32_field!(quest, 0);
-    u32_field!(event_item, 1);
-    u16_field!(order_start, 2);
-    u8_field!(type_, 3);
+    u32_field!(quest, 1);
+    u32_field!(event_item, 2);
+    u16_field!(order_start, 3);
+    u8_field!(type_, 0);
     u8_field!(order_amount, 4);
 }
 

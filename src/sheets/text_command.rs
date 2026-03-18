@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(TextCommandRow);
 impl TextCommandRow {
-    string_field!(description, 0);
-    string_field!(alias, 1);
-    string_field!(short_alias, 2);
-    string_field!(command, 3);
-    string_field!(short_command, 4);
-    u32_field!(unknown_0, 5);
-    u16_field!(param, 6);
-    u8_field!(unknown_1, 7);
-    u8_field!(unknown_2, 8);
-    i8_field!(unknown_3, 9);
-    i8_field!(unknown_4, 10);
-    i8_field!(unknown_5, 11);
+    string_field!(description, 7);
+    string_field!(alias, 8);
+    string_field!(short_alias, 9);
+    string_field!(command, 5);
+    string_field!(short_command, 6);
+    u32_field!(unknown_0, 11);
+    u16_field!(param, 10);
+    u8_field!(unknown_1, 0);
+    u8_field!(unknown_2, 1);
+    i8_field!(unknown_3, 2);
+    i8_field!(unknown_4, 3);
+    i8_field!(unknown_5, 4);
 }
 
 define_sheet!(TextCommandSheet, TextCommandRow, "TextCommand");

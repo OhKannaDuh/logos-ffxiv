@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(BuddySkillRow);
 impl BuddySkillRow {
-    u16_field!(defender, 0);
-    u16_field!(attacker, 1);
-    u16_field!(healer, 2);
-    u8_field!(buddy_level, 3);
-    bool_field!(is_active, 4);
+    u16_field!(defender, 2);
+    u16_field!(attacker, 3);
+    u16_field!(healer, 4);
+    u8_field!(buddy_level, 0);
+    bool_field!(is_active, 1);
 }
 
 define_sheet!(BuddySkillSheet, BuddySkillRow, "BuddySkill");

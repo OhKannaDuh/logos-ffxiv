@@ -11,11 +11,11 @@ define_row!(TripleTriadRuleRow);
 impl TripleTriadRuleRow {
     string_field!(name, 0);
     string_field!(description, 1);
-    i32_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
-    u8_field!(unknown_2, 4);
+    i32_field!(unknown_0, 6);
+    u8_field!(unknown_1, 2);
+    u8_field!(unknown_2, 3);
     u8_field!(unknown_3, 5);
-    bool_field!(unknown_4, 6);
+    bool_field!(unknown_4, 4);
 }
 
 define_sheet!(TripleTriadRuleSheet, TripleTriadRuleRow, "TripleTriadRule");

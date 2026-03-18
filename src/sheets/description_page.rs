@@ -8,23 +8,23 @@ use crate::macros::*;
 
 define_subrow!(DescriptionPageImage, 1);
 impl<'a> DescriptionPageImage<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 define_subrow!(DescriptionPageText, 1);
 impl<'a> DescriptionPageText<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 
 define_row!(DescriptionPageRow);
 impl DescriptionPageRow {
-    u32_field!(quest, 0);
-    u32_field!(unknown_2, 1);
+    u32_field!(quest, 1);
+    u32_field!(unknown_2, 2);
     array_field!(image, 2, 11, DescriptionPageImage);
     array_field!(text, 13, 11, DescriptionPageText);
-    u16_field!(unknown_0, 24);
-    u8_field!(unknown_1, 25);
+    u16_field!(unknown_0, 25);
+    u8_field!(unknown_1, 0);
 }
 
 define_sheet!(DescriptionPageSheet, DescriptionPageRow, "DescriptionPage");

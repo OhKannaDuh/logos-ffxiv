@@ -8,21 +8,21 @@ use crate::macros::*;
 
 define_subrow!(BannerConditionUnlockCriteria1, 1);
 impl<'a> BannerConditionUnlockCriteria1<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 1);
 }
 
 
 define_row!(BannerConditionRow);
 impl BannerConditionRow {
     array_field!(unlock_criteria_1, 0, 2, BannerConditionUnlockCriteria1);
-    u32_field!(unlock_criteria_2, 2);
-    u32_field!(unlock_criteria_3, 3);
-    u32_field!(unlock_criteria_4, 4);
-    u32_field!(unknown_1, 5);
-    u32_field!(prerequisite, 6);
-    u8_field!(unlock_type_1, 7);
-    u8_field!(unlock_type_2, 8);
-    u8_field!(prerequisite_type, 9);
+    u32_field!(unlock_criteria_2, 4);
+    u32_field!(unlock_criteria_3, 5);
+    u32_field!(unlock_criteria_4, 6);
+    u32_field!(unknown_1, 7);
+    u32_field!(prerequisite, 9);
+    u8_field!(unlock_type_1, 0);
+    u8_field!(unlock_type_2, 3);
+    u8_field!(prerequisite_type, 8);
     u8_field!(unlock_hint, 10);
     bool_field!(unknown_0, 11);
 }

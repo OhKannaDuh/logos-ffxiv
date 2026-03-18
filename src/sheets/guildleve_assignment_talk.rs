@@ -8,42 +8,42 @@ use crate::macros::*;
 
 define_subrow!(GuildleveAssignmentTalkTalk, 1);
 impl<'a> GuildleveAssignmentTalkTalk<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 10);
 }
 
 
 define_row!(GuildleveAssignmentTalkRow);
 impl GuildleveAssignmentTalkRow {
-    u32_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    i8_field!(unknown_3, 3);
-    i8_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
-    u32_field!(unknown_6, 6);
-    i32_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    i8_field!(unknown_9, 9);
-    i8_field!(unknown_10, 10);
-    bool_field!(unknown_11, 11);
+    u32_field!(unknown_0, 10);
+    i32_field!(unknown_1, 25);
+    u8_field!(unknown_2, 5);
+    i8_field!(unknown_3, 15);
+    i8_field!(unknown_4, 20);
+    bool_field!(unknown_5, 0);
+    u32_field!(unknown_6, 11);
+    i32_field!(unknown_7, 26);
+    u8_field!(unknown_8, 6);
+    i8_field!(unknown_9, 16);
+    i8_field!(unknown_10, 21);
+    bool_field!(unknown_11, 1);
     u32_field!(unknown_12, 12);
-    i32_field!(unknown_13, 13);
-    u8_field!(unknown_14, 14);
-    i8_field!(unknown_15, 15);
-    i8_field!(unknown_16, 16);
-    bool_field!(unknown_17, 17);
-    u32_field!(unknown_18, 18);
-    i32_field!(unknown_19, 19);
-    u8_field!(unknown_20, 20);
-    i8_field!(unknown_21, 21);
-    i8_field!(unknown_22, 22);
-    bool_field!(unknown_23, 23);
-    u32_field!(unknown_24, 24);
-    i32_field!(unknown_25, 25);
-    u8_field!(unknown_26, 26);
-    i8_field!(unknown_27, 27);
-    i8_field!(unknown_28, 28);
-    bool_field!(unknown_29, 29);
+    i32_field!(unknown_13, 27);
+    u8_field!(unknown_14, 7);
+    i8_field!(unknown_15, 17);
+    i8_field!(unknown_16, 22);
+    bool_field!(unknown_17, 2);
+    u32_field!(unknown_18, 13);
+    i32_field!(unknown_19, 28);
+    u8_field!(unknown_20, 8);
+    i8_field!(unknown_21, 18);
+    i8_field!(unknown_22, 23);
+    bool_field!(unknown_23, 3);
+    u32_field!(unknown_24, 14);
+    i32_field!(unknown_25, 29);
+    u8_field!(unknown_26, 9);
+    i8_field!(unknown_27, 19);
+    i8_field!(unknown_28, 24);
+    bool_field!(unknown_29, 4);
     array_field!(talk, 30, 8, GuildleveAssignmentTalkTalk);
 }
 

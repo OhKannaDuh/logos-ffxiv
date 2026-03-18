@@ -10,10 +10,10 @@ use crate::macros::*;
 define_row!(ChocoboTaxiRow);
 impl ChocoboTaxiRow {
     u32_field!(location, 0);
-    u16_field!(fare, 1);
-    u16_field!(unknown_0, 2);
+    u16_field!(fare, 2);
+    u16_field!(unknown_0, 3);
     // In minutes.
-    u8_field!(time_required, 3);
+    u8_field!(time_required, 1);
     bool_field!(unknown_1, 4);
 }
 

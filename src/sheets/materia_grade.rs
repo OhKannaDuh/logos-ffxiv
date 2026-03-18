@@ -8,19 +8,19 @@ use crate::macros::*;
 
 define_subrow!(MateriaGradeOvermeldNQPercent, 1);
 impl<'a> MateriaGradeOvermeldNQPercent<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 1);
 }
 
 define_subrow!(MateriaGradeOvermeldHQPercent, 1);
 impl<'a> MateriaGradeOvermeldHQPercent<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 1);
 }
 
 
 define_row!(MateriaGradeRow);
 impl MateriaGradeRow {
-    u16_field!(meld_fee, 0);
-    u8_field!(return_rate, 1);
+    u16_field!(meld_fee, 1);
+    u8_field!(return_rate, 0);
     array_field!(overmeld_nq_percent, 2, 4, MateriaGradeOvermeldNQPercent);
     array_field!(overmeld_hq_percent, 6, 4, MateriaGradeOvermeldHQPercent);
 }

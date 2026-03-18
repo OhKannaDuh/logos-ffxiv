@@ -15,11 +15,11 @@ impl<'a> PvPActionGrandCompany<'a> {
 define_row!(PvPActionRow);
 impl PvPActionRow {
     u16_field!(action, 0);
-    u16_field!(unknown_0, 1);
-    u16_field!(unknown_1, 2);
-    u16_field!(unknown_2, 3);
-    u8_field!(unknown_3, 4);
-    u8_field!(unknown_4, 5);
+    u16_field!(unknown_0, 2);
+    u16_field!(unknown_1, 3);
+    u16_field!(unknown_2, 4);
+    u8_field!(unknown_3, 1);
+    u8_field!(unknown_4, 8);
     array_field!(grand_company, 6, 3, PvPActionGrandCompany);
 }
 

@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(EventTutorialPageRow);
 impl EventTutorialPageRow {
-    string_field!(name, 0);
-    string_field!(text, 1);
-    u32_field!(image, 2);
+    string_field!(name, 1);
+    string_field!(text, 2);
+    u32_field!(image, 0);
 }
 
 define_sheet!(EventTutorialPageSheet, EventTutorialPageRow, "EventTutorialPage");

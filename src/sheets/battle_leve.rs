@@ -17,10 +17,10 @@ impl<'a> BattleLeveLeveData<'a> {
     u16_field!(to_do_number_involved, 1);
     array_field!(to_do_param, 2, 5, BattleLeveLeveData);
     u16_field!(base_id, 7);
-    u32_field!(items_involved, 8);
-    u32_field!(enemy_level, 9);
-    u32_field!(items_involved_qty, 10);
-    u32_field!(item_drop_rate, 11);
+    u32_field!(items_involved, 24);
+    u32_field!(enemy_level, 56);
+    u32_field!(items_involved_qty, 64);
+    u32_field!(item_drop_rate, 72);
     array_field!(num_of_appearance, 12, 8, BattleLeveLeveData);
 }
 
@@ -58,7 +58,7 @@ impl BattleLeveRow {
     i32_field!(rule, 176);
     array_field!(objectives, 177, 3, BattleLeveObjectives);
     array_field!(help, 180, 2, BattleLeveHelp);
-    u8_field!(variant, 182);
+    u8_field!(variant, 177);
 }
 
 define_sheet!(BattleLeveSheet, BattleLeveRow, "BattleLeve");

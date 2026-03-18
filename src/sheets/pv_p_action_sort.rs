@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(PvPActionSortRow);
 impl PvPActionSortRow {
-    i32_field!(unknown_0, 0);
+    i32_field!(unknown_0, 4);
     u16_field!(action, 1);
-    u8_field!(action_type, 2);
-    bool_field!(unknown_1, 3);
-    bool_field!(unknown_2, 4);
+    u8_field!(action_type, 0);
+    bool_field!(unknown_1, 2);
+    bool_field!(unknown_2, 3);
 }
 
 define_sheet!(PvPActionSortSheet, PvPActionSortRow, "PvPActionSort");

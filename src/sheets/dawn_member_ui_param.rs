@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(DawnMemberUIParamRow);
 impl DawnMemberUIParamRow {
-    string_field!(unknown_0, 0);
-    string_field!(class_plural, 1);
+    string_field!(unknown_0, 1);
+    string_field!(class_plural, 3);
     u32_field!(voice_line, 2);
-    string_field!(class_singular, 3);
+    string_field!(class_singular, 0);
 }
 
 define_sheet!(DawnMemberUIParamSheet, DawnMemberUIParamRow, "DawnMemberUIParam");

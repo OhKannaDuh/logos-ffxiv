@@ -13,17 +13,17 @@ impl RelicRow {
     u32_field!(item_animus, 1);
     i32_field!(icon, 2);
     u16_field!(materia_0, 3);
-    u16_field!(materia_1, 4);
-    u16_field!(materia_2, 5);
-    u16_field!(materia_3, 6);
-    u8_field!(note_main_0, 7);
-    u8_field!(note_sub_0, 8);
-    u8_field!(note_selection_10, 9);
-    u8_field!(note_main_1, 10);
-    u8_field!(note_sub_1, 11);
-    u8_field!(note_selection_1, 12);
-    u8_field!(note_main_2, 13);
-    u8_field!(note_sub_2, 14);
+    u16_field!(materia_1, 7);
+    u16_field!(materia_2, 11);
+    u16_field!(materia_3, 14);
+    u8_field!(note_main_0, 4);
+    u8_field!(note_sub_0, 5);
+    u8_field!(note_selection_10, 6);
+    u8_field!(note_main_1, 8);
+    u8_field!(note_sub_1, 9);
+    u8_field!(note_selection_1, 10);
+    u8_field!(note_main_2, 12);
+    u8_field!(note_sub_2, 13);
     u8_field!(note_selection_3, 15);
 }
 

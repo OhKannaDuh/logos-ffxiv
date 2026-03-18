@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(QuestRedoChapterRow);
 impl QuestRedoChapterRow {
-    u32_field!(unknown_3, 0);
-    u32_field!(unknown_4, 1);
-    u8_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
-    u8_field!(unknown_2, 4);
-    u8_field!(unknown_5, 5);
+    u32_field!(unknown_3, 4);
+    u32_field!(unknown_4, 5);
+    u8_field!(unknown_0, 0);
+    u8_field!(unknown_1, 1);
+    u8_field!(unknown_2, 2);
+    u8_field!(unknown_5, 3);
 }
 
 define_sheet!(QuestRedoChapterSheet, QuestRedoChapterRow, "QuestRedoChapter");

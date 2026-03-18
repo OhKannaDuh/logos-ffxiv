@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(RideShootingTargetSchedulerRow);
 impl RideShootingTargetSchedulerRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
-    u16_field!(unknown_3, 3);
-    u16_field!(unknown_4, 4);
-    u16_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
+    u32_field!(unknown_0, 1);
+    u32_field!(unknown_1, 2);
+    u16_field!(unknown_2, 4);
+    u16_field!(unknown_3, 5);
+    u16_field!(unknown_4, 6);
+    u16_field!(unknown_5, 7);
+    u8_field!(unknown_6, 0);
+    u8_field!(unknown_7, 3);
 }
 
 define_sheet!(RideShootingTargetSchedulerSheet, RideShootingTargetSchedulerRow, "RideShootingTargetScheduler");

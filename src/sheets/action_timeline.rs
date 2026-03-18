@@ -9,27 +9,27 @@ use crate::macros::*;
 
 define_row!(ActionTimelineRow);
 impl ActionTimelineRow {
-    string_field!(key, 0);
-    u16_field!(weapon_timeline, 1);
-    u16_field!(kill_upper, 2);
-    u8_field!(unknown_70, 3);
-    u8_field!(type_, 4);
-    u8_field!(priority, 5);
-    u8_field!(stance, 6);
-    u8_field!(slot, 7);
-    u8_field!(look_at_mode, 8);
+    string_field!(key, 6);
+    u16_field!(weapon_timeline, 8);
+    u16_field!(kill_upper, 12);
+    u8_field!(unknown_70, 0);
+    u8_field!(type_, 1);
+    u8_field!(priority, 3);
+    u8_field!(stance, 4);
+    u8_field!(slot, 5);
+    u8_field!(look_at_mode, 7);
     u8_field!(action_timeline_id_mode, 9);
     u8_field!(load_type, 10);
     u8_field!(start_attach, 11);
-    u8_field!(resident_pap, 12);
-    u8_field!(unknown_6, 13);
-    u8_field!(unknown_1, 14);
-    bool_field!(pause, 15);
-    bool_field!(resident, 16);
-    bool_field!(is_motion_canceled_by_moving, 17);
-    bool_field!(unknown_2, 18);
-    bool_field!(unknown_3, 19);
-    bool_field!(is_loop, 20);
+    u8_field!(resident_pap, 15);
+    u8_field!(unknown_6, 19);
+    u8_field!(unknown_1, 20);
+    bool_field!(pause, 2);
+    bool_field!(resident, 13);
+    bool_field!(is_motion_canceled_by_moving, 14);
+    bool_field!(unknown_2, 16);
+    bool_field!(unknown_3, 17);
+    bool_field!(is_loop, 18);
     bool_field!(unknown_4, 21);
 }
 

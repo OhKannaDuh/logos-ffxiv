@@ -14,8 +14,8 @@ impl WKSEmergencyProblemRow {
     // The second option to teleport
     u32_field!(emergency_info_teleport_text_2, 1);
     u32_field!(event_layout, 2);
-    u32_field!(required_progress, 3);
-    u8_field!(unknown_2, 4);
+    u32_field!(required_progress, 4);
+    u8_field!(unknown_2, 3);
 }
 
 define_sheet!(WKSEmergencyProblemSheet, WKSEmergencyProblemRow, "WKSEmergencyProblem");

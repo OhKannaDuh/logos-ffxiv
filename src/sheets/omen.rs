@@ -12,9 +12,9 @@ impl OmenRow {
     string_field!(path, 0);
     string_field!(path_ally, 1);
     u8_field!(type_, 2);
-    i8_field!(unknown_0, 3);
-    bool_field!(restrict_y_scale, 4);
-    bool_field!(large_scale, 5);
+    i8_field!(unknown_0, 5);
+    bool_field!(restrict_y_scale, 3);
+    bool_field!(large_scale, 4);
 }
 
 define_sheet!(OmenSheet, OmenRow, "Omen");

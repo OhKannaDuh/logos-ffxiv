@@ -21,7 +21,7 @@ define_row!(MateriaRow);
 impl MateriaRow {
     array_field!(item, 0, 16, MateriaItem);
     array_field!(value, 16, 16, MateriaValue);
-    u8_field!(base_param, 32);
+    u8_field!(base_param, 16);
 }
 
 define_sheet!(MateriaSheet, MateriaRow, "Materia");

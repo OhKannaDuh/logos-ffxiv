@@ -12,8 +12,8 @@ impl LiveMinigamesRow {
     string_field!(unknown_0, 0);
     u32_field!(unknown_1, 1);
     u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    bool_field!(unknown_4, 4);
+    u32_field!(unknown_3, 4);
+    bool_field!(unknown_4, 3);
 }
 
 define_sheet!(LiveMinigamesSheet, LiveMinigamesRow, "LiveMinigames");

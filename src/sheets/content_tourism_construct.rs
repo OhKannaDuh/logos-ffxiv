@@ -9,20 +9,20 @@ use crate::macros::*;
 
 define_row!(ContentTourismConstructRow);
 impl ContentTourismConstructRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    u32_field!(unknown_4, 4);
-    u32_field!(unknown_5, 5);
-    u32_field!(unknown_6, 6);
-    u32_field!(unknown_7, 7);
-    u32_field!(unknown_8, 8);
-    u32_field!(unknown_9, 9);
-    u32_field!(unknown_10, 10);
-    u32_field!(unknown_11, 11);
-    u32_field!(unknown_12, 12);
-    u8_field!(unknown_13, 13);
+    u32_field!(unknown_0, 1);
+    u32_field!(unknown_1, 2);
+    u32_field!(unknown_2, 3);
+    u32_field!(unknown_3, 4);
+    u32_field!(unknown_4, 5);
+    u32_field!(unknown_5, 6);
+    u32_field!(unknown_6, 7);
+    u32_field!(unknown_7, 8);
+    u32_field!(unknown_8, 9);
+    u32_field!(unknown_9, 10);
+    u32_field!(unknown_10, 11);
+    u32_field!(unknown_11, 12);
+    u32_field!(unknown_12, 13);
+    u8_field!(unknown_13, 0);
 }
 
 define_sheet!(ContentTourismConstructSheet, ContentTourismConstructRow, "ContentTourismConstruct");

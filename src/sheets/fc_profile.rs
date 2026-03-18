@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(FCProfileRow);
 impl FCProfileRow {
-    string_field!(name, 0);
-    u8_field!(priority, 1);
+    string_field!(name, 1);
+    u8_field!(priority, 0);
 }
 
 define_sheet!(FCProfileSheet, FCProfileRow, "FCProfile");

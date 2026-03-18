@@ -13,16 +13,16 @@ impl FishParameterRow {
     string_field!(unknown_70_1, 1);
     string_field!(unknown_70_2, 2);
     string_field!(unknown_70_3, 3);
-    u32_field!(achievement_credit, 4);
-    i32_field!(item, 5);
-    u16_field!(gathering_item_level, 6);
+    u32_field!(achievement_credit, 13);
+    i32_field!(item, 4);
+    u16_field!(gathering_item_level, 5);
     u16_field!(unknown_1, 7);
-    u16_field!(fishing_spot, 8);
-    u16_field!(gathering_sub_category, 9);
-    u8_field!(ocean_stars, 10);
-    u8_field!(fishing_record_type, 11);
-    bool_field!(is_hidden, 12);
-    bool_field!(is_in_log, 13);
+    u16_field!(fishing_spot, 10);
+    u16_field!(gathering_sub_category, 11);
+    u8_field!(ocean_stars, 6);
+    u8_field!(fishing_record_type, 9);
+    bool_field!(is_hidden, 8);
+    bool_field!(is_in_log, 12);
 }
 
 define_sheet!(FishParameterSheet, FishParameterRow, "FishParameter");

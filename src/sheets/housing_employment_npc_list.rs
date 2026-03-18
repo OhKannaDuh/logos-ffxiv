@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(HousingEmploymentNpcListRow);
 impl HousingEmploymentNpcListRow {
-    u32_field!(male_e_npc_base, 0);
-    u32_field!(female_e_npc_base, 1);
-    u8_field!(race, 2);
+    u32_field!(male_e_npc_base, 1);
+    u32_field!(female_e_npc_base, 2);
+    u8_field!(race, 0);
 }
 
 define_sheet!(HousingEmploymentNpcListSheet, HousingEmploymentNpcListRow, "HousingEmploymentNpcList");

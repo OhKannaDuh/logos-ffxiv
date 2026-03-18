@@ -9,20 +9,20 @@ use crate::macros::*;
 
 define_row!(RetainerTaskRow);
 impl RetainerTaskRow {
-    i32_field!(experience, 0);
-    u16_field!(unknown_0, 1);
-    u16_field!(retainer_task_parameter, 2);
-    u16_field!(venture_cost, 3);
-    u16_field!(max_timemin, 4);
-    u16_field!(required_item_level, 5);
-    u16_field!(required_gathering, 6);
-    u16_field!(unknown_1, 7);
-    u16_field!(task, 8);
-    u8_field!(class_job_category, 9);
-    u8_field!(retainer_level, 10);
-    u8_field!(condition_param_0, 11);
-    u8_field!(condition_param_1, 12);
-    bool_field!(is_random, 13);
+    i32_field!(experience, 7);
+    u16_field!(unknown_0, 3);
+    u16_field!(retainer_task_parameter, 4);
+    u16_field!(venture_cost, 5);
+    u16_field!(max_timemin, 6);
+    u16_field!(required_item_level, 8);
+    u16_field!(required_gathering, 11);
+    u16_field!(unknown_1, 12);
+    u16_field!(task, 13);
+    u8_field!(class_job_category, 1);
+    u8_field!(retainer_level, 2);
+    u8_field!(condition_param_0, 9);
+    u8_field!(condition_param_1, 10);
+    bool_field!(is_random, 0);
 }
 
 define_sheet!(RetainerTaskSheet, RetainerTaskRow, "RetainerTask");

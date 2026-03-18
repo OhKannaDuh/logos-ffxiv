@@ -8,33 +8,33 @@ use crate::macros::*;
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParams, 5);
 impl<'a> SatisfactionNpcSatisfactionNpcParams<'a> {
-    i32_field!(supply_index, 0);
+    i32_field!(supply_index, 4);
     array_field!(item, 1, 3, SatisfactionNpcSatisfactionNpcParams);
-    u16_field!(satisfaction_required, 4);
+    u16_field!(satisfaction_required, 10);
     array_field!(item_count, 5, 3, SatisfactionNpcSatisfactionNpcParams);
     array_field!(is_hq, 8, 3, SatisfactionNpcSatisfactionNpcParams);
 }
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParamsItem, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsItem<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 4);
 }
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParamsItemCount, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsItemCount<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 4);
 }
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParamsIsHQ, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsIsHQ<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 4);
 }
 
 define_subrow!(SatisfactionNpcRankParams, 3);
 impl<'a> SatisfactionNpcRankParams<'a> {
-    i32_field!(image_id, 0);
-    i32_field!(unknown_1, 1);
-    i32_field!(quest, 2);
+    i32_field!(image_id, 4);
+    i32_field!(unknown_1, 16);
+    i32_field!(quest, 34);
 }
 
 
@@ -42,12 +42,12 @@ define_row!(SatisfactionNpcRow);
 impl SatisfactionNpcRow {
     array_field!(satisfaction_npc_params, 0, 6, SatisfactionNpcSatisfactionNpcParams);
     array_field!(rank_params, 66, 6, SatisfactionNpcRankParams);
-    u32_field!(level, 84);
-    i32_field!(npc, 85);
-    i32_field!(quest_required, 86);
-    i32_field!(icon, 87);
-    u8_field!(level_unlock, 88);
-    u8_field!(deliveries_per_week, 89);
+    u32_field!(level, 88);
+    i32_field!(npc, 0);
+    i32_field!(quest_required, 1);
+    i32_field!(icon, 89);
+    u8_field!(level_unlock, 2);
+    u8_field!(deliveries_per_week, 3);
     u8_field!(glamour_index, 90);
     u8_field!(unknown_19, 91);
     u8_field!(unknown_20, 92);

@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(TomestonesItemRow);
 impl TomestonesItemRow {
     i32_field!(item, 0);
-    i32_field!(tomestones, 1);
-    i8_field!(currency_inventory_slot, 2);
+    i32_field!(tomestones, 2);
+    i8_field!(currency_inventory_slot, 1);
 }
 
 define_sheet!(TomestonesItemSheet, TomestonesItemRow, "TomestonesItem");

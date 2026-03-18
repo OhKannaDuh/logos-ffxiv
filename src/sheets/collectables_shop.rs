@@ -17,7 +17,7 @@ impl CollectablesShopRow {
     string_field!(name, 0);
     u32_field!(quest, 1);
     array_field!(shop_items, 2, 11, CollectablesShopShopItems);
-    u8_field!(reward_type, 13);
+    u8_field!(reward_type, 2);
 }
 
 define_sheet!(CollectablesShopSheet, CollectablesShopRow, "CollectablesShop");

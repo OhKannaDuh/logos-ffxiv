@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(GcArmyTrainingRow);
 impl GcArmyTrainingRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(experience, 2);
-    i8_field!(physical_bonus, 3);
-    i8_field!(mental_bonus, 4);
-    i8_field!(tactical_bonus, 5);
+    string_field!(name, 4);
+    string_field!(description, 5);
+    u32_field!(experience, 3);
+    i8_field!(physical_bonus, 0);
+    i8_field!(mental_bonus, 1);
+    i8_field!(tactical_bonus, 2);
 }
 
 define_sheet!(GcArmyTrainingSheet, GcArmyTrainingRow, "GcArmyTraining");

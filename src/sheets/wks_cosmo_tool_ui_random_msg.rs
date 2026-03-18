@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(WKSCosmoToolUIRandomMsgRow);
 impl WKSCosmoToolUIRandomMsgRow {
-    u32_field!(unknown_0, 0);
+    u32_field!(unknown_0, 3);
     u16_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
+    u8_field!(unknown_2, 0);
+    u8_field!(unknown_3, 2);
 }
 
 define_sheet!(WKSCosmoToolUIRandomMsgSheet, WKSCosmoToolUIRandomMsgRow, "WKSCosmoToolUIRandomMsg");

@@ -9,15 +9,15 @@ use crate::macros::*;
 
 define_row!(MapReplaceRow);
 impl MapReplaceRow {
-    u32_field!(quest, 0);
-    u16_field!(map, 1);
-    u16_field!(territory_type, 2);
-    u16_field!(unknown_4, 3);
-    u8_field!(unknown_7, 4);
-    u8_field!(unknown_8, 5);
-    u8_field!(unknown_5, 6);
-    u8_field!(unknown_6, 7);
-    u8_field!(quest_sequence, 8);
+    u32_field!(quest, 4);
+    u16_field!(map, 6);
+    u16_field!(territory_type, 7);
+    u16_field!(unknown_4, 8);
+    u8_field!(unknown_7, 0);
+    u8_field!(unknown_8, 1);
+    u8_field!(unknown_5, 2);
+    u8_field!(unknown_6, 3);
+    u8_field!(quest_sequence, 5);
 }
 
 define_sheet!(MapReplaceSheet, MapReplaceRow, "MapReplace");

@@ -8,14 +8,14 @@ use crate::macros::*;
 
 define_subrow!(GatheringNotebookListGatheringItem, 1);
 impl<'a> GatheringNotebookListGatheringItem<'a> {
-    i32_field!(field_0, 0);
+    i32_field!(field_0, 1);
 }
 
 
 define_row!(GatheringNotebookListRow);
 impl GatheringNotebookListRow {
     array_field!(gathering_item, 0, 100, GatheringNotebookListGatheringItem);
-    u8_field!(unknown_0, 100);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(GatheringNotebookListSheet, GatheringNotebookListRow, "GatheringNotebookList");

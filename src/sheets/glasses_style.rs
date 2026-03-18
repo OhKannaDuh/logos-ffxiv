@@ -8,25 +8,25 @@ use crate::macros::*;
 
 define_subrow!(GlassesStyleGlasses, 1);
 impl<'a> GlassesStyleGlasses<'a> {
-    string_field!(field_0, 0);
+    string_field!(field_0, 15);
 }
 
 
 define_row!(GlassesStyleRow);
 impl GlassesStyleRow {
-    string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(name, 2);
-    i8_field!(unknown_70_1, 3);
-    i8_field!(unknown_70_2, 4);
-    i8_field!(unknown_70_3, 5);
-    i8_field!(unknown_70_4, 6);
-    i8_field!(unknown_70_5, 7);
-    i8_field!(unknown_70_6, 8);
-    i32_field!(icon, 9);
-    u16_field!(order, 10);
+    string_field!(singular, 15);
+    string_field!(plural, 17);
+    string_field!(name, 23);
+    i8_field!(unknown_70_1, 16);
+    i8_field!(unknown_70_2, 18);
+    i8_field!(unknown_70_3, 19);
+    i8_field!(unknown_70_4, 20);
+    i8_field!(unknown_70_5, 21);
+    i8_field!(unknown_70_6, 22);
+    i32_field!(icon, 1);
+    u16_field!(order, 2);
     array_field!(glasses, 11, 12, GlassesStyleGlasses);
-    i16_field!(unknown_70_7, 23);
+    i16_field!(unknown_70_7, 0);
 }
 
 define_sheet!(GlassesStyleSheet, GlassesStyleRow, "GlassesStyle");

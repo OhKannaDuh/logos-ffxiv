@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(HousingFurnitureRow);
 impl HousingFurnitureRow {
-    u32_field!(usage_parameter, 0);
-    u32_field!(custom_talk, 1);
-    u32_field!(item, 2);
-    u16_field!(model_key, 3);
-    u8_field!(housing_item_category, 4);
-    u8_field!(usage_type, 5);
-    u8_field!(placement, 6);
-    u8_field!(aquarium_tier, 7);
-    u8_field!(unknown_1, 8);
-    u8_field!(unplacement, 9);
-    u8_field!(unplacement_storage, 10);
-    bool_field!(destroy_on_removal, 11);
-    bool_field!(unknown_4, 12);
+    u32_field!(usage_parameter, 3);
+    u32_field!(custom_talk, 6);
+    u32_field!(item, 7);
+    u16_field!(model_key, 0);
+    u8_field!(housing_item_category, 1);
+    u8_field!(usage_type, 2);
+    u8_field!(placement, 4);
+    u8_field!(aquarium_tier, 5);
+    u8_field!(unknown_1, 10);
+    u8_field!(unplacement, 11);
+    u8_field!(unplacement_storage, 12);
+    bool_field!(destroy_on_removal, 8);
+    bool_field!(unknown_4, 9);
     bool_field!(unknown_5, 13);
     bool_field!(unknown_6, 14);
 }

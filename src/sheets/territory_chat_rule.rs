@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(TerritoryChatRuleRow);
 impl TerritoryChatRuleRow {
-    u8_field!(public, 0);
-    u8_field!(shout, 1);
-    u8_field!(duty_tell, 2);
-    u8_field!(public_tell, 3);
-    u8_field!(party, 4);
-    u8_field!(global, 5);
-    u8_field!(pvp, 6);
-    bool_field!(unknown_7, 7);
+    u8_field!(public, 1);
+    u8_field!(shout, 2);
+    u8_field!(duty_tell, 3);
+    u8_field!(public_tell, 4);
+    u8_field!(party, 5);
+    u8_field!(global, 6);
+    u8_field!(pvp, 7);
+    bool_field!(unknown_7, 0);
 }
 
 define_sheet!(TerritoryChatRuleSheet, TerritoryChatRuleRow, "TerritoryChatRule");

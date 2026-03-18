@@ -10,20 +10,20 @@ use crate::macros::*;
 define_row!(ParamGrowRow);
 impl ParamGrowRow {
     i32_field!(exp_to_next, 0);
-    i32_field!(mp_modifier, 1);
-    i32_field!(base_speed, 2);
-    i32_field!(level_modifier, 3);
-    i32_field!(hunting_log_exp_reward, 4);
-    i32_field!(monster_note_seals, 5);
-    u16_field!(scaled_quest_xp, 6);
-    u16_field!(hp_modifier, 7);
-    u16_field!(item_level_sync, 8);
-    u16_field!(proper_dungeon, 9);
-    u16_field!(proper_guild_order, 10);
-    u16_field!(crafting_level, 11);
-    u8_field!(additional_actions, 12);
-    u8_field!(apply_action, 13);
-    u8_field!(quest_exp_modifier, 14);
+    i32_field!(mp_modifier, 4);
+    i32_field!(base_speed, 5);
+    i32_field!(level_modifier, 6);
+    i32_field!(hunting_log_exp_reward, 9);
+    i32_field!(monster_note_seals, 10);
+    u16_field!(scaled_quest_xp, 3);
+    u16_field!(hp_modifier, 8);
+    u16_field!(item_level_sync, 11);
+    u16_field!(proper_dungeon, 12);
+    u16_field!(proper_guild_order, 13);
+    u16_field!(crafting_level, 14);
+    u8_field!(additional_actions, 1);
+    u8_field!(apply_action, 2);
+    u8_field!(quest_exp_modifier, 7);
 }
 
 define_sheet!(ParamGrowSheet, ParamGrowRow, "ParamGrow");

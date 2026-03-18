@@ -9,20 +9,20 @@ use crate::macros::*;
 
 define_row!(AdventureRow);
 impl AdventureRow {
-    string_field!(name, 0);
-    string_field!(impression, 1);
-    string_field!(description, 2);
-    i32_field!(level, 3);
-    i32_field!(min_level, 4);
-    i32_field!(place_name, 5);
-    i32_field!(icon_list, 6);
-    i32_field!(icon_discovered, 7);
-    i32_field!(icon_undiscovered, 8);
-    u16_field!(emote, 9);
-    u16_field!(min_time, 10);
-    u16_field!(max_time, 11);
-    u8_field!(max_level, 12);
-    bool_field!(is_initial, 13);
+    string_field!(name, 11);
+    string_field!(impression, 12);
+    string_field!(description, 13);
+    i32_field!(level, 0);
+    i32_field!(min_level, 1);
+    i32_field!(place_name, 6);
+    i32_field!(icon_list, 7);
+    i32_field!(icon_discovered, 8);
+    i32_field!(icon_undiscovered, 9);
+    u16_field!(emote, 3);
+    u16_field!(min_time, 4);
+    u16_field!(max_time, 5);
+    u8_field!(max_level, 2);
+    bool_field!(is_initial, 10);
 }
 
 define_sheet!(AdventureSheet, AdventureRow, "Adventure");

@@ -10,16 +10,16 @@ use crate::macros::*;
 define_row!(PlaceNameRow);
 impl PlaceNameRow {
     string_field!(name, 0);
-    string_field!(name_no_article, 1);
-    string_field!(unknown_0, 2);
-    i8_field!(unknown_1, 3);
-    i8_field!(unknown_2, 4);
-    i8_field!(unknown_3, 5);
-    i8_field!(unknown_4, 6);
-    i8_field!(unknown_5, 7);
-    i8_field!(unknown_6, 8);
-    u16_field!(unknown_7, 9);
-    u8_field!(unknown_8, 10);
+    string_field!(name_no_article, 2);
+    string_field!(unknown_0, 8);
+    i8_field!(unknown_1, 1);
+    i8_field!(unknown_2, 3);
+    i8_field!(unknown_3, 4);
+    i8_field!(unknown_4, 5);
+    i8_field!(unknown_5, 6);
+    i8_field!(unknown_6, 7);
+    u16_field!(unknown_7, 10);
+    u8_field!(unknown_8, 9);
     u8_field!(map_condition, 11);
 }
 

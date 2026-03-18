@@ -9,14 +9,14 @@ use crate::macros::*;
 
 define_row!(LogFilterRow);
 impl LogFilterRow {
-    string_field!(name, 0);
-    string_field!(example, 1);
-    u16_field!(caster, 2);
-    u16_field!(target, 3);
-    u8_field!(log_kind, 4);
-    u8_field!(category, 5);
-    u8_field!(display_order, 6);
-    u8_field!(preset, 7);
+    string_field!(name, 6);
+    string_field!(example, 7);
+    u16_field!(caster, 1);
+    u16_field!(target, 2);
+    u8_field!(log_kind, 0);
+    u8_field!(category, 3);
+    u8_field!(display_order, 4);
+    u8_field!(preset, 5);
 }
 
 define_sheet!(LogFilterSheet, LogFilterRow, "LogFilter");

@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(HugeCraftworksRankRow);
 impl HugeCraftworksRankRow {
-    u32_field!(exp_reward_per_item, 0);
-    u8_field!(crafter_level, 1);
+    u32_field!(exp_reward_per_item, 1);
+    u8_field!(crafter_level, 0);
     u8_field!(unknown_0, 2);
 }
 

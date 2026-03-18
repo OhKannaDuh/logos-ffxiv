@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(RideShootingTargetRow);
 impl RideShootingTargetRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
+    u32_field!(unknown_0, 2);
+    u32_field!(unknown_1, 3);
+    u32_field!(unknown_2, 4);
+    u8_field!(unknown_3, 0);
+    u8_field!(unknown_4, 1);
     u8_field!(unknown_5, 5);
 }
 

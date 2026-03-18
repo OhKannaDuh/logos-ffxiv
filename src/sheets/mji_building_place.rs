@@ -12,9 +12,9 @@ impl MJIBuildingPlaceRow {
     u32_field!(unknown_0, 0);
     u32_field!(name, 1);
     u32_field!(sgb, 2);
-    i16_field!(unknown_1, 3);
-    i16_field!(unknown_2, 4);
-    u8_field!(unknown_3, 5);
+    i16_field!(unknown_1, 4);
+    i16_field!(unknown_2, 5);
+    u8_field!(unknown_3, 3);
 }
 
 define_sheet!(MJIBuildingPlaceSheet, MJIBuildingPlaceRow, "MJIBuildingPlace");

@@ -8,26 +8,26 @@ use crate::macros::*;
 
 define_subrow!(MKDDataCurrencyItem, 1);
 impl<'a> MKDDataCurrencyItem<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 9);
 }
 
 define_subrow!(MKDDataCurrencyName, 1);
 impl<'a> MKDDataCurrencyName<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 9);
 }
 
 
 define_row!(MKDDataRow);
 impl MKDDataRow {
-    u32_field!(quest, 0);
-    u32_field!(zone_name, 1);
+    u32_field!(quest, 9);
+    u32_field!(zone_name, 2);
     array_field!(currency_item, 2, 2, MKDDataCurrencyItem);
-    u32_field!(cipher_item, 4);
+    u32_field!(cipher_item, 7);
     array_field!(currency_name, 5, 2, MKDDataCurrencyName);
-    i32_field!(cipher_name, 7);
+    i32_field!(cipher_name, 8);
     // Minimum Knowledge Level?
-    u8_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
+    u8_field!(unknown_8, 0);
+    u8_field!(unknown_9, 1);
 }
 
 define_sheet!(MKDDataSheet, MKDDataRow, "MKDData");

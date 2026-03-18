@@ -16,7 +16,7 @@ define_row!(GatheringPointBaseRow);
 impl GatheringPointBaseRow {
     i32_field!(gathering_type, 0);
     array_field!(item, 1, 8, GatheringPointBaseItem);
-    u8_field!(gathering_level, 9);
+    u8_field!(gathering_level, 1);
 }
 
 define_sheet!(GatheringPointBaseSheet, GatheringPointBaseRow, "GatheringPointBase");

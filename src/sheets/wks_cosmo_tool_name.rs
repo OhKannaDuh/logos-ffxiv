@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(WKSCosmoToolNameRow);
 impl WKSCosmoToolNameRow {
     string_field!(name, 0);
-    string_field!(unknown_1, 1);
-    i8_field!(unknown_2, 2);
+    string_field!(unknown_1, 2);
+    i8_field!(unknown_2, 1);
     i8_field!(unknown_3, 3);
     i8_field!(unknown_4, 4);
     i8_field!(unknown_5, 5);

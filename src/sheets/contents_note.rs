@@ -9,20 +9,20 @@ use crate::macros::*;
 
 define_row!(ContentsNoteRow);
 impl ContentsNoteRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    u32_field!(req_unlock, 2);
-    i32_field!(icon, 3);
-    i32_field!(required_amount, 4);
+    string_field!(name, 11);
+    string_field!(description, 12);
+    u32_field!(req_unlock, 10);
+    i32_field!(icon, 1);
+    i32_field!(required_amount, 3);
     i32_field!(exp_multiplier, 5);
-    i32_field!(gil_rward, 6);
-    i32_field!(exp_cap, 7);
+    i32_field!(gil_rward, 7);
+    i32_field!(exp_cap, 13);
     u16_field!(level_unlock, 8);
     u16_field!(how_to, 9);
-    u8_field!(content_type, 10);
-    u8_field!(menu_order, 11);
-    u8_field!(reward_0, 12);
-    u8_field!(reward_1, 13);
+    u8_field!(content_type, 0);
+    u8_field!(menu_order, 2);
+    u8_field!(reward_0, 4);
+    u8_field!(reward_1, 6);
 }
 
 define_sheet!(ContentsNoteSheet, ContentsNoteRow, "ContentsNote");

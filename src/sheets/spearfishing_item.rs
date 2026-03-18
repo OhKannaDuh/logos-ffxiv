@@ -13,10 +13,10 @@ impl SpearfishingItemRow {
     i32_field!(item, 1);
     u16_field!(gathering_item_level, 2);
     u16_field!(unknown_2, 3);
-    u16_field!(territory_type, 4);
-    u16_field!(unknown_0, 5);
-    u8_field!(fishing_record_type, 6);
-    bool_field!(unknown_1, 7);
+    u16_field!(territory_type, 6);
+    u16_field!(unknown_0, 7);
+    u8_field!(fishing_record_type, 5);
+    bool_field!(unknown_1, 4);
     bool_field!(is_visible, 8);
 }
 

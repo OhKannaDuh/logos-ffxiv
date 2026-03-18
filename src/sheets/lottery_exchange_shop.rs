@@ -9,9 +9,9 @@ use crate::macros::*;
 define_subrow!(LotteryExchangeShopLotteryExchangeParams, 4);
 impl<'a> LotteryExchangeShopLotteryExchangeParams<'a> {
     string_field!(amount_accepted, 0);
-    u32_field!(item_accepted, 1);
-    i32_field!(unknown_0, 2);
-    u8_field!(unknown_1, 3);
+    u32_field!(item_accepted, 33);
+    i32_field!(unknown_0, 1);
+    u8_field!(unknown_1, 65);
 }
 
 define_subrow!(LotteryExchangeShopLogMessage, 1);

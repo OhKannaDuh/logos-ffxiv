@@ -16,14 +16,14 @@ define_row!(ReplaceActionRow);
 impl ReplaceActionRow {
     i32_field!(action, 0);
     array_field!(replace_actions, 1, 4, ReplaceActionReplaceActions);
-    i16_field!(param_1, 5);
-    i16_field!(param_2, 6);
-    i16_field!(param_3, 7);
-    i16_field!(param_4, 8);
-    i8_field!(type_1, 9);
-    i8_field!(type_2, 10);
-    i8_field!(type_3, 11);
-    i8_field!(type_4, 12);
+    i16_field!(param_1, 2);
+    i16_field!(param_2, 5);
+    i16_field!(param_3, 8);
+    i16_field!(param_4, 11);
+    i8_field!(type_1, 1);
+    i8_field!(type_2, 4);
+    i8_field!(type_3, 7);
+    i8_field!(type_4, 10);
     i8_field!(replace_settable, 13);
     bool_field!(unknown_70, 14);
 }

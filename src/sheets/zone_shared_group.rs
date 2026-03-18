@@ -26,22 +26,22 @@ define_row!(ZoneSharedGroupRow);
 impl ZoneSharedGroupRow {
     u32_field!(lgb_shared_group, 0);
     array_field!(requirement_row, 1, 6, ZoneSharedGroupRequirementRow);
-    u32_field!(unknown_0, 7);
+    u32_field!(unknown_0, 26);
     array_field!(requirement_quest_sequence, 8, 6, ZoneSharedGroupRequirementQuestSequence);
-    u32_field!(unknown_1, 14);
+    u32_field!(unknown_1, 27);
     // 1 &#x3D; Quest
     // 2 &#x3D; Quest with specific Sequence
     // 3 &#x3D; AetherCurrent
     // 4 &#x3D; EurekaStoryProgress
     // 5 &#x3D; DomaStoryProgress
     array_field!(requirement_type, 15, 6, ZoneSharedGroupRequirementType);
-    u8_field!(unknown_8, 21);
-    bool_field!(unknown_9, 22);
-    bool_field!(unknown_10, 23);
-    bool_field!(unknown_11, 24);
-    bool_field!(unknown_12, 25);
-    bool_field!(unknown_13, 26);
-    bool_field!(unknown_14, 27);
+    u8_field!(unknown_8, 25);
+    bool_field!(unknown_9, 4);
+    bool_field!(unknown_10, 8);
+    bool_field!(unknown_11, 12);
+    bool_field!(unknown_12, 16);
+    bool_field!(unknown_13, 20);
+    bool_field!(unknown_14, 24);
     bool_field!(unknown_15, 28);
 }
 

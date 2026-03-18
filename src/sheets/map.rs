@@ -9,27 +9,27 @@ use crate::macros::*;
 
 define_row!(MapRow);
 impl MapRow {
-    string_field!(id, 0);
-    u32_field!(discovery_flag, 1);
-    u16_field!(map_marker_range, 2);
-    u16_field!(size_factor, 3);
-    u16_field!(place_name_region, 4);
-    u16_field!(place_name, 5);
-    u16_field!(place_name_sub, 6);
-    u16_field!(territory_type, 7);
+    string_field!(id, 6);
+    u32_field!(discovery_flag, 15);
+    u16_field!(map_marker_range, 5);
+    u16_field!(size_factor, 7);
+    u16_field!(place_name_region, 10);
+    u16_field!(place_name, 11);
+    u16_field!(place_name_sub, 12);
+    u16_field!(territory_type, 16);
     i16_field!(offset_x, 8);
     i16_field!(offset_y, 9);
-    i16_field!(discovery_index, 10);
-    u8_field!(map_condition, 11);
-    u8_field!(priority_category_ui, 12);
-    u8_field!(priority_ui, 13);
-    u8_field!(map_type, 14);
-    u8_field!(unknown_2, 15);
-    u8_field!(map_replace, 16);
-    i8_field!(map_index, 17);
-    bool_field!(discovery_array_byte, 18);
-    bool_field!(is_event, 19);
-    bool_field!(unknown_1, 20);
+    i16_field!(discovery_index, 14);
+    u8_field!(map_condition, 0);
+    u8_field!(priority_category_ui, 1);
+    u8_field!(priority_ui, 2);
+    u8_field!(map_type, 4);
+    u8_field!(unknown_2, 13);
+    u8_field!(map_replace, 20);
+    i8_field!(map_index, 3);
+    bool_field!(discovery_array_byte, 17);
+    bool_field!(is_event, 18);
+    bool_field!(unknown_1, 19);
 }
 
 define_sheet!(MapSheet, MapRow, "Map");

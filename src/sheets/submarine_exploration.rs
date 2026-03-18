@@ -11,17 +11,17 @@ define_row!(SubmarineExplorationRow);
 impl SubmarineExplorationRow {
     string_field!(destination, 0);
     string_field!(location, 1);
-    u32_field!(exp_reward, 2);
-    u16_field!(survey_durationmin, 3);
-    i16_field!(x, 4);
-    i16_field!(y, 5);
-    i16_field!(z, 6);
-    u8_field!(map, 7);
-    u8_field!(stars, 8);
-    u8_field!(rank_req, 9);
-    u8_field!(ceruleum_tank_req, 10);
+    u32_field!(exp_reward, 12);
+    u16_field!(survey_durationmin, 10);
+    i16_field!(x, 2);
+    i16_field!(y, 3);
+    i16_field!(z, 4);
+    u8_field!(map, 5);
+    u8_field!(stars, 7);
+    u8_field!(rank_req, 8);
+    u8_field!(ceruleum_tank_req, 9);
     u8_field!(survey_distance, 11);
-    bool_field!(starting_point, 12);
+    bool_field!(starting_point, 6);
 }
 
 define_sheet!(SubmarineExplorationSheet, SubmarineExplorationRow, "SubmarineExploration");

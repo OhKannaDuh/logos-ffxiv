@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(RelicNoteCategoryRow);
 impl RelicNoteCategoryRow {
-    string_field!(text, 0);
-    i8_field!(unknown_0, 1);
+    string_field!(text, 1);
+    i8_field!(unknown_0, 0);
 }
 
 define_sheet!(RelicNoteCategorySheet, RelicNoteCategoryRow, "RelicNoteCategory");

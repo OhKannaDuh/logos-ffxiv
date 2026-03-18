@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(WKSSharedGroupRow);
 impl WKSSharedGroupRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u16_field!(unknown_5, 2);
-    u8_field!(unknown_2, 3);
-    u8_field!(unknown_3, 4);
-    bool_field!(unknown_4, 5);
+    u32_field!(unknown_0, 1);
+    u32_field!(unknown_1, 2);
+    u16_field!(unknown_5, 5);
+    u8_field!(unknown_2, 0);
+    u8_field!(unknown_3, 3);
+    bool_field!(unknown_4, 4);
 }
 
 define_sheet!(WKSSharedGroupSheet, WKSSharedGroupRow, "WKSSharedGroup");

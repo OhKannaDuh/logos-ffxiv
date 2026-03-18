@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(DisposalShopItemRow);
 impl DisposalShopItemRow {
-    u32_field!(quantity_received, 0);
-    i32_field!(item_disposed, 1);
+    u32_field!(quantity_received, 4);
+    i32_field!(item_disposed, 0);
     i32_field!(item_received, 2);
-    u16_field!(unknown_0, 3);
-    bool_field!(unknown_1, 4);
-    bool_field!(unknown_2, 5);
+    u16_field!(unknown_0, 5);
+    bool_field!(unknown_1, 1);
+    bool_field!(unknown_2, 3);
 }
 
 define_sheet!(DisposalShopItemSheet, DisposalShopItemRow, "DisposalShopItem");

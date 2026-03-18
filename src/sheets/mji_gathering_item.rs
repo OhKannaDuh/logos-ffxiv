@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(MJIGatheringItemRow);
 impl MJIGatheringItemRow {
-    u16_field!(radius, 0);
-    i16_field!(x, 1);
-    i16_field!(y, 2);
-    u8_field!(unknown_0, 3);
-    u8_field!(unknown_1, 4);
-    u32_field!(item, 5);
-    u8_field!(sort, 6);
+    u16_field!(radius, 5);
+    i16_field!(x, 3);
+    i16_field!(y, 4);
+    u8_field!(unknown_0, 2);
+    u8_field!(unknown_1, 6);
+    u32_field!(item, 0);
+    u8_field!(sort, 1);
 }
 
 define_sheet!(MJIGatheringItemSheet, MJIGatheringItemRow, "MJIGatheringItem");

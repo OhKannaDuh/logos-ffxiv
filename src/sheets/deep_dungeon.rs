@@ -8,36 +8,36 @@ use crate::macros::*;
 
 define_subrow!(DeepDungeonPomanderSlot, 1);
 impl<'a> DeepDungeonPomanderSlot<'a> {
-    u8_field!(field_0, 0);
+    u8_field!(field_0, 2);
 }
 
 define_subrow!(DeepDungeonMagiciteSlot, 1);
 impl<'a> DeepDungeonMagiciteSlot<'a> {
-    u8_field!(field_0, 0);
+    u8_field!(field_0, 2);
 }
 
 
 define_row!(DeepDungeonRow);
 impl DeepDungeonRow {
     array_field!(pomander_slot, 0, 16, DeepDungeonPomanderSlot);
-    u32_field!(unknown_2, 16);
-    u32_field!(unknown_3, 17);
-    u32_field!(unknown_4, 18);
-    u32_field!(unknown_5, 19);
-    u32_field!(unknown_6, 20);
-    u32_field!(unknown_7, 21);
-    u32_field!(unknown_8, 22);
-    u32_field!(unknown_9, 23);
-    u8_field!(unknown_10, 24);
-    u8_field!(unknown_11, 25);
-    u8_field!(unknown_12, 26);
-    u8_field!(unknown_13, 27);
+    u32_field!(unknown_2, 21);
+    u32_field!(unknown_3, 25);
+    u32_field!(unknown_4, 29);
+    u32_field!(unknown_5, 33);
+    u32_field!(unknown_6, 22);
+    u32_field!(unknown_7, 26);
+    u32_field!(unknown_8, 30);
+    u32_field!(unknown_9, 34);
+    u8_field!(unknown_10, 19);
+    u8_field!(unknown_11, 23);
+    u8_field!(unknown_12, 27);
+    u8_field!(unknown_13, 31);
     array_field!(magicite_slot, 28, 4, DeepDungeonMagiciteSlot);
-    string_field!(name, 32);
-    u32_field!(unknown_14, 33);
-    u8_field!(aetherpool_arm, 34);
-    u8_field!(aetherpool_armor, 35);
-    u8_field!(deep_dungeon_type, 36);
+    string_field!(name, 35);
+    u32_field!(unknown_14, 36);
+    u8_field!(aetherpool_arm, 0);
+    u8_field!(aetherpool_armor, 1);
+    u8_field!(deep_dungeon_type, 18);
 }
 
 define_sheet!(DeepDungeonSheet, DeepDungeonRow, "DeepDungeon");

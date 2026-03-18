@@ -8,48 +8,48 @@ use crate::macros::*;
 
 define_subrow!(CraftLeveTalkTalk, 1);
 impl<'a> CraftLeveTalkTalk<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 12);
 }
 
 
 define_row!(CraftLeveTalkRow);
 impl CraftLeveTalkRow {
-    u32_field!(unknown_0, 0);
-    i32_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
-    i8_field!(unknown_3, 3);
-    i8_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
-    u32_field!(unknown_6, 6);
-    i32_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    i8_field!(unknown_9, 9);
-    i8_field!(unknown_10, 10);
-    bool_field!(unknown_11, 11);
-    u32_field!(unknown_12, 12);
-    i32_field!(unknown_13, 13);
-    u8_field!(unknown_14, 14);
-    i8_field!(unknown_15, 15);
-    i8_field!(unknown_16, 16);
-    bool_field!(unknown_17, 17);
-    u32_field!(unknown_18, 18);
-    i32_field!(unknown_19, 19);
-    u8_field!(unknown_20, 20);
+    u32_field!(unknown_0, 12);
+    i32_field!(unknown_1, 30);
+    u8_field!(unknown_2, 6);
+    i8_field!(unknown_3, 18);
+    i8_field!(unknown_4, 24);
+    bool_field!(unknown_5, 0);
+    u32_field!(unknown_6, 13);
+    i32_field!(unknown_7, 31);
+    u8_field!(unknown_8, 7);
+    i8_field!(unknown_9, 19);
+    i8_field!(unknown_10, 25);
+    bool_field!(unknown_11, 1);
+    u32_field!(unknown_12, 14);
+    i32_field!(unknown_13, 32);
+    u8_field!(unknown_14, 8);
+    i8_field!(unknown_15, 20);
+    i8_field!(unknown_16, 26);
+    bool_field!(unknown_17, 2);
+    u32_field!(unknown_18, 15);
+    i32_field!(unknown_19, 33);
+    u8_field!(unknown_20, 9);
     i8_field!(unknown_21, 21);
-    i8_field!(unknown_22, 22);
-    bool_field!(unknown_23, 23);
-    u32_field!(unknown_24, 24);
-    i32_field!(unknown_25, 25);
-    u8_field!(unknown_26, 26);
-    i8_field!(unknown_27, 27);
+    i8_field!(unknown_22, 27);
+    bool_field!(unknown_23, 3);
+    u32_field!(unknown_24, 16);
+    i32_field!(unknown_25, 34);
+    u8_field!(unknown_26, 10);
+    i8_field!(unknown_27, 22);
     i8_field!(unknown_28, 28);
-    bool_field!(unknown_29, 29);
-    u32_field!(unknown_30, 30);
-    i32_field!(unknown_31, 31);
-    u8_field!(unknown_32, 32);
-    i8_field!(unknown_33, 33);
-    i8_field!(unknown_34, 34);
-    bool_field!(unknown_35, 35);
+    bool_field!(unknown_29, 4);
+    u32_field!(unknown_30, 17);
+    i32_field!(unknown_31, 35);
+    u8_field!(unknown_32, 11);
+    i8_field!(unknown_33, 23);
+    i8_field!(unknown_34, 29);
+    bool_field!(unknown_35, 5);
     array_field!(talk, 36, 6, CraftLeveTalkTalk);
 }
 

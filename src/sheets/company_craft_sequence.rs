@@ -8,18 +8,18 @@ use crate::macros::*;
 
 define_subrow!(CompanyCraftSequenceCompanyCraftPart, 1);
 impl<'a> CompanyCraftSequenceCompanyCraftPart<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 13);
 }
 
 
 define_row!(CompanyCraftSequenceRow);
 impl CompanyCraftSequenceRow {
-    u32_field!(order, 0);
-    i32_field!(result_item, 1);
-    i32_field!(category, 2);
-    i32_field!(company_craft_draft_category, 3);
-    i32_field!(company_craft_type, 4);
-    i32_field!(company_craft_draft, 5);
+    u32_field!(order, 13);
+    i32_field!(result_item, 0);
+    i32_field!(category, 1);
+    i32_field!(company_craft_draft_category, 2);
+    i32_field!(company_craft_type, 3);
+    i32_field!(company_craft_draft, 4);
     array_field!(company_craft_part, 6, 8, CompanyCraftSequenceCompanyCraftPart);
 }
 

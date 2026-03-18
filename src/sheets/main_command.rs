@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(MainCommandRow);
 impl MainCommandRow {
-    string_field!(name, 0);
-    string_field!(description, 1);
-    i32_field!(icon, 2);
-    u8_field!(category, 3);
-    u8_field!(main_command_category, 4);
-    u8_field!(unknown_0, 5);
-    i8_field!(sort_id, 6);
+    string_field!(name, 5);
+    string_field!(description, 6);
+    i32_field!(icon, 0);
+    u8_field!(category, 1);
+    u8_field!(main_command_category, 2);
+    u8_field!(unknown_0, 4);
+    i8_field!(sort_id, 3);
 }
 
 define_sheet!(MainCommandSheet, MainCommandRow, "MainCommand");

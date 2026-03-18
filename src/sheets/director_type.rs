@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(DirectorTypeRow);
 impl DirectorTypeRow {
-    string_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    bool_field!(unknown_3, 3);
-    bool_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
+    string_field!(unknown_0, 5);
+    u32_field!(unknown_1, 2);
+    u32_field!(unknown_2, 4);
+    bool_field!(unknown_3, 0);
+    bool_field!(unknown_4, 1);
+    bool_field!(unknown_5, 3);
 }
 
 define_sheet!(DirectorTypeSheet, DirectorTypeRow, "DirectorType");

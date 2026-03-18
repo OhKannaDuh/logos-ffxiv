@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(StainRow);
 impl StainRow {
-    string_field!(inline_name, 0);
-    string_field!(name, 1);
-    u32_field!(color, 2);
-    u8_field!(shade, 3);
-    u8_field!(sub_order, 4);
+    string_field!(inline_name, 3);
+    string_field!(name, 4);
+    u32_field!(color, 0);
+    u8_field!(shade, 1);
+    u8_field!(sub_order, 2);
     bool_field!(is_metallic, 5);
     bool_field!(is_housing_applicable, 6);
 }

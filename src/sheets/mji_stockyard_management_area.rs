@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(MJIStockyardManagementAreaRow);
 impl MJIStockyardManagementAreaRow {
-    u16_field!(area, 0);
-    u8_field!(rare_material, 1);
-    u8_field!(unknown_0, 2);
+    u16_field!(area, 2);
+    u8_field!(rare_material, 0);
+    u8_field!(unknown_0, 1);
 }
 
 define_sheet!(MJIStockyardManagementAreaSheet, MJIStockyardManagementAreaRow, "MJIStockyardManagementArea");

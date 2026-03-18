@@ -9,25 +9,25 @@ use crate::macros::*;
 
 define_row!(AOZContentRow);
 impl AOZContentRow {
-    u16_field!(gil_reward, 0);
-    u16_field!(allied_seals_reward, 1);
-    u16_field!(tomestones_reward, 2);
-    u32_field!(content_entry, 3);
-    u16_field!(standard_finish_time, 4);
-    u16_field!(ideal_finish_time, 5);
-    u16_field!(act_1, 6);
+    u16_field!(gil_reward, 16);
+    u16_field!(allied_seals_reward, 17);
+    u16_field!(tomestones_reward, 18);
+    u32_field!(content_entry, 14);
+    u16_field!(standard_finish_time, 0);
+    u16_field!(ideal_finish_time, 1);
+    u16_field!(act_1, 3);
     u16_field!(act_2, 7);
-    u16_field!(act_3, 8);
-    u16_field!(unknown_0, 9);
-    u16_field!(unknown_1, 10);
-    u16_field!(unknown_2, 11);
-    u8_field!(act_1_fight_type, 12);
-    u8_field!(act_2_fight_type, 13);
-    u8_field!(act_3_fight_type, 14);
-    u8_field!(arena_type_1, 15);
-    u8_field!(arena_type_2, 16);
-    u8_field!(arena_type_3, 17);
-    u8_field!(order, 18);
+    u16_field!(act_3, 11);
+    u16_field!(unknown_0, 5);
+    u16_field!(unknown_1, 9);
+    u16_field!(unknown_2, 13);
+    u8_field!(act_1_fight_type, 2);
+    u8_field!(act_2_fight_type, 6);
+    u8_field!(act_3_fight_type, 10);
+    u8_field!(arena_type_1, 4);
+    u8_field!(arena_type_2, 8);
+    u8_field!(arena_type_3, 12);
+    u8_field!(order, 15);
 }
 
 define_sheet!(AOZContentSheet, AOZContentRow, "AOZContent");

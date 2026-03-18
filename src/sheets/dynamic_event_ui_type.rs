@@ -9,25 +9,25 @@ use crate::macros::*;
 
 define_row!(DynamicEventUITypeRow);
 impl DynamicEventUITypeRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
-    u32_field!(unknown_4, 4);
-    u32_field!(unknown_5, 5);
+    u32_field!(unknown_0, 4);
+    u32_field!(unknown_1, 9);
+    u32_field!(unknown_2, 14);
+    u32_field!(unknown_3, 5);
+    u32_field!(unknown_4, 10);
+    u32_field!(unknown_5, 15);
     u32_field!(unknown_6, 6);
-    u32_field!(unknown_7, 7);
-    u32_field!(unknown_8, 8);
-    u32_field!(unknown_9, 9);
-    u32_field!(unknown_10, 10);
-    u32_field!(unknown_11, 11);
-    u32_field!(unknown_12, 12);
+    u32_field!(unknown_7, 11);
+    u32_field!(unknown_8, 16);
+    u32_field!(unknown_9, 7);
+    u32_field!(unknown_10, 12);
+    u32_field!(unknown_11, 17);
+    u32_field!(unknown_12, 8);
     u32_field!(unknown_13, 13);
-    u32_field!(unknown_14, 14);
-    u32_field!(unknown_15, 15);
-    u32_field!(unknown_16, 16);
-    u32_field!(unknown_17, 17);
-    bool_field!(unknown_18, 18);
+    u32_field!(unknown_14, 18);
+    u32_field!(unknown_15, 0);
+    u32_field!(unknown_16, 1);
+    u32_field!(unknown_17, 2);
+    bool_field!(unknown_18, 3);
 }
 
 define_sheet!(DynamicEventUITypeSheet, DynamicEventUITypeRow, "DynamicEventUIType");

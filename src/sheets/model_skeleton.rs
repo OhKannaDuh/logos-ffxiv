@@ -12,20 +12,20 @@ impl ModelSkeletonRow {
     f32_field!(radius, 0);
     f32_field!(height, 1);
     f32_field!(vfx_scale, 2);
-    f32_field!(float_height, 3);
-    f32_field!(float_down, 4);
-    u16_field!(unknown_0, 5);
-    u16_field!(unknown_1, 6);
-    u16_field!(unknown_2, 7);
-    u16_field!(unknown_3, 8);
-    u16_field!(unknown_4, 9);
-    u16_field!(unknown_5, 10);
-    u16_field!(unknown_6, 11);
-    u16_field!(unknown_7, 12);
+    f32_field!(float_height, 11);
+    f32_field!(float_down, 12);
+    u16_field!(unknown_0, 3);
+    u16_field!(unknown_1, 4);
+    u16_field!(unknown_2, 5);
+    u16_field!(unknown_3, 6);
+    u16_field!(unknown_4, 7);
+    u16_field!(unknown_5, 8);
+    u16_field!(unknown_6, 9);
+    u16_field!(unknown_7, 10);
     u16_field!(float_up, 13);
     u8_field!(unknown_8, 14);
-    u8_field!(loop_fly_se, 15);
-    bool_field!(motion_blend_type, 16);
+    u8_field!(loop_fly_se, 16);
+    bool_field!(motion_blend_type, 15);
 }
 
 define_sheet!(ModelSkeletonSheet, ModelSkeletonRow, "ModelSkeleton");

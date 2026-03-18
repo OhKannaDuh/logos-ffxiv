@@ -8,19 +8,19 @@ use crate::macros::*;
 
 define_subrow!(RacingChocoboNameInfoName, 1);
 impl<'a> RacingChocoboNameInfoName<'a> {
-    u16_field!(field_0, 0);
+    u16_field!(field_0, 5);
 }
 
 
 define_row!(RacingChocoboNameInfoRow);
 impl RacingChocoboNameInfoRow {
     array_field!(name, 0, 3, RacingChocoboNameInfoName);
-    u16_field!(unknown_4, 3);
-    u8_field!(racing_chocobo_name_category, 4);
-    bool_field!(unknown_0, 5);
-    bool_field!(unknown_1, 6);
-    bool_field!(unknown_2, 7);
-    bool_field!(unknown_3, 8);
+    u16_field!(unknown_4, 8);
+    u8_field!(racing_chocobo_name_category, 0);
+    bool_field!(unknown_0, 1);
+    bool_field!(unknown_1, 2);
+    bool_field!(unknown_2, 3);
+    bool_field!(unknown_3, 4);
 }
 
 define_sheet!(RacingChocoboNameInfoSheet, RacingChocoboNameInfoRow, "RacingChocoboNameInfo");

@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(QuestEventAreaEntranceInfoRow);
 impl QuestEventAreaEntranceInfoRow {
     u32_field!(quest, 0);
-    u32_field!(location, 1);
-    u8_field!(unknown_0, 2);
+    u32_field!(location, 2);
+    u8_field!(unknown_0, 1);
 }
 
 define_sheet!(QuestEventAreaEntranceInfoSheet, QuestEventAreaEntranceInfoRow, "QuestEventAreaEntranceInfo");

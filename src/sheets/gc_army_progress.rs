@@ -10,8 +10,8 @@ use crate::macros::*;
 define_row!(GcArmyProgressRow);
 impl GcArmyProgressRow {
     u16_field!(unknown_0, 0);
-    u16_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
+    u16_field!(unknown_1, 2);
+    u8_field!(unknown_2, 1);
 }
 
 define_sheet!(GcArmyProgressSheet, GcArmyProgressRow, "GcArmyProgress");

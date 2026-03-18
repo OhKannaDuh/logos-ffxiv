@@ -9,26 +9,26 @@ use crate::macros::*;
 
 define_row!(BeastTribeRow);
 impl BeastTribeRow {
-    string_field!(name, 0);
-    string_field!(plural, 1);
-    string_field!(name_relation, 2);
-    i8_field!(adjective, 3);
-    i8_field!(possessive_pronoun, 4);
-    i8_field!(starts_with_vowel, 5);
-    i8_field!(pronoun, 6);
-    i8_field!(article, 7);
-    i8_field!(def, 8);
-    u32_field!(icon_reputation, 9);
-    u32_field!(icon, 10);
-    u32_field!(intersocietal_quest, 11);
-    u32_field!(level, 12);
-    u32_field!(currency_item, 13);
-    u8_field!(min_level, 14);
-    u8_field!(beast_rank_bonus, 15);
-    u8_field!(max_rank, 16);
-    u8_field!(expansion, 17);
-    u8_field!(display_order, 18);
-    bool_field!(unknown_0, 19);
+    string_field!(name, 11);
+    string_field!(plural, 13);
+    string_field!(name_relation, 19);
+    i8_field!(adjective, 12);
+    i8_field!(possessive_pronoun, 14);
+    i8_field!(starts_with_vowel, 15);
+    i8_field!(pronoun, 16);
+    i8_field!(article, 17);
+    i8_field!(def, 18);
+    u32_field!(icon_reputation, 3);
+    u32_field!(icon, 4);
+    u32_field!(intersocietal_quest, 7);
+    u32_field!(level, 8);
+    u32_field!(currency_item, 9);
+    u8_field!(min_level, 1);
+    u8_field!(beast_rank_bonus, 2);
+    u8_field!(max_rank, 5);
+    u8_field!(expansion, 6);
+    u8_field!(display_order, 10);
+    bool_field!(unknown_0, 0);
 }
 
 define_sheet!(BeastTribeSheet, BeastTribeRow, "BeastTribe");

@@ -12,8 +12,8 @@ impl ChocoboRaceAbilityRow {
     string_field!(name, 0);
     string_field!(description, 1);
     u32_field!(icon, 2);
-    u8_field!(value, 3);
-    i8_field!(chocobo_race_ability_type, 4);
+    u8_field!(value, 4);
+    i8_field!(chocobo_race_ability_type, 3);
 }
 
 define_sheet!(ChocoboRaceAbilitySheet, ChocoboRaceAbilityRow, "ChocoboRaceAbility");

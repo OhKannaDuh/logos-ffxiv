@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(TofuPresetCategoryRow);
 impl TofuPresetCategoryRow {
-    string_field!(name, 0);
+    string_field!(name, 2);
     u8_field!(unknown_1, 1);
-    bool_field!(unknown_2, 2);
+    bool_field!(unknown_2, 0);
 }
 
 define_sheet!(TofuPresetCategorySheet, TofuPresetCategoryRow, "TofuPresetCategory");

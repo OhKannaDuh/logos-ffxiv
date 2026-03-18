@@ -10,12 +10,12 @@ use crate::macros::*;
 define_row!(BenchmarkCutSceneTableRow);
 impl BenchmarkCutSceneTableRow {
     string_field!(unknown_0, 0);
-    f32_field!(unknown_1, 1);
-    f32_field!(unknown_2, 2);
-    u32_field!(unknown_3, 3);
+    f32_field!(unknown_1, 2);
+    f32_field!(unknown_2, 3);
+    u32_field!(unknown_3, 1);
     u32_field!(unknown_4, 4);
-    u32_field!(unknown_5, 5);
-    bool_field!(unknown_6, 6);
+    u32_field!(unknown_5, 6);
+    bool_field!(unknown_6, 5);
 }
 
 define_sheet!(BenchmarkCutSceneTableSheet, BenchmarkCutSceneTableRow, "BenchmarkCutSceneTable");

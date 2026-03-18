@@ -9,10 +9,10 @@ use crate::macros::*;
 
 define_row!(BGMSwitchRow);
 impl BGMSwitchRow {
-    u32_field!(quest, 0);
-    u16_field!(bgm, 1);
-    u8_field!(bgm_system_define, 2);
-    u8_field!(unknown_0, 3);
+    u32_field!(quest, 1);
+    u16_field!(bgm, 3);
+    u8_field!(bgm_system_define, 0);
+    u8_field!(unknown_0, 2);
 }
 
 define_sheet!(BGMSwitchSheet, BGMSwitchRow, "BGMSwitch");

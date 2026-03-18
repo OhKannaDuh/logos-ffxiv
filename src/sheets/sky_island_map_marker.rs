@@ -11,21 +11,21 @@ define_row!(SkyIslandMapMarkerRow);
 impl SkyIslandMapMarkerRow {
     i16_field!(unknown_0, 0);
     i16_field!(unknown_1, 1);
-    i16_field!(unknown_2, 2);
-    i16_field!(unknown_3, 3);
-    i16_field!(unknown_4, 4);
-    i16_field!(unknown_5, 5);
-    i16_field!(unknown_6, 6);
-    i16_field!(unknown_7, 7);
-    i16_field!(unknown_8, 8);
-    i16_field!(unknown_9, 9);
-    i16_field!(unknown_10, 10);
-    i16_field!(unknown_11, 11);
-    u8_field!(unknown_12, 12);
-    u8_field!(unknown_13, 13);
-    u8_field!(unknown_14, 14);
-    u8_field!(unknown_15, 15);
-    u8_field!(unknown_16, 16);
+    i16_field!(unknown_2, 3);
+    i16_field!(unknown_3, 6);
+    i16_field!(unknown_4, 9);
+    i16_field!(unknown_5, 12);
+    i16_field!(unknown_6, 15);
+    i16_field!(unknown_7, 4);
+    i16_field!(unknown_8, 7);
+    i16_field!(unknown_9, 10);
+    i16_field!(unknown_10, 13);
+    i16_field!(unknown_11, 16);
+    u8_field!(unknown_12, 2);
+    u8_field!(unknown_13, 5);
+    u8_field!(unknown_14, 8);
+    u8_field!(unknown_15, 11);
+    u8_field!(unknown_16, 14);
 }
 
 define_sheet!(SkyIslandMapMarkerSheet, SkyIslandMapMarkerRow, "SkyIslandMapMarker");

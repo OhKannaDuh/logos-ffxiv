@@ -15,15 +15,15 @@ impl<'a> GuildleveAssignmentQuest<'a> {
 define_row!(GuildleveAssignmentRow);
 impl GuildleveAssignmentRow {
     string_field!(type_, 0);
-    u32_field!(assignment_talk, 1);
+    u32_field!(assignment_talk, 2);
     array_field!(quest, 2, 2, GuildleveAssignmentQuest);
-    u8_field!(unknown_0, 4);
-    u8_field!(unknown_1, 5);
-    bool_field!(unknown_2, 6);
-    bool_field!(unknown_3, 7);
-    bool_field!(unknown_4, 8);
-    bool_field!(unknown_5, 9);
-    bool_field!(unknown_6, 10);
+    u8_field!(unknown_0, 1);
+    u8_field!(unknown_1, 10);
+    bool_field!(unknown_2, 5);
+    bool_field!(unknown_3, 6);
+    bool_field!(unknown_4, 7);
+    bool_field!(unknown_5, 8);
+    bool_field!(unknown_6, 9);
 }
 
 define_sheet!(GuildleveAssignmentSheet, GuildleveAssignmentRow, "GuildleveAssignment");

@@ -11,8 +11,8 @@ define_row!(SwitchTalkVariationRow);
 impl SwitchTalkVariationRow {
     u32_field!(quest_0, 0);
     u32_field!(quest_1, 1);
-    u32_field!(default_talk, 2);
-    u8_field!(unknown_0, 3);
+    u32_field!(default_talk, 3);
+    u8_field!(unknown_0, 2);
 }
 
 define_sheet!(SwitchTalkVariationSheet, SwitchTalkVariationRow, "SwitchTalkVariation");

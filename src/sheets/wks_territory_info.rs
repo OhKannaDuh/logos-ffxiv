@@ -9,19 +9,19 @@ use crate::macros::*;
 
 define_row!(WKSTerritoryInfoRow);
 impl WKSTerritoryInfoRow {
-    u32_field!(unknown_6, 0);
-    u32_field!(unknown_7, 1);
-    u32_field!(unknown_8, 2);
-    u32_field!(unknown_9, 3);
-    u32_field!(unknown_10, 4);
-    u32_field!(unknown_11, 5);
-    u32_field!(unknown_12, 6);
-    u32_field!(unknown_0, 7);
-    u32_field!(mecha_event_npc, 8);
-    u32_field!(item, 9);
-    u32_field!(unknown_3, 10);
-    u16_field!(unknown_4, 11);
-    u8_field!(unknown_5, 12);
+    u32_field!(unknown_6, 6);
+    u32_field!(unknown_7, 7);
+    u32_field!(unknown_8, 8);
+    u32_field!(unknown_9, 9);
+    u32_field!(unknown_10, 10);
+    u32_field!(unknown_11, 11);
+    u32_field!(unknown_12, 12);
+    u32_field!(unknown_0, 0);
+    u32_field!(mecha_event_npc, 2);
+    u32_field!(item, 3);
+    u32_field!(unknown_3, 5);
+    u16_field!(unknown_4, 4);
+    u8_field!(unknown_5, 1);
 }
 
 define_sheet!(WKSTerritoryInfoSheet, WKSTerritoryInfoRow, "WKSTerritoryInfo");

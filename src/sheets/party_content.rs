@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(PartyContentLGBEventObject, 1);
 impl<'a> PartyContentLGBEventObject<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 5);
 }
 
 define_subrow!(PartyContentLGBEventRange, 1);
 impl<'a> PartyContentLGBEventRange<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 5);
 }
 
 define_subrow!(PartyContentLGBEventObject2, 1);
 impl<'a> PartyContentLGBEventObject2<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 5);
 }
 
 
@@ -27,15 +27,15 @@ impl PartyContentRow {
     array_field!(lgb_event_object, 0, 9, PartyContentLGBEventObject);
     array_field!(lgb_event_range, 9, 9, PartyContentLGBEventRange);
     array_field!(lgb_event_object_2, 18, 9, PartyContentLGBEventObject2);
-    u32_field!(text_data_start, 27);
-    u32_field!(text_data_end, 28);
-    u32_field!(image, 29);
-    u16_field!(time_limit, 30);
-    u16_field!(unknown_0, 31);
-    u16_field!(content_finder_condition, 32);
-    u8_field!(key, 33);
-    u8_field!(unknown_1, 34);
-    bool_field!(name, 35);
+    u32_field!(text_data_start, 3);
+    u32_field!(text_data_end, 4);
+    u32_field!(image, 34);
+    u16_field!(time_limit, 1);
+    u16_field!(unknown_0, 32);
+    u16_field!(content_finder_condition, 33);
+    u8_field!(key, 0);
+    u8_field!(unknown_1, 35);
+    bool_field!(name, 2);
 }
 
 define_sheet!(PartyContentSheet, PartyContentRow, "PartyContent");

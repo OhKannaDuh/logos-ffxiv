@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(CharaMakeCustomizeRow);
 impl CharaMakeCustomizeRow {
-    u32_field!(icon, 0);
-    u32_field!(hint, 1);
-    u32_field!(hint_item, 2);
-    u16_field!(unlock_link, 3);
-    u8_field!(feature_id, 4);
-    u8_field!(unknown_0, 5);
-    bool_field!(is_purchasable, 6);
+    u32_field!(icon, 1);
+    u32_field!(hint, 4);
+    u32_field!(hint_item, 5);
+    u16_field!(unlock_link, 2);
+    u8_field!(feature_id, 0);
+    u8_field!(unknown_0, 6);
+    bool_field!(is_purchasable, 3);
 }
 
 define_sheet!(CharaMakeCustomizeSheet, CharaMakeCustomizeRow, "CharaMakeCustomize");

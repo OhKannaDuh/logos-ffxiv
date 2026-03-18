@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(CutScreenImageRow);
 impl CutScreenImageRow {
-    i32_field!(image, 0);
-    i16_field!(type_, 1);
+    i32_field!(image, 1);
+    i16_field!(type_, 0);
     i16_field!(unknown_0, 2);
 }
 

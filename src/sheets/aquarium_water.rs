@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(AquariumWaterRow);
 impl AquariumWaterRow {
-    string_field!(name, 0);
-    u8_field!(unknown_0, 1);
+    string_field!(name, 1);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(AquariumWaterSheet, AquariumWaterRow, "AquariumWater");

@@ -9,15 +9,15 @@ use crate::macros::*;
 
 define_row!(HousingUnitedExteriorRow);
 impl HousingUnitedExteriorRow {
-    u32_field!(roof, 0);
-    u32_field!(walls, 1);
-    u32_field!(windows, 2);
-    u32_field!(door, 3);
-    u32_field!(optional_roof, 4);
-    u32_field!(optional_wall, 5);
-    u32_field!(optional_signboard, 6);
-    u32_field!(fence, 7);
-    u8_field!(plot_size, 8);
+    u32_field!(roof, 1);
+    u32_field!(walls, 2);
+    u32_field!(windows, 3);
+    u32_field!(door, 4);
+    u32_field!(optional_roof, 5);
+    u32_field!(optional_wall, 6);
+    u32_field!(optional_signboard, 7);
+    u32_field!(fence, 8);
+    u8_field!(plot_size, 0);
 }
 
 define_sheet!(HousingUnitedExteriorSheet, HousingUnitedExteriorRow, "HousingUnitedExterior");

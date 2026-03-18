@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(PlayerSearchSubLocationRow);
 impl PlayerSearchSubLocationRow {
-    string_field!(name_0, 0);
-    string_field!(name_1, 1);
-    string_field!(name_2, 2);
-    i32_field!(place_name, 3);
+    string_field!(name_0, 3);
+    string_field!(name_1, 4);
+    string_field!(name_2, 5);
+    i32_field!(place_name, 1);
     // The UI category this appears in.
-    i32_field!(location, 4);
-    u8_field!(sort_key, 5);
+    i32_field!(location, 2);
+    u8_field!(sort_key, 0);
 }
 
 define_sheet!(PlayerSearchSubLocationSheet, PlayerSearchSubLocationRow, "PlayerSearchSubLocation");

@@ -11,12 +11,12 @@ define_row!(GeneralActionRow);
 impl GeneralActionRow {
     string_field!(name, 0);
     string_field!(description, 1);
-    i32_field!(icon, 2);
+    i32_field!(icon, 7);
     u16_field!(action, 3);
     u16_field!(unlock_link, 4);
-    u8_field!(unknown_0, 5);
-    u8_field!(recast, 6);
-    u8_field!(ui_priority, 7);
+    u8_field!(unknown_0, 2);
+    u8_field!(recast, 5);
+    u8_field!(ui_priority, 6);
     bool_field!(unknown_2, 8);
     bool_field!(unknown_1, 9);
 }

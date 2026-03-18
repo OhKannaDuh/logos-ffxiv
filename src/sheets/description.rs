@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(DescriptionRow);
 impl DescriptionRow {
-    string_field!(text_long, 0);
-    string_field!(text_short, 1);
-    string_field!(text_commentary, 2);
-    u32_field!(quest, 3);
-    u32_field!(section, 4);
-    u8_field!(unknown_0, 5);
-    bool_field!(unknown_1, 6);
+    string_field!(text_long, 2);
+    string_field!(text_short, 3);
+    string_field!(text_commentary, 4);
+    u32_field!(quest, 1);
+    u32_field!(section, 6);
+    u8_field!(unknown_0, 0);
+    bool_field!(unknown_1, 5);
 }
 
 define_sheet!(DescriptionSheet, DescriptionRow, "Description");

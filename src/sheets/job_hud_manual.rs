@@ -9,13 +9,13 @@ use crate::macros::*;
 
 define_row!(JobHudManualRow);
 impl JobHudManualRow {
-    u32_field!(action, 0);
-    u32_field!(unknown_0, 1);
-    u16_field!(guide, 2);
-    u8_field!(unknown_1, 3);
-    u8_field!(unknown_70, 4);
-    u8_field!(unknown_2, 5);
-    u8_field!(unknown_3, 6);
+    u32_field!(action, 3);
+    u32_field!(unknown_0, 5);
+    u16_field!(guide, 6);
+    u8_field!(unknown_1, 0);
+    u8_field!(unknown_70, 1);
+    u8_field!(unknown_2, 2);
+    u8_field!(unknown_3, 4);
 }
 
 define_sheet!(JobHudManualSheet, JobHudManualRow, "JobHudManual");

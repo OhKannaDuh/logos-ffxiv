@@ -8,27 +8,27 @@ use crate::macros::*;
 
 define_subrow!(TripleTriadItemPossibleReward, 1);
 impl<'a> TripleTriadItemPossibleReward<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 26);
 }
 
 define_subrow!(TripleTriadPreviousQuest, 1);
 impl<'a> TripleTriadPreviousQuest<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 26);
 }
 
 define_subrow!(TripleTriadTripleTriadCardFixed, 1);
 impl<'a> TripleTriadTripleTriadCardFixed<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 26);
 }
 
 define_subrow!(TripleTriadTripleTriadCardVariable, 1);
 impl<'a> TripleTriadTripleTriadCardVariable<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 26);
 }
 
 define_subrow!(TripleTriadTripleTriadRule, 1);
 impl<'a> TripleTriadTripleTriadRule<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 26);
 }
 
 
@@ -36,20 +36,20 @@ define_row!(TripleTriadRow);
 impl TripleTriadRow {
     array_field!(item_possible_reward, 0, 4, TripleTriadItemPossibleReward);
     array_field!(previous_quest, 4, 3, TripleTriadPreviousQuest);
-    u32_field!(default_talk_challenge, 7);
-    u32_field!(default_talk_unavailable, 8);
-    u32_field!(default_talk_npc_win, 9);
-    u32_field!(default_talk_draw, 10);
-    u32_field!(default_talk_pc_win, 11);
+    u32_field!(default_talk_challenge, 20);
+    u32_field!(default_talk_unavailable, 21);
+    u32_field!(default_talk_npc_win, 22);
+    u32_field!(default_talk_draw, 23);
+    u32_field!(default_talk_pc_win, 24);
     array_field!(triple_triad_card_fixed, 12, 5, TripleTriadTripleTriadCardFixed);
     array_field!(triple_triad_card_variable, 17, 5, TripleTriadTripleTriadCardVariable);
-    u16_field!(fee, 22);
-    u16_field!(start_time, 23);
-    u16_field!(end_time, 24);
+    u16_field!(fee, 13);
+    u16_field!(start_time, 18);
+    u16_field!(end_time, 19);
     array_field!(triple_triad_rule, 25, 2, TripleTriadTripleTriadRule);
-    u8_field!(previous_quest_join, 27);
-    bool_field!(uses_regional_rules, 28);
-    bool_field!(unknown_0, 29);
+    u8_field!(previous_quest_join, 14);
+    bool_field!(uses_regional_rules, 12);
+    bool_field!(unknown_0, 25);
 }
 
 define_sheet!(TripleTriadSheet, TripleTriadRow, "TripleTriad");

@@ -9,7 +9,7 @@ use crate::macros::*;
 define_subrow!(CalendarCalendarStruct, 2);
 impl<'a> CalendarCalendarStruct<'a> {
     u8_field!(month, 0);
-    u8_field!(day, 1);
+    u8_field!(day, 32);
 }
 
 

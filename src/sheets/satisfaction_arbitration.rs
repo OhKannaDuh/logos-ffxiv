@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(SatisfactionArbitrationRow);
 impl SatisfactionArbitrationRow {
-    u32_field!(quest, 0);
-    u8_field!(satisfaction_level, 1);
-    u8_field!(satisfaction_npc, 2);
+    u32_field!(quest, 2);
+    u8_field!(satisfaction_level, 0);
+    u8_field!(satisfaction_npc, 1);
     u8_field!(unknown_0, 3);
 }
 

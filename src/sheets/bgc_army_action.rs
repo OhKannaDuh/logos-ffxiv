@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(BgcArmyActionRow);
 impl BgcArmyActionRow {
-    string_field!(name, 0);
-    i32_field!(icon, 1);
-    u16_field!(unknown_2, 2);
+    string_field!(name, 1);
+    i32_field!(icon, 2);
+    u16_field!(unknown_2, 0);
     u8_field!(unknown_3, 3);
     bool_field!(unknown_4, 4);
 }

@@ -9,9 +9,9 @@ use crate::macros::*;
 
 define_row!(QuestAroundPlayerHideRow);
 impl QuestAroundPlayerHideRow {
-    u32_field!(unknown_0, 0);
-    u32_field!(unknown_1, 1);
-    u8_field!(unknown_2, 2);
+    u32_field!(unknown_0, 1);
+    u32_field!(unknown_1, 2);
+    u8_field!(unknown_2, 0);
 }
 
 define_sheet!(QuestAroundPlayerHideSheet, QuestAroundPlayerHideRow, "QuestAroundPlayerHide");

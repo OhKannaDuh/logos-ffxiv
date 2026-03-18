@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(WarpRow);
 impl WarpRow {
-    string_field!(name, 0);
-    string_field!(question, 1);
-    u32_field!(pop_range, 2);
-    u32_field!(condition_success_event, 3);
-    u32_field!(condition_fail_event, 4);
-    u32_field!(confirm_event, 5);
-    u16_field!(territory_type, 6);
-    u16_field!(warp_condition, 7);
-    u16_field!(warp_logic, 8);
-    u16_field!(start_cutscene, 9);
-    u16_field!(end_cutscene, 10);
-    bool_field!(can_skip_cutscene, 11);
+    string_field!(name, 10);
+    string_field!(question, 11);
+    u32_field!(pop_range, 0);
+    u32_field!(condition_success_event, 2);
+    u32_field!(condition_fail_event, 3);
+    u32_field!(confirm_event, 4);
+    u16_field!(territory_type, 1);
+    u16_field!(warp_condition, 5);
+    u16_field!(warp_logic, 6);
+    u16_field!(start_cutscene, 7);
+    u16_field!(end_cutscene, 8);
+    bool_field!(can_skip_cutscene, 9);
 }
 
 define_sheet!(WarpSheet, WarpRow, "Warp");

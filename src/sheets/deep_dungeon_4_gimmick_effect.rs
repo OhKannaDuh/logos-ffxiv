@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(DeepDungeon4GimmickEffectRow);
 impl DeepDungeon4GimmickEffectRow {
-    u32_field!(status_icon, 0);
-    u16_field!(unknown_1, 1);
+    u32_field!(status_icon, 1);
+    u16_field!(unknown_1, 0);
 }
 
 define_sheet!(DeepDungeon4GimmickEffectSheet, DeepDungeon4GimmickEffectRow, "DeepDungeon4GimmickEffect");

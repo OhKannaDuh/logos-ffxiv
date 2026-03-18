@@ -9,23 +9,23 @@ use crate::macros::*;
 
 define_row!(GuildOrderRow);
 impl GuildOrderRow {
-    string_field!(objective, 0);
-    string_field!(description_1, 1);
-    string_field!(description_2, 2);
-    string_field!(description_3, 3);
-    u32_field!(completion_bonus_exp, 4);
-    u32_field!(reward_exp, 5);
-    u32_field!(completion_bonus_gil, 6);
-    u32_field!(reward_gil, 7);
-    u32_field!(unknown_0, 8);
-    u32_field!(unknown_1, 9);
-    u32_field!(unknown_2, 10);
-    u32_field!(unknown_3, 11);
-    u16_field!(unknown_4, 12);
-    u16_field!(unknown_5, 13);
-    bool_field!(unknown_6, 14);
-    bool_field!(unknown_7, 15);
-    u32_field!(e_npc_name, 16);
+    string_field!(objective, 1);
+    string_field!(description_1, 2);
+    string_field!(description_2, 3);
+    string_field!(description_3, 4);
+    u32_field!(completion_bonus_exp, 5);
+    u32_field!(reward_exp, 6);
+    u32_field!(completion_bonus_gil, 7);
+    u32_field!(reward_gil, 8);
+    u32_field!(unknown_0, 9);
+    u32_field!(unknown_1, 10);
+    u32_field!(unknown_2, 11);
+    u32_field!(unknown_3, 12);
+    u16_field!(unknown_4, 13);
+    u16_field!(unknown_5, 14);
+    bool_field!(unknown_6, 15);
+    bool_field!(unknown_7, 16);
+    u32_field!(e_npc_name, 0);
 }
 
 define_sheet!(GuildOrderSheet, GuildOrderRow, "GuildOrder");

@@ -15,8 +15,8 @@ impl<'a> RetainerTaskNormalQuantity<'a> {
 define_row!(RetainerTaskNormalRow);
 impl RetainerTaskNormalRow {
     i32_field!(item, 0);
-    i16_field!(gathering_log, 1);
-    i16_field!(fishing_log, 2);
+    i16_field!(gathering_log, 6);
+    i16_field!(fishing_log, 7);
     array_field!(quantity, 3, 5, RetainerTaskNormalQuantity);
 }
 

@@ -11,11 +11,11 @@ define_row!(ExVersionRow);
 impl ExVersionRow {
     string_field!(name, 0);
     // Equivalent to the last quest in column 6 of ScenarioTree
-    u32_field!(menu_screen, 1);
+    u32_field!(menu_screen, 3);
     // Can be used in various places for UI elements.
-    u32_field!(icon, 2);
-    u16_field!(accept_jingle, 3);
-    u16_field!(complete_jingle, 4);
+    u32_field!(icon, 4);
+    u16_field!(accept_jingle, 1);
+    u16_field!(complete_jingle, 2);
 }
 
 define_sheet!(ExVersionSheet, ExVersionRow, "ExVersion");

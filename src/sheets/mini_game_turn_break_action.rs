@@ -9,16 +9,16 @@ use crate::macros::*;
 
 define_row!(MiniGameTurnBreakActionRow);
 impl MiniGameTurnBreakActionRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    i32_field!(unknown_3, 3);
-    i32_field!(unknown_4, 4);
-    u8_field!(unknown_5, 5);
-    u8_field!(unknown_6, 6);
-    u8_field!(unknown_7, 7);
-    u8_field!(unknown_8, 8);
-    u8_field!(unknown_9, 9);
+    string_field!(unknown_0, 8);
+    string_field!(unknown_1, 9);
+    i32_field!(unknown_2, 0);
+    i32_field!(unknown_3, 1);
+    i32_field!(unknown_4, 7);
+    u8_field!(unknown_5, 2);
+    u8_field!(unknown_6, 3);
+    u8_field!(unknown_7, 4);
+    u8_field!(unknown_8, 5);
+    u8_field!(unknown_9, 6);
 }
 
 define_sheet!(MiniGameTurnBreakActionSheet, MiniGameTurnBreakActionRow, "MiniGameTurnBreakAction");

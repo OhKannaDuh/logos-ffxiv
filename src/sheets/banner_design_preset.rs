@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(BannerDesignPresetRow);
 impl BannerDesignPresetRow {
-    string_field!(name, 0);
-    u16_field!(background, 1);
-    u16_field!(frame, 2);
-    u16_field!(decoration, 3);
-    u16_field!(sort_key, 4);
+    string_field!(name, 4);
+    u16_field!(background, 0);
+    u16_field!(frame, 1);
+    u16_field!(decoration, 2);
+    u16_field!(sort_key, 3);
 }
 
 define_sheet!(BannerDesignPresetSheet, BannerDesignPresetRow, "BannerDesignPreset");

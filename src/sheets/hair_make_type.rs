@@ -8,42 +8,42 @@ use crate::macros::*;
 
 define_subrow!(HairMakeTypeCharaMakeStruct, 10);
 impl<'a> HairMakeTypeCharaMakeStruct<'a> {
-    u32_field!(menu, 0);
-    u32_field!(sub_menu_mask, 1);
-    u32_field!(customize, 2);
+    u32_field!(menu, 3);
+    u32_field!(sub_menu_mask, 48);
+    u32_field!(customize, 57);
     array_field!(sub_menu_param, 3, 100, HairMakeTypeCharaMakeStruct);
     array_field!(unknown_0, 103, 6, HairMakeTypeCharaMakeStruct);
-    u8_field!(init_val, 109);
-    u8_field!(sub_menu_type, 110);
-    u8_field!(sub_menu_num, 111);
-    u8_field!(look_at, 112);
+    u8_field!(init_val, 12);
+    u8_field!(sub_menu_type, 21);
+    u8_field!(sub_menu_num, 30);
+    u8_field!(look_at, 39);
     array_field!(sub_menu_graphic, 113, 10, HairMakeTypeCharaMakeStruct);
 }
 
 define_subrow!(HairMakeTypeCharaMakeStructSubMenuParam, 1);
 impl<'a> HairMakeTypeCharaMakeStructSubMenuParam<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 3);
 }
 
 define_subrow!(HairMakeTypeCharaMakeStructUnknown0, 1);
 impl<'a> HairMakeTypeCharaMakeStructUnknown0<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 3);
 }
 
 define_subrow!(HairMakeTypeCharaMakeStructSubMenuGraphic, 1);
 impl<'a> HairMakeTypeCharaMakeStructSubMenuGraphic<'a> {
-    u32_field!(field_0, 0);
+    u32_field!(field_0, 3);
 }
 
 define_subrow!(HairMakeTypeFacialFeatureOption, 7);
 impl<'a> HairMakeTypeFacialFeatureOption<'a> {
-    u32_field!(option_1, 0);
-    u32_field!(option_2, 1);
-    u32_field!(option_3, 2);
-    u32_field!(option_4, 3);
-    u32_field!(option_5, 4);
-    u32_field!(option_6, 5);
-    u32_field!(option_7, 6);
+    u32_field!(option_1, 3);
+    u32_field!(option_2, 48);
+    u32_field!(option_3, 57);
+    u32_field!(option_4, 66);
+    u32_field!(option_5, 75);
+    u32_field!(option_6, 84);
+    u32_field!(option_7, 93);
 }
 
 
@@ -51,9 +51,9 @@ define_row!(HairMakeTypeRow);
 impl HairMakeTypeRow {
     array_field!(chara_make_struct, 0, 9, HairMakeTypeCharaMakeStruct);
     array_field!(facial_feature_option, 1107, 8, HairMakeTypeFacialFeatureOption);
-    i32_field!(race, 1163);
-    i32_field!(tribe, 1164);
-    i8_field!(gender, 1165);
+    i32_field!(race, 0);
+    i32_field!(tribe, 1);
+    i8_field!(gender, 2);
 }
 
 define_sheet!(HairMakeTypeSheet, HairMakeTypeRow, "HairMakeType");

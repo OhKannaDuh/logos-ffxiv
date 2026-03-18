@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(GroupPoseStampCategoryRow);
 impl GroupPoseStampCategoryRow {
-    string_field!(name, 0);
-    u8_field!(unknown_0, 1);
+    string_field!(name, 1);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(GroupPoseStampCategorySheet, GroupPoseStampCategoryRow, "GroupPoseStampCategory");

@@ -9,11 +9,11 @@ use crate::macros::*;
 
 define_row!(ActivityFeedButtonsRow);
 impl ActivityFeedButtonsRow {
-    string_field!(banner_url, 0);
-    string_field!(description, 1);
-    string_field!(language, 2);
-    string_field!(picture_url, 3);
-    u8_field!(unknown_0, 4);
+    string_field!(banner_url, 1);
+    string_field!(description, 2);
+    string_field!(language, 3);
+    string_field!(picture_url, 4);
+    u8_field!(unknown_0, 0);
 }
 
 define_sheet!(ActivityFeedButtonsSheet, ActivityFeedButtonsRow, "ActivityFeedButtons");

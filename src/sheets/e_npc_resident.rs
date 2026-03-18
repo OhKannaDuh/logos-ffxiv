@@ -10,14 +10,14 @@ use crate::macros::*;
 define_row!(ENpcResidentRow);
 impl ENpcResidentRow {
     string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(title, 2);
-    i8_field!(adjective, 3);
-    i8_field!(possessive_pronoun, 4);
-    i8_field!(starts_with_vowel, 5);
-    i8_field!(unknown_0, 6);
-    i8_field!(pronoun, 7);
-    i8_field!(article, 8);
+    string_field!(plural, 2);
+    string_field!(title, 8);
+    i8_field!(adjective, 1);
+    i8_field!(possessive_pronoun, 3);
+    i8_field!(starts_with_vowel, 4);
+    i8_field!(unknown_0, 5);
+    i8_field!(pronoun, 6);
+    i8_field!(article, 7);
     u8_field!(map, 9);
     bool_field!(unknown_1, 10);
 }

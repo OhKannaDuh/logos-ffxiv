@@ -9,17 +9,17 @@ use crate::macros::*;
 
 define_row!(DeepDungeonEquipmentRow);
 impl DeepDungeonEquipmentRow {
-    string_field!(singular, 0);
-    string_field!(plural, 1);
-    string_field!(name, 2);
-    string_field!(description, 3);
-    i8_field!(adjective, 4);
-    i8_field!(possessive_pronoun, 5);
-    i8_field!(starts_with_vowel, 6);
-    i8_field!(unknown_0, 7);
-    i8_field!(pronoun, 8);
-    i8_field!(article, 9);
-    u32_field!(icon, 10);
+    string_field!(singular, 1);
+    string_field!(plural, 3);
+    string_field!(name, 9);
+    string_field!(description, 10);
+    i8_field!(adjective, 2);
+    i8_field!(possessive_pronoun, 4);
+    i8_field!(starts_with_vowel, 5);
+    i8_field!(unknown_0, 6);
+    i8_field!(pronoun, 7);
+    i8_field!(article, 8);
+    u32_field!(icon, 0);
 }
 
 define_sheet!(DeepDungeonEquipmentSheet, DeepDungeonEquipmentRow, "DeepDungeonEquipment");

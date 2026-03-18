@@ -9,12 +9,12 @@ use crate::macros::*;
 
 define_row!(MiniGameTurnBreakStatusRow);
 impl MiniGameTurnBreakStatusRow {
-    string_field!(unknown_0, 0);
-    string_field!(unknown_1, 1);
-    i32_field!(unknown_2, 2);
-    u8_field!(unknown_3, 3);
-    u8_field!(unknown_4, 4);
-    bool_field!(unknown_5, 5);
+    string_field!(unknown_0, 4);
+    string_field!(unknown_1, 5);
+    i32_field!(unknown_2, 0);
+    u8_field!(unknown_3, 1);
+    u8_field!(unknown_4, 3);
+    bool_field!(unknown_5, 2);
 }
 
 define_sheet!(MiniGameTurnBreakStatusSheet, MiniGameTurnBreakStatusRow, "MiniGameTurnBreakStatus");

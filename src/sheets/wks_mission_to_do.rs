@@ -20,21 +20,21 @@ impl<'a> WKSMissionToDoRequiredItemQuantity<'a> {
 define_row!(WKSMissionToDoRow);
 impl WKSMissionToDoRow {
     u32_field!(temporary_action, 0);
-    u32_field!(unknown_1, 1);
-    u16_field!(unknown_2, 2);
+    u32_field!(unknown_1, 13);
+    u16_field!(unknown_2, 3);
     array_field!(required_item, 3, 3, WKSMissionToDoRequiredItem);
     array_field!(required_item_quantity, 6, 3, WKSMissionToDoRequiredItemQuantity);
-    u16_field!(unknown_9, 9);
-    u16_field!(unknown_10, 10);
-    u16_field!(unknown_11, 11);
-    u16_field!(unknown_12, 12);
-    u16_field!(unknown_13, 13);
-    u16_field!(wks_mission_text, 14);
-    u8_field!(unknown_14, 15);
-    u8_field!(unknown_15, 16);
-    u8_field!(unknown_16, 17);
-    u8_field!(unknown_17, 18);
-    u8_field!(mission_type, 19);
+    u16_field!(unknown_9, 11);
+    u16_field!(unknown_10, 15);
+    u16_field!(unknown_11, 16);
+    u16_field!(unknown_12, 17);
+    u16_field!(unknown_13, 18);
+    u16_field!(wks_mission_text, 19);
+    u8_field!(unknown_14, 1);
+    u8_field!(unknown_15, 2);
+    u8_field!(unknown_16, 10);
+    u8_field!(unknown_17, 12);
+    u8_field!(mission_type, 14);
 }
 
 define_sheet!(WKSMissionToDoSheet, WKSMissionToDoRow, "WKSMissionToDo");

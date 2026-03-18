@@ -9,18 +9,18 @@ use crate::macros::*;
 
 define_row!(SpearfishingNotebookRow);
 impl SpearfishingNotebookRow {
-    i32_field!(territory_type, 0);
-    u16_field!(radius, 1);
-    u16_field!(place_name, 2);
-    u16_field!(gathering_point_base, 3);
-    u16_field!(unknown_0, 4);
-    u16_field!(unknown_1, 5);
-    i16_field!(x, 6);
-    i16_field!(y, 7);
-    u8_field!(gathering_level, 8);
-    u8_field!(unknown_2, 9);
-    u8_field!(unknown_3, 10);
-    bool_field!(is_shadow_node, 11);
+    i32_field!(territory_type, 2);
+    u16_field!(radius, 5);
+    u16_field!(place_name, 7);
+    u16_field!(gathering_point_base, 9);
+    u16_field!(unknown_0, 10);
+    u16_field!(unknown_1, 11);
+    i16_field!(x, 3);
+    i16_field!(y, 4);
+    u8_field!(gathering_level, 0);
+    u8_field!(unknown_2, 6);
+    u8_field!(unknown_3, 8);
+    bool_field!(is_shadow_node, 1);
 }
 
 define_sheet!(SpearfishingNotebookSheet, SpearfishingNotebookRow, "SpearfishingNotebook");

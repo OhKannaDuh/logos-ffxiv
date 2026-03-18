@@ -9,8 +9,8 @@ use crate::macros::*;
 
 define_row!(ContentsTutorialPageRow);
 impl ContentsTutorialPageRow {
-    string_field!(description, 0);
-    i32_field!(image, 1);
+    string_field!(description, 1);
+    i32_field!(image, 0);
 }
 
 define_sheet!(ContentsTutorialPageSheet, ContentsTutorialPageRow, "ContentsTutorialPage");
