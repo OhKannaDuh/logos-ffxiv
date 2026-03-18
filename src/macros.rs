@@ -20,11 +20,12 @@ macro_rules! sheet_common {
     };
 }
 
+pub(crate) use sheet_common;
+
 #[macro_export]
 macro_rules! define_sheet {
-    // language-supporting sheet
     ($sheet_ty:ident, $row_ty:ty, $name:literal, language_support) => {
-        $crate::sheet_common!($sheet_ty, $row_ty, $name);
+        $crate::macros::sheet_common!($sheet_ty, $row_ty, $name);
 
         impl $sheet_ty {
             pub fn read_from(
@@ -44,9 +45,8 @@ macro_rules! define_sheet {
         }
     };
 
-    // language-agnostic sheet
     ($sheet_ty:ident, $row_ty:ty, $name:literal, no_language_support) => {
-        $crate::sheet_common!($sheet_ty, $row_ty, $name);
+        $crate::macros::sheet_common!($sheet_ty, $row_ty, $name);
 
         impl $sheet_ty {
             pub fn read_from(
