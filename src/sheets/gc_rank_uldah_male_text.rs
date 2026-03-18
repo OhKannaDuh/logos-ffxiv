@@ -21,4 +21,4 @@ impl GCRankUldahMaleTextRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(GCRankUldahMaleTextSheet, GCRankUldahMaleTextRow, "GCRankUldahMaleText");
+define_sheet!(GCRankUldahMaleTextSheet, GCRankUldahMaleTextRow, "GCRankUldahMaleText", language_support);

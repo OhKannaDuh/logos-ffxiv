@@ -18,4 +18,4 @@ impl GcArmyEquipPresetRow {
     i32_field!(feet, 6);
 }
 
-define_sheet!(GcArmyEquipPresetSheet, GcArmyEquipPresetRow, "GcArmyEquipPreset");
+define_sheet!(GcArmyEquipPresetSheet, GcArmyEquipPresetRow, "GcArmyEquipPreset", no_language_support);

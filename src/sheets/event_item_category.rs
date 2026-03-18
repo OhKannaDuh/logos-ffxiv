@@ -14,4 +14,4 @@ impl EventItemCategoryRow {
     u32_field!(unknown_2, 2);
 }
 
-define_sheet!(EventItemCategorySheet, EventItemCategoryRow, "EventItemCategory");
+define_sheet!(EventItemCategorySheet, EventItemCategoryRow, "EventItemCategory", language_support);

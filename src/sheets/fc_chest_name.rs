@@ -13,4 +13,4 @@ impl FCChestNameRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(FCChestNameSheet, FCChestNameRow, "FCChestName");
+define_sheet!(FCChestNameSheet, FCChestNameRow, "FCChestName", language_support);

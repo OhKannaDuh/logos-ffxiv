@@ -26,4 +26,4 @@ impl BattalionRow {
     bool_field!(unknown_14, 14);
 }
 
-define_sheet!(BattalionSheet, BattalionRow, "Battalion");
+define_sheet!(BattalionSheet, BattalionRow, "Battalion", no_language_support);

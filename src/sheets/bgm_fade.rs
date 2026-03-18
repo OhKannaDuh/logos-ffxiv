@@ -14,4 +14,4 @@ impl BGMFadeRow {
     i32_field!(bgm_fade_type, 2);
 }
 
-define_sheet!(BGMFadeSheet, BGMFadeRow, "BGMFade");
+define_sheet!(BGMFadeSheet, BGMFadeRow, "BGMFade", no_language_support);

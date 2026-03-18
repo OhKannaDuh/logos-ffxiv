@@ -37,4 +37,4 @@ impl BNpcBaseRow {
     bool_field!(unknown_8, 25);
 }
 
-define_sheet!(BNpcBaseSheet, BNpcBaseRow, "BNpcBase");
+define_sheet!(BNpcBaseSheet, BNpcBaseRow, "BNpcBase", no_language_support);

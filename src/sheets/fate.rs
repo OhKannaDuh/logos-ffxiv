@@ -74,4 +74,4 @@ impl FateRow {
     bool_field!(unknown_9, 32);
 }
 
-define_sheet!(FateSheet, FateRow, "Fate");
+define_sheet!(FateSheet, FateRow, "Fate", language_support);

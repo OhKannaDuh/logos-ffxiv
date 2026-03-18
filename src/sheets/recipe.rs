@@ -54,4 +54,4 @@ impl RecipeRow {
     bool_field!(is_expert, 43);
 }
 
-define_sheet!(RecipeSheet, RecipeRow, "Recipe");
+define_sheet!(RecipeSheet, RecipeRow, "Recipe", no_language_support);

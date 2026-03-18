@@ -17,4 +17,4 @@ impl Relic3Row {
     i8_field!(unknown_0, 5);
 }
 
-define_sheet!(Relic3Sheet, Relic3Row, "Relic3");
+define_sheet!(Relic3Sheet, Relic3Row, "Relic3", no_language_support);

@@ -15,4 +15,4 @@ impl ScreenImageRow {
     bool_field!(lang, 3);
 }
 
-define_sheet!(ScreenImageSheet, ScreenImageRow, "ScreenImage");
+define_sheet!(ScreenImageSheet, ScreenImageRow, "ScreenImage", no_language_support);

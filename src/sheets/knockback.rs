@@ -18,4 +18,4 @@ impl KnockbackRow {
     bool_field!(cancel_move, 6);
 }
 
-define_sheet!(KnockbackSheet, KnockbackRow, "Knockback");
+define_sheet!(KnockbackSheet, KnockbackRow, "Knockback", no_language_support);

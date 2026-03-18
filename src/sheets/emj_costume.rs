@@ -18,4 +18,4 @@ impl EmjCostumeRow {
     u8_field!(unknown_5, 3);
 }
 
-define_sheet!(EmjCostumeSheet, EmjCostumeRow, "EmjCostume");
+define_sheet!(EmjCostumeSheet, EmjCostumeRow, "EmjCostume", no_language_support);

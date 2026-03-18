@@ -26,4 +26,4 @@ impl QTERow {
     bool_field!(unknown_14, 12);
 }
 
-define_sheet!(QTESheet, QTERow, "QTE");
+define_sheet!(QTESheet, QTERow, "QTE", language_support);

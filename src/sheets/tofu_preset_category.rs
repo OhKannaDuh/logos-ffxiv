@@ -14,4 +14,4 @@ impl TofuPresetCategoryRow {
     bool_field!(unknown_2, 0);
 }
 
-define_sheet!(TofuPresetCategorySheet, TofuPresetCategoryRow, "TofuPresetCategory");
+define_sheet!(TofuPresetCategorySheet, TofuPresetCategoryRow, "TofuPresetCategory", language_support);

@@ -12,4 +12,4 @@ impl DpsChallengeTransientRow {
     u16_field!(instance_content, 0);
 }
 
-define_sheet!(DpsChallengeTransientSheet, DpsChallengeTransientRow, "DpsChallengeTransient");
+define_sheet!(DpsChallengeTransientSheet, DpsChallengeTransientRow, "DpsChallengeTransient", no_language_support);

@@ -20,4 +20,4 @@ impl GimmickJumpRow {
     bool_field!(unknown_3, 8);
 }
 
-define_sheet!(GimmickJumpSheet, GimmickJumpRow, "GimmickJump");
+define_sheet!(GimmickJumpSheet, GimmickJumpRow, "GimmickJump", no_language_support);

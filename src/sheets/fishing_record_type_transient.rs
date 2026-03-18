@@ -12,4 +12,4 @@ impl FishingRecordTypeTransientRow {
     i32_field!(image, 0);
 }
 
-define_sheet!(FishingRecordTypeTransientSheet, FishingRecordTypeTransientRow, "FishingRecordTypeTransient");
+define_sheet!(FishingRecordTypeTransientSheet, FishingRecordTypeTransientRow, "FishingRecordTypeTransient", no_language_support);

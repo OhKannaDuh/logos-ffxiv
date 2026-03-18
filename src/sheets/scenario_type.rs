@@ -13,4 +13,4 @@ impl ScenarioTypeRow {
     i8_field!(unknown_0, 1);
 }
 
-define_sheet!(ScenarioTypeSheet, ScenarioTypeRow, "ScenarioType");
+define_sheet!(ScenarioTypeSheet, ScenarioTypeRow, "ScenarioType", language_support);

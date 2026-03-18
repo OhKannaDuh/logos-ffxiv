@@ -18,4 +18,4 @@ impl WeatherRow {
     i32_field!(icon, 0);
 }
 
-define_sheet!(WeatherSheet, WeatherRow, "Weather");
+define_sheet!(WeatherSheet, WeatherRow, "Weather", language_support);

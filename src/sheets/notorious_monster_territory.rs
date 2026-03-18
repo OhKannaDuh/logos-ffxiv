@@ -17,4 +17,4 @@ impl NotoriousMonsterTerritoryRow {
     array_field!(notorious_monsters, 0, 10, NotoriousMonsterTerritoryNotoriousMonsters);
 }
 
-define_sheet!(NotoriousMonsterTerritorySheet, NotoriousMonsterTerritoryRow, "NotoriousMonsterTerritory");
+define_sheet!(NotoriousMonsterTerritorySheet, NotoriousMonsterTerritoryRow, "NotoriousMonsterTerritory", no_language_support);

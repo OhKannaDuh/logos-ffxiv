@@ -16,4 +16,4 @@ impl PvPInitialSelectActionTraitRow {
     u32_field!(unknown_4, 4);
 }
 
-define_sheet!(PvPInitialSelectActionTraitSheet, PvPInitialSelectActionTraitRow, "PvPInitialSelectActionTrait");
+define_sheet!(PvPInitialSelectActionTraitSheet, PvPInitialSelectActionTraitRow, "PvPInitialSelectActionTrait", no_language_support);

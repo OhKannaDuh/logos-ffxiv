@@ -16,4 +16,4 @@ impl ResidentRow {
     u8_field!(resident_motion_type, 4);
 }
 
-define_sheet!(ResidentSheet, ResidentRow, "Resident");
+define_sheet!(ResidentSheet, ResidentRow, "Resident", no_language_support);

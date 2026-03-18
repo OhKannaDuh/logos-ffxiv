@@ -31,4 +31,4 @@ impl WeddingPlanRow {
     u8_field!(unknown_19, 19);
 }
 
-define_sheet!(WeddingPlanSheet, WeddingPlanRow, "WeddingPlan");
+define_sheet!(WeddingPlanSheet, WeddingPlanRow, "WeddingPlan", no_language_support);

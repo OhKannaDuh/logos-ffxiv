@@ -61,4 +61,4 @@ impl TerritoryIntendedUseRow {
     bool_field!(unknown_42, 42);
 }
 
-define_sheet!(TerritoryIntendedUseSheet, TerritoryIntendedUseRow, "TerritoryIntendedUse");
+define_sheet!(TerritoryIntendedUseSheet, TerritoryIntendedUseRow, "TerritoryIntendedUse", no_language_support);

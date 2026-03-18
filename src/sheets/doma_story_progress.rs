@@ -12,4 +12,4 @@ impl DomaStoryProgressRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(DomaStoryProgressSheet, DomaStoryProgressRow, "DomaStoryProgress");
+define_sheet!(DomaStoryProgressSheet, DomaStoryProgressRow, "DomaStoryProgress", no_language_support);

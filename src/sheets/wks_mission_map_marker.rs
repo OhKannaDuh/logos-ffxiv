@@ -15,4 +15,4 @@ impl WKSMissionMapMarkerRow {
     u16_field!(unknown_3, 3);
 }
 
-define_sheet!(WKSMissionMapMarkerSheet, WKSMissionMapMarkerRow, "WKSMissionMapMarker");
+define_sheet!(WKSMissionMapMarkerSheet, WKSMissionMapMarkerRow, "WKSMissionMapMarker", no_language_support);

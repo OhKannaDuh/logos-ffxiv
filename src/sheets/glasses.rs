@@ -25,4 +25,4 @@ impl GlassesRow {
     i16_field!(style, 1);
 }
 
-define_sheet!(GlassesSheet, GlassesRow, "Glasses");
+define_sheet!(GlassesSheet, GlassesRow, "Glasses", language_support);

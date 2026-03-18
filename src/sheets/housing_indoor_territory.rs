@@ -12,4 +12,4 @@ impl HousingIndoorTerritoryRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(HousingIndoorTerritorySheet, HousingIndoorTerritoryRow, "HousingIndoorTerritory");
+define_sheet!(HousingIndoorTerritorySheet, HousingIndoorTerritoryRow, "HousingIndoorTerritory", no_language_support);

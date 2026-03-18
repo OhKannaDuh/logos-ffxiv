@@ -18,4 +18,4 @@ impl MJIVillageAppearanceSGRow {
     array_field!(village_appearance_data, 0, 5, MJIVillageAppearanceSGVillageAppearanceData);
 }
 
-define_sheet!(MJIVillageAppearanceSGSheet, MJIVillageAppearanceSGRow, "MJIVillageAppearanceSG");
+define_sheet!(MJIVillageAppearanceSGSheet, MJIVillageAppearanceSGRow, "MJIVillageAppearanceSG", no_language_support);

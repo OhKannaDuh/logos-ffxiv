@@ -52,4 +52,4 @@ impl QuestClassJobRewardRow {
     bool_field!(unknown_15, 32);
 }
 
-define_sheet!(QuestClassJobRewardSheet, QuestClassJobRewardRow, "QuestClassJobReward");
+define_sheet!(QuestClassJobRewardSheet, QuestClassJobRewardRow, "QuestClassJobReward", no_language_support);

@@ -16,4 +16,4 @@ impl FCReputationRow {
     u8_field!(discount_rate, 2);
 }
 
-define_sheet!(FCReputationSheet, FCReputationRow, "FCReputation");
+define_sheet!(FCReputationSheet, FCReputationRow, "FCReputation", language_support);

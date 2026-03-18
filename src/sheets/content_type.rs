@@ -16,4 +16,4 @@ impl ContentTypeRow {
     u8_field!(unknown_2, 4);
 }
 
-define_sheet!(ContentTypeSheet, ContentTypeRow, "ContentType");
+define_sheet!(ContentTypeSheet, ContentTypeRow, "ContentType", language_support);

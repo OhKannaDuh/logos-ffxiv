@@ -29,4 +29,4 @@ impl WKSCosmoToolClassRow {
     u8_field!(data_amount, 69);
 }
 
-define_sheet!(WKSCosmoToolClassSheet, WKSCosmoToolClassRow, "WKSCosmoToolClass");
+define_sheet!(WKSCosmoToolClassSheet, WKSCosmoToolClassRow, "WKSCosmoToolClass", no_language_support);

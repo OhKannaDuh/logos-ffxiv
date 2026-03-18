@@ -13,4 +13,4 @@ impl TutorialDPSRow {
     u8_field!(objective, 0);
 }
 
-define_sheet!(TutorialDPSSheet, TutorialDPSRow, "TutorialDPS");
+define_sheet!(TutorialDPSSheet, TutorialDPSRow, "TutorialDPS", no_language_support);

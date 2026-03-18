@@ -13,4 +13,4 @@ impl GatheringItemLevelConvertTableRow {
     u8_field!(stars, 1);
 }
 
-define_sheet!(GatheringItemLevelConvertTableSheet, GatheringItemLevelConvertTableRow, "GatheringItemLevelConvertTable");
+define_sheet!(GatheringItemLevelConvertTableSheet, GatheringItemLevelConvertTableRow, "GatheringItemLevelConvertTable", no_language_support);

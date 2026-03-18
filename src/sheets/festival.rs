@@ -14,4 +14,4 @@ impl FestivalRow {
     u8_field!(unknown_0, 2);
 }
 
-define_sheet!(FestivalSheet, FestivalRow, "Festival");
+define_sheet!(FestivalSheet, FestivalRow, "Festival", no_language_support);

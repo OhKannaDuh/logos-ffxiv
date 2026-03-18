@@ -17,4 +17,4 @@ impl AOZReportRewardRow {
     u16_field!(unknown_5, 5);
 }
 
-define_sheet!(AOZReportRewardSheet, AOZReportRewardRow, "AOZReportReward");
+define_sheet!(AOZReportRewardSheet, AOZReportRewardRow, "AOZReportReward", no_language_support);

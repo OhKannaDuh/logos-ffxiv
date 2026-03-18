@@ -13,4 +13,4 @@ impl DeepDungeonResidentRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(DeepDungeonResidentSheet, DeepDungeonResidentRow, "DeepDungeonResident");
+define_sheet!(DeepDungeonResidentSheet, DeepDungeonResidentRow, "DeepDungeonResident", no_language_support);

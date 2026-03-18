@@ -20,4 +20,4 @@ impl EventTutorialRow {
     array_field!(pages, 3, 8, EventTutorialPages);
 }
 
-define_sheet!(EventTutorialSheet, EventTutorialRow, "EventTutorial");
+define_sheet!(EventTutorialSheet, EventTutorialRow, "EventTutorial", language_support);

@@ -12,4 +12,4 @@ impl MiniGameTurnBreakConstRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(MiniGameTurnBreakConstSheet, MiniGameTurnBreakConstRow, "MiniGameTurnBreakConst");
+define_sheet!(MiniGameTurnBreakConstSheet, MiniGameTurnBreakConstRow, "MiniGameTurnBreakConst", no_language_support);

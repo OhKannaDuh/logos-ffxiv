@@ -14,4 +14,4 @@ impl DescriptionStandAloneTransientRow {
     u32_field!(unknown_2, 0);
 }
 
-define_sheet!(DescriptionStandAloneTransientSheet, DescriptionStandAloneTransientRow, "DescriptionStandAloneTransient");
+define_sheet!(DescriptionStandAloneTransientSheet, DescriptionStandAloneTransientRow, "DescriptionStandAloneTransient", language_support);

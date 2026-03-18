@@ -12,4 +12,4 @@ impl GFateClimbing2ContentRow {
     u32_field!(public_content_text_data, 0);
 }
 
-define_sheet!(GFateClimbing2ContentSheet, GFateClimbing2ContentRow, "GFateClimbing2Content");
+define_sheet!(GFateClimbing2ContentSheet, GFateClimbing2ContentRow, "GFateClimbing2Content", no_language_support);

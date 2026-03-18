@@ -12,4 +12,4 @@ impl ValentionSweetsMaterialRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(ValentionSweetsMaterialSheet, ValentionSweetsMaterialRow, "ValentionSweetsMaterial");
+define_sheet!(ValentionSweetsMaterialSheet, ValentionSweetsMaterialRow, "ValentionSweetsMaterial", language_support);

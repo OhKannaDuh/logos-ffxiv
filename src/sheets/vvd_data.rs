@@ -19,4 +19,4 @@ impl VVDDataRow {
     u8_field!(unknown_6, 6);
 }
 
-define_sheet!(VVDDataSheet, VVDDataRow, "VVDData");
+define_sheet!(VVDDataSheet, VVDDataRow, "VVDData", no_language_support);

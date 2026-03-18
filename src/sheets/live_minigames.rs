@@ -16,4 +16,4 @@ impl LiveMinigamesRow {
     bool_field!(unknown_4, 3);
 }
 
-define_sheet!(LiveMinigamesSheet, LiveMinigamesRow, "LiveMinigames");
+define_sheet!(LiveMinigamesSheet, LiveMinigamesRow, "LiveMinigames", no_language_support);

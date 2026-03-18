@@ -12,4 +12,4 @@ impl RelicMateriaRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(RelicMateriaSheet, RelicMateriaRow, "RelicMateria");
+define_sheet!(RelicMateriaSheet, RelicMateriaRow, "RelicMateria", no_language_support);

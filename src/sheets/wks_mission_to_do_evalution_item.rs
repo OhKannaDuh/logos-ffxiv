@@ -12,4 +12,4 @@ impl WKSMissionToDoEvalutionItemRow {
     u16_field!(item, 0);
 }
 
-define_sheet!(WKSMissionToDoEvalutionItemSheet, WKSMissionToDoEvalutionItemRow, "WKSMissionToDoEvalutionItem");
+define_sheet!(WKSMissionToDoEvalutionItemSheet, WKSMissionToDoEvalutionItemRow, "WKSMissionToDoEvalutionItem", no_language_support);

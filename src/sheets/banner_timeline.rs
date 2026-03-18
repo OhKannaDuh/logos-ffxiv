@@ -22,4 +22,4 @@ impl BannerTimelineRow {
     u8_field!(category, 3);
 }
 
-define_sheet!(BannerTimelineSheet, BannerTimelineRow, "BannerTimeline");
+define_sheet!(BannerTimelineSheet, BannerTimelineRow, "BannerTimeline", language_support);

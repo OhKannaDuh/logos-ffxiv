@@ -12,4 +12,4 @@ impl ModelScaleRow {
     f32_field!(unknown_0, 0);
 }
 
-define_sheet!(ModelScaleSheet, ModelScaleRow, "ModelScale");
+define_sheet!(ModelScaleSheet, ModelScaleRow, "ModelScale", no_language_support);

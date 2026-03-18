@@ -25,4 +25,4 @@ impl GilShopItemRow {
     bool_field!(is_hq, 1);
 }
 
-define_sheet!(GilShopItemSheet, GilShopItemRow, "GilShopItem");
+define_sheet!(GilShopItemSheet, GilShopItemRow, "GilShopItem", no_language_support);

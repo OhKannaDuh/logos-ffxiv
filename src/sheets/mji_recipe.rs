@@ -28,4 +28,4 @@ impl MJIRecipeRow {
     u8_field!(order, 14);
 }
 
-define_sheet!(MJIRecipeSheet, MJIRecipeRow, "MJIRecipe");
+define_sheet!(MJIRecipeSheet, MJIRecipeRow, "MJIRecipe", no_language_support);

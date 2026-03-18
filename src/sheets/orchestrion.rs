@@ -13,4 +13,4 @@ impl OrchestrionRow {
     string_field!(description, 1);
 }
 
-define_sheet!(OrchestrionSheet, OrchestrionRow, "Orchestrion");
+define_sheet!(OrchestrionSheet, OrchestrionRow, "Orchestrion", language_support);

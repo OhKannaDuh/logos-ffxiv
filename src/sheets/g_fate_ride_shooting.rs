@@ -12,4 +12,4 @@ impl GFateRideShootingRow {
     u32_field!(content_entry, 0);
 }
 
-define_sheet!(GFateRideShootingSheet, GFateRideShootingRow, "GFateRideShooting");
+define_sheet!(GFateRideShootingSheet, GFateRideShootingRow, "GFateRideShooting", no_language_support);

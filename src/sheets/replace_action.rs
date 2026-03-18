@@ -28,4 +28,4 @@ impl ReplaceActionRow {
     bool_field!(unknown_70, 14);
 }
 
-define_sheet!(ReplaceActionSheet, ReplaceActionRow, "ReplaceAction");
+define_sheet!(ReplaceActionSheet, ReplaceActionRow, "ReplaceAction", no_language_support);

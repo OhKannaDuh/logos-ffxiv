@@ -21,4 +21,4 @@ impl GatheringItemRow {
     bool_field!(is_hidden, 6);
 }
 
-define_sheet!(GatheringItemSheet, GatheringItemRow, "GatheringItem");
+define_sheet!(GatheringItemSheet, GatheringItemRow, "GatheringItem", no_language_support);

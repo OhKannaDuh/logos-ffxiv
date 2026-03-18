@@ -12,4 +12,4 @@ impl TripleTriadCardRarityRow {
     u8_field!(stars, 0);
 }
 
-define_sheet!(TripleTriadCardRaritySheet, TripleTriadCardRarityRow, "TripleTriadCardRarity");
+define_sheet!(TripleTriadCardRaritySheet, TripleTriadCardRarityRow, "TripleTriadCardRarity", no_language_support);

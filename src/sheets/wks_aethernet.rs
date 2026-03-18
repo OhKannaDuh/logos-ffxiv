@@ -13,4 +13,4 @@ impl WKSAethernetRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(WKSAethernetSheet, WKSAethernetRow, "WKSAethernet");
+define_sheet!(WKSAethernetSheet, WKSAethernetRow, "WKSAethernet", no_language_support);

@@ -20,4 +20,4 @@ impl TofuPresetObjectRow {
     bool_field!(unknown_8, 8);
 }
 
-define_sheet!(TofuPresetObjectSheet, TofuPresetObjectRow, "TofuPresetObject");
+define_sheet!(TofuPresetObjectSheet, TofuPresetObjectRow, "TofuPresetObject", no_language_support);

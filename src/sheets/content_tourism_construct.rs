@@ -25,4 +25,4 @@ impl ContentTourismConstructRow {
     u8_field!(unknown_13, 0);
 }
 
-define_sheet!(ContentTourismConstructSheet, ContentTourismConstructRow, "ContentTourismConstruct");
+define_sheet!(ContentTourismConstructSheet, ContentTourismConstructRow, "ContentTourismConstruct", no_language_support);

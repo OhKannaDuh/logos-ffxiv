@@ -14,4 +14,4 @@ impl PvPTraitRow {
     u16_field!(trait_3, 2);
 }
 
-define_sheet!(PvPTraitSheet, PvPTraitRow, "PvPTrait");
+define_sheet!(PvPTraitSheet, PvPTraitRow, "PvPTrait", no_language_support);

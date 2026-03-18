@@ -18,4 +18,4 @@ impl RecipeNotebookListRow {
     u8_field!(count, 0);
 }
 
-define_sheet!(RecipeNotebookListSheet, RecipeNotebookListRow, "RecipeNotebookList");
+define_sheet!(RecipeNotebookListSheet, RecipeNotebookListRow, "RecipeNotebookList", no_language_support);

@@ -12,4 +12,4 @@ impl SubmarineExplorationLogRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(SubmarineExplorationLogSheet, SubmarineExplorationLogRow, "SubmarineExplorationLog");
+define_sheet!(SubmarineExplorationLogSheet, SubmarineExplorationLogRow, "SubmarineExplorationLog", language_support);

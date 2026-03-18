@@ -46,4 +46,4 @@ impl RecastNavimeshRow {
     bool_field!(unknown_20, 34);
 }
 
-define_sheet!(RecastNavimeshSheet, RecastNavimeshRow, "RecastNavimesh");
+define_sheet!(RecastNavimeshSheet, RecastNavimeshRow, "RecastNavimesh", no_language_support);

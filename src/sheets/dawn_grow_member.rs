@@ -24,4 +24,4 @@ impl DawnGrowMemberRow {
     u8_field!(class, 8);
 }
 
-define_sheet!(DawnGrowMemberSheet, DawnGrowMemberRow, "DawnGrowMember");
+define_sheet!(DawnGrowMemberSheet, DawnGrowMemberRow, "DawnGrowMember", no_language_support);

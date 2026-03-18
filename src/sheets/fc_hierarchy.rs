@@ -12,4 +12,4 @@ impl FCHierarchyRow {
     string_field!(name, 0);
 }
 
-define_sheet!(FCHierarchySheet, FCHierarchyRow, "FCHierarchy");
+define_sheet!(FCHierarchySheet, FCHierarchyRow, "FCHierarchy", language_support);

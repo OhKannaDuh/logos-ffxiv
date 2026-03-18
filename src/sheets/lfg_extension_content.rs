@@ -15,4 +15,4 @@ impl LFGExtensionContentRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(LFGExtensionContentSheet, LFGExtensionContentRow, "LFGExtensionContent");
+define_sheet!(LFGExtensionContentSheet, LFGExtensionContentRow, "LFGExtensionContent", no_language_support);

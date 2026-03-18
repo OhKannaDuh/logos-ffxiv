@@ -12,4 +12,4 @@ impl FashionCheckWeeklyThemeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(FashionCheckWeeklyThemeSheet, FashionCheckWeeklyThemeRow, "FashionCheckWeeklyTheme");
+define_sheet!(FashionCheckWeeklyThemeSheet, FashionCheckWeeklyThemeRow, "FashionCheckWeeklyTheme", language_support);

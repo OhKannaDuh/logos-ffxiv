@@ -15,4 +15,4 @@ impl NotoriousMonsterRow {
     u8_field!(rank, 1);
 }
 
-define_sheet!(NotoriousMonsterSheet, NotoriousMonsterRow, "NotoriousMonster");
+define_sheet!(NotoriousMonsterSheet, NotoriousMonsterRow, "NotoriousMonster", no_language_support);

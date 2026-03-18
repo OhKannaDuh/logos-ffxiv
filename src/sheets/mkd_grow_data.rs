@@ -12,4 +12,4 @@ impl MKDGrowDataRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(MKDGrowDataSheet, MKDGrowDataRow, "MKDGrowData");
+define_sheet!(MKDGrowDataSheet, MKDGrowDataRow, "MKDGrowData", no_language_support);

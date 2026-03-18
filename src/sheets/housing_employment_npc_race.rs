@@ -12,4 +12,4 @@ impl HousingEmploymentNpcRaceRow {
     string_field!(race, 0);
 }
 
-define_sheet!(HousingEmploymentNpcRaceSheet, HousingEmploymentNpcRaceRow, "HousingEmploymentNpcRace");
+define_sheet!(HousingEmploymentNpcRaceSheet, HousingEmploymentNpcRaceRow, "HousingEmploymentNpcRace", language_support);

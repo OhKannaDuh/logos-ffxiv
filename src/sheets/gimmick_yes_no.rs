@@ -14,4 +14,4 @@ impl GimmickYesNoRow {
     string_field!(no_button, 2);
 }
 
-define_sheet!(GimmickYesNoSheet, GimmickYesNoRow, "GimmickYesNo");
+define_sheet!(GimmickYesNoSheet, GimmickYesNoRow, "GimmickYesNo", language_support);

@@ -20,4 +20,4 @@ impl HousingUnitedExteriorRow {
     u8_field!(plot_size, 0);
 }
 
-define_sheet!(HousingUnitedExteriorSheet, HousingUnitedExteriorRow, "HousingUnitedExterior");
+define_sheet!(HousingUnitedExteriorSheet, HousingUnitedExteriorRow, "HousingUnitedExterior", no_language_support);

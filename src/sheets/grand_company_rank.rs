@@ -22,4 +22,4 @@ impl GrandCompanyRankRow {
     u8_field!(unknown_0, 10);
 }
 
-define_sheet!(GrandCompanyRankSheet, GrandCompanyRankRow, "GrandCompanyRank");
+define_sheet!(GrandCompanyRankSheet, GrandCompanyRankRow, "GrandCompanyRank", no_language_support);

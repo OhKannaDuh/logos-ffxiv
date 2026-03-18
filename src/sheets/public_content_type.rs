@@ -12,4 +12,4 @@ impl PublicContentTypeRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(PublicContentTypeSheet, PublicContentTypeRow, "PublicContentType");
+define_sheet!(PublicContentTypeSheet, PublicContentTypeRow, "PublicContentType", no_language_support);

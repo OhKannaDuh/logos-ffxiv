@@ -25,4 +25,4 @@ impl CompanionTransientRow {
     bool_field!(strength_arcana, 12);
 }
 
-define_sheet!(CompanionTransientSheet, CompanionTransientRow, "CompanionTransient");
+define_sheet!(CompanionTransientSheet, CompanionTransientRow, "CompanionTransient", language_support);

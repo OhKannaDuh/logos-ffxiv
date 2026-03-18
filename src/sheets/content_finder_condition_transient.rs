@@ -12,4 +12,4 @@ impl ContentFinderConditionTransientRow {
     string_field!(description, 0);
 }
 
-define_sheet!(ContentFinderConditionTransientSheet, ContentFinderConditionTransientRow, "ContentFinderConditionTransient");
+define_sheet!(ContentFinderConditionTransientSheet, ContentFinderConditionTransientRow, "ContentFinderConditionTransient", language_support);

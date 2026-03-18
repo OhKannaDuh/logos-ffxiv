@@ -17,4 +17,4 @@ impl PerformGroupRow {
     array_field!(perform, 0, 5, PerformGroupPerform);
 }
 
-define_sheet!(PerformGroupSheet, PerformGroupRow, "PerformGroup");
+define_sheet!(PerformGroupSheet, PerformGroupRow, "PerformGroup", no_language_support);

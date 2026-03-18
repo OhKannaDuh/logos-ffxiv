@@ -12,4 +12,4 @@ impl DisposalShopFilterTypeRow {
     string_field!(category, 0);
 }
 
-define_sheet!(DisposalShopFilterTypeSheet, DisposalShopFilterTypeRow, "DisposalShopFilterType");
+define_sheet!(DisposalShopFilterTypeSheet, DisposalShopFilterTypeRow, "DisposalShopFilterType", language_support);

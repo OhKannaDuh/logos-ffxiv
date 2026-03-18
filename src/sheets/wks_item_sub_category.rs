@@ -13,4 +13,4 @@ impl WKSItemSubCategoryRow {
     u16_field!(menu_order, 1);
 }
 
-define_sheet!(WKSItemSubCategorySheet, WKSItemSubCategoryRow, "WKSItemSubCategory");
+define_sheet!(WKSItemSubCategorySheet, WKSItemSubCategoryRow, "WKSItemSubCategory", language_support);

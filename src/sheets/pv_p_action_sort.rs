@@ -16,4 +16,4 @@ impl PvPActionSortRow {
     bool_field!(unknown_2, 3);
 }
 
-define_sheet!(PvPActionSortSheet, PvPActionSortRow, "PvPActionSort");
+define_sheet!(PvPActionSortSheet, PvPActionSortRow, "PvPActionSort", no_language_support);

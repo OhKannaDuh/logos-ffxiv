@@ -13,4 +13,4 @@ impl QuestRewardOtherRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(QuestRewardOtherSheet, QuestRewardOtherRow, "QuestRewardOther");
+define_sheet!(QuestRewardOtherSheet, QuestRewardOtherRow, "QuestRewardOther", language_support);

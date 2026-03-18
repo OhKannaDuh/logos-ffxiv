@@ -13,4 +13,4 @@ impl MotionTimelineAdvanceBlendRow {
     string_field!(unknown_1, 1);
 }
 
-define_sheet!(MotionTimelineAdvanceBlendSheet, MotionTimelineAdvanceBlendRow, "MotionTimelineAdvanceBlend");
+define_sheet!(MotionTimelineAdvanceBlendSheet, MotionTimelineAdvanceBlendRow, "MotionTimelineAdvanceBlend", no_language_support);

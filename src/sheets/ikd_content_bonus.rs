@@ -16,4 +16,4 @@ impl IKDContentBonusRow {
     u8_field!(order, 4);
 }
 
-define_sheet!(IKDContentBonusSheet, IKDContentBonusRow, "IKDContentBonus");
+define_sheet!(IKDContentBonusSheet, IKDContentBonusRow, "IKDContentBonus", language_support);

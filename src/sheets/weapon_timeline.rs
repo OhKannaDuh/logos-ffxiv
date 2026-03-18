@@ -15,4 +15,4 @@ impl WeaponTimelineRow {
     bool_field!(unknown_1, 3);
 }
 
-define_sheet!(WeaponTimelineSheet, WeaponTimelineRow, "WeaponTimeline");
+define_sheet!(WeaponTimelineSheet, WeaponTimelineRow, "WeaponTimeline", no_language_support);

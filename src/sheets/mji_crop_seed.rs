@@ -14,4 +14,4 @@ impl MJICropSeedRow {
     u16_field!(sgb, 1);
 }
 
-define_sheet!(MJICropSeedSheet, MJICropSeedRow, "MJICropSeed");
+define_sheet!(MJICropSeedSheet, MJICropSeedRow, "MJICropSeed", no_language_support);

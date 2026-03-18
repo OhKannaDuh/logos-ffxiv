@@ -13,4 +13,4 @@ impl RecipeSubCategoryRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(RecipeSubCategorySheet, RecipeSubCategoryRow, "RecipeSubCategory");
+define_sheet!(RecipeSubCategorySheet, RecipeSubCategoryRow, "RecipeSubCategory", language_support);

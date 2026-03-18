@@ -64,4 +64,4 @@ impl WKSMechaEventDataRow {
     u8_field!(unknown_52, 12);
 }
 
-define_sheet!(WKSMechaEventDataSheet, WKSMechaEventDataRow, "WKSMechaEventData");
+define_sheet!(WKSMechaEventDataSheet, WKSMechaEventDataRow, "WKSMechaEventData", language_support);

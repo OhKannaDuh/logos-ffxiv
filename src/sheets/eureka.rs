@@ -16,4 +16,4 @@ impl EurekaRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(EurekaSheet, EurekaRow, "Eureka");
+define_sheet!(EurekaSheet, EurekaRow, "Eureka", no_language_support);

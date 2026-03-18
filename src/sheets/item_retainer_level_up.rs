@@ -13,4 +13,4 @@ impl ItemRetainerLevelUpRow {
     u16_field!(unknown_1, 1);
 }
 
-define_sheet!(ItemRetainerLevelUpSheet, ItemRetainerLevelUpRow, "ItemRetainerLevelUp");
+define_sheet!(ItemRetainerLevelUpSheet, ItemRetainerLevelUpRow, "ItemRetainerLevelUp", no_language_support);

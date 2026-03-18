@@ -21,4 +21,4 @@ impl GeneralActionRow {
     bool_field!(unknown_1, 9);
 }
 
-define_sheet!(GeneralActionSheet, GeneralActionRow, "GeneralAction");
+define_sheet!(GeneralActionSheet, GeneralActionRow, "GeneralAction", language_support);

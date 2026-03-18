@@ -13,4 +13,4 @@ impl InstanceContentQICDataRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(InstanceContentQICDataSheet, InstanceContentQICDataRow, "InstanceContentQICData");
+define_sheet!(InstanceContentQICDataSheet, InstanceContentQICDataRow, "InstanceContentQICData", no_language_support);

@@ -13,4 +13,4 @@ impl ContentFinderConditionRegionRow {
     i8_field!(unknown_1, 0);
 }
 
-define_sheet!(ContentFinderConditionRegionSheet, ContentFinderConditionRegionRow, "ContentFinderConditionRegion");
+define_sheet!(ContentFinderConditionRegionSheet, ContentFinderConditionRegionRow, "ContentFinderConditionRegion", no_language_support);

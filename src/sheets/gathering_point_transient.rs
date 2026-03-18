@@ -14,4 +14,4 @@ impl GatheringPointTransientRow {
     u16_field!(ephemeral_end_time, 1);
 }
 
-define_sheet!(GatheringPointTransientSheet, GatheringPointTransientRow, "GatheringPointTransient");
+define_sheet!(GatheringPointTransientSheet, GatheringPointTransientRow, "GatheringPointTransient", no_language_support);

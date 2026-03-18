@@ -17,4 +17,4 @@ impl CreditDataSetRow {
     bool_field!(unknown_4, 5);
 }
 
-define_sheet!(CreditDataSetSheet, CreditDataSetRow, "CreditDataSet");
+define_sheet!(CreditDataSetSheet, CreditDataSetRow, "CreditDataSet", no_language_support);

@@ -15,4 +15,4 @@ impl CarryRow {
     u8_field!(unknown_1, 3);
 }
 
-define_sheet!(CarrySheet, CarryRow, "Carry");
+define_sheet!(CarrySheet, CarryRow, "Carry", no_language_support);

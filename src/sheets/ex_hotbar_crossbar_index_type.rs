@@ -27,4 +27,4 @@ impl ExHotbarCrossbarIndexTypeRow {
     u8_field!(unknown_15, 15);
 }
 
-define_sheet!(ExHotbarCrossbarIndexTypeSheet, ExHotbarCrossbarIndexTypeRow, "ExHotbarCrossbarIndexType");
+define_sheet!(ExHotbarCrossbarIndexTypeSheet, ExHotbarCrossbarIndexTypeRow, "ExHotbarCrossbarIndexType", no_language_support);

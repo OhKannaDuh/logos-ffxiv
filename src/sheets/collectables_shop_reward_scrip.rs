@@ -18,4 +18,4 @@ impl CollectablesShopRewardScripRow {
     u16_field!(exp_ratio_high, 6);
 }
 
-define_sheet!(CollectablesShopRewardScripSheet, CollectablesShopRewardScripRow, "CollectablesShopRewardScrip");
+define_sheet!(CollectablesShopRewardScripSheet, CollectablesShopRewardScripRow, "CollectablesShopRewardScrip", no_language_support);

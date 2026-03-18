@@ -15,4 +15,4 @@ impl ZoneTimelineRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(ZoneTimelineSheet, ZoneTimelineRow, "ZoneTimeline");
+define_sheet!(ZoneTimelineSheet, ZoneTimelineRow, "ZoneTimeline", no_language_support);

@@ -13,4 +13,4 @@ impl MKDRelicGrowth2CategoryRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(MKDRelicGrowth2CategorySheet, MKDRelicGrowth2CategoryRow, "MKDRelicGrowth2Category");
+define_sheet!(MKDRelicGrowth2CategorySheet, MKDRelicGrowth2CategoryRow, "MKDRelicGrowth2Category", language_support);

@@ -16,4 +16,4 @@ impl WKSItemInfoRow {
     bool_field!(unknown_3, 4);
 }
 
-define_sheet!(WKSItemInfoSheet, WKSItemInfoRow, "WKSItemInfo");
+define_sheet!(WKSItemInfoSheet, WKSItemInfoRow, "WKSItemInfo", no_language_support);

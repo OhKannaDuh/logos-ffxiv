@@ -18,4 +18,4 @@ impl DpsChallengeOfficerRow {
     u32_field!(unlock_quest, 0);
 }
 
-define_sheet!(DpsChallengeOfficerSheet, DpsChallengeOfficerRow, "DpsChallengeOfficer");
+define_sheet!(DpsChallengeOfficerSheet, DpsChallengeOfficerRow, "DpsChallengeOfficer", no_language_support);

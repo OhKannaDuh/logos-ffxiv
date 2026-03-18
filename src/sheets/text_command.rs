@@ -23,4 +23,4 @@ impl TextCommandRow {
     i8_field!(unknown_5, 4);
 }
 
-define_sheet!(TextCommandSheet, TextCommandRow, "TextCommand");
+define_sheet!(TextCommandSheet, TextCommandRow, "TextCommand", language_support);

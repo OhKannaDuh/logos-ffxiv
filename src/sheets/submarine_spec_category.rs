@@ -12,4 +12,4 @@ impl SubmarineSpecCategoryRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(SubmarineSpecCategorySheet, SubmarineSpecCategoryRow, "SubmarineSpecCategory");
+define_sheet!(SubmarineSpecCategorySheet, SubmarineSpecCategoryRow, "SubmarineSpecCategory", language_support);

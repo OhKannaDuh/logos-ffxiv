@@ -68,4 +68,4 @@ impl ClassJobRow {
     bool_field!(unknown_10, 49);
 }
 
-define_sheet!(ClassJobSheet, ClassJobRow, "ClassJob");
+define_sheet!(ClassJobSheet, ClassJobRow, "ClassJob", language_support);

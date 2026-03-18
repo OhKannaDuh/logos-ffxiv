@@ -12,4 +12,4 @@ impl BattleLeveRuleRow {
     string_field!(rule, 0);
 }
 
-define_sheet!(BattleLeveRuleSheet, BattleLeveRuleRow, "BattleLeveRule");
+define_sheet!(BattleLeveRuleSheet, BattleLeveRuleRow, "BattleLeveRule", no_language_support);

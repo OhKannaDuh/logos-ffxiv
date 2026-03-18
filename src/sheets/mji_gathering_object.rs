@@ -16,4 +16,4 @@ impl MJIGatheringObjectRow {
     u16_field!(unknown_1, 4);
 }
 
-define_sheet!(MJIGatheringObjectSheet, MJIGatheringObjectRow, "MJIGatheringObject");
+define_sheet!(MJIGatheringObjectSheet, MJIGatheringObjectRow, "MJIGatheringObject", no_language_support);

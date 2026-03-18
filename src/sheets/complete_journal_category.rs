@@ -14,4 +14,4 @@ impl CompleteJournalCategoryRow {
     i32_field!(unknown_0, 2);
 }
 
-define_sheet!(CompleteJournalCategorySheet, CompleteJournalCategoryRow, "CompleteJournalCategory");
+define_sheet!(CompleteJournalCategorySheet, CompleteJournalCategoryRow, "CompleteJournalCategory", no_language_support);

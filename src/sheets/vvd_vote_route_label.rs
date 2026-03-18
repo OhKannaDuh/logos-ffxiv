@@ -12,4 +12,4 @@ impl VVDVoteRouteLabelRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(VVDVoteRouteLabelSheet, VVDVoteRouteLabelRow, "VVDVoteRouteLabel");
+define_sheet!(VVDVoteRouteLabelSheet, VVDVoteRouteLabelRow, "VVDVoteRouteLabel", language_support);

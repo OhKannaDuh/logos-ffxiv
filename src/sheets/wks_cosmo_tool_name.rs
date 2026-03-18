@@ -19,4 +19,4 @@ impl WKSCosmoToolNameRow {
     i8_field!(unknown_7, 7);
 }
 
-define_sheet!(WKSCosmoToolNameSheet, WKSCosmoToolNameRow, "WKSCosmoToolName");
+define_sheet!(WKSCosmoToolNameSheet, WKSCosmoToolNameRow, "WKSCosmoToolName", language_support);

@@ -12,4 +12,4 @@ impl UILevelLookupRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(UILevelLookupSheet, UILevelLookupRow, "UILevelLookup");
+define_sheet!(UILevelLookupSheet, UILevelLookupRow, "UILevelLookup", no_language_support);

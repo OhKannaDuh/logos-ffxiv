@@ -12,4 +12,4 @@ impl FishingBaitParameterRow {
     u32_field!(item, 0);
 }
 
-define_sheet!(FishingBaitParameterSheet, FishingBaitParameterRow, "FishingBaitParameter");
+define_sheet!(FishingBaitParameterSheet, FishingBaitParameterRow, "FishingBaitParameter", no_language_support);

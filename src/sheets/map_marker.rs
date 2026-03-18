@@ -22,4 +22,4 @@ impl MapMarkerRow {
     u8_field!(unknown_0, 9);
 }
 
-define_sheet!(MapMarkerSheet, MapMarkerRow, "MapMarker");
+define_sheet!(MapMarkerSheet, MapMarkerRow, "MapMarker", no_language_support);

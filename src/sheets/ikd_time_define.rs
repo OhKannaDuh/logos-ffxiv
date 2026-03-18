@@ -12,4 +12,4 @@ impl IKDTimeDefineRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(IKDTimeDefineSheet, IKDTimeDefineRow, "IKDTimeDefine");
+define_sheet!(IKDTimeDefineSheet, IKDTimeDefineRow, "IKDTimeDefine", no_language_support);

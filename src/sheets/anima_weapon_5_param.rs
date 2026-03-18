@@ -13,4 +13,4 @@ impl AnimaWeapon5ParamRow {
     u8_field!(base_param, 0);
 }
 
-define_sheet!(AnimaWeapon5ParamSheet, AnimaWeapon5ParamRow, "AnimaWeapon5Param");
+define_sheet!(AnimaWeapon5ParamSheet, AnimaWeapon5ParamRow, "AnimaWeapon5Param", language_support);

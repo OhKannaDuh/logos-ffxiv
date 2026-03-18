@@ -12,4 +12,4 @@ impl SpearfishingSilhouetteRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(SpearfishingSilhouetteSheet, SpearfishingSilhouetteRow, "SpearfishingSilhouette");
+define_sheet!(SpearfishingSilhouetteSheet, SpearfishingSilhouetteRow, "SpearfishingSilhouette", no_language_support);

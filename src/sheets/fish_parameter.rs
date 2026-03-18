@@ -25,4 +25,4 @@ impl FishParameterRow {
     bool_field!(is_in_log, 12);
 }
 
-define_sheet!(FishParameterSheet, FishParameterRow, "FishParameter");
+define_sheet!(FishParameterSheet, FishParameterRow, "FishParameter", language_support);

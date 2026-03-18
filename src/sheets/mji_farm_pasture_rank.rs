@@ -30,4 +30,4 @@ impl MJIFarmPastureRankRow {
     array_field!(rank_data, 0, 4, MJIFarmPastureRankRankData);
 }
 
-define_sheet!(MJIFarmPastureRankSheet, MJIFarmPastureRankRow, "MJIFarmPastureRank");
+define_sheet!(MJIFarmPastureRankSheet, MJIFarmPastureRankRow, "MJIFarmPastureRank", no_language_support);

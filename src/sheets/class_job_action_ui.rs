@@ -20,4 +20,4 @@ impl ClassJobActionUIRow {
     bool_field!(grouped_cell, 5);
 }
 
-define_sheet!(ClassJobActionUISheet, ClassJobActionUIRow, "ClassJobActionUI");
+define_sheet!(ClassJobActionUISheet, ClassJobActionUIRow, "ClassJobActionUI", no_language_support);

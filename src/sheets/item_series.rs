@@ -12,4 +12,4 @@ impl ItemSeriesRow {
     string_field!(name, 0);
 }
 
-define_sheet!(ItemSeriesSheet, ItemSeriesRow, "ItemSeries");
+define_sheet!(ItemSeriesSheet, ItemSeriesRow, "ItemSeries", language_support);

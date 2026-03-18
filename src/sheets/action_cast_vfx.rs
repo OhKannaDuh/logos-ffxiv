@@ -12,4 +12,4 @@ impl ActionCastVFXRow {
     u16_field!(vfx, 0);
 }
 
-define_sheet!(ActionCastVFXSheet, ActionCastVFXRow, "ActionCastVFX");
+define_sheet!(ActionCastVFXSheet, ActionCastVFXRow, "ActionCastVFX", no_language_support);

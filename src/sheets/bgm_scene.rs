@@ -16,4 +16,4 @@ impl BGMSceneRow {
     bool_field!(ignore_battle, 4);
 }
 
-define_sheet!(BGMSceneSheet, BGMSceneRow, "BGMScene");
+define_sheet!(BGMSceneSheet, BGMSceneRow, "BGMScene", no_language_support);

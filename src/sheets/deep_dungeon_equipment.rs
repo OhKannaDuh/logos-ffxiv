@@ -22,4 +22,4 @@ impl DeepDungeonEquipmentRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(DeepDungeonEquipmentSheet, DeepDungeonEquipmentRow, "DeepDungeonEquipment");
+define_sheet!(DeepDungeonEquipmentSheet, DeepDungeonEquipmentRow, "DeepDungeonEquipment", language_support);

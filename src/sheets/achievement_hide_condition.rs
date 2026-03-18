@@ -14,4 +14,4 @@ impl AchievementHideConditionRow {
     bool_field!(hide_conditions, 2);
 }
 
-define_sheet!(AchievementHideConditionSheet, AchievementHideConditionRow, "AchievementHideCondition");
+define_sheet!(AchievementHideConditionSheet, AchievementHideConditionRow, "AchievementHideCondition", no_language_support);

@@ -14,4 +14,4 @@ impl SatisfactionSupplyRewardExpRow {
     u8_field!(percent_of_level_high, 2);
 }
 
-define_sheet!(SatisfactionSupplyRewardExpSheet, SatisfactionSupplyRewardExpRow, "SatisfactionSupplyRewardExp");
+define_sheet!(SatisfactionSupplyRewardExpSheet, SatisfactionSupplyRewardExpRow, "SatisfactionSupplyRewardExp", no_language_support);

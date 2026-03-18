@@ -20,4 +20,4 @@ impl CompanyCraftPartRow {
     u8_field!(company_craft_type, 1);
 }
 
-define_sheet!(CompanyCraftPartSheet, CompanyCraftPartRow, "CompanyCraftPart");
+define_sheet!(CompanyCraftPartSheet, CompanyCraftPartRow, "CompanyCraftPart", no_language_support);

@@ -15,4 +15,4 @@ impl MovieStaffListRow {
     i8_field!(unknown_0, 3);
 }
 
-define_sheet!(MovieStaffListSheet, MovieStaffListRow, "MovieStaffList");
+define_sheet!(MovieStaffListSheet, MovieStaffListRow, "MovieStaffList", no_language_support);

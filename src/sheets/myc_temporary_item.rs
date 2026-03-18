@@ -17,4 +17,4 @@ impl MYCTemporaryItemRow {
     u8_field!(order, 5);
 }
 
-define_sheet!(MYCTemporaryItemSheet, MYCTemporaryItemRow, "MYCTemporaryItem");
+define_sheet!(MYCTemporaryItemSheet, MYCTemporaryItemRow, "MYCTemporaryItem", no_language_support);

@@ -25,4 +25,4 @@ impl GroupPoseCharacterShowPresetRow {
     bool_field!(unknown_13, 13);
 }
 
-define_sheet!(GroupPoseCharacterShowPresetSheet, GroupPoseCharacterShowPresetRow, "GroupPoseCharacterShowPreset");
+define_sheet!(GroupPoseCharacterShowPresetSheet, GroupPoseCharacterShowPresetRow, "GroupPoseCharacterShowPreset", no_language_support);

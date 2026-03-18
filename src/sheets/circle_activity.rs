@@ -14,4 +14,4 @@ impl CircleActivityRow {
     u16_field!(order, 2);
 }
 
-define_sheet!(CircleActivitySheet, CircleActivityRow, "CircleActivity");
+define_sheet!(CircleActivitySheet, CircleActivityRow, "CircleActivity", language_support);

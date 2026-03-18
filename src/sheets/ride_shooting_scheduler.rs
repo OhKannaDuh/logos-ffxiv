@@ -16,4 +16,4 @@ impl RideShootingSchedulerRow {
     u8_field!(unknown_4, 0);
 }
 
-define_sheet!(RideShootingSchedulerSheet, RideShootingSchedulerRow, "RideShootingScheduler");
+define_sheet!(RideShootingSchedulerSheet, RideShootingSchedulerRow, "RideShootingScheduler", no_language_support);

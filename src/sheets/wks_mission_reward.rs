@@ -43,4 +43,4 @@ impl WKSMissionRewardRow {
     array_field!(type_index, 15, 3, WKSMissionRewardTypeIndex);
 }
 
-define_sheet!(WKSMissionRewardSheet, WKSMissionRewardRow, "WKSMissionReward");
+define_sheet!(WKSMissionRewardSheet, WKSMissionRewardRow, "WKSMissionReward", no_language_support);

@@ -12,4 +12,4 @@ impl TerritoryTypeTransientRow {
     i16_field!(offset_z, 0);
 }
 
-define_sheet!(TerritoryTypeTransientSheet, TerritoryTypeTransientRow, "TerritoryTypeTransient");
+define_sheet!(TerritoryTypeTransientSheet, TerritoryTypeTransientRow, "TerritoryTypeTransient", no_language_support);

@@ -46,4 +46,4 @@ impl MiniGameTurnBreakEnemyRow {
     bool_field!(unknown_34, 4);
 }
 
-define_sheet!(MiniGameTurnBreakEnemySheet, MiniGameTurnBreakEnemyRow, "MiniGameTurnBreakEnemy");
+define_sheet!(MiniGameTurnBreakEnemySheet, MiniGameTurnBreakEnemyRow, "MiniGameTurnBreakEnemy", no_language_support);

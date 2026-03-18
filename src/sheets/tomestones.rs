@@ -12,4 +12,4 @@ impl TomestonesRow {
     u16_field!(weekly_limit, 0);
 }
 
-define_sheet!(TomestonesSheet, TomestonesRow, "Tomestones");
+define_sheet!(TomestonesSheet, TomestonesRow, "Tomestones", no_language_support);

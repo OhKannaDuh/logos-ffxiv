@@ -30,4 +30,4 @@ impl DefaultTalkRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(DefaultTalkSheet, DefaultTalkRow, "DefaultTalk");
+define_sheet!(DefaultTalkSheet, DefaultTalkRow, "DefaultTalk", language_support);

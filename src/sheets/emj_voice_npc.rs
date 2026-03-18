@@ -21,4 +21,4 @@ impl EmjVoiceNpcRow {
     u16_field!(emj_costume, 1);
 }
 
-define_sheet!(EmjVoiceNpcSheet, EmjVoiceNpcRow, "EmjVoiceNpc");
+define_sheet!(EmjVoiceNpcSheet, EmjVoiceNpcRow, "EmjVoiceNpc", language_support);

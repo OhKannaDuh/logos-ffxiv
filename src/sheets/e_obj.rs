@@ -31,4 +31,4 @@ impl EObjRow {
     bool_field!(unknown_10, 19);
 }
 
-define_sheet!(EObjSheet, EObjRow, "EObj");
+define_sheet!(EObjSheet, EObjRow, "EObj", no_language_support);

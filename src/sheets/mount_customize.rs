@@ -54,4 +54,4 @@ impl MountCustomizeRow {
     bool_field!(unknown_4, 0);
 }
 
-define_sheet!(MountCustomizeSheet, MountCustomizeRow, "MountCustomize");
+define_sheet!(MountCustomizeSheet, MountCustomizeRow, "MountCustomize", no_language_support);

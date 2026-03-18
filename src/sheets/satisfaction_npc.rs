@@ -53,4 +53,4 @@ impl SatisfactionNpcRow {
     u8_field!(unknown_20, 92);
 }
 
-define_sheet!(SatisfactionNpcSheet, SatisfactionNpcRow, "SatisfactionNpc");
+define_sheet!(SatisfactionNpcSheet, SatisfactionNpcRow, "SatisfactionNpc", no_language_support);

@@ -15,4 +15,4 @@ impl VaseFlowerRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(VaseFlowerSheet, VaseFlowerRow, "VaseFlower");
+define_sheet!(VaseFlowerSheet, VaseFlowerRow, "VaseFlower", no_language_support);

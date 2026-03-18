@@ -12,4 +12,4 @@ impl MJICraftworksPopularityTypeRow {
     u16_field!(ratio, 0);
 }
 
-define_sheet!(MJICraftworksPopularityTypeSheet, MJICraftworksPopularityTypeRow, "MJICraftworksPopularityType");
+define_sheet!(MJICraftworksPopularityTypeSheet, MJICraftworksPopularityTypeRow, "MJICraftworksPopularityType", no_language_support);

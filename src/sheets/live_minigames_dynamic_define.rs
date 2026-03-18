@@ -12,4 +12,4 @@ impl LiveMinigamesDynamicDefineRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(LiveMinigamesDynamicDefineSheet, LiveMinigamesDynamicDefineRow, "LiveMinigamesDynamicDefine");
+define_sheet!(LiveMinigamesDynamicDefineSheet, LiveMinigamesDynamicDefineRow, "LiveMinigamesDynamicDefine", no_language_support);

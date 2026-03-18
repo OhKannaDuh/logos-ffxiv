@@ -14,4 +14,4 @@ impl ChocoboRaceItemRow {
     u32_field!(icon, 2);
 }
 
-define_sheet!(ChocoboRaceItemSheet, ChocoboRaceItemRow, "ChocoboRaceItem");
+define_sheet!(ChocoboRaceItemSheet, ChocoboRaceItemRow, "ChocoboRaceItem", language_support);

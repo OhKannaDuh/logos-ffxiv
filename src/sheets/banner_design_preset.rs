@@ -16,4 +16,4 @@ impl BannerDesignPresetRow {
     u16_field!(sort_key, 3);
 }
 
-define_sheet!(BannerDesignPresetSheet, BannerDesignPresetRow, "BannerDesignPreset");
+define_sheet!(BannerDesignPresetSheet, BannerDesignPresetRow, "BannerDesignPreset", language_support);

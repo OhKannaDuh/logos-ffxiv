@@ -12,4 +12,4 @@ impl ChocoboRaceRankingRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(ChocoboRaceRankingSheet, ChocoboRaceRankingRow, "ChocoboRaceRanking");
+define_sheet!(ChocoboRaceRankingSheet, ChocoboRaceRankingRow, "ChocoboRaceRanking", no_language_support);

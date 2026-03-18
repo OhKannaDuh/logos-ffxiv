@@ -17,4 +17,4 @@ impl MJIBuildingPlaceRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(MJIBuildingPlaceSheet, MJIBuildingPlaceRow, "MJIBuildingPlace");
+define_sheet!(MJIBuildingPlaceSheet, MJIBuildingPlaceRow, "MJIBuildingPlace", no_language_support);

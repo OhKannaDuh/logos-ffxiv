@@ -13,4 +13,4 @@ impl GroupPoseStampCategoryRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(GroupPoseStampCategorySheet, GroupPoseStampCategoryRow, "GroupPoseStampCategory");
+define_sheet!(GroupPoseStampCategorySheet, GroupPoseStampCategoryRow, "GroupPoseStampCategory", language_support);

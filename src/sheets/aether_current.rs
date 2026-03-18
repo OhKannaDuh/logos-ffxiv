@@ -12,4 +12,4 @@ impl AetherCurrentRow {
     u32_field!(quest, 0);
 }
 
-define_sheet!(AetherCurrentSheet, AetherCurrentRow, "AetherCurrent");
+define_sheet!(AetherCurrentSheet, AetherCurrentRow, "AetherCurrent", no_language_support);

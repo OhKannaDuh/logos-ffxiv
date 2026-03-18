@@ -14,4 +14,4 @@ impl MJIVillageAppearanceUIRow {
     u16_field!(unknown_1, 2);
 }
 
-define_sheet!(MJIVillageAppearanceUISheet, MJIVillageAppearanceUIRow, "MJIVillageAppearanceUI");
+define_sheet!(MJIVillageAppearanceUISheet, MJIVillageAppearanceUIRow, "MJIVillageAppearanceUI", no_language_support);

@@ -17,4 +17,4 @@ impl ItemSearchCategoryRow {
     bool_field!(unknown_0, 5);
 }
 
-define_sheet!(ItemSearchCategorySheet, ItemSearchCategoryRow, "ItemSearchCategory");
+define_sheet!(ItemSearchCategorySheet, ItemSearchCategoryRow, "ItemSearchCategory", language_support);

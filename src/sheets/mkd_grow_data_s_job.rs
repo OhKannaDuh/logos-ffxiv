@@ -12,4 +12,4 @@ impl MKDGrowDataSJobRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(MKDGrowDataSJobSheet, MKDGrowDataSJobRow, "MKDGrowDataSJob");
+define_sheet!(MKDGrowDataSJobSheet, MKDGrowDataSJobRow, "MKDGrowDataSJob", no_language_support);

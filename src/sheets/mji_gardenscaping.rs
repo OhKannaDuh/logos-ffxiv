@@ -20,4 +20,4 @@ impl MJIGardenscapingRow {
     u8_field!(level, 0);
 }
 
-define_sheet!(MJIGardenscapingSheet, MJIGardenscapingRow, "MJIGardenscaping");
+define_sheet!(MJIGardenscapingSheet, MJIGardenscapingRow, "MJIGardenscaping", no_language_support);

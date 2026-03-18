@@ -14,4 +14,4 @@ impl DeepDungeonBanRow {
     u16_field!(floor_effect_ui, 2);
 }
 
-define_sheet!(DeepDungeonBanSheet, DeepDungeonBanRow, "DeepDungeonBan");
+define_sheet!(DeepDungeonBanSheet, DeepDungeonBanRow, "DeepDungeonBan", no_language_support);

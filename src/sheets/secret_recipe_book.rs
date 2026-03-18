@@ -13,4 +13,4 @@ impl SecretRecipeBookRow {
     i32_field!(item, 0);
 }
 
-define_sheet!(SecretRecipeBookSheet, SecretRecipeBookRow, "SecretRecipeBook");
+define_sheet!(SecretRecipeBookSheet, SecretRecipeBookRow, "SecretRecipeBook", language_support);

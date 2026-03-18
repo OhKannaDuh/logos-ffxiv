@@ -16,4 +16,4 @@ impl ActivityFeedImagesRow {
     string_field!(activity_feed_fr, 4);
 }
 
-define_sheet!(ActivityFeedImagesSheet, ActivityFeedImagesRow, "ActivityFeedImages");
+define_sheet!(ActivityFeedImagesSheet, ActivityFeedImagesRow, "ActivityFeedImages", no_language_support);

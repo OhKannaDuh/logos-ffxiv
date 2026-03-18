@@ -13,4 +13,4 @@ impl WKSAetheryteRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(WKSAetheryteSheet, WKSAetheryteRow, "WKSAetheryte");
+define_sheet!(WKSAetheryteSheet, WKSAetheryteRow, "WKSAetheryte", no_language_support);

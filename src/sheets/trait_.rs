@@ -21,4 +21,4 @@ impl TraitRow {
     bool_field!(unknown_1, 2);
 }
 
-define_sheet!(TraitSheet, TraitRow, "Trait");
+define_sheet!(TraitSheet, TraitRow, "Trait", language_support);

@@ -72,4 +72,4 @@ impl SnipeRow {
     bool_field!(unknown_32, 16);
 }
 
-define_sheet!(SnipeSheet, SnipeRow, "Snipe");
+define_sheet!(SnipeSheet, SnipeRow, "Snipe", language_support);

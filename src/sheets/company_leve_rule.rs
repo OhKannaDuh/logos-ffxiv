@@ -14,4 +14,4 @@ impl CompanyLeveRuleRow {
     u16_field!(help, 2);
 }
 
-define_sheet!(CompanyLeveRuleSheet, CompanyLeveRuleRow, "CompanyLeveRule");
+define_sheet!(CompanyLeveRuleSheet, CompanyLeveRuleRow, "CompanyLeveRule", no_language_support);

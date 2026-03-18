@@ -13,4 +13,4 @@ impl GFateClimbingRow {
     u32_field!(unknown_1, 0);
 }
 
-define_sheet!(GFateClimbingSheet, GFateClimbingRow, "GFateClimbing");
+define_sheet!(GFateClimbingSheet, GFateClimbingRow, "GFateClimbing", language_support);

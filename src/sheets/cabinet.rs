@@ -15,4 +15,4 @@ impl CabinetRow {
     u8_field!(sub_category, 3);
 }
 
-define_sheet!(CabinetSheet, CabinetRow, "Cabinet");
+define_sheet!(CabinetSheet, CabinetRow, "Cabinet", no_language_support);

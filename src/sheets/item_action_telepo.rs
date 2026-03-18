@@ -13,4 +13,4 @@ impl ItemActionTelepoRow {
     u32_field!(deny_message, 1);
 }
 
-define_sheet!(ItemActionTelepoSheet, ItemActionTelepoRow, "ItemActionTelepo");
+define_sheet!(ItemActionTelepoSheet, ItemActionTelepoRow, "ItemActionTelepo", no_language_support);

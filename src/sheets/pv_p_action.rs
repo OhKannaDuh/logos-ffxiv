@@ -23,4 +23,4 @@ impl PvPActionRow {
     array_field!(grand_company, 6, 3, PvPActionGrandCompany);
 }
 
-define_sheet!(PvPActionSheet, PvPActionRow, "PvPAction");
+define_sheet!(PvPActionSheet, PvPActionRow, "PvPAction", no_language_support);

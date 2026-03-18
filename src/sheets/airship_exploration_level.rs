@@ -13,4 +13,4 @@ impl AirshipExplorationLevelRow {
     u16_field!(capacity, 0);
 }
 
-define_sheet!(AirshipExplorationLevelSheet, AirshipExplorationLevelRow, "AirshipExplorationLevel");
+define_sheet!(AirshipExplorationLevelSheet, AirshipExplorationLevelRow, "AirshipExplorationLevel", no_language_support);

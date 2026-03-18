@@ -24,4 +24,4 @@ impl ContentCloseCycleRow {
     bool_field!(unknown_10, 12);
 }
 
-define_sheet!(ContentCloseCycleSheet, ContentCloseCycleRow, "ContentCloseCycle");
+define_sheet!(ContentCloseCycleSheet, ContentCloseCycleRow, "ContentCloseCycle", no_language_support);

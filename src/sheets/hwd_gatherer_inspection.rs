@@ -27,4 +27,4 @@ impl HWDGathererInspectionRow {
     array_field!(hwd_gatherer_inspection_data, 0, 79, HWDGathererInspectionHWDGathererInspectionData);
 }
 
-define_sheet!(HWDGathererInspectionSheet, HWDGathererInspectionRow, "HWDGathererInspection");
+define_sheet!(HWDGathererInspectionSheet, HWDGathererInspectionRow, "HWDGathererInspection", no_language_support);

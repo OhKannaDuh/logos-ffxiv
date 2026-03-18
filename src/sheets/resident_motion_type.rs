@@ -19,4 +19,4 @@ impl ResidentMotionTypeRow {
     string_field!(unknown_7, 7);
 }
 
-define_sheet!(ResidentMotionTypeSheet, ResidentMotionTypeRow, "ResidentMotionType");
+define_sheet!(ResidentMotionTypeSheet, ResidentMotionTypeRow, "ResidentMotionType", no_language_support);

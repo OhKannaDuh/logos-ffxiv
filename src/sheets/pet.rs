@@ -32,4 +32,4 @@ impl PetRow {
     bool_field!(unknown_17, 8);
 }
 
-define_sheet!(PetSheet, PetRow, "Pet");
+define_sheet!(PetSheet, PetRow, "Pet", language_support);

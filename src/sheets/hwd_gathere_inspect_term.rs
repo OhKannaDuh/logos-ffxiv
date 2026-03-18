@@ -12,4 +12,4 @@ impl HWDGathereInspectTermRow {
     string_field!(name, 0);
 }
 
-define_sheet!(HWDGathereInspectTermSheet, HWDGathereInspectTermRow, "HWDGathereInspectTerm");
+define_sheet!(HWDGathereInspectTermSheet, HWDGathereInspectTermRow, "HWDGathereInspectTerm", language_support);

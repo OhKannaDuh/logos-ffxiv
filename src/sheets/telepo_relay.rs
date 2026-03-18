@@ -20,4 +20,4 @@ impl TelepoRelayRow {
     u32_field!(unknown_70, 27);
 }
 
-define_sheet!(TelepoRelaySheet, TelepoRelayRow, "TelepoRelay");
+define_sheet!(TelepoRelaySheet, TelepoRelayRow, "TelepoRelay", no_language_support);

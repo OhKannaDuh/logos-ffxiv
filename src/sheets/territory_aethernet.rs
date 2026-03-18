@@ -12,4 +12,4 @@ impl TerritoryAethernetRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(TerritoryAethernetSheet, TerritoryAethernetRow, "TerritoryAethernet");
+define_sheet!(TerritoryAethernetSheet, TerritoryAethernetRow, "TerritoryAethernet", no_language_support);

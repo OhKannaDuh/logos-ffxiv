@@ -15,4 +15,4 @@ impl HudTransientRow {
     i8_field!(unknown_3, 3);
 }
 
-define_sheet!(HudTransientSheet, HudTransientRow, "HudTransient");
+define_sheet!(HudTransientSheet, HudTransientRow, "HudTransient", no_language_support);

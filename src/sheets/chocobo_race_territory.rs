@@ -13,4 +13,4 @@ impl ChocoboRaceTerritoryRow {
     u16_field!(name, 0);
 }
 
-define_sheet!(ChocoboRaceTerritorySheet, ChocoboRaceTerritoryRow, "ChocoboRaceTerritory");
+define_sheet!(ChocoboRaceTerritorySheet, ChocoboRaceTerritoryRow, "ChocoboRaceTerritory", no_language_support);

@@ -74,4 +74,4 @@ impl PetMirageRow {
     u16_field!(model_chara, 1);
 }
 
-define_sheet!(PetMirageSheet, PetMirageRow, "PetMirage");
+define_sheet!(PetMirageSheet, PetMirageRow, "PetMirage", language_support);

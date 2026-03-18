@@ -13,4 +13,4 @@ impl MainCommandCategoryRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(MainCommandCategorySheet, MainCommandCategoryRow, "MainCommandCategory");
+define_sheet!(MainCommandCategorySheet, MainCommandCategoryRow, "MainCommandCategory", language_support);

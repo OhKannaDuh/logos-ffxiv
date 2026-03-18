@@ -14,4 +14,4 @@ impl PvPSelectTraitRow {
     i16_field!(value, 2);
 }
 
-define_sheet!(PvPSelectTraitSheet, PvPSelectTraitRow, "PvPSelectTrait");
+define_sheet!(PvPSelectTraitSheet, PvPSelectTraitRow, "PvPSelectTrait", language_support);

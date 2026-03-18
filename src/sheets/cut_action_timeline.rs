@@ -16,4 +16,4 @@ impl CutActionTimelineRow {
     i8_field!(unknown_4, 3);
 }
 
-define_sheet!(CutActionTimelineSheet, CutActionTimelineRow, "CutActionTimeline");
+define_sheet!(CutActionTimelineSheet, CutActionTimelineRow, "CutActionTimeline", no_language_support);

@@ -95,4 +95,4 @@ impl ENpcBaseRow {
     bool_field!(unknown_2, 107);
 }
 
-define_sheet!(ENpcBaseSheet, ENpcBaseRow, "ENpcBase");
+define_sheet!(ENpcBaseSheet, ENpcBaseRow, "ENpcBase", no_language_support);

@@ -15,4 +15,4 @@ impl TofuObjectCategoryRow {
     bool_field!(unknown_3, 0);
 }
 
-define_sheet!(TofuObjectCategorySheet, TofuObjectCategoryRow, "TofuObjectCategory");
+define_sheet!(TofuObjectCategorySheet, TofuObjectCategoryRow, "TofuObjectCategory", language_support);

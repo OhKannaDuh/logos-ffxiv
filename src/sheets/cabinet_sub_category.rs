@@ -13,4 +13,4 @@ impl CabinetSubCategoryRow {
     u16_field!(menu_order, 0);
 }
 
-define_sheet!(CabinetSubCategorySheet, CabinetSubCategoryRow, "CabinetSubCategory");
+define_sheet!(CabinetSubCategorySheet, CabinetSubCategoryRow, "CabinetSubCategory", language_support);

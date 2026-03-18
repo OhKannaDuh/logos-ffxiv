@@ -12,4 +12,4 @@ impl GFateClimbing2TotemTypeRow {
     u32_field!(public_content_text_data, 0);
 }
 
-define_sheet!(GFateClimbing2TotemTypeSheet, GFateClimbing2TotemTypeRow, "GFateClimbing2TotemType");
+define_sheet!(GFateClimbing2TotemTypeSheet, GFateClimbing2TotemTypeRow, "GFateClimbing2TotemType", no_language_support);

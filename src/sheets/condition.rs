@@ -17,4 +17,4 @@ impl ConditionRow {
     bool_field!(is_networked, 0);
 }
 
-define_sheet!(ConditionSheet, ConditionRow, "Condition");
+define_sheet!(ConditionSheet, ConditionRow, "Condition", no_language_support);

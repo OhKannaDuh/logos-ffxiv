@@ -12,4 +12,4 @@ impl QuestBattleResidentRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestBattleResidentSheet, QuestBattleResidentRow, "QuestBattleResident");
+define_sheet!(QuestBattleResidentSheet, QuestBattleResidentRow, "QuestBattleResident", no_language_support);

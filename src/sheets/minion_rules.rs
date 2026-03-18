@@ -13,4 +13,4 @@ impl MinionRulesRow {
     string_field!(description, 1);
 }
 
-define_sheet!(MinionRulesSheet, MinionRulesRow, "MinionRules");
+define_sheet!(MinionRulesSheet, MinionRulesRow, "MinionRules", language_support);

@@ -12,4 +12,4 @@ impl QuickChatTransientRow {
     string_field!(text_output, 0);
 }
 
-define_sheet!(QuickChatTransientSheet, QuickChatTransientRow, "QuickChatTransient");
+define_sheet!(QuickChatTransientSheet, QuickChatTransientRow, "QuickChatTransient", language_support);

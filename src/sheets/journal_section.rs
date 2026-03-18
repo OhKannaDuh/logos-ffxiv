@@ -14,4 +14,4 @@ impl JournalSectionRow {
     bool_field!(unknown_1, 2);
 }
 
-define_sheet!(JournalSectionSheet, JournalSectionRow, "JournalSection");
+define_sheet!(JournalSectionSheet, JournalSectionRow, "JournalSection", language_support);

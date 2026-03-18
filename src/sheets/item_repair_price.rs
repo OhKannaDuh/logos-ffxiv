@@ -12,4 +12,4 @@ impl ItemRepairPriceRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(ItemRepairPriceSheet, ItemRepairPriceRow, "ItemRepairPrice");
+define_sheet!(ItemRepairPriceSheet, ItemRepairPriceRow, "ItemRepairPrice", no_language_support);

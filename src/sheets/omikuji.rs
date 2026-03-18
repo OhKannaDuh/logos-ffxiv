@@ -18,4 +18,4 @@ impl OmikujiRow {
     i32_field!(unknown_6, 4);
 }
 
-define_sheet!(OmikujiSheet, OmikujiRow, "Omikuji");
+define_sheet!(OmikujiSheet, OmikujiRow, "Omikuji", language_support);

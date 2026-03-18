@@ -12,4 +12,4 @@ impl QuestSceneAbortConditionFlagRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestSceneAbortConditionFlagSheet, QuestSceneAbortConditionFlagRow, "QuestSceneAbortConditionFlag");
+define_sheet!(QuestSceneAbortConditionFlagSheet, QuestSceneAbortConditionFlagRow, "QuestSceneAbortConditionFlag", no_language_support);

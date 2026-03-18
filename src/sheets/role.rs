@@ -13,4 +13,4 @@ impl RoleRow {
     u8_field!(type_, 0);
 }
 
-define_sheet!(RoleSheet, RoleRow, "Role");
+define_sheet!(RoleSheet, RoleRow, "Role", no_language_support);

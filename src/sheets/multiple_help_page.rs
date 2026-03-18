@@ -12,4 +12,4 @@ impl MultipleHelpPageRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(MultipleHelpPageSheet, MultipleHelpPageRow, "MultipleHelpPage");
+define_sheet!(MultipleHelpPageSheet, MultipleHelpPageRow, "MultipleHelpPage", no_language_support);

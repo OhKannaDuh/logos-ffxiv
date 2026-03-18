@@ -16,4 +16,4 @@ impl WorldDCGroupTypeRow {
     bool_field!(is_cloud, 4);
 }
 
-define_sheet!(WorldDCGroupTypeSheet, WorldDCGroupTypeRow, "WorldDCGroupType");
+define_sheet!(WorldDCGroupTypeSheet, WorldDCGroupTypeRow, "WorldDCGroupType", no_language_support);

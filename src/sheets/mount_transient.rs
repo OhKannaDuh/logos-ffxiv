@@ -14,4 +14,4 @@ impl MountTransientRow {
     string_field!(tooltip, 2);
 }
 
-define_sheet!(MountTransientSheet, MountTransientRow, "MountTransient");
+define_sheet!(MountTransientSheet, MountTransientRow, "MountTransient", language_support);

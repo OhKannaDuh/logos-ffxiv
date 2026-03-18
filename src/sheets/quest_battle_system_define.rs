@@ -13,4 +13,4 @@ impl QuestBattleSystemDefineRow {
     u32_field!(unknown_1, 1);
 }
 
-define_sheet!(QuestBattleSystemDefineSheet, QuestBattleSystemDefineRow, "QuestBattleSystemDefine");
+define_sheet!(QuestBattleSystemDefineSheet, QuestBattleSystemDefineRow, "QuestBattleSystemDefine", no_language_support);

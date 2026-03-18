@@ -14,4 +14,4 @@ impl WKSPioneeringTrailStringRow {
     string_field!(development_log_description, 2);
 }
 
-define_sheet!(WKSPioneeringTrailStringSheet, WKSPioneeringTrailStringRow, "WKSPioneeringTrailString");
+define_sheet!(WKSPioneeringTrailStringSheet, WKSPioneeringTrailStringRow, "WKSPioneeringTrailString", language_support);

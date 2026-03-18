@@ -12,4 +12,4 @@ impl RacingChocoboNameRow {
     string_field!(name, 0);
 }
 
-define_sheet!(RacingChocoboNameSheet, RacingChocoboNameRow, "RacingChocoboName");
+define_sheet!(RacingChocoboNameSheet, RacingChocoboNameRow, "RacingChocoboName", language_support);

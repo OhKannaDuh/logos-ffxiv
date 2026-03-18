@@ -14,4 +14,4 @@ impl PerformGuideScoreRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(PerformGuideScoreSheet, PerformGuideScoreRow, "PerformGuideScore");
+define_sheet!(PerformGuideScoreSheet, PerformGuideScoreRow, "PerformGuideScore", language_support);

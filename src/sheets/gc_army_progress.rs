@@ -14,4 +14,4 @@ impl GcArmyProgressRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(GcArmyProgressSheet, GcArmyProgressRow, "GcArmyProgress");
+define_sheet!(GcArmyProgressSheet, GcArmyProgressRow, "GcArmyProgress", no_language_support);

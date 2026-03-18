@@ -13,4 +13,4 @@ impl EventSetDefineRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(EventSetDefineSheet, EventSetDefineRow, "EventSetDefine");
+define_sheet!(EventSetDefineSheet, EventSetDefineRow, "EventSetDefine", no_language_support);

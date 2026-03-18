@@ -20,4 +20,4 @@ impl InclusionShopRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(InclusionShopSheet, InclusionShopRow, "InclusionShop");
+define_sheet!(InclusionShopSheet, InclusionShopRow, "InclusionShop", language_support);

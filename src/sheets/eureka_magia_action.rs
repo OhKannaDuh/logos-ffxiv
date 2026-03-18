@@ -13,4 +13,4 @@ impl EurekaMagiaActionRow {
     u8_field!(max_uses, 1);
 }
 
-define_sheet!(EurekaMagiaActionSheet, EurekaMagiaActionRow, "EurekaMagiaAction");
+define_sheet!(EurekaMagiaActionSheet, EurekaMagiaActionRow, "EurekaMagiaAction", no_language_support);

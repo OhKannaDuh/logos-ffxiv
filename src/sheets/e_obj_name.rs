@@ -19,4 +19,4 @@ impl EObjNameRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(EObjNameSheet, EObjNameRow, "EObjName");
+define_sheet!(EObjNameSheet, EObjNameRow, "EObjName", language_support);

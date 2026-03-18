@@ -22,4 +22,4 @@ impl SkyIsland2MissionDetailRow {
     i8_field!(unknown_6, 3);
 }
 
-define_sheet!(SkyIsland2MissionDetailSheet, SkyIsland2MissionDetailRow, "SkyIsland2MissionDetail");
+define_sheet!(SkyIsland2MissionDetailSheet, SkyIsland2MissionDetailRow, "SkyIsland2MissionDetail", language_support);

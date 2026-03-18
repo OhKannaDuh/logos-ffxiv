@@ -28,4 +28,4 @@ impl ModelSkeletonRow {
     bool_field!(motion_blend_type, 15);
 }
 
-define_sheet!(ModelSkeletonSheet, ModelSkeletonRow, "ModelSkeleton");
+define_sheet!(ModelSkeletonSheet, ModelSkeletonRow, "ModelSkeleton", no_language_support);

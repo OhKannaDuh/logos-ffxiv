@@ -14,4 +14,4 @@ impl CharaCardPlayStyleRow {
     u8_field!(sort_key, 1);
 }
 
-define_sheet!(CharaCardPlayStyleSheet, CharaCardPlayStyleRow, "CharaCardPlayStyle");
+define_sheet!(CharaCardPlayStyleSheet, CharaCardPlayStyleRow, "CharaCardPlayStyle", language_support);

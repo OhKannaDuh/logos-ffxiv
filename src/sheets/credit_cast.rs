@@ -12,4 +12,4 @@ impl CreditCastRow {
     string_field!(name, 0);
 }
 
-define_sheet!(CreditCastSheet, CreditCastRow, "CreditCast");
+define_sheet!(CreditCastSheet, CreditCastRow, "CreditCast", language_support);

@@ -16,4 +16,4 @@ impl GathererCrafterLvAdjustTableRow {
     u16_field!(fisher_level, 4);
 }
 
-define_sheet!(GathererCrafterLvAdjustTableSheet, GathererCrafterLvAdjustTableRow, "GathererCrafterLvAdjustTable");
+define_sheet!(GathererCrafterLvAdjustTableSheet, GathererCrafterLvAdjustTableRow, "GathererCrafterLvAdjustTable", no_language_support);

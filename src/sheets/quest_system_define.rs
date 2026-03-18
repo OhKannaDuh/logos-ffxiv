@@ -13,4 +13,4 @@ impl QuestSystemDefineRow {
     i32_field!(unknown_1, 1);
 }
 
-define_sheet!(QuestSystemDefineSheet, QuestSystemDefineRow, "QuestSystemDefine");
+define_sheet!(QuestSystemDefineSheet, QuestSystemDefineRow, "QuestSystemDefine", no_language_support);

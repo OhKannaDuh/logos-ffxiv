@@ -15,4 +15,4 @@ impl JigsawScoreRow {
     u8_field!(unknown_3, 2);
 }
 
-define_sheet!(JigsawScoreSheet, JigsawScoreRow, "JigsawScore");
+define_sheet!(JigsawScoreSheet, JigsawScoreRow, "JigsawScore", no_language_support);

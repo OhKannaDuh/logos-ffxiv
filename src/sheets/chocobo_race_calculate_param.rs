@@ -12,4 +12,4 @@ impl ChocoboRaceCalculateParamRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(ChocoboRaceCalculateParamSheet, ChocoboRaceCalculateParamRow, "ChocoboRaceCalculateParam");
+define_sheet!(ChocoboRaceCalculateParamSheet, ChocoboRaceCalculateParamRow, "ChocoboRaceCalculateParam", no_language_support);

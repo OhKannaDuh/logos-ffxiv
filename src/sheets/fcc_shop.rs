@@ -20,4 +20,4 @@ impl FccShopRow {
     array_field!(item_data, 1, 10, FccShopItemData);
 }
 
-define_sheet!(FccShopSheet, FccShopRow, "FccShop");
+define_sheet!(FccShopSheet, FccShopRow, "FccShop", language_support);

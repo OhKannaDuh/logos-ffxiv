@@ -12,4 +12,4 @@ impl FGSAddonRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(FGSAddonSheet, FGSAddonRow, "FGSAddon");
+define_sheet!(FGSAddonSheet, FGSAddonRow, "FGSAddon", language_support);

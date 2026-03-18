@@ -14,4 +14,4 @@ impl MapConditionRow {
     u8_field!(quest_sequence, 2);
 }
 
-define_sheet!(MapConditionSheet, MapConditionRow, "MapCondition");
+define_sheet!(MapConditionSheet, MapConditionRow, "MapCondition", no_language_support);

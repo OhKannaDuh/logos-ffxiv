@@ -12,4 +12,4 @@ impl LoadingImageRow {
     string_field!(file_name, 0);
 }
 
-define_sheet!(LoadingImageSheet, LoadingImageRow, "LoadingImage");
+define_sheet!(LoadingImageSheet, LoadingImageRow, "LoadingImage", no_language_support);

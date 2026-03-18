@@ -19,4 +19,4 @@ impl GatheringPointNameRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(GatheringPointNameSheet, GatheringPointNameRow, "GatheringPointName");
+define_sheet!(GatheringPointNameSheet, GatheringPointNameRow, "GatheringPointName", language_support);

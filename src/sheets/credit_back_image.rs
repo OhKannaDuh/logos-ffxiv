@@ -18,4 +18,4 @@ impl CreditBackImageRow {
     bool_field!(unknown_5, 4);
 }
 
-define_sheet!(CreditBackImageSheet, CreditBackImageRow, "CreditBackImage");
+define_sheet!(CreditBackImageSheet, CreditBackImageRow, "CreditBackImage", no_language_support);

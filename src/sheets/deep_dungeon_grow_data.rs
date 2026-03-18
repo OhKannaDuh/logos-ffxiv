@@ -12,4 +12,4 @@ impl DeepDungeonGrowDataRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(DeepDungeonGrowDataSheet, DeepDungeonGrowDataRow, "DeepDungeonGrowData");
+define_sheet!(DeepDungeonGrowDataSheet, DeepDungeonGrowDataRow, "DeepDungeonGrowData", no_language_support);

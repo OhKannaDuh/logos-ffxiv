@@ -12,4 +12,4 @@ impl FateRuleExRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(FateRuleExSheet, FateRuleExRow, "FateRuleEx");
+define_sheet!(FateRuleExSheet, FateRuleExRow, "FateRuleEx", no_language_support);

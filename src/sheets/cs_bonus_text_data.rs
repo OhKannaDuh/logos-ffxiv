@@ -12,4 +12,4 @@ impl CSBonusTextDataRow {
     string_field!(text, 0);
 }
 
-define_sheet!(CSBonusTextDataSheet, CSBonusTextDataRow, "CSBonusTextData");
+define_sheet!(CSBonusTextDataSheet, CSBonusTextDataRow, "CSBonusTextData", language_support);

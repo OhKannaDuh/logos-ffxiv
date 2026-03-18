@@ -13,4 +13,4 @@ impl LeveVfxRow {
     i32_field!(icon, 1);
 }
 
-define_sheet!(LeveVfxSheet, LeveVfxRow, "LeveVfx");
+define_sheet!(LeveVfxSheet, LeveVfxRow, "LeveVfx", no_language_support);

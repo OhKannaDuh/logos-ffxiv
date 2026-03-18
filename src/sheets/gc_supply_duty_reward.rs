@@ -16,4 +16,4 @@ impl GCSupplyDutyRewardRow {
     u32_field!(seals_provisioning, 4);
 }
 
-define_sheet!(GCSupplyDutyRewardSheet, GCSupplyDutyRewardRow, "GCSupplyDutyReward");
+define_sheet!(GCSupplyDutyRewardSheet, GCSupplyDutyRewardRow, "GCSupplyDutyReward", no_language_support);

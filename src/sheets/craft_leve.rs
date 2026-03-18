@@ -26,4 +26,4 @@ impl CraftLeveRow {
     u8_field!(repeats, 2);
 }
 
-define_sheet!(CraftLeveSheet, CraftLeveRow, "CraftLeve");
+define_sheet!(CraftLeveSheet, CraftLeveRow, "CraftLeve", no_language_support);

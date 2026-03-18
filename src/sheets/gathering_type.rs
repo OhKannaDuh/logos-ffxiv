@@ -14,4 +14,4 @@ impl GatheringTypeRow {
     i32_field!(icon_off, 2);
 }
 
-define_sheet!(GatheringTypeSheet, GatheringTypeRow, "GatheringType");
+define_sheet!(GatheringTypeSheet, GatheringTypeRow, "GatheringType", language_support);

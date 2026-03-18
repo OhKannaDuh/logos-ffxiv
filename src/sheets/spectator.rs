@@ -52,4 +52,4 @@ impl SpectatorRow {
     u8_field!(unknown_40, 40);
 }
 
-define_sheet!(SpectatorSheet, SpectatorRow, "Spectator");
+define_sheet!(SpectatorSheet, SpectatorRow, "Spectator", no_language_support);

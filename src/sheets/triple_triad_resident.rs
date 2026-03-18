@@ -12,4 +12,4 @@ impl TripleTriadResidentRow {
     u16_field!(order, 0);
 }
 
-define_sheet!(TripleTriadResidentSheet, TripleTriadResidentRow, "TripleTriadResident");
+define_sheet!(TripleTriadResidentSheet, TripleTriadResidentRow, "TripleTriadResident", no_language_support);

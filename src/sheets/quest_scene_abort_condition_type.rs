@@ -14,4 +14,4 @@ impl QuestSceneAbortConditionTypeRow {
     bool_field!(unknown_2, 2);
 }
 
-define_sheet!(QuestSceneAbortConditionTypeSheet, QuestSceneAbortConditionTypeRow, "QuestSceneAbortConditionType");
+define_sheet!(QuestSceneAbortConditionTypeSheet, QuestSceneAbortConditionTypeRow, "QuestSceneAbortConditionType", no_language_support);

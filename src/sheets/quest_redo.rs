@@ -22,4 +22,4 @@ impl QuestRedoRow {
     u8_field!(unknown_1, 2);
 }
 
-define_sheet!(QuestRedoSheet, QuestRedoRow, "QuestRedo");
+define_sheet!(QuestRedoSheet, QuestRedoRow, "QuestRedo", no_language_support);

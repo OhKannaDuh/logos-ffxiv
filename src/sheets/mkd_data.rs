@@ -30,4 +30,4 @@ impl MKDDataRow {
     u8_field!(unknown_9, 1);
 }
 
-define_sheet!(MKDDataSheet, MKDDataRow, "MKDData");
+define_sheet!(MKDDataSheet, MKDDataRow, "MKDData", no_language_support);

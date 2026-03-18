@@ -21,4 +21,4 @@ impl AirshipExplorationPartRow {
     u8_field!(repair_materials, 9);
 }
 
-define_sheet!(AirshipExplorationPartSheet, AirshipExplorationPartRow, "AirshipExplorationPart");
+define_sheet!(AirshipExplorationPartSheet, AirshipExplorationPartRow, "AirshipExplorationPart", no_language_support);

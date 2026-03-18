@@ -16,4 +16,4 @@ impl ContentDirectorBattleTalkRow {
     u8_field!(unknown_4, 2);
 }
 
-define_sheet!(ContentDirectorBattleTalkSheet, ContentDirectorBattleTalkRow, "ContentDirectorBattleTalk");
+define_sheet!(ContentDirectorBattleTalkSheet, ContentDirectorBattleTalkRow, "ContentDirectorBattleTalk", no_language_support);

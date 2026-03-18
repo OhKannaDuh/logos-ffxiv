@@ -13,4 +13,4 @@ impl LeveSystemDefineRow {
     i32_field!(unknown_1, 1);
 }
 
-define_sheet!(LeveSystemDefineSheet, LeveSystemDefineRow, "LeveSystemDefine");
+define_sheet!(LeveSystemDefineSheet, LeveSystemDefineRow, "LeveSystemDefine", no_language_support);

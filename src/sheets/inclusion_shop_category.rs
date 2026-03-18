@@ -14,4 +14,4 @@ impl InclusionShopCategoryRow {
     u8_field!(class_job_category, 1);
 }
 
-define_sheet!(InclusionShopCategorySheet, InclusionShopCategoryRow, "InclusionShopCategory");
+define_sheet!(InclusionShopCategorySheet, InclusionShopCategoryRow, "InclusionShopCategory", language_support);

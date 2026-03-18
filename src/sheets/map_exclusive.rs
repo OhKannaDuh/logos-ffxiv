@@ -13,4 +13,4 @@ impl MapExclusiveRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(MapExclusiveSheet, MapExclusiveRow, "MapExclusive");
+define_sheet!(MapExclusiveSheet, MapExclusiveRow, "MapExclusive", no_language_support);

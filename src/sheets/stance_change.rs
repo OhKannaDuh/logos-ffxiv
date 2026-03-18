@@ -20,4 +20,4 @@ impl StanceChangeRow {
     u16_field!(unknown_2, 3);
 }
 
-define_sheet!(StanceChangeSheet, StanceChangeRow, "StanceChange");
+define_sheet!(StanceChangeSheet, StanceChangeRow, "StanceChange", no_language_support);

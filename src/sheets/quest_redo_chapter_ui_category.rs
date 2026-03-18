@@ -13,4 +13,4 @@ impl QuestRedoChapterUICategoryRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestRedoChapterUICategorySheet, QuestRedoChapterUICategoryRow, "QuestRedoChapterUICategory");
+define_sheet!(QuestRedoChapterUICategorySheet, QuestRedoChapterUICategoryRow, "QuestRedoChapterUICategory", language_support);

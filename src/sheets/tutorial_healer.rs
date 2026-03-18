@@ -13,4 +13,4 @@ impl TutorialHealerRow {
     u8_field!(objective, 0);
 }
 
-define_sheet!(TutorialHealerSheet, TutorialHealerRow, "TutorialHealer");
+define_sheet!(TutorialHealerSheet, TutorialHealerRow, "TutorialHealer", no_language_support);

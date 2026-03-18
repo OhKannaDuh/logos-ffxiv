@@ -19,4 +19,4 @@ impl TriggerEffectRow {
     i32_field!(unknown_7, 7);
 }
 
-define_sheet!(TriggerEffectSheet, TriggerEffectRow, "TriggerEffect");
+define_sheet!(TriggerEffectSheet, TriggerEffectRow, "TriggerEffect", no_language_support);

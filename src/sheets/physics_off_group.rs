@@ -27,4 +27,4 @@ impl PhysicsOffGroupRow {
     i8_field!(unknown_70_14, 15);
 }
 
-define_sheet!(PhysicsOffGroupSheet, PhysicsOffGroupRow, "PhysicsOffGroup");
+define_sheet!(PhysicsOffGroupSheet, PhysicsOffGroupRow, "PhysicsOffGroup", no_language_support);

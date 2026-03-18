@@ -12,4 +12,4 @@ impl QuestRedoIncompChapterRow {
     u16_field!(chapter, 0);
 }
 
-define_sheet!(QuestRedoIncompChapterSheet, QuestRedoIncompChapterRow, "QuestRedoIncompChapter");
+define_sheet!(QuestRedoIncompChapterSheet, QuestRedoIncompChapterRow, "QuestRedoIncompChapter", no_language_support);

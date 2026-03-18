@@ -13,4 +13,4 @@ impl RetainerTaskRandomRow {
     i16_field!(requirement, 1);
 }
 
-define_sheet!(RetainerTaskRandomSheet, RetainerTaskRandomRow, "RetainerTaskRandom");
+define_sheet!(RetainerTaskRandomSheet, RetainerTaskRandomRow, "RetainerTaskRandom", language_support);

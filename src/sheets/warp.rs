@@ -23,4 +23,4 @@ impl WarpRow {
     bool_field!(can_skip_cutscene, 9);
 }
 
-define_sheet!(WarpSheet, WarpRow, "Warp");
+define_sheet!(WarpSheet, WarpRow, "Warp", language_support);

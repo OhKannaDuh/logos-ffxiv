@@ -12,4 +12,4 @@ impl SpecialShopItemCategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(SpecialShopItemCategorySheet, SpecialShopItemCategoryRow, "SpecialShopItemCategory");
+define_sheet!(SpecialShopItemCategorySheet, SpecialShopItemCategoryRow, "SpecialShopItemCategory", language_support);

@@ -14,4 +14,4 @@ impl FCAuthorityRow {
     u8_field!(unknown_0, 2);
 }
 
-define_sheet!(FCAuthoritySheet, FCAuthorityRow, "FCAuthority");
+define_sheet!(FCAuthoritySheet, FCAuthorityRow, "FCAuthority", language_support);

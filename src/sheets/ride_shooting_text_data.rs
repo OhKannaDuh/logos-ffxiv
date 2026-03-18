@@ -12,4 +12,4 @@ impl RideShootingTextDataRow {
     string_field!(string, 0);
 }
 
-define_sheet!(RideShootingTextDataSheet, RideShootingTextDataRow, "RideShootingTextData");
+define_sheet!(RideShootingTextDataSheet, RideShootingTextDataRow, "RideShootingTextData", language_support);

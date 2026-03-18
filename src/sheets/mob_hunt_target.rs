@@ -16,4 +16,4 @@ impl MobHuntTargetRow {
     u16_field!(place_name, 4);
 }
 
-define_sheet!(MobHuntTargetSheet, MobHuntTargetRow, "MobHuntTarget");
+define_sheet!(MobHuntTargetSheet, MobHuntTargetRow, "MobHuntTarget", no_language_support);

@@ -12,4 +12,4 @@ impl CompanionMoveRow {
     string_field!(name, 0);
 }
 
-define_sheet!(CompanionMoveSheet, CompanionMoveRow, "CompanionMove");
+define_sheet!(CompanionMoveSheet, CompanionMoveRow, "CompanionMove", language_support);

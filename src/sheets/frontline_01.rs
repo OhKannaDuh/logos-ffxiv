@@ -47,4 +47,4 @@ impl Frontline01Row {
     u16_field!(unknown_35, 17);
 }
 
-define_sheet!(Frontline01Sheet, Frontline01Row, "Frontline01");
+define_sheet!(Frontline01Sheet, Frontline01Row, "Frontline01", no_language_support);

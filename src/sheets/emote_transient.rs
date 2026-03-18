@@ -12,4 +12,4 @@ impl EmoteTransientRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(EmoteTransientSheet, EmoteTransientRow, "EmoteTransient");
+define_sheet!(EmoteTransientSheet, EmoteTransientRow, "EmoteTransient", language_support);

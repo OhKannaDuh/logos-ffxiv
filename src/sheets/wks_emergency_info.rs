@@ -21,4 +21,4 @@ impl WKSEmergencyInfoRow {
     u8_field!(wks_emergency_warning_text, 1);
 }
 
-define_sheet!(WKSEmergencyInfoSheet, WKSEmergencyInfoRow, "WKSEmergencyInfo");
+define_sheet!(WKSEmergencyInfoSheet, WKSEmergencyInfoRow, "WKSEmergencyInfo", no_language_support);

@@ -12,4 +12,4 @@ impl MJICraftworksObjectThemeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(MJICraftworksObjectThemeSheet, MJICraftworksObjectThemeRow, "MJICraftworksObjectTheme");
+define_sheet!(MJICraftworksObjectThemeSheet, MJICraftworksObjectThemeRow, "MJICraftworksObjectTheme", language_support);

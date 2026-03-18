@@ -17,4 +17,4 @@ impl TerritoryAetheryteListRow {
     u8_field!(unknown_5, 4);
 }
 
-define_sheet!(TerritoryAetheryteListSheet, TerritoryAetheryteListRow, "TerritoryAetheryteList");
+define_sheet!(TerritoryAetheryteListSheet, TerritoryAetheryteListRow, "TerritoryAetheryteList", no_language_support);

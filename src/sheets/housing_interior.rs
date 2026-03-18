@@ -15,4 +15,4 @@ impl HousingInteriorRow {
     u8_field!(unknown_3, 2);
 }
 
-define_sheet!(HousingInteriorSheet, HousingInteriorRow, "HousingInterior");
+define_sheet!(HousingInteriorSheet, HousingInteriorRow, "HousingInterior", no_language_support);

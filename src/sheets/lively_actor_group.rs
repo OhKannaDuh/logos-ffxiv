@@ -17,4 +17,4 @@ impl LivelyActorGroupRow {
     u16_field!(unknown_5, 1);
 }
 
-define_sheet!(LivelyActorGroupSheet, LivelyActorGroupRow, "LivelyActorGroup");
+define_sheet!(LivelyActorGroupSheet, LivelyActorGroupRow, "LivelyActorGroup", no_language_support);

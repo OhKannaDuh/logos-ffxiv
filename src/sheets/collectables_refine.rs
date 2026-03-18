@@ -14,4 +14,4 @@ impl CollectablesRefineRow {
     u16_field!(collectability_high, 2);
 }
 
-define_sheet!(CollectablesRefineSheet, CollectablesRefineRow, "CollectablesRefine");
+define_sheet!(CollectablesRefineSheet, CollectablesRefineRow, "CollectablesRefine", no_language_support);

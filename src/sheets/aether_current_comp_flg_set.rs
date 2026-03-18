@@ -18,4 +18,4 @@ impl AetherCurrentCompFlgSetRow {
     array_field!(aether_currents, 1, 15, AetherCurrentCompFlgSetAetherCurrents);
 }
 
-define_sheet!(AetherCurrentCompFlgSetSheet, AetherCurrentCompFlgSetRow, "AetherCurrentCompFlgSet");
+define_sheet!(AetherCurrentCompFlgSetSheet, AetherCurrentCompFlgSetRow, "AetherCurrentCompFlgSet", no_language_support);

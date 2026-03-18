@@ -17,4 +17,4 @@ impl AdvancedVibrationRow {
     i32_field!(unknown_5, 5);
 }
 
-define_sheet!(AdvancedVibrationSheet, AdvancedVibrationRow, "AdvancedVibration");
+define_sheet!(AdvancedVibrationSheet, AdvancedVibrationRow, "AdvancedVibration", no_language_support);

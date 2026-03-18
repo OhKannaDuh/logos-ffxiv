@@ -23,4 +23,4 @@ impl MassivePcContentRow {
     u8_field!(unknown_7, 11);
 }
 
-define_sheet!(MassivePcContentSheet, MassivePcContentRow, "MassivePcContent");
+define_sheet!(MassivePcContentSheet, MassivePcContentRow, "MassivePcContent", language_support);

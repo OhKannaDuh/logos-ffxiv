@@ -31,4 +31,4 @@ impl TradeScreenImageRow {
     u8_field!(banner_type, 6);
 }
 
-define_sheet!(TradeScreenImageSheet, TradeScreenImageRow, "TradeScreenImage");
+define_sheet!(TradeScreenImageSheet, TradeScreenImageRow, "TradeScreenImage", no_language_support);

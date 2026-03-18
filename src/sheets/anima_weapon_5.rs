@@ -20,4 +20,4 @@ impl AnimaWeapon5Row {
     array_field!(parameter, 3, 5, AnimaWeapon5Parameter);
 }
 
-define_sheet!(AnimaWeapon5Sheet, AnimaWeapon5Row, "AnimaWeapon5");
+define_sheet!(AnimaWeapon5Sheet, AnimaWeapon5Row, "AnimaWeapon5", no_language_support);

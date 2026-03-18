@@ -12,4 +12,4 @@ impl QuestAdditionalToolIconRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestAdditionalToolIconSheet, QuestAdditionalToolIconRow, "QuestAdditionalToolIcon");
+define_sheet!(QuestAdditionalToolIconSheet, QuestAdditionalToolIconRow, "QuestAdditionalToolIcon", no_language_support);

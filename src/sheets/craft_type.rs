@@ -14,4 +14,4 @@ impl CraftTypeRow {
     u8_field!(sub_physical, 1);
 }
 
-define_sheet!(CraftTypeSheet, CraftTypeRow, "CraftType");
+define_sheet!(CraftTypeSheet, CraftTypeRow, "CraftType", language_support);

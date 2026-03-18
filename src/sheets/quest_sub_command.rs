@@ -35,4 +35,4 @@ impl QuestSubCommandRow {
     u8_field!(unknown_23, 15);
 }
 
-define_sheet!(QuestSubCommandSheet, QuestSubCommandRow, "QuestSubCommand");
+define_sheet!(QuestSubCommandSheet, QuestSubCommandRow, "QuestSubCommand", no_language_support);

@@ -12,4 +12,4 @@ impl EurekaMagiciteItemTypeRow {
     string_field!(type_, 0);
 }
 
-define_sheet!(EurekaMagiciteItemTypeSheet, EurekaMagiciteItemTypeRow, "EurekaMagiciteItemType");
+define_sheet!(EurekaMagiciteItemTypeSheet, EurekaMagiciteItemTypeRow, "EurekaMagiciteItemType", language_support);

@@ -88,4 +88,4 @@ impl InstanceContentRow {
     bool_field!(allow_phoenix_down, 72);
 }
 
-define_sheet!(InstanceContentSheet, InstanceContentRow, "InstanceContent");
+define_sheet!(InstanceContentSheet, InstanceContentRow, "InstanceContent", no_language_support);

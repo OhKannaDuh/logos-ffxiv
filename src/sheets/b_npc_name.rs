@@ -19,4 +19,4 @@ impl BNpcNameRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(BNpcNameSheet, BNpcNameRow, "BNpcName");
+define_sheet!(BNpcNameSheet, BNpcNameRow, "BNpcName", language_support);

@@ -13,4 +13,4 @@ impl MapTransientPvPMapRow {
     u16_field!(unknown_1, 1);
 }
 
-define_sheet!(MapTransientPvPMapSheet, MapTransientPvPMapRow, "MapTransientPvPMap");
+define_sheet!(MapTransientPvPMapSheet, MapTransientPvPMapRow, "MapTransientPvPMap", no_language_support);

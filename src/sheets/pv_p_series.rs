@@ -30,4 +30,4 @@ impl PvPSeriesRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(PvPSeriesSheet, PvPSeriesRow, "PvPSeries");
+define_sheet!(PvPSeriesSheet, PvPSeriesRow, "PvPSeries", no_language_support);

@@ -17,4 +17,4 @@ impl ContentTalkParamRow {
     bool_field!(param, 0);
 }
 
-define_sheet!(ContentTalkParamSheet, ContentTalkParamRow, "ContentTalkParam");
+define_sheet!(ContentTalkParamSheet, ContentTalkParamRow, "ContentTalkParam", no_language_support);

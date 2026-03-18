@@ -23,4 +23,4 @@ impl ContentExActionRow {
     array_field!(charges, 2, 2, ContentExActionCharges);
 }
 
-define_sheet!(ContentExActionSheet, ContentExActionRow, "ContentExAction");
+define_sheet!(ContentExActionSheet, ContentExActionRow, "ContentExAction", no_language_support);

@@ -12,4 +12,4 @@ impl GuidePageStringRow {
     string_field!(string, 0);
 }
 
-define_sheet!(GuidePageStringSheet, GuidePageStringRow, "GuidePageString");
+define_sheet!(GuidePageStringSheet, GuidePageStringRow, "GuidePageString", language_support);

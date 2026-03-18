@@ -12,4 +12,4 @@ impl SERow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(SESheet, SERow, "SE");
+define_sheet!(SESheet, SERow, "SE", no_language_support);

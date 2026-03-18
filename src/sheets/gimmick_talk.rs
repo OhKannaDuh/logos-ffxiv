@@ -14,4 +14,4 @@ impl GimmickTalkRow {
     bool_field!(unknown_2, 1);
 }
 
-define_sheet!(GimmickTalkSheet, GimmickTalkRow, "GimmickTalk");
+define_sheet!(GimmickTalkSheet, GimmickTalkRow, "GimmickTalk", language_support);

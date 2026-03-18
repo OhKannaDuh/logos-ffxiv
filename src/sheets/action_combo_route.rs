@@ -20,4 +20,4 @@ impl ActionComboRouteRow {
     bool_field!(unknown_4, 9);
 }
 
-define_sheet!(ActionComboRouteSheet, ActionComboRouteRow, "ActionComboRoute");
+define_sheet!(ActionComboRouteSheet, ActionComboRouteRow, "ActionComboRoute", language_support);

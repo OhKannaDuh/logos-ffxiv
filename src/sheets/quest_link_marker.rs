@@ -16,4 +16,4 @@ impl QuestLinkMarkerRow {
     bool_field!(unknown_1, 4);
 }
 
-define_sheet!(QuestLinkMarkerSheet, QuestLinkMarkerRow, "QuestLinkMarker");
+define_sheet!(QuestLinkMarkerSheet, QuestLinkMarkerRow, "QuestLinkMarker", no_language_support);

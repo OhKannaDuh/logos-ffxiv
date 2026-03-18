@@ -23,4 +23,4 @@ impl EventPathMoveRow {
     bool_field!(unknown_11, 2);
 }
 
-define_sheet!(EventPathMoveSheet, EventPathMoveRow, "EventPathMove");
+define_sheet!(EventPathMoveSheet, EventPathMoveRow, "EventPathMove", language_support);

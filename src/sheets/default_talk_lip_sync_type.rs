@@ -12,4 +12,4 @@ impl DefaultTalkLipSyncTypeRow {
     i32_field!(action_timeline, 0);
 }
 
-define_sheet!(DefaultTalkLipSyncTypeSheet, DefaultTalkLipSyncTypeRow, "DefaultTalkLipSyncType");
+define_sheet!(DefaultTalkLipSyncTypeSheet, DefaultTalkLipSyncTypeRow, "DefaultTalkLipSyncType", no_language_support);

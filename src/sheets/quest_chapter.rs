@@ -13,4 +13,4 @@ impl QuestChapterRow {
     u16_field!(redo, 1);
 }
 
-define_sheet!(QuestChapterSheet, QuestChapterRow, "QuestChapter");
+define_sheet!(QuestChapterSheet, QuestChapterRow, "QuestChapter", no_language_support);

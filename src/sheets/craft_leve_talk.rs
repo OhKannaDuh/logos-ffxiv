@@ -53,4 +53,4 @@ impl CraftLeveTalkRow {
     array_field!(talk, 36, 6, CraftLeveTalkTalk);
 }
 
-define_sheet!(CraftLeveTalkSheet, CraftLeveTalkRow, "CraftLeveTalk");
+define_sheet!(CraftLeveTalkSheet, CraftLeveTalkRow, "CraftLeveTalk", language_support);

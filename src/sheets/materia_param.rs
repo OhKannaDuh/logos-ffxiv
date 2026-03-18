@@ -27,4 +27,4 @@ impl MateriaParamRow {
     bool_field!(unknown_15, 2);
 }
 
-define_sheet!(MateriaParamSheet, MateriaParamRow, "MateriaParam");
+define_sheet!(MateriaParamSheet, MateriaParamRow, "MateriaParam", no_language_support);

@@ -12,4 +12,4 @@ impl AnimaWeaponFUITalkRow {
     i32_field!(dialogue, 0);
 }
 
-define_sheet!(AnimaWeaponFUITalkSheet, AnimaWeaponFUITalkRow, "AnimaWeaponFUITalk");
+define_sheet!(AnimaWeaponFUITalkSheet, AnimaWeaponFUITalkRow, "AnimaWeaponFUITalk", no_language_support);

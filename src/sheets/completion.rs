@@ -16,4 +16,4 @@ impl CompletionRow {
     u16_field!(key, 1);
 }
 
-define_sheet!(CompletionSheet, CompletionRow, "Completion");
+define_sheet!(CompletionSheet, CompletionRow, "Completion", language_support);

@@ -22,4 +22,4 @@ impl DeepDungeonDemicloneRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(DeepDungeonDemicloneSheet, DeepDungeonDemicloneRow, "DeepDungeonDemiclone");
+define_sheet!(DeepDungeonDemicloneSheet, DeepDungeonDemicloneRow, "DeepDungeonDemiclone", language_support);

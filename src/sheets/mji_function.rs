@@ -16,4 +16,4 @@ impl MJIFunctionRow {
     i8_field!(unknown_4, 0);
 }
 
-define_sheet!(MJIFunctionSheet, MJIFunctionRow, "MJIFunction");
+define_sheet!(MJIFunctionSheet, MJIFunctionRow, "MJIFunction", no_language_support);

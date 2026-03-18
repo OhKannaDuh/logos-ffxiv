@@ -14,4 +14,4 @@ impl MultipleHelpRow {
     u16_field!(unknown_2, 0);
 }
 
-define_sheet!(MultipleHelpSheet, MultipleHelpRow, "MultipleHelp");
+define_sheet!(MultipleHelpSheet, MultipleHelpRow, "MultipleHelp", language_support);

@@ -33,4 +33,4 @@ impl JigsawTimeBonusRow {
     u16_field!(unknown_21, 21);
 }
 
-define_sheet!(JigsawTimeBonusSheet, JigsawTimeBonusRow, "JigsawTimeBonus");
+define_sheet!(JigsawTimeBonusSheet, JigsawTimeBonusRow, "JigsawTimeBonus", no_language_support);

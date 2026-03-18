@@ -17,4 +17,4 @@ impl GcArmyTrainingRow {
     i8_field!(tactical_bonus, 2);
 }
 
-define_sheet!(GcArmyTrainingSheet, GcArmyTrainingRow, "GcArmyTraining");
+define_sheet!(GcArmyTrainingSheet, GcArmyTrainingRow, "GcArmyTraining", language_support);

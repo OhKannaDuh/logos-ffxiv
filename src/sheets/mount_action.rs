@@ -17,4 +17,4 @@ impl MountActionRow {
     array_field!(action, 0, 6, MountActionAction);
 }
 
-define_sheet!(MountActionSheet, MountActionRow, "MountAction");
+define_sheet!(MountActionSheet, MountActionRow, "MountAction", no_language_support);

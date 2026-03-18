@@ -12,4 +12,4 @@ impl AkatsukiNoteStringRow {
     string_field!(text, 0);
 }
 
-define_sheet!(AkatsukiNoteStringSheet, AkatsukiNoteStringRow, "AkatsukiNoteString");
+define_sheet!(AkatsukiNoteStringSheet, AkatsukiNoteStringRow, "AkatsukiNoteString", language_support);

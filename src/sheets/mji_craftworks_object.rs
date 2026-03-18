@@ -34,4 +34,4 @@ impl MJICraftworksObjectRow {
     u16_field!(value, 14);
 }
 
-define_sheet!(MJICraftworksObjectSheet, MJICraftworksObjectRow, "MJICraftworksObject");
+define_sheet!(MJICraftworksObjectSheet, MJICraftworksObjectRow, "MJICraftworksObject", no_language_support);

@@ -13,4 +13,4 @@ impl ContentTalkRow {
     u8_field!(content_talk_param, 0);
 }
 
-define_sheet!(ContentTalkSheet, ContentTalkRow, "ContentTalk");
+define_sheet!(ContentTalkSheet, ContentTalkRow, "ContentTalk", language_support);

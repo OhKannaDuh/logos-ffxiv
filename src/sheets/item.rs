@@ -159,4 +159,4 @@ impl ItemRow {
     bool_field!(always_collectable, 38);
 }
 
-define_sheet!(ItemSheet, ItemRow, "Item");
+define_sheet!(ItemSheet, ItemRow, "Item", language_support);

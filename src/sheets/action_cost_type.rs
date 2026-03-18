@@ -12,4 +12,4 @@ impl ActionCostTypeRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(ActionCostTypeSheet, ActionCostTypeRow, "ActionCostType");
+define_sheet!(ActionCostTypeSheet, ActionCostTypeRow, "ActionCostType", no_language_support);

@@ -24,4 +24,4 @@ impl PerformRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(PerformSheet, PerformRow, "Perform");
+define_sheet!(PerformSheet, PerformRow, "Perform", language_support);

@@ -16,4 +16,4 @@ impl BoosterRow {
     bool_field!(unknown_70, 4);
 }
 
-define_sheet!(BoosterSheet, BoosterRow, "Booster");
+define_sheet!(BoosterSheet, BoosterRow, "Booster", no_language_support);

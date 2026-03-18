@@ -21,4 +21,4 @@ impl GCRankGridaniaFemaleTextRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(GCRankGridaniaFemaleTextSheet, GCRankGridaniaFemaleTextRow, "GCRankGridaniaFemaleText");
+define_sheet!(GCRankGridaniaFemaleTextSheet, GCRankGridaniaFemaleTextRow, "GCRankGridaniaFemaleText", language_support);

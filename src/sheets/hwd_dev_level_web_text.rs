@@ -13,4 +13,4 @@ impl HWDDevLevelWebTextRow {
     string_field!(unknown_1, 1);
 }
 
-define_sheet!(HWDDevLevelWebTextSheet, HWDDevLevelWebTextRow, "HWDDevLevelWebText");
+define_sheet!(HWDDevLevelWebTextSheet, HWDDevLevelWebTextRow, "HWDDevLevelWebText", language_support);

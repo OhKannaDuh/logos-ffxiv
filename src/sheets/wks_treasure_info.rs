@@ -13,4 +13,4 @@ impl WKSTreasureInfoRow {
     u32_field!(unknown_1, 1);
 }
 
-define_sheet!(WKSTreasureInfoSheet, WKSTreasureInfoRow, "WKSTreasureInfo");
+define_sheet!(WKSTreasureInfoSheet, WKSTreasureInfoRow, "WKSTreasureInfo", no_language_support);

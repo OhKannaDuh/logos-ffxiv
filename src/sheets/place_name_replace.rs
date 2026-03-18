@@ -12,4 +12,4 @@ impl PlaceNameReplaceRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(PlaceNameReplaceSheet, PlaceNameReplaceRow, "PlaceNameReplace");
+define_sheet!(PlaceNameReplaceSheet, PlaceNameReplaceRow, "PlaceNameReplace", no_language_support);

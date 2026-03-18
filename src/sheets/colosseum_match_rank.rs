@@ -12,4 +12,4 @@ impl ColosseumMatchRankRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(ColosseumMatchRankSheet, ColosseumMatchRankRow, "ColosseumMatchRank");
+define_sheet!(ColosseumMatchRankSheet, ColosseumMatchRankRow, "ColosseumMatchRank", language_support);

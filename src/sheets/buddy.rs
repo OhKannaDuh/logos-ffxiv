@@ -19,4 +19,4 @@ impl BuddyRow {
     u8_field!(base, 0);
 }
 
-define_sheet!(BuddySheet, BuddyRow, "Buddy");
+define_sheet!(BuddySheet, BuddyRow, "Buddy", no_language_support);

@@ -23,4 +23,4 @@ impl TutorialRow {
     u8_field!(unknown_3, 4);
 }
 
-define_sheet!(TutorialSheet, TutorialRow, "Tutorial");
+define_sheet!(TutorialSheet, TutorialRow, "Tutorial", no_language_support);

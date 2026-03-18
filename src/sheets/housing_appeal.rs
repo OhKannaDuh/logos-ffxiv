@@ -14,4 +14,4 @@ impl HousingAppealRow {
     u8_field!(order, 2);
 }
 
-define_sheet!(HousingAppealSheet, HousingAppealRow, "HousingAppeal");
+define_sheet!(HousingAppealSheet, HousingAppealRow, "HousingAppeal", language_support);

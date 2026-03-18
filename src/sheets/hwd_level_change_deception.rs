@@ -12,4 +12,4 @@ impl HWDLevelChangeDeceptionRow {
     i32_field!(image, 0);
 }
 
-define_sheet!(HWDLevelChangeDeceptionSheet, HWDLevelChangeDeceptionRow, "HWDLevelChangeDeception");
+define_sheet!(HWDLevelChangeDeceptionSheet, HWDLevelChangeDeceptionRow, "HWDLevelChangeDeception", no_language_support);

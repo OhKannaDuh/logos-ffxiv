@@ -29,4 +29,4 @@ impl SkyIslandSubjectRow {
     u8_field!(unknown_17, 16);
 }
 
-define_sheet!(SkyIslandSubjectSheet, SkyIslandSubjectRow, "SkyIslandSubject");
+define_sheet!(SkyIslandSubjectSheet, SkyIslandSubjectRow, "SkyIslandSubject", no_language_support);

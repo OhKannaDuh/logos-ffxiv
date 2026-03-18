@@ -17,4 +17,4 @@ impl PhysicsWindRow {
     f32_field!(power_frequency, 5);
 }
 
-define_sheet!(PhysicsWindSheet, PhysicsWindRow, "PhysicsWind");
+define_sheet!(PhysicsWindSheet, PhysicsWindRow, "PhysicsWind", no_language_support);

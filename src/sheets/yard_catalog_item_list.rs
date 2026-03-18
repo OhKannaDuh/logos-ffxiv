@@ -14,4 +14,4 @@ impl YardCatalogItemListRow {
     u16_field!(patch, 2);
 }
 
-define_sheet!(YardCatalogItemListSheet, YardCatalogItemListRow, "YardCatalogItemList");
+define_sheet!(YardCatalogItemListSheet, YardCatalogItemListRow, "YardCatalogItemList", no_language_support);

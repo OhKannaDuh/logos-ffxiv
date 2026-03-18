@@ -26,4 +26,4 @@ impl HousingYardObjectRow {
     bool_field!(unknown_7, 14);
 }
 
-define_sheet!(HousingYardObjectSheet, HousingYardObjectRow, "HousingYardObject");
+define_sheet!(HousingYardObjectSheet, HousingYardObjectRow, "HousingYardObject", no_language_support);

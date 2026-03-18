@@ -14,4 +14,4 @@ impl CollisionIdPalletRow {
     u16_field!(unknown_2, 2);
 }
 
-define_sheet!(CollisionIdPalletSheet, CollisionIdPalletRow, "CollisionIdPallet");
+define_sheet!(CollisionIdPalletSheet, CollisionIdPalletRow, "CollisionIdPallet", no_language_support);

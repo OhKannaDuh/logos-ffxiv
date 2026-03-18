@@ -21,4 +21,4 @@ impl GroupPoseFrameRow {
     u8_field!(unknown_6, 6);
 }
 
-define_sheet!(GroupPoseFrameSheet, GroupPoseFrameRow, "GroupPoseFrame");
+define_sheet!(GroupPoseFrameSheet, GroupPoseFrameRow, "GroupPoseFrame", language_support);

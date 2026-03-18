@@ -21,4 +21,4 @@ impl IconLanguageRow {
     bool_field!(unknown_9, 9);
 }
 
-define_sheet!(IconLanguageSheet, IconLanguageRow, "IconLanguage");
+define_sheet!(IconLanguageSheet, IconLanguageRow, "IconLanguage", no_language_support);

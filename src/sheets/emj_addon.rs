@@ -12,4 +12,4 @@ impl EmjAddonRow {
     string_field!(text, 0);
 }
 
-define_sheet!(EmjAddonSheet, EmjAddonRow, "EmjAddon");
+define_sheet!(EmjAddonSheet, EmjAddonRow, "EmjAddon", language_support);

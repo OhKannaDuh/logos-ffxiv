@@ -17,4 +17,4 @@ impl EventIconPriorityRow {
     array_field!(icon, 0, 29, EventIconPriorityIcon);
 }
 
-define_sheet!(EventIconPrioritySheet, EventIconPriorityRow, "EventIconPriority");
+define_sheet!(EventIconPrioritySheet, EventIconPriorityRow, "EventIconPriority", no_language_support);

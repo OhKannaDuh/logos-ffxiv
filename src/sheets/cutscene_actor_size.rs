@@ -17,4 +17,4 @@ impl CutsceneActorSizeRow {
     i32_field!(unknown_5, 5);
 }
 
-define_sheet!(CutsceneActorSizeSheet, CutsceneActorSizeRow, "CutsceneActorSize");
+define_sheet!(CutsceneActorSizeSheet, CutsceneActorSizeRow, "CutsceneActorSize", no_language_support);

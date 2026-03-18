@@ -45,4 +45,4 @@ impl ZoneSharedGroupRow {
     bool_field!(unknown_15, 28);
 }
 
-define_sheet!(ZoneSharedGroupSheet, ZoneSharedGroupRow, "ZoneSharedGroup");
+define_sheet!(ZoneSharedGroupSheet, ZoneSharedGroupRow, "ZoneSharedGroup", no_language_support);

@@ -16,4 +16,4 @@ impl HousingRenovationRow {
     u16_field!(territory, 0);
 }
 
-define_sheet!(HousingRenovationSheet, HousingRenovationRow, "HousingRenovation");
+define_sheet!(HousingRenovationSheet, HousingRenovationRow, "HousingRenovation", language_support);

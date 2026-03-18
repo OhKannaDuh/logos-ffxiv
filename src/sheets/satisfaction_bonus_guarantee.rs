@@ -29,4 +29,4 @@ impl SatisfactionBonusGuaranteeRow {
     array_field!(bonus_fisher, 4, 2, SatisfactionBonusGuaranteeBonusFisher);
 }
 
-define_sheet!(SatisfactionBonusGuaranteeSheet, SatisfactionBonusGuaranteeRow, "SatisfactionBonusGuarantee");
+define_sheet!(SatisfactionBonusGuaranteeSheet, SatisfactionBonusGuaranteeRow, "SatisfactionBonusGuarantee", no_language_support);

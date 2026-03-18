@@ -15,4 +15,4 @@ impl BGMSwitchRow {
     u8_field!(unknown_0, 2);
 }
 
-define_sheet!(BGMSwitchSheet, BGMSwitchRow, "BGMSwitch");
+define_sheet!(BGMSwitchSheet, BGMSwitchRow, "BGMSwitch", no_language_support);

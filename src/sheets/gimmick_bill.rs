@@ -12,4 +12,4 @@ impl GimmickBillRow {
     string_field!(text, 0);
 }
 
-define_sheet!(GimmickBillSheet, GimmickBillRow, "GimmickBill");
+define_sheet!(GimmickBillSheet, GimmickBillRow, "GimmickBill", language_support);

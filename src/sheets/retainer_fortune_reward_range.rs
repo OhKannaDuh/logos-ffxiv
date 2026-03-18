@@ -12,4 +12,4 @@ impl RetainerFortuneRewardRangeRow {
     u16_field!(percent_of_level, 0);
 }
 
-define_sheet!(RetainerFortuneRewardRangeSheet, RetainerFortuneRewardRangeRow, "RetainerFortuneRewardRange");
+define_sheet!(RetainerFortuneRewardRangeSheet, RetainerFortuneRewardRangeRow, "RetainerFortuneRewardRange", no_language_support);

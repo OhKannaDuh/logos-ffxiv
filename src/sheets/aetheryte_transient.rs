@@ -12,4 +12,4 @@ impl AetheryteTransientRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(AetheryteTransientSheet, AetheryteTransientRow, "AetheryteTransient");
+define_sheet!(AetheryteTransientSheet, AetheryteTransientRow, "AetheryteTransient", no_language_support);

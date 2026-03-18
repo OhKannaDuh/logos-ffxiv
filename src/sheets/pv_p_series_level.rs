@@ -12,4 +12,4 @@ impl PvPSeriesLevelRow {
     u16_field!(exp_to_next, 0);
 }
 
-define_sheet!(PvPSeriesLevelSheet, PvPSeriesLevelRow, "PvPSeriesLevel");
+define_sheet!(PvPSeriesLevelSheet, PvPSeriesLevelRow, "PvPSeriesLevel", no_language_support);

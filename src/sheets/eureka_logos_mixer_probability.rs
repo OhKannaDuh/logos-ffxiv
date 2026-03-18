@@ -12,4 +12,4 @@ impl EurekaLogosMixerProbabilityRow {
     u8_field!(probability_percent, 0);
 }
 
-define_sheet!(EurekaLogosMixerProbabilitySheet, EurekaLogosMixerProbabilityRow, "EurekaLogosMixerProbability");
+define_sheet!(EurekaLogosMixerProbabilitySheet, EurekaLogosMixerProbabilityRow, "EurekaLogosMixerProbability", no_language_support);

@@ -12,4 +12,4 @@ impl InclusionShopWelcomTextRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(InclusionShopWelcomTextSheet, InclusionShopWelcomTextRow, "InclusionShopWelcomText");
+define_sheet!(InclusionShopWelcomTextSheet, InclusionShopWelcomTextRow, "InclusionShopWelcomText", language_support);

@@ -12,4 +12,4 @@ impl QuestSetDefineRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestSetDefineSheet, QuestSetDefineRow, "QuestSetDefine");
+define_sheet!(QuestSetDefineSheet, QuestSetDefineRow, "QuestSetDefine", no_language_support);

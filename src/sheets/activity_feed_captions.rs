@@ -15,4 +15,4 @@ impl ActivityFeedCaptionsRow {
     string_field!(fr, 3);
 }
 
-define_sheet!(ActivityFeedCaptionsSheet, ActivityFeedCaptionsRow, "ActivityFeedCaptions");
+define_sheet!(ActivityFeedCaptionsSheet, ActivityFeedCaptionsRow, "ActivityFeedCaptions", no_language_support);

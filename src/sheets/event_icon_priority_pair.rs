@@ -12,4 +12,4 @@ impl EventIconPriorityPairRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(EventIconPriorityPairSheet, EventIconPriorityPairRow, "EventIconPriorityPair");
+define_sheet!(EventIconPriorityPairSheet, EventIconPriorityPairRow, "EventIconPriorityPair", no_language_support);

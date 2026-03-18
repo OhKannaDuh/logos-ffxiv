@@ -13,4 +13,4 @@ impl AetheryteSystemDefineRow {
     u32_field!(define_value, 1);
 }
 
-define_sheet!(AetheryteSystemDefineSheet, AetheryteSystemDefineRow, "AetheryteSystemDefine");
+define_sheet!(AetheryteSystemDefineSheet, AetheryteSystemDefineRow, "AetheryteSystemDefine", no_language_support);

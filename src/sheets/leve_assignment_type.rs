@@ -13,4 +13,4 @@ impl LeveAssignmentTypeRow {
     i32_field!(icon, 0);
 }
 
-define_sheet!(LeveAssignmentTypeSheet, LeveAssignmentTypeRow, "LeveAssignmentType");
+define_sheet!(LeveAssignmentTypeSheet, LeveAssignmentTypeRow, "LeveAssignmentType", language_support);

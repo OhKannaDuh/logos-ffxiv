@@ -15,4 +15,4 @@ impl XPVPGroupActivityRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(XPVPGroupActivitySheet, XPVPGroupActivityRow, "XPVPGroupActivity");
+define_sheet!(XPVPGroupActivitySheet, XPVPGroupActivityRow, "XPVPGroupActivity", language_support);

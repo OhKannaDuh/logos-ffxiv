@@ -15,4 +15,4 @@ impl SwitchTalkVariationRow {
     u8_field!(unknown_0, 2);
 }
 
-define_sheet!(SwitchTalkVariationSheet, SwitchTalkVariationRow, "SwitchTalkVariation");
+define_sheet!(SwitchTalkVariationSheet, SwitchTalkVariationRow, "SwitchTalkVariation", no_language_support);

@@ -35,4 +35,4 @@ impl GcArmyExpeditionRow {
     u8_field!(gc_army_expedition_type, 7);
 }
 
-define_sheet!(GcArmyExpeditionSheet, GcArmyExpeditionRow, "GcArmyExpedition");
+define_sheet!(GcArmyExpeditionSheet, GcArmyExpeditionRow, "GcArmyExpedition", language_support);

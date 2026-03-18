@@ -22,4 +22,4 @@ impl GimmickRectRow {
     u8_field!(trigger_out, 6);
 }
 
-define_sheet!(GimmickRectSheet, GimmickRectRow, "GimmickRect");
+define_sheet!(GimmickRectSheet, GimmickRectRow, "GimmickRect", no_language_support);

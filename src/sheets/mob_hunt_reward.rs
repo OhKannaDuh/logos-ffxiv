@@ -15,4 +15,4 @@ impl MobHuntRewardRow {
     u8_field!(expansion, 2);
 }
 
-define_sheet!(MobHuntRewardSheet, MobHuntRewardRow, "MobHuntReward");
+define_sheet!(MobHuntRewardSheet, MobHuntRewardRow, "MobHuntReward", no_language_support);

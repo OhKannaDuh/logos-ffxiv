@@ -19,4 +19,4 @@ impl MiniGameTurnBreakPopOffsetRow {
     i8_field!(unknown_7, 7);
 }
 
-define_sheet!(MiniGameTurnBreakPopOffsetSheet, MiniGameTurnBreakPopOffsetRow, "MiniGameTurnBreakPopOffset");
+define_sheet!(MiniGameTurnBreakPopOffsetSheet, MiniGameTurnBreakPopOffsetRow, "MiniGameTurnBreakPopOffset", no_language_support);

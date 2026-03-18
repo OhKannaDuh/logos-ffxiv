@@ -13,4 +13,4 @@ impl TownRow {
     i32_field!(icon, 1);
 }
 
-define_sheet!(TownSheet, TownRow, "Town");
+define_sheet!(TownSheet, TownRow, "Town", language_support);

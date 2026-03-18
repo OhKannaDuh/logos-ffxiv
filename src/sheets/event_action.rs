@@ -17,4 +17,4 @@ impl EventActionRow {
     u8_field!(cast_time, 2);
 }
 
-define_sheet!(EventActionSheet, EventActionRow, "EventAction");
+define_sheet!(EventActionSheet, EventActionRow, "EventAction", language_support);

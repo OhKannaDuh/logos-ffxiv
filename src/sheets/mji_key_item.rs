@@ -13,4 +13,4 @@ impl MJIKeyItemRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(MJIKeyItemSheet, MJIKeyItemRow, "MJIKeyItem");
+define_sheet!(MJIKeyItemSheet, MJIKeyItemRow, "MJIKeyItem", no_language_support);

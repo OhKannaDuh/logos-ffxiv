@@ -12,4 +12,4 @@ impl AirshipExplorationParamTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(AirshipExplorationParamTypeSheet, AirshipExplorationParamTypeRow, "AirshipExplorationParamType");
+define_sheet!(AirshipExplorationParamTypeSheet, AirshipExplorationParamTypeRow, "AirshipExplorationParamType", language_support);

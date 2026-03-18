@@ -14,4 +14,4 @@ impl HugeCraftworksRankRow {
     u8_field!(unknown_0, 2);
 }
 
-define_sheet!(HugeCraftworksRankSheet, HugeCraftworksRankRow, "HugeCraftworksRank");
+define_sheet!(HugeCraftworksRankSheet, HugeCraftworksRankRow, "HugeCraftworksRank", no_language_support);

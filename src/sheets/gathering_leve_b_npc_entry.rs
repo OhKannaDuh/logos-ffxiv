@@ -23,4 +23,4 @@ impl GatheringLeveBNpcEntryRow {
     u16_field!(unknown_11, 7);
 }
 
-define_sheet!(GatheringLeveBNpcEntrySheet, GatheringLeveBNpcEntryRow, "GatheringLeveBNpcEntry");
+define_sheet!(GatheringLeveBNpcEntrySheet, GatheringLeveBNpcEntryRow, "GatheringLeveBNpcEntry", no_language_support);

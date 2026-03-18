@@ -47,4 +47,4 @@ impl GuildleveAssignmentTalkRow {
     array_field!(talk, 30, 8, GuildleveAssignmentTalkTalk);
 }
 
-define_sheet!(GuildleveAssignmentTalkSheet, GuildleveAssignmentTalkRow, "GuildleveAssignmentTalk");
+define_sheet!(GuildleveAssignmentTalkSheet, GuildleveAssignmentTalkRow, "GuildleveAssignmentTalk", language_support);

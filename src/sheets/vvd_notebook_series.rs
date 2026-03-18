@@ -19,4 +19,4 @@ impl VVDNotebookSeriesRow {
     i32_field!(unknown_0, 13);
 }
 
-define_sheet!(VVDNotebookSeriesSheet, VVDNotebookSeriesRow, "VVDNotebookSeries");
+define_sheet!(VVDNotebookSeriesSheet, VVDNotebookSeriesRow, "VVDNotebookSeries", language_support);

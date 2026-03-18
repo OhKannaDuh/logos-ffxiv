@@ -22,4 +22,4 @@ impl CreditRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(CreditSheet, CreditRow, "Credit");
+define_sheet!(CreditSheet, CreditRow, "Credit", no_language_support);

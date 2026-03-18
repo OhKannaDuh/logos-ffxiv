@@ -29,4 +29,4 @@ impl EventItemRow {
     u8_field!(timeline, 17);
 }
 
-define_sheet!(EventItemSheet, EventItemRow, "EventItem");
+define_sheet!(EventItemSheet, EventItemRow, "EventItem", language_support);

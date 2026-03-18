@@ -23,4 +23,4 @@ impl FateShopRow {
     array_field!(default_talk, 3, 9, FateShopDefaultTalk);
 }
 
-define_sheet!(FateShopSheet, FateShopRow, "FateShop");
+define_sheet!(FateShopSheet, FateShopRow, "FateShop", no_language_support);

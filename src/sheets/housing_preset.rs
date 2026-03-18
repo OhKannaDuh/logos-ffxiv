@@ -35,4 +35,4 @@ impl HousingPresetRow {
     u8_field!(housing_size, 9);
 }
 
-define_sheet!(HousingPresetSheet, HousingPresetRow, "HousingPreset");
+define_sheet!(HousingPresetSheet, HousingPresetRow, "HousingPreset", language_support);

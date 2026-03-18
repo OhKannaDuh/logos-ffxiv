@@ -13,4 +13,4 @@ impl MJIRecipeMaterialRow {
     i32_field!(unknown_0, 1);
 }
 
-define_sheet!(MJIRecipeMaterialSheet, MJIRecipeMaterialRow, "MJIRecipeMaterial");
+define_sheet!(MJIRecipeMaterialSheet, MJIRecipeMaterialRow, "MJIRecipeMaterial", no_language_support);

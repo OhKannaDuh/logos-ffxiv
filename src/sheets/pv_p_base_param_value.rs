@@ -14,4 +14,4 @@ impl PvPBaseParamValueRow {
     u32_field!(unknown_2, 2);
 }
 
-define_sheet!(PvPBaseParamValueSheet, PvPBaseParamValueRow, "PvPBaseParamValue");
+define_sheet!(PvPBaseParamValueSheet, PvPBaseParamValueRow, "PvPBaseParamValue", no_language_support);

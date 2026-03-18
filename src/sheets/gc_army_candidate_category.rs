@@ -12,4 +12,4 @@ impl GcArmyCandidateCategoryRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(GcArmyCandidateCategorySheet, GcArmyCandidateCategoryRow, "GcArmyCandidateCategory");
+define_sheet!(GcArmyCandidateCategorySheet, GcArmyCandidateCategoryRow, "GcArmyCandidateCategory", language_support);

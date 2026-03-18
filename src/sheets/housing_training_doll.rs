@@ -12,4 +12,4 @@ impl HousingTrainingDollRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(HousingTrainingDollSheet, HousingTrainingDollRow, "HousingTrainingDoll");
+define_sheet!(HousingTrainingDollSheet, HousingTrainingDollRow, "HousingTrainingDoll", no_language_support);

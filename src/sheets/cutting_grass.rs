@@ -22,4 +22,4 @@ impl CuttingGrassRow {
     i32_field!(unknown_10, 2);
 }
 
-define_sheet!(CuttingGrassSheet, CuttingGrassRow, "CuttingGrass");
+define_sheet!(CuttingGrassSheet, CuttingGrassRow, "CuttingGrass", no_language_support);

@@ -18,4 +18,4 @@ impl FishingRecordTypeRow {
     u8_field!(is_spearfishing, 6);
 }
 
-define_sheet!(FishingRecordTypeSheet, FishingRecordTypeRow, "FishingRecordType");
+define_sheet!(FishingRecordTypeSheet, FishingRecordTypeRow, "FishingRecordType", no_language_support);

@@ -12,4 +12,4 @@ impl MassivePcContentTextDataRow {
     string_field!(text, 0);
 }
 
-define_sheet!(MassivePcContentTextDataSheet, MassivePcContentTextDataRow, "MassivePcContentTextData");
+define_sheet!(MassivePcContentTextDataSheet, MassivePcContentTextDataRow, "MassivePcContentTextData", language_support);

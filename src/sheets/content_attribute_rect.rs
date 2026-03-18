@@ -139,4 +139,4 @@ impl ContentAttributeRectRow {
     u8_field!(unknown_127, 127);
 }
 
-define_sheet!(ContentAttributeRectSheet, ContentAttributeRectRow, "ContentAttributeRect");
+define_sheet!(ContentAttributeRectSheet, ContentAttributeRectRow, "ContentAttributeRect", no_language_support);

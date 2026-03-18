@@ -17,4 +17,4 @@ impl ScenarioTreeTipsClassQuestRow {
     bool_field!(unknown_1, 5);
 }
 
-define_sheet!(ScenarioTreeTipsClassQuestSheet, ScenarioTreeTipsClassQuestRow, "ScenarioTreeTipsClassQuest");
+define_sheet!(ScenarioTreeTipsClassQuestSheet, ScenarioTreeTipsClassQuestRow, "ScenarioTreeTipsClassQuest", no_language_support);

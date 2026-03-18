@@ -12,4 +12,4 @@ impl ActionTransientRow {
     string_field!(description, 0);
 }
 
-define_sheet!(ActionTransientSheet, ActionTransientRow, "ActionTransient");
+define_sheet!(ActionTransientSheet, ActionTransientRow, "ActionTransient", language_support);

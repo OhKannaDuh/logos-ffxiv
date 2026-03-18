@@ -37,4 +37,4 @@ impl WKSMissionToDoRow {
     u8_field!(mission_type, 14);
 }
 
-define_sheet!(WKSMissionToDoSheet, WKSMissionToDoRow, "WKSMissionToDo");
+define_sheet!(WKSMissionToDoSheet, WKSMissionToDoRow, "WKSMissionToDo", no_language_support);

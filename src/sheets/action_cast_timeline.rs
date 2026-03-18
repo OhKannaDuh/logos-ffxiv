@@ -13,4 +13,4 @@ impl ActionCastTimelineRow {
     u16_field!(vfx, 1);
 }
 
-define_sheet!(ActionCastTimelineSheet, ActionCastTimelineRow, "ActionCastTimeline");
+define_sheet!(ActionCastTimelineSheet, ActionCastTimelineRow, "ActionCastTimeline", no_language_support);

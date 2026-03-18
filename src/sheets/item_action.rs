@@ -28,4 +28,4 @@ impl ItemActionRow {
     bool_field!(cond_pvp_only, 3);
 }
 
-define_sheet!(ItemActionSheet, ItemActionRow, "ItemAction");
+define_sheet!(ItemActionSheet, ItemActionRow, "ItemAction", no_language_support);

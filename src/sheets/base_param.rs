@@ -45,4 +45,4 @@ impl BaseParamRow {
     bool_field!(unknown_2, 40);
 }
 
-define_sheet!(BaseParamSheet, BaseParamRow, "BaseParam");
+define_sheet!(BaseParamSheet, BaseParamRow, "BaseParam", language_support);

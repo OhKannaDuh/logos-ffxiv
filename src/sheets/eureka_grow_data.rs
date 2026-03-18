@@ -12,4 +12,4 @@ impl EurekaGrowDataRow {
     u16_field!(base_resistance, 0);
 }
 
-define_sheet!(EurekaGrowDataSheet, EurekaGrowDataRow, "EurekaGrowData");
+define_sheet!(EurekaGrowDataSheet, EurekaGrowDataRow, "EurekaGrowData", no_language_support);

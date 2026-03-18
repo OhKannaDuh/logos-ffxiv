@@ -17,4 +17,4 @@ impl LobbyRow {
     u32_field!(link, 2);
 }
 
-define_sheet!(LobbySheet, LobbyRow, "Lobby");
+define_sheet!(LobbySheet, LobbyRow, "Lobby", language_support);

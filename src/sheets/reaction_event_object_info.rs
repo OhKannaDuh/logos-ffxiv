@@ -12,4 +12,4 @@ impl ReactionEventObjectInfoRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(ReactionEventObjectInfoSheet, ReactionEventObjectInfoRow, "ReactionEventObjectInfo");
+define_sheet!(ReactionEventObjectInfoSheet, ReactionEventObjectInfoRow, "ReactionEventObjectInfo", no_language_support);

@@ -24,4 +24,4 @@ impl WarpLogicRow {
     bool_field!(can_skip_cutscene, 2);
 }
 
-define_sheet!(WarpLogicSheet, WarpLogicRow, "WarpLogic");
+define_sheet!(WarpLogicSheet, WarpLogicRow, "WarpLogic", language_support);

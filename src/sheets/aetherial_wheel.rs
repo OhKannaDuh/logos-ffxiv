@@ -15,4 +15,4 @@ impl AetherialWheelRow {
     u8_field!(hours_required, 3);
 }
 
-define_sheet!(AetherialWheelSheet, AetherialWheelRow, "AetherialWheel");
+define_sheet!(AetherialWheelSheet, AetherialWheelRow, "AetherialWheel", no_language_support);

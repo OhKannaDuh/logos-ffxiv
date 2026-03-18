@@ -12,4 +12,4 @@ impl LeveStringRow {
     string_field!(objective, 0);
 }
 
-define_sheet!(LeveStringSheet, LeveStringRow, "LeveString");
+define_sheet!(LeveStringSheet, LeveStringRow, "LeveString", language_support);

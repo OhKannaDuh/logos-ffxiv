@@ -18,4 +18,4 @@ impl JobHudManualRow {
     u8_field!(unknown_3, 4);
 }
 
-define_sheet!(JobHudManualSheet, JobHudManualRow, "JobHudManual");
+define_sheet!(JobHudManualSheet, JobHudManualRow, "JobHudManual", no_language_support);

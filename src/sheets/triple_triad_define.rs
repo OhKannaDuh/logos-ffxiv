@@ -12,4 +12,4 @@ impl TripleTriadDefineRow {
     i32_field!(value, 0);
 }
 
-define_sheet!(TripleTriadDefineSheet, TripleTriadDefineRow, "TripleTriadDefine");
+define_sheet!(TripleTriadDefineSheet, TripleTriadDefineRow, "TripleTriadDefine", no_language_support);

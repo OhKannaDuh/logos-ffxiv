@@ -13,4 +13,4 @@ impl CycleTimeRow {
     u32_field!(cycle, 1);
 }
 
-define_sheet!(CycleTimeSheet, CycleTimeRow, "CycleTime");
+define_sheet!(CycleTimeSheet, CycleTimeRow, "CycleTime", no_language_support);

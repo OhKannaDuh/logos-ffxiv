@@ -12,4 +12,4 @@ impl ChocoboRaceAbilityTypeRow {
     bool_field!(is_active, 0);
 }
 
-define_sheet!(ChocoboRaceAbilityTypeSheet, ChocoboRaceAbilityTypeRow, "ChocoboRaceAbilityType");
+define_sheet!(ChocoboRaceAbilityTypeSheet, ChocoboRaceAbilityTypeRow, "ChocoboRaceAbilityType", no_language_support);

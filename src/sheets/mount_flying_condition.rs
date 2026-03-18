@@ -12,4 +12,4 @@ impl MountFlyingConditionRow {
     u32_field!(quest, 0);
 }
 
-define_sheet!(MountFlyingConditionSheet, MountFlyingConditionRow, "MountFlyingCondition");
+define_sheet!(MountFlyingConditionSheet, MountFlyingConditionRow, "MountFlyingCondition", no_language_support);

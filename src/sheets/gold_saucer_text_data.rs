@@ -12,4 +12,4 @@ impl GoldSaucerTextDataRow {
     string_field!(text, 0);
 }
 
-define_sheet!(GoldSaucerTextDataSheet, GoldSaucerTextDataRow, "GoldSaucerTextData");
+define_sheet!(GoldSaucerTextDataSheet, GoldSaucerTextDataRow, "GoldSaucerTextData", language_support);

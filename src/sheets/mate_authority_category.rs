@@ -12,4 +12,4 @@ impl MateAuthorityCategoryRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(MateAuthorityCategorySheet, MateAuthorityCategoryRow, "MateAuthorityCategory");
+define_sheet!(MateAuthorityCategorySheet, MateAuthorityCategoryRow, "MateAuthorityCategory", language_support);

@@ -13,4 +13,4 @@ impl VaseRow {
     u32_field!(vase_flower_end, 1);
 }
 
-define_sheet!(VaseSheet, VaseRow, "Vase");
+define_sheet!(VaseSheet, VaseRow, "Vase", no_language_support);

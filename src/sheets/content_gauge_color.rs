@@ -14,4 +14,4 @@ impl ContentGaugeColorRow {
     u32_field!(android_color_3, 2);
 }
 
-define_sheet!(ContentGaugeColorSheet, ContentGaugeColorRow, "ContentGaugeColor");
+define_sheet!(ContentGaugeColorSheet, ContentGaugeColorRow, "ContentGaugeColor", no_language_support);

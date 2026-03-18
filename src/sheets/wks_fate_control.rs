@@ -14,4 +14,4 @@ impl WKSFateControlRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(WKSFateControlSheet, WKSFateControlRow, "WKSFateControl");
+define_sheet!(WKSFateControlSheet, WKSFateControlRow, "WKSFateControl", language_support);

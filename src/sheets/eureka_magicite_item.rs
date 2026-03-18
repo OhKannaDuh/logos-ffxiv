@@ -14,4 +14,4 @@ impl EurekaMagiciteItemRow {
     u8_field!(class_job_category, 1);
 }
 
-define_sheet!(EurekaMagiciteItemSheet, EurekaMagiciteItemRow, "EurekaMagiciteItem");
+define_sheet!(EurekaMagiciteItemSheet, EurekaMagiciteItemRow, "EurekaMagiciteItem", no_language_support);

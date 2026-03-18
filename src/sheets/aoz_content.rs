@@ -30,4 +30,4 @@ impl AOZContentRow {
     u8_field!(order, 15);
 }
 
-define_sheet!(AOZContentSheet, AOZContentRow, "AOZContent");
+define_sheet!(AOZContentSheet, AOZContentRow, "AOZContent", no_language_support);

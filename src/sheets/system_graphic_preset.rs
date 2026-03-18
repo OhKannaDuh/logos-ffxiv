@@ -51,4 +51,4 @@ impl SystemGraphicPresetRow {
     i8_field!(unknown_70_7, 39);
 }
 
-define_sheet!(SystemGraphicPresetSheet, SystemGraphicPresetRow, "SystemGraphicPreset");
+define_sheet!(SystemGraphicPresetSheet, SystemGraphicPresetRow, "SystemGraphicPreset", no_language_support);

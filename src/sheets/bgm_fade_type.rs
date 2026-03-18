@@ -15,4 +15,4 @@ impl BGMFadeTypeRow {
     f32_field!(resume_fade_in_time, 3);
 }
 
-define_sheet!(BGMFadeTypeSheet, BGMFadeTypeRow, "BGMFadeType");
+define_sheet!(BGMFadeTypeSheet, BGMFadeTypeRow, "BGMFadeType", no_language_support);

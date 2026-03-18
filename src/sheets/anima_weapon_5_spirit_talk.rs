@@ -12,4 +12,4 @@ impl AnimaWeapon5SpiritTalkRow {
     i32_field!(dialogue, 0);
 }
 
-define_sheet!(AnimaWeapon5SpiritTalkSheet, AnimaWeapon5SpiritTalkRow, "AnimaWeapon5SpiritTalk");
+define_sheet!(AnimaWeapon5SpiritTalkSheet, AnimaWeapon5SpiritTalkRow, "AnimaWeapon5SpiritTalk", no_language_support);

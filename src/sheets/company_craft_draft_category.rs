@@ -18,4 +18,4 @@ impl CompanyCraftDraftCategoryRow {
     array_field!(company_craft_type, 1, 10, CompanyCraftDraftCategoryCompanyCraftType);
 }
 
-define_sheet!(CompanyCraftDraftCategorySheet, CompanyCraftDraftCategoryRow, "CompanyCraftDraftCategory");
+define_sheet!(CompanyCraftDraftCategorySheet, CompanyCraftDraftCategoryRow, "CompanyCraftDraftCategory", language_support);

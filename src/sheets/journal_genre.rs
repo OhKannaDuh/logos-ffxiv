@@ -15,4 +15,4 @@ impl JournalGenreRow {
     bool_field!(unknown_0, 2);
 }
 
-define_sheet!(JournalGenreSheet, JournalGenreRow, "JournalGenre");
+define_sheet!(JournalGenreSheet, JournalGenreRow, "JournalGenre", language_support);

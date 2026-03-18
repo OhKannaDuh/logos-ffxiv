@@ -56,4 +56,4 @@ impl HairMakeTypeRow {
     i8_field!(gender, 2);
 }
 
-define_sheet!(HairMakeTypeSheet, HairMakeTypeRow, "HairMakeType");
+define_sheet!(HairMakeTypeSheet, HairMakeTypeRow, "HairMakeType", no_language_support);

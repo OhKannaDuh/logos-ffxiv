@@ -12,4 +12,4 @@ impl EurekaAethernetRow {
     u16_field!(location, 0);
 }
 
-define_sheet!(EurekaAethernetSheet, EurekaAethernetRow, "EurekaAethernet");
+define_sheet!(EurekaAethernetSheet, EurekaAethernetRow, "EurekaAethernet", no_language_support);

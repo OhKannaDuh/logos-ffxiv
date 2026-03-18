@@ -17,4 +17,4 @@ impl DirectorTypeRow {
     bool_field!(unknown_5, 3);
 }
 
-define_sheet!(DirectorTypeSheet, DirectorTypeRow, "DirectorType");
+define_sheet!(DirectorTypeSheet, DirectorTypeRow, "DirectorType", no_language_support);

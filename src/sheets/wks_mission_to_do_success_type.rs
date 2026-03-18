@@ -12,4 +12,4 @@ impl WKSMissionToDoSuccessTypeRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(WKSMissionToDoSuccessTypeSheet, WKSMissionToDoSuccessTypeRow, "WKSMissionToDoSuccessType");
+define_sheet!(WKSMissionToDoSuccessTypeSheet, WKSMissionToDoSuccessTypeRow, "WKSMissionToDoSuccessType", no_language_support);

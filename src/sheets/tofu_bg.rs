@@ -15,4 +15,4 @@ impl TofuBgRow {
     bool_field!(unknown_3, 0);
 }
 
-define_sheet!(TofuBgSheet, TofuBgRow, "TofuBg");
+define_sheet!(TofuBgSheet, TofuBgRow, "TofuBg", language_support);

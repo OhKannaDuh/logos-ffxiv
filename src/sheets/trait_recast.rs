@@ -14,4 +14,4 @@ impl TraitRecastRow {
     u16_field!(timeds, 2);
 }
 
-define_sheet!(TraitRecastSheet, TraitRecastRow, "TraitRecast");
+define_sheet!(TraitRecastSheet, TraitRecastRow, "TraitRecast", no_language_support);

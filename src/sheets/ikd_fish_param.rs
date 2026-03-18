@@ -14,4 +14,4 @@ impl IKDFishParamRow {
     u8_field!(unknown_0, 2);
 }
 
-define_sheet!(IKDFishParamSheet, IKDFishParamRow, "IKDFishParam");
+define_sheet!(IKDFishParamSheet, IKDFishParamRow, "IKDFishParam", no_language_support);

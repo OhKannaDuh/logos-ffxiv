@@ -20,4 +20,4 @@ impl TreasureHuntRankRow {
     bool_field!(unknown_2, 8);
 }
 
-define_sheet!(TreasureHuntRankSheet, TreasureHuntRankRow, "TreasureHuntRank");
+define_sheet!(TreasureHuntRankSheet, TreasureHuntRankRow, "TreasureHuntRank", no_language_support);

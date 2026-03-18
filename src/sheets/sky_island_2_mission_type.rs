@@ -12,4 +12,4 @@ impl SkyIsland2MissionTypeRow {
     bool_field!(type_, 0);
 }
 
-define_sheet!(SkyIsland2MissionTypeSheet, SkyIsland2MissionTypeRow, "SkyIsland2MissionType");
+define_sheet!(SkyIsland2MissionTypeSheet, SkyIsland2MissionTypeRow, "SkyIsland2MissionType", no_language_support);

@@ -12,4 +12,4 @@ impl MinionSkillTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(MinionSkillTypeSheet, MinionSkillTypeRow, "MinionSkillType");
+define_sheet!(MinionSkillTypeSheet, MinionSkillTypeRow, "MinionSkillType", language_support);

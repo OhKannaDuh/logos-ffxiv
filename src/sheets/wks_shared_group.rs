@@ -17,4 +17,4 @@ impl WKSSharedGroupRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(WKSSharedGroupSheet, WKSSharedGroupRow, "WKSSharedGroup");
+define_sheet!(WKSSharedGroupSheet, WKSSharedGroupRow, "WKSSharedGroup", no_language_support);

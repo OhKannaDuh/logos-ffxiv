@@ -26,4 +26,4 @@ impl BeastRankBonusRow {
     array_field!(item_quantity, 9, 8, BeastRankBonusItemQuantity);
 }
 
-define_sheet!(BeastRankBonusSheet, BeastRankBonusRow, "BeastRankBonus");
+define_sheet!(BeastRankBonusSheet, BeastRankBonusRow, "BeastRankBonus", no_language_support);

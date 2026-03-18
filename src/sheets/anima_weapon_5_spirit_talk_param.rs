@@ -13,4 +13,4 @@ impl AnimaWeapon5SpiritTalkParamRow {
     string_field!(epilogue, 1);
 }
 
-define_sheet!(AnimaWeapon5SpiritTalkParamSheet, AnimaWeapon5SpiritTalkParamRow, "AnimaWeapon5SpiritTalkParam");
+define_sheet!(AnimaWeapon5SpiritTalkParamSheet, AnimaWeapon5SpiritTalkParamRow, "AnimaWeapon5SpiritTalkParam", language_support);

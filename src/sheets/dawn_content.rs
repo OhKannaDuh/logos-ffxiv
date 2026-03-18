@@ -31,4 +31,4 @@ impl DawnContentRow {
     bool_field!(unknown_14, 5);
 }
 
-define_sheet!(DawnContentSheet, DawnContentRow, "DawnContent");
+define_sheet!(DawnContentSheet, DawnContentRow, "DawnContent", no_language_support);

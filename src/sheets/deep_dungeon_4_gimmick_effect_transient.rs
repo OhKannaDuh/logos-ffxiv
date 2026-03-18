@@ -13,4 +13,4 @@ impl DeepDungeon4GimmickEffectTransientRow {
     string_field!(description, 1);
 }
 
-define_sheet!(DeepDungeon4GimmickEffectTransientSheet, DeepDungeon4GimmickEffectTransientRow, "DeepDungeon4GimmickEffectTransient");
+define_sheet!(DeepDungeon4GimmickEffectTransientSheet, DeepDungeon4GimmickEffectTransientRow, "DeepDungeon4GimmickEffectTransient", language_support);

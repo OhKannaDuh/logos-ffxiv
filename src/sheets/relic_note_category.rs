@@ -13,4 +13,4 @@ impl RelicNoteCategoryRow {
     i8_field!(unknown_0, 0);
 }
 
-define_sheet!(RelicNoteCategorySheet, RelicNoteCategoryRow, "RelicNoteCategory");
+define_sheet!(RelicNoteCategorySheet, RelicNoteCategoryRow, "RelicNoteCategory", language_support);

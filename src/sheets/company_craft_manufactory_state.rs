@@ -12,4 +12,4 @@ impl CompanyCraftManufactoryStateRow {
     string_field!(name, 0);
 }
 
-define_sheet!(CompanyCraftManufactoryStateSheet, CompanyCraftManufactoryStateRow, "CompanyCraftManufactoryState");
+define_sheet!(CompanyCraftManufactoryStateSheet, CompanyCraftManufactoryStateRow, "CompanyCraftManufactoryState", language_support);

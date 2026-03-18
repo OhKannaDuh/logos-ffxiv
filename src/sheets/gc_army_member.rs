@@ -13,4 +13,4 @@ impl GcArmyMemberRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(GcArmyMemberSheet, GcArmyMemberRow, "GcArmyMember");
+define_sheet!(GcArmyMemberSheet, GcArmyMemberRow, "GcArmyMember", no_language_support);

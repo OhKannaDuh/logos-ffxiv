@@ -12,4 +12,4 @@ impl WKSTextRow {
     string_field!(text, 0);
 }
 
-define_sheet!(WKSTextSheet, WKSTextRow, "WKSText");
+define_sheet!(WKSTextSheet, WKSTextRow, "WKSText", language_support);

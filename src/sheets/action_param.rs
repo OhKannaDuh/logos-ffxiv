@@ -13,4 +13,4 @@ impl ActionParamRow {
     i16_field!(unknown_0, 1);
 }
 
-define_sheet!(ActionParamSheet, ActionParamRow, "ActionParam");
+define_sheet!(ActionParamSheet, ActionParamRow, "ActionParam", no_language_support);

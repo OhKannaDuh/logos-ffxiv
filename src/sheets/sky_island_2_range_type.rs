@@ -12,4 +12,4 @@ impl SkyIsland2RangeTypeRow {
     u8_field!(type_, 0);
 }
 
-define_sheet!(SkyIsland2RangeTypeSheet, SkyIsland2RangeTypeRow, "SkyIsland2RangeType");
+define_sheet!(SkyIsland2RangeTypeSheet, SkyIsland2RangeTypeRow, "SkyIsland2RangeType", no_language_support);

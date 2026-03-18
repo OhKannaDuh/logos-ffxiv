@@ -19,4 +19,4 @@ impl GatheringPointBonusRow {
     bool_field!(unknown_3, 6);
 }
 
-define_sheet!(GatheringPointBonusSheet, GatheringPointBonusRow, "GatheringPointBonus");
+define_sheet!(GatheringPointBonusSheet, GatheringPointBonusRow, "GatheringPointBonus", no_language_support);

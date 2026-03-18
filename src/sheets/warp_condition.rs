@@ -19,4 +19,4 @@ impl WarpConditionRow {
     u8_field!(complete_param, 1);
 }
 
-define_sheet!(WarpConditionSheet, WarpConditionRow, "WarpCondition");
+define_sheet!(WarpConditionSheet, WarpConditionRow, "WarpCondition", no_language_support);

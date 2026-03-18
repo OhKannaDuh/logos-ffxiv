@@ -123,4 +123,4 @@ impl PermissionRow {
     bool_field!(unknown_103, 111);
 }
 
-define_sheet!(PermissionSheet, PermissionRow, "Permission");
+define_sheet!(PermissionSheet, PermissionRow, "Permission", no_language_support);

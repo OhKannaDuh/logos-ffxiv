@@ -12,4 +12,4 @@ impl AddonRow {
     string_field!(text, 0);
 }
 
-define_sheet!(AddonSheet, AddonRow, "Addon");
+define_sheet!(AddonSheet, AddonRow, "Addon", language_support);

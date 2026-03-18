@@ -15,4 +15,4 @@ impl WKSFortunePrizeGradeRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(WKSFortunePrizeGradeSheet, WKSFortunePrizeGradeRow, "WKSFortunePrizeGrade");
+define_sheet!(WKSFortunePrizeGradeSheet, WKSFortunePrizeGradeRow, "WKSFortunePrizeGrade", no_language_support);

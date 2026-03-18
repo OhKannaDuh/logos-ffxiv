@@ -12,4 +12,4 @@ impl MinionRaceRow {
     string_field!(name, 0);
 }
 
-define_sheet!(MinionRaceSheet, MinionRaceRow, "MinionRace");
+define_sheet!(MinionRaceSheet, MinionRaceRow, "MinionRace", language_support);

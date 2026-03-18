@@ -14,4 +14,4 @@ impl OmikujiGuidanceRow {
     bool_field!(unknown_2, 0);
 }
 
-define_sheet!(OmikujiGuidanceSheet, OmikujiGuidanceRow, "OmikujiGuidance");
+define_sheet!(OmikujiGuidanceSheet, OmikujiGuidanceRow, "OmikujiGuidance", language_support);

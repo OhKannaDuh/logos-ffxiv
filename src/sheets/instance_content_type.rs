@@ -20,4 +20,4 @@ impl InstanceContentTypeRow {
     bool_field!(unknown_8, 8);
 }
 
-define_sheet!(InstanceContentTypeSheet, InstanceContentTypeRow, "InstanceContentType");
+define_sheet!(InstanceContentTypeSheet, InstanceContentTypeRow, "InstanceContentType", no_language_support);

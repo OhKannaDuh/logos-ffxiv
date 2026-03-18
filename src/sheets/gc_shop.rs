@@ -12,4 +12,4 @@ impl GCShopRow {
     i8_field!(grand_company, 0);
 }
 
-define_sheet!(GCShopSheet, GCShopRow, "GCShop");
+define_sheet!(GCShopSheet, GCShopRow, "GCShop", no_language_support);

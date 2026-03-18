@@ -12,4 +12,4 @@ impl WKSParamRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(WKSParamSheet, WKSParamRow, "WKSParam");
+define_sheet!(WKSParamSheet, WKSParamRow, "WKSParam", no_language_support);

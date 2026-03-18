@@ -37,4 +37,4 @@ impl CustomTalkRow {
     bool_field!(unknown_12, 78);
 }
 
-define_sheet!(CustomTalkSheet, CustomTalkRow, "CustomTalk");
+define_sheet!(CustomTalkSheet, CustomTalkRow, "CustomTalk", language_support);

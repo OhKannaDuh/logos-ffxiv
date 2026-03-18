@@ -24,4 +24,4 @@ impl PointMenuChoiceRow {
     u8_field!(unknown_12, 11);
 }
 
-define_sheet!(PointMenuChoiceSheet, PointMenuChoiceRow, "PointMenuChoice");
+define_sheet!(PointMenuChoiceSheet, PointMenuChoiceRow, "PointMenuChoice", no_language_support);

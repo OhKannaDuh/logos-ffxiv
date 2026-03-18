@@ -33,4 +33,4 @@ impl ShellFixedFromCommandRow {
     bool_field!(unknown_21, 5);
 }
 
-define_sheet!(ShellFixedFromCommandSheet, ShellFixedFromCommandRow, "ShellFixedFromCommand");
+define_sheet!(ShellFixedFromCommandSheet, ShellFixedFromCommandRow, "ShellFixedFromCommand", no_language_support);

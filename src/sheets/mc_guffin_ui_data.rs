@@ -14,4 +14,4 @@ impl McGuffinUIDataRow {
     u16_field!(order, 0);
 }
 
-define_sheet!(McGuffinUIDataSheet, McGuffinUIDataRow, "McGuffinUIData");
+define_sheet!(McGuffinUIDataSheet, McGuffinUIDataRow, "McGuffinUIData", language_support);

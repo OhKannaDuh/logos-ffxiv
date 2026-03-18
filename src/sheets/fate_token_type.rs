@@ -12,4 +12,4 @@ impl FateTokenTypeRow {
     u32_field!(currency, 0);
 }
 
-define_sheet!(FateTokenTypeSheet, FateTokenTypeRow, "FateTokenType");
+define_sheet!(FateTokenTypeSheet, FateTokenTypeRow, "FateTokenType", no_language_support);

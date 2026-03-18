@@ -12,4 +12,4 @@ impl PartyContentTransientRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(PartyContentTransientSheet, PartyContentTransientRow, "PartyContentTransient");
+define_sheet!(PartyContentTransientSheet, PartyContentTransientRow, "PartyContentTransient", language_support);

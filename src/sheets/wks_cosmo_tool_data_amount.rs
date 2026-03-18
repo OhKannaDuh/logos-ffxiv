@@ -28,4 +28,4 @@ impl WKSCosmoToolDataAmountRow {
     array_field!(stages, 0, 17, WKSCosmoToolDataAmountStages);
 }
 
-define_sheet!(WKSCosmoToolDataAmountSheet, WKSCosmoToolDataAmountRow, "WKSCosmoToolDataAmount");
+define_sheet!(WKSCosmoToolDataAmountSheet, WKSCosmoToolDataAmountRow, "WKSCosmoToolDataAmount", no_language_support);

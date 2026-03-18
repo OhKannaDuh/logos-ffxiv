@@ -14,4 +14,4 @@ impl FurnitureCatalogItemListRow {
     u16_field!(patch, 2);
 }
 
-define_sheet!(FurnitureCatalogItemListSheet, FurnitureCatalogItemListRow, "FurnitureCatalogItemList");
+define_sheet!(FurnitureCatalogItemListSheet, FurnitureCatalogItemListRow, "FurnitureCatalogItemList", no_language_support);

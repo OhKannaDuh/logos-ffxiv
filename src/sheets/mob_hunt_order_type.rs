@@ -16,4 +16,4 @@ impl MobHuntOrderTypeRow {
     u8_field!(order_amount, 4);
 }
 
-define_sheet!(MobHuntOrderTypeSheet, MobHuntOrderTypeRow, "MobHuntOrderType");
+define_sheet!(MobHuntOrderTypeSheet, MobHuntOrderTypeRow, "MobHuntOrderType", no_language_support);

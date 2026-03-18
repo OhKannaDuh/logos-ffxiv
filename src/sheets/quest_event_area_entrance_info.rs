@@ -14,4 +14,4 @@ impl QuestEventAreaEntranceInfoRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(QuestEventAreaEntranceInfoSheet, QuestEventAreaEntranceInfoRow, "QuestEventAreaEntranceInfo");
+define_sheet!(QuestEventAreaEntranceInfoSheet, QuestEventAreaEntranceInfoRow, "QuestEventAreaEntranceInfo", no_language_support);

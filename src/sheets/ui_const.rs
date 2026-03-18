@@ -12,4 +12,4 @@ impl UIConstRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(UIConstSheet, UIConstRow, "UIConst");
+define_sheet!(UIConstSheet, UIConstRow, "UIConst", no_language_support);

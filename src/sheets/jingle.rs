@@ -12,4 +12,4 @@ impl JingleRow {
     string_field!(name, 0);
 }
 
-define_sheet!(JingleSheet, JingleRow, "Jingle");
+define_sheet!(JingleSheet, JingleRow, "Jingle", no_language_support);

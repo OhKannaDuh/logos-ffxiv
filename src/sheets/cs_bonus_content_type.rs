@@ -24,4 +24,4 @@ impl CSBonusContentTypeRow {
     bool_field!(unknown_6, 7);
 }
 
-define_sheet!(CSBonusContentTypeSheet, CSBonusContentTypeRow, "CSBonusContentType");
+define_sheet!(CSBonusContentTypeSheet, CSBonusContentTypeRow, "CSBonusContentType", no_language_support);

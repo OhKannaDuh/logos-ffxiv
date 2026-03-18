@@ -12,4 +12,4 @@ impl TraitTransientRow {
     string_field!(description, 0);
 }
 
-define_sheet!(TraitTransientSheet, TraitTransientRow, "TraitTransient");
+define_sheet!(TraitTransientSheet, TraitTransientRow, "TraitTransient", language_support);

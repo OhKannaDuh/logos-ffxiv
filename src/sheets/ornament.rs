@@ -27,4 +27,4 @@ impl OrnamentRow {
     u8_field!(unknown_4, 3);
 }
 
-define_sheet!(OrnamentSheet, OrnamentRow, "Ornament");
+define_sheet!(OrnamentSheet, OrnamentRow, "Ornament", language_support);

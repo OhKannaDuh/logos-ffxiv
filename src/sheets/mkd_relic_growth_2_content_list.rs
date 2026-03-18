@@ -15,4 +15,4 @@ impl MKDRelicGrowth2ContentListRow {
     u8_field!(category, 0);
 }
 
-define_sheet!(MKDRelicGrowth2ContentListSheet, MKDRelicGrowth2ContentListRow, "MKDRelicGrowth2ContentList");
+define_sheet!(MKDRelicGrowth2ContentListSheet, MKDRelicGrowth2ContentListRow, "MKDRelicGrowth2ContentList", language_support);

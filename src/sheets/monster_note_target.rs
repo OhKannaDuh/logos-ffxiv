@@ -26,4 +26,4 @@ impl MonsterNoteTargetRow {
     u8_field!(town, 2);
 }
 
-define_sheet!(MonsterNoteTargetSheet, MonsterNoteTargetRow, "MonsterNoteTarget");
+define_sheet!(MonsterNoteTargetSheet, MonsterNoteTargetRow, "MonsterNoteTarget", no_language_support);

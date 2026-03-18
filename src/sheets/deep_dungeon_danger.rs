@@ -14,4 +14,4 @@ impl DeepDungeonDangerRow {
     u16_field!(floor_effect_ui, 2);
 }
 
-define_sheet!(DeepDungeonDangerSheet, DeepDungeonDangerRow, "DeepDungeonDanger");
+define_sheet!(DeepDungeonDangerSheet, DeepDungeonDangerRow, "DeepDungeonDanger", no_language_support);

@@ -52,4 +52,4 @@ impl AttributiveRow {
     string_field!(french_article_plural_neutral, 40);
 }
 
-define_sheet!(AttributiveSheet, AttributiveRow, "Attributive");
+define_sheet!(AttributiveSheet, AttributiveRow, "Attributive", language_support);

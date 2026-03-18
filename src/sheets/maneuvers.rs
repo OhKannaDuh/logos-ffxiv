@@ -15,4 +15,4 @@ impl ManeuversRow {
     u32_field!(unknown_3, 3);
 }
 
-define_sheet!(ManeuversSheet, ManeuversRow, "Maneuvers");
+define_sheet!(ManeuversSheet, ManeuversRow, "Maneuvers", no_language_support);

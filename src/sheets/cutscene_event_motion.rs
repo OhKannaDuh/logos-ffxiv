@@ -25,4 +25,4 @@ impl CutsceneEventMotionRow {
     u8_field!(unknown_13, 0);
 }
 
-define_sheet!(CutsceneEventMotionSheet, CutsceneEventMotionRow, "CutsceneEventMotion");
+define_sheet!(CutsceneEventMotionSheet, CutsceneEventMotionRow, "CutsceneEventMotion", no_language_support);

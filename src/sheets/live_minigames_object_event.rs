@@ -64,4 +64,4 @@ impl LiveMinigamesObjectEventRow {
     i32_field!(unknown_52, 52);
 }
 
-define_sheet!(LiveMinigamesObjectEventSheet, LiveMinigamesObjectEventRow, "LiveMinigamesObjectEvent");
+define_sheet!(LiveMinigamesObjectEventSheet, LiveMinigamesObjectEventRow, "LiveMinigamesObjectEvent", no_language_support);

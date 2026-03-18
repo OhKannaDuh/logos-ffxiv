@@ -14,4 +14,4 @@ impl FCCrestSymbolRow {
     u8_field!(fc_right, 1);
 }
 
-define_sheet!(FCCrestSymbolSheet, FCCrestSymbolRow, "FCCrestSymbol");
+define_sheet!(FCCrestSymbolSheet, FCCrestSymbolRow, "FCCrestSymbol", no_language_support);

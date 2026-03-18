@@ -13,4 +13,4 @@ impl ColosseumRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(ColosseumSheet, ColosseumRow, "Colosseum");
+define_sheet!(ColosseumSheet, ColosseumRow, "Colosseum", no_language_support);

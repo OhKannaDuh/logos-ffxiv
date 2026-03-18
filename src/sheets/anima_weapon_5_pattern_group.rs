@@ -12,4 +12,4 @@ impl AnimaWeapon5PatternGroupRow {
     string_field!(name, 0);
 }
 
-define_sheet!(AnimaWeapon5PatternGroupSheet, AnimaWeapon5PatternGroupRow, "AnimaWeapon5PatternGroup");
+define_sheet!(AnimaWeapon5PatternGroupSheet, AnimaWeapon5PatternGroupRow, "AnimaWeapon5PatternGroup", language_support);

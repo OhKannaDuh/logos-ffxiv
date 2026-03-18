@@ -17,4 +17,4 @@ impl RideShootingTargetTypeRow {
     i16_field!(unknown_3, 5);
 }
 
-define_sheet!(RideShootingTargetTypeSheet, RideShootingTargetTypeRow, "RideShootingTargetType");
+define_sheet!(RideShootingTargetTypeSheet, RideShootingTargetTypeRow, "RideShootingTargetType", no_language_support);

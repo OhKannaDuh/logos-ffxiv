@@ -28,4 +28,4 @@ impl RelicItemRow {
     u8_field!(unknown_5, 0);
 }
 
-define_sheet!(RelicItemSheet, RelicItemRow, "RelicItem");
+define_sheet!(RelicItemSheet, RelicItemRow, "RelicItem", no_language_support);

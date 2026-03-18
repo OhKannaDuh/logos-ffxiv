@@ -14,4 +14,4 @@ impl UIColorPickerTableRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(UIColorPickerTableSheet, UIColorPickerTableRow, "UIColorPickerTable");
+define_sheet!(UIColorPickerTableSheet, UIColorPickerTableRow, "UIColorPickerTable", no_language_support);

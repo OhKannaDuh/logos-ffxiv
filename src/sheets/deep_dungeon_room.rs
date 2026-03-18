@@ -17,4 +17,4 @@ impl DeepDungeonRoomRow {
     array_field!(level, 0, 5, DeepDungeonRoomLevel);
 }
 
-define_sheet!(DeepDungeonRoomSheet, DeepDungeonRoomRow, "DeepDungeonRoom");
+define_sheet!(DeepDungeonRoomSheet, DeepDungeonRoomRow, "DeepDungeonRoom", no_language_support);

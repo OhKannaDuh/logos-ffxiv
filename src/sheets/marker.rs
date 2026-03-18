@@ -14,4 +14,4 @@ impl MarkerRow {
     u8_field!(sort_order, 1);
 }
 
-define_sheet!(MarkerSheet, MarkerRow, "Marker");
+define_sheet!(MarkerSheet, MarkerRow, "Marker", language_support);

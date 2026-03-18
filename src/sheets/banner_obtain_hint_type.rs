@@ -12,4 +12,4 @@ impl BannerObtainHintTypeRow {
     string_field!(text, 0);
 }
 
-define_sheet!(BannerObtainHintTypeSheet, BannerObtainHintTypeRow, "BannerObtainHintType");
+define_sheet!(BannerObtainHintTypeSheet, BannerObtainHintTypeRow, "BannerObtainHintType", language_support);

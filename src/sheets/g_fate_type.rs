@@ -12,4 +12,4 @@ impl GFateTypeRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(GFateTypeSheet, GFateTypeRow, "GFateType");
+define_sheet!(GFateTypeSheet, GFateTypeRow, "GFateType", no_language_support);

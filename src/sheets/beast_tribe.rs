@@ -31,4 +31,4 @@ impl BeastTribeRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(BeastTribeSheet, BeastTribeRow, "BeastTribe");
+define_sheet!(BeastTribeSheet, BeastTribeRow, "BeastTribe", language_support);

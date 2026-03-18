@@ -21,4 +21,4 @@ impl CharaCardDesignPresetRow {
     u8_field!(bottom_border, 2);
 }
 
-define_sheet!(CharaCardDesignPresetSheet, CharaCardDesignPresetRow, "CharaCardDesignPreset");
+define_sheet!(CharaCardDesignPresetSheet, CharaCardDesignPresetRow, "CharaCardDesignPreset", language_support);

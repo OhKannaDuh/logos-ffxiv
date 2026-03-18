@@ -16,4 +16,4 @@ impl MJIDisposalShopItemRow {
     u8_field!(unknown_3, 4);
 }
 
-define_sheet!(MJIDisposalShopItemSheet, MJIDisposalShopItemRow, "MJIDisposalShopItem");
+define_sheet!(MJIDisposalShopItemSheet, MJIDisposalShopItemRow, "MJIDisposalShopItem", no_language_support);

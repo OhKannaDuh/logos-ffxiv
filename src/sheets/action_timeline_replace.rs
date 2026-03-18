@@ -13,4 +13,4 @@ impl ActionTimelineReplaceRow {
     u16_field!(new, 1);
 }
 
-define_sheet!(ActionTimelineReplaceSheet, ActionTimelineReplaceRow, "ActionTimelineReplace");
+define_sheet!(ActionTimelineReplaceSheet, ActionTimelineReplaceRow, "ActionTimelineReplace", no_language_support);

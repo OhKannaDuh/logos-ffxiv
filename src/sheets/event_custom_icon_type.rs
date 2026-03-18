@@ -22,4 +22,4 @@ impl EventCustomIconTypeRow {
     u8_field!(unknown_0, 50);
 }
 
-define_sheet!(EventCustomIconTypeSheet, EventCustomIconTypeRow, "EventCustomIconType");
+define_sheet!(EventCustomIconTypeSheet, EventCustomIconTypeRow, "EventCustomIconType", no_language_support);

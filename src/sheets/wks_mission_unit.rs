@@ -40,4 +40,4 @@ impl WKSMissionUnitRow {
     bool_field!(is_special_quest, 5);
 }
 
-define_sheet!(WKSMissionUnitSheet, WKSMissionUnitRow, "WKSMissionUnit");
+define_sheet!(WKSMissionUnitSheet, WKSMissionUnitRow, "WKSMissionUnit", language_support);

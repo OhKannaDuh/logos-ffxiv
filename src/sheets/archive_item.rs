@@ -14,4 +14,4 @@ impl ArchiveItemRow {
     bool_field!(unknown_2, 2);
 }
 
-define_sheet!(ArchiveItemSheet, ArchiveItemRow, "ArchiveItem");
+define_sheet!(ArchiveItemSheet, ArchiveItemRow, "ArchiveItem", no_language_support);

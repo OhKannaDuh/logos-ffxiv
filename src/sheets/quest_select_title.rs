@@ -12,4 +12,4 @@ impl QuestSelectTitleRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestSelectTitleSheet, QuestSelectTitleRow, "QuestSelectTitle");
+define_sheet!(QuestSelectTitleSheet, QuestSelectTitleRow, "QuestSelectTitle", no_language_support);

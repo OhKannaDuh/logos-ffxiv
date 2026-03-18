@@ -12,4 +12,4 @@ impl GatheringConditionRow {
     string_field!(text, 0);
 }
 
-define_sheet!(GatheringConditionSheet, GatheringConditionRow, "GatheringCondition");
+define_sheet!(GatheringConditionSheet, GatheringConditionRow, "GatheringCondition", language_support);

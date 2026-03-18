@@ -12,4 +12,4 @@ impl SkyIslandRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(SkyIslandSheet, SkyIslandRow, "SkyIsland");
+define_sheet!(SkyIslandSheet, SkyIslandRow, "SkyIsland", no_language_support);

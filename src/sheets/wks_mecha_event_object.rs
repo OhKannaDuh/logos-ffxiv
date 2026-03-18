@@ -17,4 +17,4 @@ impl WKSMechaEventObjectRow {
     u8_field!(unknown_4, 5);
 }
 
-define_sheet!(WKSMechaEventObjectSheet, WKSMechaEventObjectRow, "WKSMechaEventObject");
+define_sheet!(WKSMechaEventObjectSheet, WKSMechaEventObjectRow, "WKSMechaEventObject", no_language_support);

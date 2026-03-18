@@ -12,4 +12,4 @@ impl MJICraftworksRankRatioRow {
     u16_field!(ratio, 0);
 }
 
-define_sheet!(MJICraftworksRankRatioSheet, MJICraftworksRankRatioRow, "MJICraftworksRankRatio");
+define_sheet!(MJICraftworksRankRatioSheet, MJICraftworksRankRatioRow, "MJICraftworksRankRatio", no_language_support);

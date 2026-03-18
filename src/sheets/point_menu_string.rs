@@ -12,4 +12,4 @@ impl PointMenuStringRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(PointMenuStringSheet, PointMenuStringRow, "PointMenuString");
+define_sheet!(PointMenuStringSheet, PointMenuStringRow, "PointMenuString", language_support);

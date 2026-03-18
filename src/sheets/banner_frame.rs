@@ -20,4 +20,4 @@ impl BannerFrameRow {
     u8_field!(category, 2);
 }
 
-define_sheet!(BannerFrameSheet, BannerFrameRow, "BannerFrame");
+define_sheet!(BannerFrameSheet, BannerFrameRow, "BannerFrame", language_support);

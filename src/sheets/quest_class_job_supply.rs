@@ -23,4 +23,4 @@ impl QuestClassJobSupplyRow {
     bool_field!(item_hq, 5);
 }
 
-define_sheet!(QuestClassJobSupplySheet, QuestClassJobSupplyRow, "QuestClassJobSupply");
+define_sheet!(QuestClassJobSupplySheet, QuestClassJobSupplyRow, "QuestClassJobSupply", no_language_support);

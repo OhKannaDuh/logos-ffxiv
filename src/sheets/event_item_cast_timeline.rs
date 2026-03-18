@@ -12,4 +12,4 @@ impl EventItemCastTimelineRow {
     u32_field!(action_timeline, 0);
 }
 
-define_sheet!(EventItemCastTimelineSheet, EventItemCastTimelineRow, "EventItemCastTimeline");
+define_sheet!(EventItemCastTimelineSheet, EventItemCastTimelineRow, "EventItemCastTimeline", no_language_support);

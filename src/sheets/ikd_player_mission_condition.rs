@@ -13,4 +13,4 @@ impl IKDPlayerMissionConditionRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(IKDPlayerMissionConditionSheet, IKDPlayerMissionConditionRow, "IKDPlayerMissionCondition");
+define_sheet!(IKDPlayerMissionConditionSheet, IKDPlayerMissionConditionRow, "IKDPlayerMissionCondition", language_support);

@@ -46,4 +46,4 @@ impl MJIBuildingRow {
     array_field!(amount, 27, 5, MJIBuildingAmount);
 }
 
-define_sheet!(MJIBuildingSheet, MJIBuildingRow, "MJIBuilding");
+define_sheet!(MJIBuildingSheet, MJIBuildingRow, "MJIBuilding", no_language_support);

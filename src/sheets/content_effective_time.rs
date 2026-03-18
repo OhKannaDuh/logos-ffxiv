@@ -12,4 +12,4 @@ impl ContentEffectiveTimeRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(ContentEffectiveTimeSheet, ContentEffectiveTimeRow, "ContentEffectiveTime");
+define_sheet!(ContentEffectiveTimeSheet, ContentEffectiveTimeRow, "ContentEffectiveTime", no_language_support);

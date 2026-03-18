@@ -13,4 +13,4 @@ impl RacingChocoboNameCategoryRow {
     u8_field!(sort_key, 0);
 }
 
-define_sheet!(RacingChocoboNameCategorySheet, RacingChocoboNameCategoryRow, "RacingChocoboNameCategory");
+define_sheet!(RacingChocoboNameCategorySheet, RacingChocoboNameCategoryRow, "RacingChocoboNameCategory", language_support);

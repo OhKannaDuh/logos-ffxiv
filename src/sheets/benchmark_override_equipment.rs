@@ -41,4 +41,4 @@ impl BenchmarkOverrideEquipmentRow {
     i8_field!(unknown_5, 3);
 }
 
-define_sheet!(BenchmarkOverrideEquipmentSheet, BenchmarkOverrideEquipmentRow, "BenchmarkOverrideEquipment");
+define_sheet!(BenchmarkOverrideEquipmentSheet, BenchmarkOverrideEquipmentRow, "BenchmarkOverrideEquipment", no_language_support);

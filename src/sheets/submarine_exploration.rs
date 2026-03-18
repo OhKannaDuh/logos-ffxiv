@@ -24,4 +24,4 @@ impl SubmarineExplorationRow {
     bool_field!(starting_point, 6);
 }
 
-define_sheet!(SubmarineExplorationSheet, SubmarineExplorationRow, "SubmarineExploration");
+define_sheet!(SubmarineExplorationSheet, SubmarineExplorationRow, "SubmarineExploration", language_support);

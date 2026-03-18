@@ -22,4 +22,4 @@ impl CutsceneMotionRow {
     u8_field!(turn_ccw_180_frame, 10);
 }
 
-define_sheet!(CutsceneMotionSheet, CutsceneMotionRow, "CutsceneMotion");
+define_sheet!(CutsceneMotionSheet, CutsceneMotionRow, "CutsceneMotion", no_language_support);

@@ -22,4 +22,4 @@ impl MYCWarResultNotebookRow {
     u8_field!(rarity, 7);
 }
 
-define_sheet!(MYCWarResultNotebookSheet, MYCWarResultNotebookRow, "MYCWarResultNotebook");
+define_sheet!(MYCWarResultNotebookSheet, MYCWarResultNotebookRow, "MYCWarResultNotebook", language_support);

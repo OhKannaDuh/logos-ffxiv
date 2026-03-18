@@ -32,4 +32,4 @@ impl MapRow {
     bool_field!(unknown_1, 19);
 }
 
-define_sheet!(MapSheet, MapRow, "Map");
+define_sheet!(MapSheet, MapRow, "Map", no_language_support);

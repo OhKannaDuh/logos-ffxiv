@@ -12,4 +12,4 @@ impl PvPRankRow {
     u32_field!(exp_required, 0);
 }
 
-define_sheet!(PvPRankSheet, PvPRankRow, "PvPRank");
+define_sheet!(PvPRankSheet, PvPRankRow, "PvPRank", no_language_support);

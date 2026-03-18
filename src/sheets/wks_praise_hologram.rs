@@ -15,4 +15,4 @@ impl WKSPraiseHologramRow {
     u16_field!(unknown_3, 3);
 }
 
-define_sheet!(WKSPraiseHologramSheet, WKSPraiseHologramRow, "WKSPraiseHologram");
+define_sheet!(WKSPraiseHologramSheet, WKSPraiseHologramRow, "WKSPraiseHologram", no_language_support);

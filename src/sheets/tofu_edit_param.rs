@@ -16,4 +16,4 @@ impl TofuEditParamRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(TofuEditParamSheet, TofuEditParamRow, "TofuEditParam");
+define_sheet!(TofuEditParamSheet, TofuEditParamRow, "TofuEditParam", language_support);

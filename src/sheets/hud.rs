@@ -14,4 +14,4 @@ impl HudRow {
     string_field!(unknown_2, 2);
 }
 
-define_sheet!(HudSheet, HudRow, "Hud");
+define_sheet!(HudSheet, HudRow, "Hud", language_support);

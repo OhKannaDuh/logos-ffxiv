@@ -12,4 +12,4 @@ impl TreasureHuntTextureRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(TreasureHuntTextureSheet, TreasureHuntTextureRow, "TreasureHuntTexture");
+define_sheet!(TreasureHuntTextureSheet, TreasureHuntTextureRow, "TreasureHuntTexture", no_language_support);

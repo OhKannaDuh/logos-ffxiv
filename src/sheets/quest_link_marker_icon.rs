@@ -12,4 +12,4 @@ impl QuestLinkMarkerIconRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(QuestLinkMarkerIconSheet, QuestLinkMarkerIconRow, "QuestLinkMarkerIcon");
+define_sheet!(QuestLinkMarkerIconSheet, QuestLinkMarkerIconRow, "QuestLinkMarkerIcon", no_language_support);

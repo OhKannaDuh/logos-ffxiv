@@ -55,4 +55,4 @@ impl TerritoryTypeRow {
     bool_field!(unknown_16, 42);
 }
 
-define_sheet!(TerritoryTypeSheet, TerritoryTypeRow, "TerritoryType");
+define_sheet!(TerritoryTypeSheet, TerritoryTypeRow, "TerritoryType", no_language_support);

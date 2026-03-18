@@ -12,4 +12,4 @@ impl SnipeElementIdRow {
     i8_field!(unknown_0, 0);
 }
 
-define_sheet!(SnipeElementIdSheet, SnipeElementIdRow, "SnipeElementId");
+define_sheet!(SnipeElementIdSheet, SnipeElementIdRow, "SnipeElementId", no_language_support);

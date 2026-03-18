@@ -13,4 +13,4 @@ impl AchievementTargetRow {
     u8_field!(type_, 0);
 }
 
-define_sheet!(AchievementTargetSheet, AchievementTargetRow, "AchievementTarget");
+define_sheet!(AchievementTargetSheet, AchievementTargetRow, "AchievementTarget", no_language_support);

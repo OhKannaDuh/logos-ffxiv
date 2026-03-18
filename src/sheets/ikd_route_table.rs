@@ -13,4 +13,4 @@ impl IKDRouteTableRow {
     u32_field!(unknown_0, 1);
 }
 
-define_sheet!(IKDRouteTableSheet, IKDRouteTableRow, "IKDRouteTable");
+define_sheet!(IKDRouteTableSheet, IKDRouteTableRow, "IKDRouteTable", no_language_support);

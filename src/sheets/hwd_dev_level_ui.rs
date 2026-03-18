@@ -13,4 +13,4 @@ impl HWDDevLevelUIRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(HWDDevLevelUISheet, HWDDevLevelUIRow, "HWDDevLevelUI");
+define_sheet!(HWDDevLevelUISheet, HWDDevLevelUIRow, "HWDDevLevelUI", no_language_support);

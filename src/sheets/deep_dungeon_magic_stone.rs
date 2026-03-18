@@ -22,4 +22,4 @@ impl DeepDungeonMagicStoneRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(DeepDungeonMagicStoneSheet, DeepDungeonMagicStoneRow, "DeepDungeonMagicStone");
+define_sheet!(DeepDungeonMagicStoneSheet, DeepDungeonMagicStoneRow, "DeepDungeonMagicStone", language_support);

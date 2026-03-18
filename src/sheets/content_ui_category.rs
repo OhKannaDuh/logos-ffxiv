@@ -12,4 +12,4 @@ impl ContentUICategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(ContentUICategorySheet, ContentUICategoryRow, "ContentUICategory");
+define_sheet!(ContentUICategorySheet, ContentUICategoryRow, "ContentUICategory", language_support);

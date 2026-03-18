@@ -18,4 +18,4 @@ impl ExVersionRow {
     u16_field!(complete_jingle, 2);
 }
 
-define_sheet!(ExVersionSheet, ExVersionRow, "ExVersion");
+define_sheet!(ExVersionSheet, ExVersionRow, "ExVersion", language_support);

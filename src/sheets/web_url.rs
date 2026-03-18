@@ -12,4 +12,4 @@ impl WebURLRow {
     string_field!(url, 0);
 }
 
-define_sheet!(WebURLSheet, WebURLRow, "WebURL");
+define_sheet!(WebURLSheet, WebURLRow, "WebURL", language_support);

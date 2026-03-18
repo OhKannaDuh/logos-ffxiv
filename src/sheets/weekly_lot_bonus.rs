@@ -19,4 +19,4 @@ impl WeeklyLotBonusRow {
     array_field!(weekly_lot_bonus_param, 0, 32, WeeklyLotBonusWeeklyLotBonusParam);
 }
 
-define_sheet!(WeeklyLotBonusSheet, WeeklyLotBonusRow, "WeeklyLotBonus");
+define_sheet!(WeeklyLotBonusSheet, WeeklyLotBonusRow, "WeeklyLotBonus", no_language_support);

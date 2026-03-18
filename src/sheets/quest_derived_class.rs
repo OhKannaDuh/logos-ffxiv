@@ -12,4 +12,4 @@ impl QuestDerivedClassRow {
     u8_field!(class_job, 0);
 }
 
-define_sheet!(QuestDerivedClassSheet, QuestDerivedClassRow, "QuestDerivedClass");
+define_sheet!(QuestDerivedClassSheet, QuestDerivedClassRow, "QuestDerivedClass", no_language_support);

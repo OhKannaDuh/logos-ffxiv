@@ -17,4 +17,4 @@ impl DisposalShopItemRow {
     bool_field!(unknown_2, 3);
 }
 
-define_sheet!(DisposalShopItemSheet, DisposalShopItemRow, "DisposalShopItem");
+define_sheet!(DisposalShopItemSheet, DisposalShopItemRow, "DisposalShopItem", no_language_support);

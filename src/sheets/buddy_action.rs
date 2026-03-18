@@ -17,4 +17,4 @@ impl BuddyActionRow {
     u8_field!(sort, 5);
 }
 
-define_sheet!(BuddyActionSheet, BuddyActionRow, "BuddyAction");
+define_sheet!(BuddyActionSheet, BuddyActionRow, "BuddyAction", language_support);

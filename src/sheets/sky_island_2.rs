@@ -13,4 +13,4 @@ impl SkyIsland2Row {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(SkyIsland2Sheet, SkyIsland2Row, "SkyIsland2");
+define_sheet!(SkyIsland2Sheet, SkyIsland2Row, "SkyIsland2", no_language_support);

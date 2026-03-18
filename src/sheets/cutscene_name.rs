@@ -12,4 +12,4 @@ impl CutsceneNameRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(CutsceneNameSheet, CutsceneNameRow, "CutsceneName");
+define_sheet!(CutsceneNameSheet, CutsceneNameRow, "CutsceneName", language_support);

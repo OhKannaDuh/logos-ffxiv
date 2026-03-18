@@ -19,4 +19,4 @@ impl MJIRankRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(MJIRankSheet, MJIRankRow, "MJIRank");
+define_sheet!(MJIRankSheet, MJIRankRow, "MJIRank", no_language_support);

@@ -12,4 +12,4 @@ impl OrchestrionPathRow {
     string_field!(file, 0);
 }
 
-define_sheet!(OrchestrionPathSheet, OrchestrionPathRow, "OrchestrionPath");
+define_sheet!(OrchestrionPathSheet, OrchestrionPathRow, "OrchestrionPath", no_language_support);

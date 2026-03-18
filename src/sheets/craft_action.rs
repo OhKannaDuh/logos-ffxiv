@@ -31,4 +31,4 @@ impl CraftActionRow {
     bool_field!(specialist, 9);
 }
 
-define_sheet!(CraftActionSheet, CraftActionRow, "CraftAction");
+define_sheet!(CraftActionSheet, CraftActionRow, "CraftAction", language_support);

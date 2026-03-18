@@ -17,4 +17,4 @@ impl GuildleveAssignmentCategoryRow {
     array_field!(category, 0, 8, GuildleveAssignmentCategoryCategory);
 }
 
-define_sheet!(GuildleveAssignmentCategorySheet, GuildleveAssignmentCategoryRow, "GuildleveAssignmentCategory");
+define_sheet!(GuildleveAssignmentCategorySheet, GuildleveAssignmentCategoryRow, "GuildleveAssignmentCategory", no_language_support);

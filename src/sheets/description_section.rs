@@ -13,4 +13,4 @@ impl DescriptionSectionRow {
     u16_field!(page, 1);
 }
 
-define_sheet!(DescriptionSectionSheet, DescriptionSectionRow, "DescriptionSection");
+define_sheet!(DescriptionSectionSheet, DescriptionSectionRow, "DescriptionSection", no_language_support);

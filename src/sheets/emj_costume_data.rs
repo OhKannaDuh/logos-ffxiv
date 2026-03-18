@@ -12,4 +12,4 @@ impl EmjCostumeDataRow {
     string_field!(name, 0);
 }
 
-define_sheet!(EmjCostumeDataSheet, EmjCostumeDataRow, "EmjCostumeData");
+define_sheet!(EmjCostumeDataSheet, EmjCostumeDataRow, "EmjCostumeData", language_support);

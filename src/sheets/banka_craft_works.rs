@@ -14,4 +14,4 @@ impl BankaCraftWorksRow {
     u16_field!(unknown_2, 1);
 }
 
-define_sheet!(BankaCraftWorksSheet, BankaCraftWorksRow, "BankaCraftWorks");
+define_sheet!(BankaCraftWorksSheet, BankaCraftWorksRow, "BankaCraftWorks", language_support);

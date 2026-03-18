@@ -26,4 +26,4 @@ impl MJIVillageDevelopmentRow {
     u8_field!(unknown_11, 14);
 }
 
-define_sheet!(MJIVillageDevelopmentSheet, MJIVillageDevelopmentRow, "MJIVillageDevelopment");
+define_sheet!(MJIVillageDevelopmentSheet, MJIVillageDevelopmentRow, "MJIVillageDevelopment", no_language_support);

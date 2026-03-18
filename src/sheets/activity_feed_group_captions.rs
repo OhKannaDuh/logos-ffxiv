@@ -15,4 +15,4 @@ impl ActivityFeedGroupCaptionsRow {
     string_field!(fr, 3);
 }
 
-define_sheet!(ActivityFeedGroupCaptionsSheet, ActivityFeedGroupCaptionsRow, "ActivityFeedGroupCaptions");
+define_sheet!(ActivityFeedGroupCaptionsSheet, ActivityFeedGroupCaptionsRow, "ActivityFeedGroupCaptions", no_language_support);

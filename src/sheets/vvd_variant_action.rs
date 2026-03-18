@@ -12,4 +12,4 @@ impl VVDVariantActionRow {
     u32_field!(action, 0);
 }
 
-define_sheet!(VVDVariantActionSheet, VVDVariantActionRow, "VVDVariantAction");
+define_sheet!(VVDVariantActionSheet, VVDVariantActionRow, "VVDVariantAction", no_language_support);

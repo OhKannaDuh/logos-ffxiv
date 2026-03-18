@@ -22,4 +22,4 @@ impl MJILandmarkPlaceRow {
     u8_field!(unknown_3, 4);
 }
 
-define_sheet!(MJILandmarkPlaceSheet, MJILandmarkPlaceRow, "MJILandmarkPlace");
+define_sheet!(MJILandmarkPlaceSheet, MJILandmarkPlaceRow, "MJILandmarkPlace", no_language_support);

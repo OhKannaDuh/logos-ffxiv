@@ -15,4 +15,4 @@ impl GoldSaucerContentRow {
     u8_field!(time_limit, 1);
 }
 
-define_sheet!(GoldSaucerContentSheet, GoldSaucerContentRow, "GoldSaucerContent");
+define_sheet!(GoldSaucerContentSheet, GoldSaucerContentRow, "GoldSaucerContent", no_language_support);

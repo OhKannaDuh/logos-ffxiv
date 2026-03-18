@@ -12,4 +12,4 @@ impl FashionCheckThemeCategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(FashionCheckThemeCategorySheet, FashionCheckThemeCategoryRow, "FashionCheckThemeCategory");
+define_sheet!(FashionCheckThemeCategorySheet, FashionCheckThemeCategoryRow, "FashionCheckThemeCategory", language_support);

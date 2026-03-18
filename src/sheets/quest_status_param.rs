@@ -14,4 +14,4 @@ impl QuestStatusParamRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(QuestStatusParamSheet, QuestStatusParamRow, "QuestStatusParam");
+define_sheet!(QuestStatusParamSheet, QuestStatusParamRow, "QuestStatusParam", no_language_support);

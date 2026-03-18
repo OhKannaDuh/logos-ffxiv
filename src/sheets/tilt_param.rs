@@ -17,4 +17,4 @@ impl TiltParamRow {
     bool_field!(unknown_5, 2);
 }
 
-define_sheet!(TiltParamSheet, TiltParamRow, "TiltParam");
+define_sheet!(TiltParamSheet, TiltParamRow, "TiltParam", no_language_support);

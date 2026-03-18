@@ -14,4 +14,4 @@ impl SpearfishingComboTargetRow {
     string_field!(unknown_70, 2);
 }
 
-define_sheet!(SpearfishingComboTargetSheet, SpearfishingComboTargetRow, "SpearfishingComboTarget");
+define_sheet!(SpearfishingComboTargetSheet, SpearfishingComboTargetRow, "SpearfishingComboTarget", language_support);

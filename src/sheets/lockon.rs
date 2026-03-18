@@ -13,4 +13,4 @@ impl LockonRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(LockonSheet, LockonRow, "Lockon");
+define_sheet!(LockonSheet, LockonRow, "Lockon", no_language_support);

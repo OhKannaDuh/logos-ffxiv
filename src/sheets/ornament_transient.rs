@@ -12,4 +12,4 @@ impl OrnamentTransientRow {
     string_field!(text, 0);
 }
 
-define_sheet!(OrnamentTransientSheet, OrnamentTransientRow, "OrnamentTransient");
+define_sheet!(OrnamentTransientSheet, OrnamentTransientRow, "OrnamentTransient", language_support);

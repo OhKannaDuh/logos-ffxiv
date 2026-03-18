@@ -14,4 +14,4 @@ impl MapSymbolRow {
     bool_field!(display_navi, 2);
 }
 
-define_sheet!(MapSymbolSheet, MapSymbolRow, "MapSymbol");
+define_sheet!(MapSymbolSheet, MapSymbolRow, "MapSymbol", no_language_support);

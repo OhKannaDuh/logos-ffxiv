@@ -28,4 +28,4 @@ impl GuildOrderRow {
     u32_field!(e_npc_name, 0);
 }
 
-define_sheet!(GuildOrderSheet, GuildOrderRow, "GuildOrder");
+define_sheet!(GuildOrderSheet, GuildOrderRow, "GuildOrder", language_support);

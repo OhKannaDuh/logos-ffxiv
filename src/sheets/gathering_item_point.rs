@@ -12,4 +12,4 @@ impl GatheringItemPointRow {
     u32_field!(gathering_point, 0);
 }
 
-define_sheet!(GatheringItemPointSheet, GatheringItemPointRow, "GatheringItemPoint");
+define_sheet!(GatheringItemPointSheet, GatheringItemPointRow, "GatheringItemPoint", no_language_support);

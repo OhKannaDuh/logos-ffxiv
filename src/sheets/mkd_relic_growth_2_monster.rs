@@ -15,4 +15,4 @@ impl MKDRelicGrowth2MonsterRow {
     u8_field!(unknown_3, 1);
 }
 
-define_sheet!(MKDRelicGrowth2MonsterSheet, MKDRelicGrowth2MonsterRow, "MKDRelicGrowth2Monster");
+define_sheet!(MKDRelicGrowth2MonsterSheet, MKDRelicGrowth2MonsterRow, "MKDRelicGrowth2Monster", language_support);

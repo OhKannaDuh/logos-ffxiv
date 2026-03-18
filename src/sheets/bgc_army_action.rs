@@ -16,4 +16,4 @@ impl BgcArmyActionRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(BgcArmyActionSheet, BgcArmyActionRow, "BgcArmyAction");
+define_sheet!(BgcArmyActionSheet, BgcArmyActionRow, "BgcArmyAction", language_support);

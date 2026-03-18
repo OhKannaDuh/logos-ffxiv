@@ -12,4 +12,4 @@ impl CompanyCraftTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(CompanyCraftTypeSheet, CompanyCraftTypeRow, "CompanyCraftType");
+define_sheet!(CompanyCraftTypeSheet, CompanyCraftTypeRow, "CompanyCraftType", language_support);

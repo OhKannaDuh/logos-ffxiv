@@ -13,4 +13,4 @@ impl PictureRow {
     i32_field!(signature, 1);
 }
 
-define_sheet!(PictureSheet, PictureRow, "Picture");
+define_sheet!(PictureSheet, PictureRow, "Picture", no_language_support);

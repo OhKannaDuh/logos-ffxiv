@@ -12,4 +12,4 @@ impl TripleTriadCompetitionRow {
     string_field!(name, 0);
 }
 
-define_sheet!(TripleTriadCompetitionSheet, TripleTriadCompetitionRow, "TripleTriadCompetition");
+define_sheet!(TripleTriadCompetitionSheet, TripleTriadCompetitionRow, "TripleTriadCompetition", language_support);

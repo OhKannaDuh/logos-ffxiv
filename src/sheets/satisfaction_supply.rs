@@ -21,4 +21,4 @@ impl SatisfactionSupplyRow {
     bool_field!(is_bonus, 7);
 }
 
-define_sheet!(SatisfactionSupplySheet, SatisfactionSupplyRow, "SatisfactionSupply");
+define_sheet!(SatisfactionSupplySheet, SatisfactionSupplyRow, "SatisfactionSupply", no_language_support);

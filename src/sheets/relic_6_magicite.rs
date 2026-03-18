@@ -15,4 +15,4 @@ impl Relic6MagiciteRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(Relic6MagiciteSheet, Relic6MagiciteRow, "Relic6Magicite");
+define_sheet!(Relic6MagiciteSheet, Relic6MagiciteRow, "Relic6Magicite", language_support);

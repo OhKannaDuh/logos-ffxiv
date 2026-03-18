@@ -14,4 +14,4 @@ impl HWDDevLivelyRow {
     u8_field!(unknown_1, 2);
 }
 
-define_sheet!(HWDDevLivelySheet, HWDDevLivelyRow, "HWDDevLively");
+define_sheet!(HWDDevLivelySheet, HWDDevLivelyRow, "HWDDevLively", no_language_support);

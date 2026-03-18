@@ -15,4 +15,4 @@ impl TripleTriadTournamentRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(TripleTriadTournamentSheet, TripleTriadTournamentRow, "TripleTriadTournament");
+define_sheet!(TripleTriadTournamentSheet, TripleTriadTournamentRow, "TripleTriadTournament", no_language_support);

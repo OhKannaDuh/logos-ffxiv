@@ -12,4 +12,4 @@ impl VFXRow {
     string_field!(location, 0);
 }
 
-define_sheet!(VFXSheet, VFXRow, "VFX");
+define_sheet!(VFXSheet, VFXRow, "VFX", no_language_support);

@@ -18,4 +18,4 @@ impl ChocoboTaxiStandRow {
     array_field!(target_locations, 1, 8, ChocoboTaxiStandTargetLocations);
 }
 
-define_sheet!(ChocoboTaxiStandSheet, ChocoboTaxiStandRow, "ChocoboTaxiStand");
+define_sheet!(ChocoboTaxiStandSheet, ChocoboTaxiStandRow, "ChocoboTaxiStand", language_support);

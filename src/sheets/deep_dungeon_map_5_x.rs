@@ -17,4 +17,4 @@ impl DeepDungeonMap5XRow {
     array_field!(deep_dungeon_room, 0, 5, DeepDungeonMap5XDeepDungeonRoom);
 }
 
-define_sheet!(DeepDungeonMap5XSheet, DeepDungeonMap5XRow, "DeepDungeonMap5X");
+define_sheet!(DeepDungeonMap5XSheet, DeepDungeonMap5XRow, "DeepDungeonMap5X", no_language_support);

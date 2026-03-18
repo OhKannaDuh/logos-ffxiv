@@ -18,4 +18,4 @@ impl AddonTalkParamRow {
     i16_field!(unknown_6, 6);
 }
 
-define_sheet!(AddonTalkParamSheet, AddonTalkParamRow, "AddonTalkParam");
+define_sheet!(AddonTalkParamSheet, AddonTalkParamRow, "AddonTalkParam", no_language_support);

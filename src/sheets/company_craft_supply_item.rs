@@ -12,4 +12,4 @@ impl CompanyCraftSupplyItemRow {
     u32_field!(item, 0);
 }
 
-define_sheet!(CompanyCraftSupplyItemSheet, CompanyCraftSupplyItemRow, "CompanyCraftSupplyItem");
+define_sheet!(CompanyCraftSupplyItemSheet, CompanyCraftSupplyItemRow, "CompanyCraftSupplyItem", no_language_support);

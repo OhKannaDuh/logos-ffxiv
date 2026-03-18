@@ -13,4 +13,4 @@ impl MacroIconRow {
     u16_field!(unknown_0, 1);
 }
 
-define_sheet!(MacroIconSheet, MacroIconRow, "MacroIcon");
+define_sheet!(MacroIconSheet, MacroIconRow, "MacroIcon", no_language_support);

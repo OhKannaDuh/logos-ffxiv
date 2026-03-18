@@ -33,4 +33,4 @@ impl GoldSaucerTalkRow {
     bool_field!(unknown_27, 6);
 }
 
-define_sheet!(GoldSaucerTalkSheet, GoldSaucerTalkRow, "GoldSaucerTalk");
+define_sheet!(GoldSaucerTalkSheet, GoldSaucerTalkRow, "GoldSaucerTalk", language_support);

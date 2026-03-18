@@ -12,4 +12,4 @@ impl PlatformRow {
     string_field!(name, 0);
 }
 
-define_sheet!(PlatformSheet, PlatformRow, "Platform");
+define_sheet!(PlatformSheet, PlatformRow, "Platform", language_support);

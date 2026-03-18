@@ -26,4 +26,4 @@ impl BNpcStateRow {
     bool_field!(unknown_3, 14);
 }
 
-define_sheet!(BNpcStateSheet, BNpcStateRow, "BNpcState");
+define_sheet!(BNpcStateSheet, BNpcStateRow, "BNpcState", no_language_support);

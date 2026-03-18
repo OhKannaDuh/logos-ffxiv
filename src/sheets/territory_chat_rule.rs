@@ -19,4 +19,4 @@ impl TerritoryChatRuleRow {
     bool_field!(unknown_7, 0);
 }
 
-define_sheet!(TerritoryChatRuleSheet, TerritoryChatRuleRow, "TerritoryChatRule");
+define_sheet!(TerritoryChatRuleSheet, TerritoryChatRuleRow, "TerritoryChatRule", no_language_support);

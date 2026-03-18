@@ -74,4 +74,4 @@ impl CharaMakeTypeRow {
     i8_field!(gender, 2);
 }
 
-define_sheet!(CharaMakeTypeSheet, CharaMakeTypeRow, "CharaMakeType");
+define_sheet!(CharaMakeTypeSheet, CharaMakeTypeRow, "CharaMakeType", language_support);

@@ -18,4 +18,4 @@ impl StainRow {
     bool_field!(is_housing_applicable, 6);
 }
 
-define_sheet!(StainSheet, StainRow, "Stain");
+define_sheet!(StainSheet, StainRow, "Stain", language_support);

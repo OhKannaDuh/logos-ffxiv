@@ -23,4 +23,4 @@ impl TofuPresetRow {
     bool_field!(unknown_13, 0);
 }
 
-define_sheet!(TofuPresetSheet, TofuPresetRow, "TofuPreset");
+define_sheet!(TofuPresetSheet, TofuPresetRow, "TofuPreset", language_support);

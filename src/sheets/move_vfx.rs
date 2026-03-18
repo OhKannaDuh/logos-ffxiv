@@ -13,4 +13,4 @@ impl MoveVfxRow {
     u16_field!(vfx_walking, 1);
 }
 
-define_sheet!(MoveVfxSheet, MoveVfxRow, "MoveVfx");
+define_sheet!(MoveVfxSheet, MoveVfxRow, "MoveVfx", no_language_support);

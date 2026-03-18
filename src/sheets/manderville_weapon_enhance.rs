@@ -33,4 +33,4 @@ impl MandervilleWeaponEnhanceRow {
     array_field!(materia_small_value_index, 12, 4, MandervilleWeaponEnhanceMateriaSmallValueIndex);
 }
 
-define_sheet!(MandervilleWeaponEnhanceSheet, MandervilleWeaponEnhanceRow, "MandervilleWeaponEnhance");
+define_sheet!(MandervilleWeaponEnhanceSheet, MandervilleWeaponEnhanceRow, "MandervilleWeaponEnhance", no_language_support);

@@ -17,4 +17,4 @@ impl RideShootingTargetRow {
     u8_field!(unknown_5, 5);
 }
 
-define_sheet!(RideShootingTargetSheet, RideShootingTargetRow, "RideShootingTarget");
+define_sheet!(RideShootingTargetSheet, RideShootingTargetRow, "RideShootingTarget", no_language_support);

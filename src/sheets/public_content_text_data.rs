@@ -12,4 +12,4 @@ impl PublicContentTextDataRow {
     string_field!(text_data, 0);
 }
 
-define_sheet!(PublicContentTextDataSheet, PublicContentTextDataRow, "PublicContentTextData");
+define_sheet!(PublicContentTextDataSheet, PublicContentTextDataRow, "PublicContentTextData", language_support);

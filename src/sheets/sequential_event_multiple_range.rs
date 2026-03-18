@@ -13,4 +13,4 @@ impl SequentialEventMultipleRangeRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(SequentialEventMultipleRangeSheet, SequentialEventMultipleRangeRow, "SequentialEventMultipleRange");
+define_sheet!(SequentialEventMultipleRangeSheet, SequentialEventMultipleRangeRow, "SequentialEventMultipleRange", no_language_support);

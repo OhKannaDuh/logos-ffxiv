@@ -14,4 +14,4 @@ impl WKSAchievementRewardItemRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(WKSAchievementRewardItemSheet, WKSAchievementRewardItemRow, "WKSAchievementRewardItem");
+define_sheet!(WKSAchievementRewardItemSheet, WKSAchievementRewardItemRow, "WKSAchievementRewardItem", no_language_support);

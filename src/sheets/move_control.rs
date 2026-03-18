@@ -21,4 +21,4 @@ impl MoveControlRow {
     u8_field!(unknown_9, 9);
 }
 
-define_sheet!(MoveControlSheet, MoveControlRow, "MoveControl");
+define_sheet!(MoveControlSheet, MoveControlRow, "MoveControl", no_language_support);

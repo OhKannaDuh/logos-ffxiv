@@ -17,4 +17,4 @@ impl AirshipSkyIslandRow {
     u8_field!(unknown_5, 5);
 }
 
-define_sheet!(AirshipSkyIslandSheet, AirshipSkyIslandRow, "AirshipSkyIsland");
+define_sheet!(AirshipSkyIslandSheet, AirshipSkyIslandRow, "AirshipSkyIsland", no_language_support);

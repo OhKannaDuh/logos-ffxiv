@@ -37,4 +37,4 @@ impl BNpcCustomizeRow {
     u8_field!(face_paint_color, 25);
 }
 
-define_sheet!(BNpcCustomizeSheet, BNpcCustomizeRow, "BNpcCustomize");
+define_sheet!(BNpcCustomizeSheet, BNpcCustomizeRow, "BNpcCustomize", no_language_support);

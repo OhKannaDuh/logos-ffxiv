@@ -21,4 +21,4 @@ impl SnipePerformanceCameraRow {
     u8_field!(unknown_9, 0);
 }
 
-define_sheet!(SnipePerformanceCameraSheet, SnipePerformanceCameraRow, "SnipePerformanceCamera");
+define_sheet!(SnipePerformanceCameraSheet, SnipePerformanceCameraRow, "SnipePerformanceCamera", no_language_support);

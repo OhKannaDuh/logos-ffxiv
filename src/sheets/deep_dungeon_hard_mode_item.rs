@@ -14,4 +14,4 @@ impl DeepDungeonHardModeItemRow {
     u16_field!(unknown_2, 0);
 }
 
-define_sheet!(DeepDungeonHardModeItemSheet, DeepDungeonHardModeItemRow, "DeepDungeonHardModeItem");
+define_sheet!(DeepDungeonHardModeItemSheet, DeepDungeonHardModeItemRow, "DeepDungeonHardModeItem", no_language_support);

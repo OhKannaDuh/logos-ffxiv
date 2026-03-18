@@ -30,4 +30,4 @@ impl MKDSupportJobRow {
     array_field!(level_unlock, 12, 5, MKDSupportJobLevelUnlock);
 }
 
-define_sheet!(MKDSupportJobSheet, MKDSupportJobRow, "MKDSupportJob");
+define_sheet!(MKDSupportJobSheet, MKDSupportJobRow, "MKDSupportJob", language_support);

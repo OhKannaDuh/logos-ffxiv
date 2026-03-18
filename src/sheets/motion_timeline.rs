@@ -19,4 +19,4 @@ impl MotionTimelineRow {
     bool_field!(unknown_0, 7);
 }
 
-define_sheet!(MotionTimelineSheet, MotionTimelineRow, "MotionTimeline");
+define_sheet!(MotionTimelineSheet, MotionTimelineRow, "MotionTimeline", no_language_support);

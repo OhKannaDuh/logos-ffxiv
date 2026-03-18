@@ -14,4 +14,4 @@ impl YardCatalogCategoryRow {
     u8_field!(unknown_1, 2);
 }
 
-define_sheet!(YardCatalogCategorySheet, YardCatalogCategoryRow, "YardCatalogCategory");
+define_sheet!(YardCatalogCategorySheet, YardCatalogCategoryRow, "YardCatalogCategory", language_support);

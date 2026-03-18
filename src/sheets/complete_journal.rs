@@ -23,4 +23,4 @@ impl CompleteJournalRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(CompleteJournalSheet, CompleteJournalRow, "CompleteJournal");
+define_sheet!(CompleteJournalSheet, CompleteJournalRow, "CompleteJournal", language_support);

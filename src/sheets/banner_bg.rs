@@ -20,4 +20,4 @@ impl BannerBgRow {
     u8_field!(category, 2);
 }
 
-define_sheet!(BannerBgSheet, BannerBgRow, "BannerBg");
+define_sheet!(BannerBgSheet, BannerBgRow, "BannerBg", language_support);

@@ -14,4 +14,4 @@ impl InclusionShopWelcomRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(InclusionShopWelcomSheet, InclusionShopWelcomRow, "InclusionShopWelcom");
+define_sheet!(InclusionShopWelcomSheet, InclusionShopWelcomRow, "InclusionShopWelcom", no_language_support);

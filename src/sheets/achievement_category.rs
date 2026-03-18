@@ -16,4 +16,4 @@ impl AchievementCategoryRow {
     bool_field!(hide_category, 3);
 }
 
-define_sheet!(AchievementCategorySheet, AchievementCategoryRow, "AchievementCategory");
+define_sheet!(AchievementCategorySheet, AchievementCategoryRow, "AchievementCategory", language_support);

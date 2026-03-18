@@ -29,4 +29,4 @@ impl PublicContentRow {
     u8_field!(unknown_4, 11);
 }
 
-define_sheet!(PublicContentSheet, PublicContentRow, "PublicContent");
+define_sheet!(PublicContentSheet, PublicContentRow, "PublicContent", language_support);

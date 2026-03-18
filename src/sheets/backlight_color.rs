@@ -12,4 +12,4 @@ impl BacklightColorRow {
     u32_field!(color, 0);
 }
 
-define_sheet!(BacklightColorSheet, BacklightColorRow, "BacklightColor");
+define_sheet!(BacklightColorSheet, BacklightColorRow, "BacklightColor", no_language_support);

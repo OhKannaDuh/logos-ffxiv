@@ -61,4 +61,4 @@ impl BattleLeveRow {
     u8_field!(variant, 177);
 }
 
-define_sheet!(BattleLeveSheet, BattleLeveRow, "BattleLeve");
+define_sheet!(BattleLeveSheet, BattleLeveRow, "BattleLeve", no_language_support);

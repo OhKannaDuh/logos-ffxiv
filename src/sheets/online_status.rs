@@ -18,4 +18,4 @@ impl OnlineStatusRow {
     bool_field!(unknown_2, 2);
 }
 
-define_sheet!(OnlineStatusSheet, OnlineStatusRow, "OnlineStatus");
+define_sheet!(OnlineStatusSheet, OnlineStatusRow, "OnlineStatus", language_support);

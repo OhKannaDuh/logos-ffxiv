@@ -12,4 +12,4 @@ impl QuestRepeatFlagRow {
     u32_field!(quest, 0);
 }
 
-define_sheet!(QuestRepeatFlagSheet, QuestRepeatFlagRow, "QuestRepeatFlag");
+define_sheet!(QuestRepeatFlagSheet, QuestRepeatFlagRow, "QuestRepeatFlag", no_language_support);

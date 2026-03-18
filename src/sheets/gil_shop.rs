@@ -19,4 +19,4 @@ impl GilShopRow {
     bool_field!(unknown_2, 5);
 }
 
-define_sheet!(GilShopSheet, GilShopRow, "GilShop");
+define_sheet!(GilShopSheet, GilShopRow, "GilShop", language_support);

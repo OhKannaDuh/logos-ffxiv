@@ -13,4 +13,4 @@ impl CustomTalkDefineClientRow {
     u32_field!(unknown_1, 1);
 }
 
-define_sheet!(CustomTalkDefineClientSheet, CustomTalkDefineClientRow, "CustomTalkDefineClient");
+define_sheet!(CustomTalkDefineClientSheet, CustomTalkDefineClientRow, "CustomTalkDefineClient", no_language_support);

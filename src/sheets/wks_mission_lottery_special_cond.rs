@@ -14,4 +14,4 @@ impl WKSMissionLotterySpecialCondRow {
     u8_field!(end_time_hour, 1);
 }
 
-define_sheet!(WKSMissionLotterySpecialCondSheet, WKSMissionLotterySpecialCondRow, "WKSMissionLotterySpecialCond");
+define_sheet!(WKSMissionLotterySpecialCondSheet, WKSMissionLotterySpecialCondRow, "WKSMissionLotterySpecialCond", no_language_support);

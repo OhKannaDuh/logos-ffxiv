@@ -35,4 +35,4 @@ impl EmoteRow {
     bool_field!(unknown_6, 17);
 }
 
-define_sheet!(EmoteSheet, EmoteRow, "Emote");
+define_sheet!(EmoteSheet, EmoteRow, "Emote", language_support);

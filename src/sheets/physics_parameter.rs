@@ -15,4 +15,4 @@ impl PhysicsParameterRow {
     f32_field!(unknown_3, 3);
 }
 
-define_sheet!(PhysicsParameterSheet, PhysicsParameterRow, "PhysicsParameter");
+define_sheet!(PhysicsParameterSheet, PhysicsParameterRow, "PhysicsParameter", no_language_support);

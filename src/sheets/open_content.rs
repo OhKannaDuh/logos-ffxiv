@@ -18,4 +18,4 @@ impl OpenContentRow {
     array_field!(open_content_data, 0, 16, OpenContentOpenContentData);
 }
 
-define_sheet!(OpenContentSheet, OpenContentRow, "OpenContent");
+define_sheet!(OpenContentSheet, OpenContentRow, "OpenContent", no_language_support);

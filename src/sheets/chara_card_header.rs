@@ -24,4 +24,4 @@ impl CharaCardHeaderRow {
     u8_field!(category, 10);
 }
 
-define_sheet!(CharaCardHeaderSheet, CharaCardHeaderRow, "CharaCardHeader");
+define_sheet!(CharaCardHeaderSheet, CharaCardHeaderRow, "CharaCardHeader", language_support);

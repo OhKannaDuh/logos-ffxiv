@@ -12,4 +12,4 @@ impl WKSMechaEventObjectGroupRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(WKSMechaEventObjectGroupSheet, WKSMechaEventObjectGroupRow, "WKSMechaEventObjectGroup");
+define_sheet!(WKSMechaEventObjectGroupSheet, WKSMechaEventObjectGroupRow, "WKSMechaEventObjectGroup", no_language_support);

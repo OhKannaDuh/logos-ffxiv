@@ -33,4 +33,4 @@ impl PhysicsGroupRow {
     bool_field!(force_attract_by_physics_off, 18);
 }
 
-define_sheet!(PhysicsGroupSheet, PhysicsGroupRow, "PhysicsGroup");
+define_sheet!(PhysicsGroupSheet, PhysicsGroupRow, "PhysicsGroup", no_language_support);

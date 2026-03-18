@@ -35,4 +35,4 @@ impl AchievementRow {
     u8_field!(achievement_hide_condition, 25);
 }
 
-define_sheet!(AchievementSheet, AchievementRow, "Achievement");
+define_sheet!(AchievementSheet, AchievementRow, "Achievement", language_support);

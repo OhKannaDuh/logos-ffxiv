@@ -13,4 +13,4 @@ impl PublicContentCutsceneRow {
     u32_field!(cutscene_2, 1);
 }
 
-define_sheet!(PublicContentCutsceneSheet, PublicContentCutsceneRow, "PublicContentCutscene");
+define_sheet!(PublicContentCutsceneSheet, PublicContentCutsceneRow, "PublicContentCutscene", no_language_support);

@@ -85,4 +85,4 @@ impl ActionRow {
     bool_field!(unknown_27, 69);
 }
 
-define_sheet!(ActionSheet, ActionRow, "Action");
+define_sheet!(ActionSheet, ActionRow, "Action", language_support);

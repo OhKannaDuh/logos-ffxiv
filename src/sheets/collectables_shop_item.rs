@@ -20,4 +20,4 @@ impl CollectablesShopItemRow {
     u8_field!(key, 6);
 }
 
-define_sheet!(CollectablesShopItemSheet, CollectablesShopItemRow, "CollectablesShopItem");
+define_sheet!(CollectablesShopItemSheet, CollectablesShopItemRow, "CollectablesShopItem", no_language_support);

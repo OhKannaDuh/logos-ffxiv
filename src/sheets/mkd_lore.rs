@@ -18,4 +18,4 @@ impl MKDLoreRow {
     u8_field!(unknown_6, 3);
 }
 
-define_sheet!(MKDLoreSheet, MKDLoreRow, "MKDLore");
+define_sheet!(MKDLoreSheet, MKDLoreRow, "MKDLore", language_support);

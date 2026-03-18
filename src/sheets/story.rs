@@ -65,4 +65,4 @@ impl StoryRow {
     array_field!(layer_set_territory_type, 1861, 2, StoryLayerSetTerritoryType);
 }
 
-define_sheet!(StorySheet, StoryRow, "Story");
+define_sheet!(StorySheet, StoryRow, "Story", no_language_support);

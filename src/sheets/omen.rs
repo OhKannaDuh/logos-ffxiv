@@ -17,4 +17,4 @@ impl OmenRow {
     bool_field!(large_scale, 4);
 }
 
-define_sheet!(OmenSheet, OmenRow, "Omen");
+define_sheet!(OmenSheet, OmenRow, "Omen", no_language_support);

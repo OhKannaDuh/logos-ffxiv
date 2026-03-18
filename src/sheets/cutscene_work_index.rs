@@ -12,4 +12,4 @@ impl CutsceneWorkIndexRow {
     u16_field!(work_index, 0);
 }
 
-define_sheet!(CutsceneWorkIndexSheet, CutsceneWorkIndexRow, "CutsceneWorkIndex");
+define_sheet!(CutsceneWorkIndexSheet, CutsceneWorkIndexRow, "CutsceneWorkIndex", no_language_support);

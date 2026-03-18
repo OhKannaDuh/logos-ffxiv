@@ -21,4 +21,4 @@ impl TopicSelectRow {
     bool_field!(unknown_2, 1);
 }
 
-define_sheet!(TopicSelectSheet, TopicSelectRow, "TopicSelect");
+define_sheet!(TopicSelectSheet, TopicSelectRow, "TopicSelect", language_support);

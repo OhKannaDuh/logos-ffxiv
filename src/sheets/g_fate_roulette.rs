@@ -12,4 +12,4 @@ impl GFateRouletteRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(GFateRouletteSheet, GFateRouletteRow, "GFateRoulette");
+define_sheet!(GFateRouletteSheet, GFateRouletteRow, "GFateRoulette", no_language_support);

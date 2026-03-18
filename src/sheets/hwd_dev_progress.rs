@@ -12,4 +12,4 @@ impl HWDDevProgressRow {
     bool_field!(can_go_next, 0);
 }
 
-define_sheet!(HWDDevProgressSheet, HWDDevProgressRow, "HWDDevProgress");
+define_sheet!(HWDDevProgressSheet, HWDDevProgressRow, "HWDDevProgress", no_language_support);

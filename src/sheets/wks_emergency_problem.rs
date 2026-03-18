@@ -18,4 +18,4 @@ impl WKSEmergencyProblemRow {
     u8_field!(unknown_2, 3);
 }
 
-define_sheet!(WKSEmergencyProblemSheet, WKSEmergencyProblemRow, "WKSEmergencyProblem");
+define_sheet!(WKSEmergencyProblemSheet, WKSEmergencyProblemRow, "WKSEmergencyProblem", no_language_support);

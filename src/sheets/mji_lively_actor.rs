@@ -17,4 +17,4 @@ impl MJILivelyActorRow {
     u16_field!(behavior, 1);
 }
 
-define_sheet!(MJILivelyActorSheet, MJILivelyActorRow, "MJILivelyActor");
+define_sheet!(MJILivelyActorSheet, MJILivelyActorRow, "MJILivelyActor", no_language_support);

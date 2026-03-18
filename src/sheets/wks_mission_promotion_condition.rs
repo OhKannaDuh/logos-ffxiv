@@ -13,4 +13,4 @@ impl WKSMissionPromotionConditionRow {
     u8_field!(unknown_3, 1);
 }
 
-define_sheet!(WKSMissionPromotionConditionSheet, WKSMissionPromotionConditionRow, "WKSMissionPromotionCondition");
+define_sheet!(WKSMissionPromotionConditionSheet, WKSMissionPromotionConditionRow, "WKSMissionPromotionCondition", no_language_support);

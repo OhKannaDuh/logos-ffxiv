@@ -12,4 +12,4 @@ impl WKSZoneFloorCollisionRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(WKSZoneFloorCollisionSheet, WKSZoneFloorCollisionRow, "WKSZoneFloorCollision");
+define_sheet!(WKSZoneFloorCollisionSheet, WKSZoneFloorCollisionRow, "WKSZoneFloorCollision", no_language_support);

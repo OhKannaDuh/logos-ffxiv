@@ -25,4 +25,4 @@ impl CSBonusContentRow {
     u8_field!(reward_count_4, 13);
 }
 
-define_sheet!(CSBonusContentSheet, CSBonusContentRow, "CSBonusContent");
+define_sheet!(CSBonusContentSheet, CSBonusContentRow, "CSBonusContent", no_language_support);

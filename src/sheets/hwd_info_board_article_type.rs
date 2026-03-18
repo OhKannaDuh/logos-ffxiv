@@ -12,4 +12,4 @@ impl HWDInfoBoardArticleTypeRow {
     string_field!(type_, 0);
 }
 
-define_sheet!(HWDInfoBoardArticleTypeSheet, HWDInfoBoardArticleTypeRow, "HWDInfoBoardArticleType");
+define_sheet!(HWDInfoBoardArticleTypeSheet, HWDInfoBoardArticleTypeRow, "HWDInfoBoardArticleType", language_support);

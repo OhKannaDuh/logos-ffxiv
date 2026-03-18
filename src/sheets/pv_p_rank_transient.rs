@@ -17,4 +17,4 @@ impl PvPRankTransientRow {
     string_field!(unknown_5, 5);
 }
 
-define_sheet!(PvPRankTransientSheet, PvPRankTransientRow, "PvPRankTransient");
+define_sheet!(PvPRankTransientSheet, PvPRankTransientRow, "PvPRankTransient", language_support);

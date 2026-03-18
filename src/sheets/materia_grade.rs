@@ -25,4 +25,4 @@ impl MateriaGradeRow {
     array_field!(overmeld_hq_percent, 6, 4, MateriaGradeOvermeldHQPercent);
 }
 
-define_sheet!(MateriaGradeSheet, MateriaGradeRow, "MateriaGrade");
+define_sheet!(MateriaGradeSheet, MateriaGradeRow, "MateriaGrade", no_language_support);

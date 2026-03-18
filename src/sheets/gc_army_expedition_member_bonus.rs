@@ -13,4 +13,4 @@ impl GcArmyExpeditionMemberBonusRow {
     u8_field!(class_job, 1);
 }
 
-define_sheet!(GcArmyExpeditionMemberBonusSheet, GcArmyExpeditionMemberBonusRow, "GcArmyExpeditionMemberBonus");
+define_sheet!(GcArmyExpeditionMemberBonusSheet, GcArmyExpeditionMemberBonusRow, "GcArmyExpeditionMemberBonus", no_language_support);

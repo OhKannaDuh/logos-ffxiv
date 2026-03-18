@@ -18,4 +18,4 @@ impl PlayerSearchSubLocationRow {
     u8_field!(sort_key, 0);
 }
 
-define_sheet!(PlayerSearchSubLocationSheet, PlayerSearchSubLocationRow, "PlayerSearchSubLocation");
+define_sheet!(PlayerSearchSubLocationSheet, PlayerSearchSubLocationRow, "PlayerSearchSubLocation", language_support);

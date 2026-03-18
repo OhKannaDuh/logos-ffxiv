@@ -24,4 +24,4 @@ impl WKSTerritoryInfoRow {
     u8_field!(unknown_5, 1);
 }
 
-define_sheet!(WKSTerritoryInfoSheet, WKSTerritoryInfoRow, "WKSTerritoryInfo");
+define_sheet!(WKSTerritoryInfoSheet, WKSTerritoryInfoRow, "WKSTerritoryInfo", no_language_support);

@@ -13,4 +13,4 @@ impl MJIItemCategoryRow {
     string_field!(plural, 1);
 }
 
-define_sheet!(MJIItemCategorySheet, MJIItemCategoryRow, "MJIItemCategory");
+define_sheet!(MJIItemCategorySheet, MJIItemCategoryRow, "MJIItemCategory", language_support);

@@ -16,4 +16,4 @@ impl AnimaWeaponIconRow {
     i32_field!(zodiac_lux, 4);
 }
 
-define_sheet!(AnimaWeaponIconSheet, AnimaWeaponIconRow, "AnimaWeaponIcon");
+define_sheet!(AnimaWeaponIconSheet, AnimaWeaponIconRow, "AnimaWeaponIcon", no_language_support);

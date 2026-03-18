@@ -12,4 +12,4 @@ impl EurekaSphereElementAdjustRow {
     u16_field!(power_modifier, 0);
 }
 
-define_sheet!(EurekaSphereElementAdjustSheet, EurekaSphereElementAdjustRow, "EurekaSphereElementAdjust");
+define_sheet!(EurekaSphereElementAdjustSheet, EurekaSphereElementAdjustRow, "EurekaSphereElementAdjust", no_language_support);

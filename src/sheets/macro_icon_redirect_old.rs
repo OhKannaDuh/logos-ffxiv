@@ -13,4 +13,4 @@ impl MacroIconRedirectOldRow {
     i32_field!(icon_new, 1);
 }
 
-define_sheet!(MacroIconRedirectOldSheet, MacroIconRedirectOldRow, "MacroIconRedirectOld");
+define_sheet!(MacroIconRedirectOldSheet, MacroIconRedirectOldRow, "MacroIconRedirectOld", no_language_support);

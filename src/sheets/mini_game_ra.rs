@@ -33,4 +33,4 @@ impl MiniGameRARow {
     bool_field!(unknown_18, 10);
 }
 
-define_sheet!(MiniGameRASheet, MiniGameRARow, "MiniGameRA");
+define_sheet!(MiniGameRASheet, MiniGameRARow, "MiniGameRA", no_language_support);

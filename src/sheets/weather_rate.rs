@@ -23,4 +23,4 @@ impl WeatherRateRow {
     array_field!(rate, 8, 8, WeatherRateRate);
 }
 
-define_sheet!(WeatherRateSheet, WeatherRateRow, "WeatherRate");
+define_sheet!(WeatherRateSheet, WeatherRateRow, "WeatherRate", no_language_support);

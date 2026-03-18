@@ -15,4 +15,4 @@ impl MJIHudModeRow {
     u32_field!(unknown_0, 3);
 }
 
-define_sheet!(MJIHudModeSheet, MJIHudModeRow, "MJIHudMode");
+define_sheet!(MJIHudModeSheet, MJIHudModeRow, "MJIHudMode", language_support);

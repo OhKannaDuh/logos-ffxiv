@@ -12,4 +12,4 @@ impl ContentRandomSelectRow {
     u16_field!(name, 0);
 }
 
-define_sheet!(ContentRandomSelectSheet, ContentRandomSelectRow, "ContentRandomSelect");
+define_sheet!(ContentRandomSelectSheet, ContentRandomSelectRow, "ContentRandomSelect", no_language_support);

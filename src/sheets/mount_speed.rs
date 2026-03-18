@@ -14,4 +14,4 @@ impl MountSpeedRow {
     u8_field!(unknown_1, 2);
 }
 
-define_sheet!(MountSpeedSheet, MountSpeedRow, "MountSpeed");
+define_sheet!(MountSpeedSheet, MountSpeedRow, "MountSpeed", no_language_support);

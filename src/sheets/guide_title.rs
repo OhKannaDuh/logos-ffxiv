@@ -13,4 +13,4 @@ impl GuideTitleRow {
     string_field!(unknown_0, 1);
 }
 
-define_sheet!(GuideTitleSheet, GuideTitleRow, "GuideTitle");
+define_sheet!(GuideTitleSheet, GuideTitleRow, "GuideTitle", language_support);

@@ -14,4 +14,4 @@ impl AOZReportRow {
     i8_field!(order, 2);
 }
 
-define_sheet!(AOZReportSheet, AOZReportRow, "AOZReport");
+define_sheet!(AOZReportSheet, AOZReportRow, "AOZReport", no_language_support);

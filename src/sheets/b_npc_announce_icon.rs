@@ -12,4 +12,4 @@ impl BNpcAnnounceIconRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(BNpcAnnounceIconSheet, BNpcAnnounceIconRow, "BNpcAnnounceIcon");
+define_sheet!(BNpcAnnounceIconSheet, BNpcAnnounceIconRow, "BNpcAnnounceIcon", no_language_support);

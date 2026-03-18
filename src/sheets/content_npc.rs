@@ -13,4 +13,4 @@ impl ContentNpcRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(ContentNpcSheet, ContentNpcRow, "ContentNpc");
+define_sheet!(ContentNpcSheet, ContentNpcRow, "ContentNpc", no_language_support);

@@ -12,4 +12,4 @@ impl OpenLuaUIRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(OpenLuaUISheet, OpenLuaUIRow, "OpenLuaUI");
+define_sheet!(OpenLuaUISheet, OpenLuaUIRow, "OpenLuaUI", no_language_support);

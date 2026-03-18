@@ -12,4 +12,4 @@ impl EmoteCategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(EmoteCategorySheet, EmoteCategoryRow, "EmoteCategory");
+define_sheet!(EmoteCategorySheet, EmoteCategoryRow, "EmoteCategory", language_support);

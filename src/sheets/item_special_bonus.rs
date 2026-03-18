@@ -13,4 +13,4 @@ impl ItemSpecialBonusRow {
     string_field!(requirement_text, 1);
 }
 
-define_sheet!(ItemSpecialBonusSheet, ItemSpecialBonusRow, "ItemSpecialBonus");
+define_sheet!(ItemSpecialBonusSheet, ItemSpecialBonusRow, "ItemSpecialBonus", language_support);

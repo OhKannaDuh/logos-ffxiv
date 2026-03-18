@@ -15,4 +15,4 @@ impl RecommendContentsRow {
     u8_field!(max_level, 3);
 }
 
-define_sheet!(RecommendContentsSheet, RecommendContentsRow, "RecommendContents");
+define_sheet!(RecommendContentsSheet, RecommendContentsRow, "RecommendContents", no_language_support);

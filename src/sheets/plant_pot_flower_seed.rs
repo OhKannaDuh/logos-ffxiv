@@ -17,4 +17,4 @@ impl PlantPotFlowerSeedRow {
     array_field!(seed_icon, 0, 9, PlantPotFlowerSeedSeedIcon);
 }
 
-define_sheet!(PlantPotFlowerSeedSheet, PlantPotFlowerSeedRow, "PlantPotFlowerSeed");
+define_sheet!(PlantPotFlowerSeedSheet, PlantPotFlowerSeedRow, "PlantPotFlowerSeed", no_language_support);

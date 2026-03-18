@@ -42,4 +42,4 @@ impl LeveRow {
     bool_field!(locked_leve, 28);
 }
 
-define_sheet!(LeveSheet, LeveRow, "Leve");
+define_sheet!(LeveSheet, LeveRow, "Leve", language_support);

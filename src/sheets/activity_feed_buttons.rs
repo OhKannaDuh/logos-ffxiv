@@ -16,4 +16,4 @@ impl ActivityFeedButtonsRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(ActivityFeedButtonsSheet, ActivityFeedButtonsRow, "ActivityFeedButtons");
+define_sheet!(ActivityFeedButtonsSheet, ActivityFeedButtonsRow, "ActivityFeedButtons", no_language_support);

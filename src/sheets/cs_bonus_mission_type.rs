@@ -12,4 +12,4 @@ impl CSBonusMissionTypeRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(CSBonusMissionTypeSheet, CSBonusMissionTypeRow, "CSBonusMissionType");
+define_sheet!(CSBonusMissionTypeSheet, CSBonusMissionTypeRow, "CSBonusMissionType", no_language_support);

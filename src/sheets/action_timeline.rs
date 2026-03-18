@@ -33,4 +33,4 @@ impl ActionTimelineRow {
     bool_field!(unknown_4, 21);
 }
 
-define_sheet!(ActionTimelineSheet, ActionTimelineRow, "ActionTimeline");
+define_sheet!(ActionTimelineSheet, ActionTimelineRow, "ActionTimeline", no_language_support);

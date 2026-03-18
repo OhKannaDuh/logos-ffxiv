@@ -28,4 +28,4 @@ impl BehaviorRow {
     u8_field!(unknown_9, 14);
 }
 
-define_sheet!(BehaviorSheet, BehaviorRow, "Behavior");
+define_sheet!(BehaviorSheet, BehaviorRow, "Behavior", no_language_support);

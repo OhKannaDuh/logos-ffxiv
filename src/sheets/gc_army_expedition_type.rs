@@ -12,4 +12,4 @@ impl GcArmyExpeditionTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(GcArmyExpeditionTypeSheet, GcArmyExpeditionTypeRow, "GcArmyExpeditionType");
+define_sheet!(GcArmyExpeditionTypeSheet, GcArmyExpeditionTypeRow, "GcArmyExpeditionType", language_support);

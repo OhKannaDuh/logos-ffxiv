@@ -12,4 +12,4 @@ impl DawnContentParticipableRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(DawnContentParticipableSheet, DawnContentParticipableRow, "DawnContentParticipable");
+define_sheet!(DawnContentParticipableSheet, DawnContentParticipableRow, "DawnContentParticipable", no_language_support);

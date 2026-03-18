@@ -19,4 +19,4 @@ impl GcArmyCaptureRow {
     u8_field!(unknown_7, 2);
 }
 
-define_sheet!(GcArmyCaptureSheet, GcArmyCaptureRow, "GcArmyCapture");
+define_sheet!(GcArmyCaptureSheet, GcArmyCaptureRow, "GcArmyCapture", no_language_support);

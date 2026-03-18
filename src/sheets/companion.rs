@@ -51,4 +51,4 @@ impl CompanionRow {
     bool_field!(idle_animation, 30);
 }
 
-define_sheet!(CompanionSheet, CompanionRow, "Companion");
+define_sheet!(CompanionSheet, CompanionRow, "Companion", language_support);

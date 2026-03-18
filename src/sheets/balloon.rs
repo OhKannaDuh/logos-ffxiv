@@ -13,4 +13,4 @@ impl BalloonRow {
     bool_field!(slowly, 0);
 }
 
-define_sheet!(BalloonSheet, BalloonRow, "Balloon");
+define_sheet!(BalloonSheet, BalloonRow, "Balloon", language_support);

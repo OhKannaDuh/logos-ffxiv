@@ -15,4 +15,4 @@ impl AquariumFishRow {
     u8_field!(size, 1);
 }
 
-define_sheet!(AquariumFishSheet, AquariumFishRow, "AquariumFish");
+define_sheet!(AquariumFishSheet, AquariumFishRow, "AquariumFish", no_language_support);

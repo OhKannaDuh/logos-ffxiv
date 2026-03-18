@@ -13,4 +13,4 @@ impl PreHandlerMovementRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(PreHandlerMovementSheet, PreHandlerMovementRow, "PreHandlerMovement");
+define_sheet!(PreHandlerMovementSheet, PreHandlerMovementRow, "PreHandlerMovement", no_language_support);

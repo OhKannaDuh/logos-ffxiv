@@ -21,4 +21,4 @@ impl HowToPageRow {
     u8_field!(text_type, 3);
 }
 
-define_sheet!(HowToPageSheet, HowToPageRow, "HowToPage");
+define_sheet!(HowToPageSheet, HowToPageRow, "HowToPage", language_support);

@@ -23,4 +23,4 @@ impl ContentGaugeRow {
     bool_field!(unknown_8, 3);
 }
 
-define_sheet!(ContentGaugeSheet, ContentGaugeRow, "ContentGauge");
+define_sheet!(ContentGaugeSheet, ContentGaugeRow, "ContentGauge", language_support);

@@ -40,4 +40,4 @@ impl DeepDungeonRow {
     u8_field!(deep_dungeon_type, 18);
 }
 
-define_sheet!(DeepDungeonSheet, DeepDungeonRow, "DeepDungeon");
+define_sheet!(DeepDungeonSheet, DeepDungeonRow, "DeepDungeon", language_support);

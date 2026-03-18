@@ -21,4 +21,4 @@ impl GCRankLimsaMaleTextRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(GCRankLimsaMaleTextSheet, GCRankLimsaMaleTextRow, "GCRankLimsaMaleText");
+define_sheet!(GCRankLimsaMaleTextSheet, GCRankLimsaMaleTextRow, "GCRankLimsaMaleText", language_support);

@@ -19,4 +19,4 @@ impl CharaMakeClassEquipRow {
     i32_field!(class, 7);
 }
 
-define_sheet!(CharaMakeClassEquipSheet, CharaMakeClassEquipRow, "CharaMakeClassEquip");
+define_sheet!(CharaMakeClassEquipSheet, CharaMakeClassEquipRow, "CharaMakeClassEquip", no_language_support);

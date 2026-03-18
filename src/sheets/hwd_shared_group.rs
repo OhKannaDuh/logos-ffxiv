@@ -13,4 +13,4 @@ impl HWDSharedGroupRow {
     u8_field!(param, 1);
 }
 
-define_sheet!(HWDSharedGroupSheet, HWDSharedGroupRow, "HWDSharedGroup");
+define_sheet!(HWDSharedGroupSheet, HWDSharedGroupRow, "HWDSharedGroup", no_language_support);

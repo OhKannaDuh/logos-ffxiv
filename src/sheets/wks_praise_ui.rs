@@ -13,4 +13,4 @@ impl WKSPraiseUIRow {
     i32_field!(unknown_1, 0);
 }
 
-define_sheet!(WKSPraiseUISheet, WKSPraiseUIRow, "WKSPraiseUI");
+define_sheet!(WKSPraiseUISheet, WKSPraiseUIRow, "WKSPraiseUI", language_support);

@@ -12,4 +12,4 @@ impl EventItemTimelineRow {
     u32_field!(action_timeline, 0);
 }
 
-define_sheet!(EventItemTimelineSheet, EventItemTimelineRow, "EventItemTimeline");
+define_sheet!(EventItemTimelineSheet, EventItemTimelineRow, "EventItemTimeline", no_language_support);

@@ -12,4 +12,4 @@ impl SnipeTalkNameRow {
     string_field!(name, 0);
 }
 
-define_sheet!(SnipeTalkNameSheet, SnipeTalkNameRow, "SnipeTalkName");
+define_sheet!(SnipeTalkNameSheet, SnipeTalkNameRow, "SnipeTalkName", language_support);

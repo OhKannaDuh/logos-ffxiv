@@ -14,4 +14,4 @@ impl DeepDungeonStatusRow {
     u16_field!(floor_effect_ui, 2);
 }
 
-define_sheet!(DeepDungeonStatusSheet, DeepDungeonStatusRow, "DeepDungeonStatus");
+define_sheet!(DeepDungeonStatusSheet, DeepDungeonStatusRow, "DeepDungeonStatus", no_language_support);

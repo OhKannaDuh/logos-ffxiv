@@ -13,4 +13,4 @@ impl ContentRouletteOpenRuleRow {
     bool_field!(has_duty_requirements, 0);
 }
 
-define_sheet!(ContentRouletteOpenRuleSheet, ContentRouletteOpenRuleRow, "ContentRouletteOpenRule");
+define_sheet!(ContentRouletteOpenRuleSheet, ContentRouletteOpenRuleRow, "ContentRouletteOpenRule", no_language_support);

@@ -14,4 +14,4 @@ impl TreasureSpotRow {
     i32_field!(location, 0);
 }
 
-define_sheet!(TreasureSpotSheet, TreasureSpotRow, "TreasureSpot");
+define_sheet!(TreasureSpotSheet, TreasureSpotRow, "TreasureSpot", no_language_support);

@@ -16,4 +16,4 @@ impl MJIMinionPopAreasRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(MJIMinionPopAreasSheet, MJIMinionPopAreasRow, "MJIMinionPopAreas");
+define_sheet!(MJIMinionPopAreasSheet, MJIMinionPopAreasRow, "MJIMinionPopAreas", no_language_support);

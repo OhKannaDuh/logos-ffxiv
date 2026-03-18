@@ -12,4 +12,4 @@ impl BuddyRankRow {
     u32_field!(exp_required, 0);
 }
 
-define_sheet!(BuddyRankSheet, BuddyRankRow, "BuddyRank");
+define_sheet!(BuddyRankSheet, BuddyRankRow, "BuddyRank", no_language_support);

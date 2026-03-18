@@ -36,4 +36,4 @@ impl RideShootingRow {
     i16_field!(unknown_3, 2);
 }
 
-define_sheet!(RideShootingSheet, RideShootingRow, "RideShooting");
+define_sheet!(RideShootingSheet, RideShootingRow, "RideShooting", no_language_support);

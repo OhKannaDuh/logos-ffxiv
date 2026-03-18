@@ -12,4 +12,4 @@ impl UDS_ObjectRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(UDS_ObjectSheet, UDS_ObjectRow, "UDS_Object");
+define_sheet!(UDS_ObjectSheet, UDS_ObjectRow, "UDS_Object", no_language_support);

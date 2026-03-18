@@ -14,4 +14,4 @@ impl GuidePageRow {
     bool_field!(unknown_70, 1);
 }
 
-define_sheet!(GuidePageSheet, GuidePageRow, "GuidePage");
+define_sheet!(GuidePageSheet, GuidePageRow, "GuidePage", no_language_support);

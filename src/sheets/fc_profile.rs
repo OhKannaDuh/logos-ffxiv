@@ -13,4 +13,4 @@ impl FCProfileRow {
     u8_field!(priority, 0);
 }
 
-define_sheet!(FCProfileSheet, FCProfileRow, "FCProfile");
+define_sheet!(FCProfileSheet, FCProfileRow, "FCProfile", language_support);

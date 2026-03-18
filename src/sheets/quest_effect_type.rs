@@ -12,4 +12,4 @@ impl QuestEffectTypeRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestEffectTypeSheet, QuestEffectTypeRow, "QuestEffectType");
+define_sheet!(QuestEffectTypeSheet, QuestEffectTypeRow, "QuestEffectType", no_language_support);

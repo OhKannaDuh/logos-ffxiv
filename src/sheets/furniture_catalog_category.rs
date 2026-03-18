@@ -14,4 +14,4 @@ impl FurnitureCatalogCategoryRow {
     u8_field!(unknown_1, 2);
 }
 
-define_sheet!(FurnitureCatalogCategorySheet, FurnitureCatalogCategoryRow, "FurnitureCatalogCategory");
+define_sheet!(FurnitureCatalogCategorySheet, FurnitureCatalogCategoryRow, "FurnitureCatalogCategory", language_support);

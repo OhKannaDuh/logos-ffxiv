@@ -17,4 +17,4 @@ impl MJICraftworksPopularityRow {
     array_field!(popularity, 0, 91, MJICraftworksPopularityPopularity);
 }
 
-define_sheet!(MJICraftworksPopularitySheet, MJICraftworksPopularityRow, "MJICraftworksPopularity");
+define_sheet!(MJICraftworksPopularitySheet, MJICraftworksPopularityRow, "MJICraftworksPopularity", no_language_support);

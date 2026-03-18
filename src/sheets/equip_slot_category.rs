@@ -25,4 +25,4 @@ impl EquipSlotCategoryRow {
     i8_field!(soul_crystal, 13);
 }
 
-define_sheet!(EquipSlotCategorySheet, EquipSlotCategoryRow, "EquipSlotCategory");
+define_sheet!(EquipSlotCategorySheet, EquipSlotCategoryRow, "EquipSlotCategory", no_language_support);

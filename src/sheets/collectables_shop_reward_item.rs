@@ -21,4 +21,4 @@ impl CollectablesShopRewardItemRow {
     bool_field!(unknown_5, 6);
 }
 
-define_sheet!(CollectablesShopRewardItemSheet, CollectablesShopRewardItemRow, "CollectablesShopRewardItem");
+define_sheet!(CollectablesShopRewardItemSheet, CollectablesShopRewardItemRow, "CollectablesShopRewardItem", no_language_support);

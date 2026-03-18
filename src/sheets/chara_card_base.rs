@@ -23,4 +23,4 @@ impl CharaCardBaseRow {
     bool_field!(unknown_2, 3);
 }
 
-define_sheet!(CharaCardBaseSheet, CharaCardBaseRow, "CharaCardBase");
+define_sheet!(CharaCardBaseSheet, CharaCardBaseRow, "CharaCardBase", language_support);

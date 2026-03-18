@@ -13,4 +13,4 @@ impl NotebookListRow {
     u16_field!(unknown_1, 1);
 }
 
-define_sheet!(NotebookListSheet, NotebookListRow, "NotebookList");
+define_sheet!(NotebookListSheet, NotebookListRow, "NotebookList", no_language_support);

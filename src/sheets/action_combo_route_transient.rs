@@ -12,4 +12,4 @@ impl ActionComboRouteTransientRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(ActionComboRouteTransientSheet, ActionComboRouteTransientRow, "ActionComboRouteTransient");
+define_sheet!(ActionComboRouteTransientSheet, ActionComboRouteTransientRow, "ActionComboRouteTransient", language_support);

@@ -15,4 +15,4 @@ impl WKSPioneeringTrailRow {
     u16_field!(unknown_3, 3);
 }
 
-define_sheet!(WKSPioneeringTrailSheet, WKSPioneeringTrailRow, "WKSPioneeringTrail");
+define_sheet!(WKSPioneeringTrailSheet, WKSPioneeringTrailRow, "WKSPioneeringTrail", no_language_support);

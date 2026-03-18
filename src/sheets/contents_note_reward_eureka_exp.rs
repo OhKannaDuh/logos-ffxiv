@@ -12,4 +12,4 @@ impl ContentsNoteRewardEurekaEXPRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(ContentsNoteRewardEurekaEXPSheet, ContentsNoteRewardEurekaEXPRow, "ContentsNoteRewardEurekaEXP");
+define_sheet!(ContentsNoteRewardEurekaEXPSheet, ContentsNoteRewardEurekaEXPRow, "ContentsNoteRewardEurekaEXP", no_language_support);

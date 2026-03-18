@@ -13,4 +13,4 @@ impl FCActivityCategoryRow {
     u8_field!(priority, 0);
 }
 
-define_sheet!(FCActivityCategorySheet, FCActivityCategoryRow, "FCActivityCategory");
+define_sheet!(FCActivityCategorySheet, FCActivityCategoryRow, "FCActivityCategory", language_support);

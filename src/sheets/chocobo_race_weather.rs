@@ -13,4 +13,4 @@ impl ChocoboRaceWeatherRow {
     i32_field!(weather_type_2, 1);
 }
 
-define_sheet!(ChocoboRaceWeatherSheet, ChocoboRaceWeatherRow, "ChocoboRaceWeather");
+define_sheet!(ChocoboRaceWeatherSheet, ChocoboRaceWeatherRow, "ChocoboRaceWeather", no_language_support);

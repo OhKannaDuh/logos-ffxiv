@@ -12,4 +12,4 @@ impl QuestSceneAbortConditionRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestSceneAbortConditionSheet, QuestSceneAbortConditionRow, "QuestSceneAbortCondition");
+define_sheet!(QuestSceneAbortConditionSheet, QuestSceneAbortConditionRow, "QuestSceneAbortCondition", no_language_support);

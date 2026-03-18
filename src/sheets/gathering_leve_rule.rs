@@ -12,4 +12,4 @@ impl GatheringLeveRuleRow {
     string_field!(rule, 0);
 }
 
-define_sheet!(GatheringLeveRuleSheet, GatheringLeveRuleRow, "GatheringLeveRule");
+define_sheet!(GatheringLeveRuleSheet, GatheringLeveRuleRow, "GatheringLeveRule", no_language_support);

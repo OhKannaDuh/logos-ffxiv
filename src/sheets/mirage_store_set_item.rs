@@ -22,4 +22,4 @@ impl MirageStoreSetItemRow {
     u32_field!(ring, 10);
 }
 
-define_sheet!(MirageStoreSetItemSheet, MirageStoreSetItemRow, "MirageStoreSetItem");
+define_sheet!(MirageStoreSetItemSheet, MirageStoreSetItemRow, "MirageStoreSetItem", no_language_support);

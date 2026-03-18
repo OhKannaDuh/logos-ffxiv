@@ -29,4 +29,4 @@ impl LotteryExchangeShopRow {
     bool_field!(unknown_0, 133);
 }
 
-define_sheet!(LotteryExchangeShopSheet, LotteryExchangeShopRow, "LotteryExchangeShop");
+define_sheet!(LotteryExchangeShopSheet, LotteryExchangeShopRow, "LotteryExchangeShop", language_support);

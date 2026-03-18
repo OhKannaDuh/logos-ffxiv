@@ -22,4 +22,4 @@ impl GimmickAccessorRow {
     bool_field!(unknown_5, 10);
 }
 
-define_sheet!(GimmickAccessorSheet, GimmickAccessorRow, "GimmickAccessor");
+define_sheet!(GimmickAccessorSheet, GimmickAccessorRow, "GimmickAccessor", no_language_support);

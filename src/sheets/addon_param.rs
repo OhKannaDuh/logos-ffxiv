@@ -13,4 +13,4 @@ impl AddonParamRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(AddonParamSheet, AddonParamRow, "AddonParam");
+define_sheet!(AddonParamSheet, AddonParamRow, "AddonParam", no_language_support);

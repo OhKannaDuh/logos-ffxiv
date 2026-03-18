@@ -12,4 +12,4 @@ impl GFateHiddenObjectRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(GFateHiddenObjectSheet, GFateHiddenObjectRow, "GFateHiddenObject");
+define_sheet!(GFateHiddenObjectSheet, GFateHiddenObjectRow, "GFateHiddenObject", no_language_support);

@@ -15,4 +15,4 @@ impl BeastReputationRankRow {
     u16_field!(required_reputation, 0);
 }
 
-define_sheet!(BeastReputationRankSheet, BeastReputationRankRow, "BeastReputationRank");
+define_sheet!(BeastReputationRankSheet, BeastReputationRankRow, "BeastReputationRank", language_support);

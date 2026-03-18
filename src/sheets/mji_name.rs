@@ -19,4 +19,4 @@ impl MJINameRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(MJINameSheet, MJINameRow, "MJIName");
+define_sheet!(MJINameSheet, MJINameRow, "MJIName", language_support);

@@ -13,4 +13,4 @@ impl UDS_StatsRow {
     string_field!(unknown_1, 1);
 }
 
-define_sheet!(UDS_StatsSheet, UDS_StatsRow, "UDS_Stats");
+define_sheet!(UDS_StatsSheet, UDS_StatsRow, "UDS_Stats", no_language_support);

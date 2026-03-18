@@ -12,4 +12,4 @@ impl ModelAttributeRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(ModelAttributeSheet, ModelAttributeRow, "ModelAttribute");
+define_sheet!(ModelAttributeSheet, ModelAttributeRow, "ModelAttribute", no_language_support);

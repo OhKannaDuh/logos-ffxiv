@@ -13,4 +13,4 @@ impl EventExtraConditionSetRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(EventExtraConditionSetSheet, EventExtraConditionSetRow, "EventExtraConditionSet");
+define_sheet!(EventExtraConditionSetSheet, EventExtraConditionSetRow, "EventExtraConditionSet", no_language_support);

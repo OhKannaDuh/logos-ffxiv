@@ -51,4 +51,4 @@ impl TransformationRow {
     bool_field!(unknown_17, 39);
 }
 
-define_sheet!(TransformationSheet, TransformationRow, "Transformation");
+define_sheet!(TransformationSheet, TransformationRow, "Transformation", no_language_support);

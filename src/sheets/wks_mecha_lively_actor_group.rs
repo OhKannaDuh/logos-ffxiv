@@ -22,4 +22,4 @@ impl WKSMechaLivelyActorGroupRow {
     u16_field!(unknown_5, 10);
 }
 
-define_sheet!(WKSMechaLivelyActorGroupSheet, WKSMechaLivelyActorGroupRow, "WKSMechaLivelyActorGroup");
+define_sheet!(WKSMechaLivelyActorGroupSheet, WKSMechaLivelyActorGroupRow, "WKSMechaLivelyActorGroup", no_language_support);

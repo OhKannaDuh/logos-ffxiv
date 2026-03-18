@@ -14,4 +14,4 @@ impl LoadingTipsRow {
     u8_field!(unknown_2, 0);
 }
 
-define_sheet!(LoadingTipsSheet, LoadingTipsRow, "LoadingTips");
+define_sheet!(LoadingTipsSheet, LoadingTipsRow, "LoadingTips", language_support);

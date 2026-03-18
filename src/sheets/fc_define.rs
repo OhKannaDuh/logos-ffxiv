@@ -12,4 +12,4 @@ impl FCDefineRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(FCDefineSheet, FCDefineRow, "FCDefine");
+define_sheet!(FCDefineSheet, FCDefineRow, "FCDefine", no_language_support);

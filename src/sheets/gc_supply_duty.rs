@@ -28,4 +28,4 @@ impl GCSupplyDutyRow {
     array_field!(supply_data, 0, 11, GCSupplyDutySupplyData);
 }
 
-define_sheet!(GCSupplyDutySheet, GCSupplyDutyRow, "GCSupplyDuty");
+define_sheet!(GCSupplyDutySheet, GCSupplyDutyRow, "GCSupplyDuty", no_language_support);

@@ -13,4 +13,4 @@ impl TutorialGimmickRow {
     u8_field!(objective, 0);
 }
 
-define_sheet!(TutorialGimmickSheet, TutorialGimmickRow, "TutorialGimmick");
+define_sheet!(TutorialGimmickSheet, TutorialGimmickRow, "TutorialGimmick", no_language_support);

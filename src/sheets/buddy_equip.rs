@@ -28,4 +28,4 @@ impl BuddyEquipRow {
     u8_field!(order, 16);
 }
 
-define_sheet!(BuddyEquipSheet, BuddyEquipRow, "BuddyEquip");
+define_sheet!(BuddyEquipSheet, BuddyEquipRow, "BuddyEquip", language_support);

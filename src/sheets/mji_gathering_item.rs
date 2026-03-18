@@ -18,4 +18,4 @@ impl MJIGatheringItemRow {
     u8_field!(sort, 1);
 }
 
-define_sheet!(MJIGatheringItemSheet, MJIGatheringItemRow, "MJIGatheringItem");
+define_sheet!(MJIGatheringItemSheet, MJIGatheringItemRow, "MJIGatheringItem", no_language_support);

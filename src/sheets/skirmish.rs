@@ -12,4 +12,4 @@ impl SkirmishRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(SkirmishSheet, SkirmishRow, "Skirmish");
+define_sheet!(SkirmishSheet, SkirmishRow, "Skirmish", no_language_support);

@@ -13,4 +13,4 @@ impl ContentsTutorialPageRow {
     i32_field!(image, 0);
 }
 
-define_sheet!(ContentsTutorialPageSheet, ContentsTutorialPageRow, "ContentsTutorialPage");
+define_sheet!(ContentsTutorialPageSheet, ContentsTutorialPageRow, "ContentsTutorialPage", language_support);

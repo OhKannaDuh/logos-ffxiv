@@ -13,4 +13,4 @@ impl RetainerTaskLvRangeRow {
     u8_field!(max, 1);
 }
 
-define_sheet!(RetainerTaskLvRangeSheet, RetainerTaskLvRangeRow, "RetainerTaskLvRange");
+define_sheet!(RetainerTaskLvRangeSheet, RetainerTaskLvRangeRow, "RetainerTaskLvRange", no_language_support);

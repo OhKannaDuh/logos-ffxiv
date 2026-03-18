@@ -19,4 +19,4 @@ impl CSBonusContentIdentifierRow {
     bool_field!(unknown_2, 2);
 }
 
-define_sheet!(CSBonusContentIdentifierSheet, CSBonusContentIdentifierRow, "CSBonusContentIdentifier");
+define_sheet!(CSBonusContentIdentifierSheet, CSBonusContentIdentifierRow, "CSBonusContentIdentifier", no_language_support);

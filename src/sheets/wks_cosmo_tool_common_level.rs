@@ -12,4 +12,4 @@ impl WKSCosmoToolCommonLevelRow {
     bool_field!(is_common, 0);
 }
 
-define_sheet!(WKSCosmoToolCommonLevelSheet, WKSCosmoToolCommonLevelRow, "WKSCosmoToolCommonLevel");
+define_sheet!(WKSCosmoToolCommonLevelSheet, WKSCosmoToolCommonLevelRow, "WKSCosmoToolCommonLevel", no_language_support);

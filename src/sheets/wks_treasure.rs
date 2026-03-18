@@ -14,4 +14,4 @@ impl WKSTreasureRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(WKSTreasureSheet, WKSTreasureRow, "WKSTreasure");
+define_sheet!(WKSTreasureSheet, WKSTreasureRow, "WKSTreasure", no_language_support);

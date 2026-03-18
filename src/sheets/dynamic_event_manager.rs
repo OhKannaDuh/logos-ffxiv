@@ -14,4 +14,4 @@ impl DynamicEventManagerRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(DynamicEventManagerSheet, DynamicEventManagerRow, "DynamicEventManager");
+define_sheet!(DynamicEventManagerSheet, DynamicEventManagerRow, "DynamicEventManager", no_language_support);

@@ -13,4 +13,4 @@ impl PlayerSearchLocationRow {
     u8_field!(sort_key, 0);
 }
 
-define_sheet!(PlayerSearchLocationSheet, PlayerSearchLocationRow, "PlayerSearchLocation");
+define_sheet!(PlayerSearchLocationSheet, PlayerSearchLocationRow, "PlayerSearchLocation", language_support);

@@ -14,4 +14,4 @@ impl DynamicEventSingleBattleRow {
     i32_field!(b_npc_name, 0);
 }
 
-define_sheet!(DynamicEventSingleBattleSheet, DynamicEventSingleBattleRow, "DynamicEventSingleBattle");
+define_sheet!(DynamicEventSingleBattleSheet, DynamicEventSingleBattleRow, "DynamicEventSingleBattle", language_support);

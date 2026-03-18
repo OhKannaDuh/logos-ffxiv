@@ -32,4 +32,4 @@ impl FishingSpotRow {
     bool_field!(rare, 5);
 }
 
-define_sheet!(FishingSpotSheet, FishingSpotRow, "FishingSpot");
+define_sheet!(FishingSpotSheet, FishingSpotRow, "FishingSpot", language_support);

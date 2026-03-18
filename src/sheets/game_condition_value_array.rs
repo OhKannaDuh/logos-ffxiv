@@ -19,4 +19,4 @@ impl GameConditionValueArrayRow {
     u32_field!(unknown_7, 7);
 }
 
-define_sheet!(GameConditionValueArraySheet, GameConditionValueArrayRow, "GameConditionValueArray");
+define_sheet!(GameConditionValueArraySheet, GameConditionValueArrayRow, "GameConditionValueArray", no_language_support);

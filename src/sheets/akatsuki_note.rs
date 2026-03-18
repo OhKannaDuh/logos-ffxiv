@@ -20,4 +20,4 @@ impl AkatsukiNoteRow {
     i32_field!(text, 8);
 }
 
-define_sheet!(AkatsukiNoteSheet, AkatsukiNoteRow, "AkatsukiNote");
+define_sheet!(AkatsukiNoteSheet, AkatsukiNoteRow, "AkatsukiNote", no_language_support);

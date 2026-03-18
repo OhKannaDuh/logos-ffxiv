@@ -12,4 +12,4 @@ impl HowToCategoryRow {
     string_field!(category, 0);
 }
 
-define_sheet!(HowToCategorySheet, HowToCategoryRow, "HowToCategory");
+define_sheet!(HowToCategorySheet, HowToCategoryRow, "HowToCategory", language_support);

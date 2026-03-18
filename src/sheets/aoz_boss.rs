@@ -13,4 +13,4 @@ impl AOZBossRow {
     u16_field!(position, 1);
 }
 
-define_sheet!(AOZBossSheet, AOZBossRow, "AOZBoss");
+define_sheet!(AOZBossSheet, AOZBossRow, "AOZBoss", no_language_support);

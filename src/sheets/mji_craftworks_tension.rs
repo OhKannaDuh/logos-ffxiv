@@ -12,4 +12,4 @@ impl MJICraftworksTensionRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(MJICraftworksTensionSheet, MJICraftworksTensionRow, "MJICraftworksTension");
+define_sheet!(MJICraftworksTensionSheet, MJICraftworksTensionRow, "MJICraftworksTension", no_language_support);

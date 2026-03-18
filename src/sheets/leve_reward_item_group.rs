@@ -29,4 +29,4 @@ impl LeveRewardItemGroupRow {
     array_field!(is_hq, 18, 9, LeveRewardItemGroupIsHQ);
 }
 
-define_sheet!(LeveRewardItemGroupSheet, LeveRewardItemGroupRow, "LeveRewardItemGroup");
+define_sheet!(LeveRewardItemGroupSheet, LeveRewardItemGroupRow, "LeveRewardItemGroup", no_language_support);

@@ -18,4 +18,4 @@ impl GatheringNotebookListRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(GatheringNotebookListSheet, GatheringNotebookListRow, "GatheringNotebookList");
+define_sheet!(GatheringNotebookListSheet, GatheringNotebookListRow, "GatheringNotebookList", no_language_support);

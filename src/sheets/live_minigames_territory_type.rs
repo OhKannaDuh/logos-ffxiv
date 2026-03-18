@@ -17,4 +17,4 @@ impl LiveMinigamesTerritoryTypeRow {
     bool_field!(unknown_5, 2);
 }
 
-define_sheet!(LiveMinigamesTerritoryTypeSheet, LiveMinigamesTerritoryTypeRow, "LiveMinigamesTerritoryType");
+define_sheet!(LiveMinigamesTerritoryTypeSheet, LiveMinigamesTerritoryTypeRow, "LiveMinigamesTerritoryType", no_language_support);

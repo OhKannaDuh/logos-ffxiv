@@ -15,4 +15,4 @@ impl FCRightsRow {
     u8_field!(fc_rank, 3);
 }
 
-define_sheet!(FCRightsSheet, FCRightsRow, "FCRights");
+define_sheet!(FCRightsSheet, FCRightsRow, "FCRights", language_support);

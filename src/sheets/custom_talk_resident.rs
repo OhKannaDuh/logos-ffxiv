@@ -12,4 +12,4 @@ impl CustomTalkResidentRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(CustomTalkResidentSheet, CustomTalkResidentRow, "CustomTalkResident");
+define_sheet!(CustomTalkResidentSheet, CustomTalkResidentRow, "CustomTalkResident", no_language_support);

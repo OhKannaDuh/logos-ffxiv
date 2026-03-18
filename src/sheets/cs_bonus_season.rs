@@ -24,4 +24,4 @@ impl CSBonusSeasonRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(CSBonusSeasonSheet, CSBonusSeasonRow, "CSBonusSeason");
+define_sheet!(CSBonusSeasonSheet, CSBonusSeasonRow, "CSBonusSeason", no_language_support);

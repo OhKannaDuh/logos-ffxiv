@@ -13,4 +13,4 @@ impl DeepDungeon4GimmickEffectRow {
     u16_field!(unknown_1, 0);
 }
 
-define_sheet!(DeepDungeon4GimmickEffectSheet, DeepDungeon4GimmickEffectRow, "DeepDungeon4GimmickEffect");
+define_sheet!(DeepDungeon4GimmickEffectSheet, DeepDungeon4GimmickEffectRow, "DeepDungeon4GimmickEffect", no_language_support);

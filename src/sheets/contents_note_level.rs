@@ -12,4 +12,4 @@ impl ContentsNoteLevelRow {
     i8_field!(unknown_0, 0);
 }
 
-define_sheet!(ContentsNoteLevelSheet, ContentsNoteLevelRow, "ContentsNoteLevel");
+define_sheet!(ContentsNoteLevelSheet, ContentsNoteLevelRow, "ContentsNoteLevel", no_language_support);

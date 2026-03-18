@@ -13,4 +13,4 @@ impl ContentsNoteCategoryRow {
     i8_field!(sort_key, 0);
 }
 
-define_sheet!(ContentsNoteCategorySheet, ContentsNoteCategoryRow, "ContentsNoteCategory");
+define_sheet!(ContentsNoteCategorySheet, ContentsNoteCategoryRow, "ContentsNoteCategory", language_support);

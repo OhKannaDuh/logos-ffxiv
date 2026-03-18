@@ -16,4 +16,4 @@ impl EventIconTypeRow {
     u8_field!(icon_range, 4);
 }
 
-define_sheet!(EventIconTypeSheet, EventIconTypeRow, "EventIconType");
+define_sheet!(EventIconTypeSheet, EventIconTypeRow, "EventIconType", no_language_support);

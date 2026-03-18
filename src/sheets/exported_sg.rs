@@ -12,4 +12,4 @@ impl ExportedSGRow {
     string_field!(sgb_path, 0);
 }
 
-define_sheet!(ExportedSGSheet, ExportedSGRow, "ExportedSG");
+define_sheet!(ExportedSGSheet, ExportedSGRow, "ExportedSG", no_language_support);

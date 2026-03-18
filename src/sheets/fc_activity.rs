@@ -17,4 +17,4 @@ impl FCActivityRow {
     i8_field!(icon_type, 5);
 }
 
-define_sheet!(FCActivitySheet, FCActivityRow, "FCActivity");
+define_sheet!(FCActivitySheet, FCActivityRow, "FCActivity", language_support);

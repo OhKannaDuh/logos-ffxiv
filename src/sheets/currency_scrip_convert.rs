@@ -15,4 +15,4 @@ impl CurrencyScripConvertRow {
     bool_field!(unknown_3, 0);
 }
 
-define_sheet!(CurrencyScripConvertSheet, CurrencyScripConvertRow, "CurrencyScripConvert");
+define_sheet!(CurrencyScripConvertSheet, CurrencyScripConvertRow, "CurrencyScripConvert", no_language_support);

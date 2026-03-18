@@ -13,4 +13,4 @@ impl TerritoryCandidatesRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(TerritoryCandidatesSheet, TerritoryCandidatesRow, "TerritoryCandidates");
+define_sheet!(TerritoryCandidatesSheet, TerritoryCandidatesRow, "TerritoryCandidates", no_language_support);

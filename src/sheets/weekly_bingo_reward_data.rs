@@ -24,4 +24,4 @@ impl WeeklyBingoRewardDataRow {
     bool_field!(reward_hq_1, 2);
 }
 
-define_sheet!(WeeklyBingoRewardDataSheet, WeeklyBingoRewardDataRow, "WeeklyBingoRewardData");
+define_sheet!(WeeklyBingoRewardDataSheet, WeeklyBingoRewardDataRow, "WeeklyBingoRewardData", no_language_support);

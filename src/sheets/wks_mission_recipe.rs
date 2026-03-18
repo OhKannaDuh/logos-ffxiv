@@ -18,4 +18,4 @@ impl WKSMissionRecipeRow {
     bool_field!(unknown_0, 5);
 }
 
-define_sheet!(WKSMissionRecipeSheet, WKSMissionRecipeRow, "WKSMissionRecipe");
+define_sheet!(WKSMissionRecipeSheet, WKSMissionRecipeRow, "WKSMissionRecipe", no_language_support);

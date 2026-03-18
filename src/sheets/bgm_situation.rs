@@ -16,4 +16,4 @@ impl BGMSituationRow {
     u16_field!(twilight_id, 4);
 }
 
-define_sheet!(BGMSituationSheet, BGMSituationRow, "BGMSituation");
+define_sheet!(BGMSituationSheet, BGMSituationRow, "BGMSituation", no_language_support);

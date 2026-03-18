@@ -12,4 +12,4 @@ impl MJIStockyardManagementTableRow {
     u8_field!(material, 0);
 }
 
-define_sheet!(MJIStockyardManagementTableSheet, MJIStockyardManagementTableRow, "MJIStockyardManagementTable");
+define_sheet!(MJIStockyardManagementTableSheet, MJIStockyardManagementTableRow, "MJIStockyardManagementTable", no_language_support);

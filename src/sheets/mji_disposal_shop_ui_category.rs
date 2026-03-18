@@ -12,4 +12,4 @@ impl MJIDisposalShopUICategoryRow {
     string_field!(category, 0);
 }
 
-define_sheet!(MJIDisposalShopUICategorySheet, MJIDisposalShopUICategoryRow, "MJIDisposalShopUICategory");
+define_sheet!(MJIDisposalShopUICategorySheet, MJIDisposalShopUICategoryRow, "MJIDisposalShopUICategory", language_support);

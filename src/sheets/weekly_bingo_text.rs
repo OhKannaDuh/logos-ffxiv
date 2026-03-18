@@ -12,4 +12,4 @@ impl WeeklyBingoTextRow {
     string_field!(description, 0);
 }
 
-define_sheet!(WeeklyBingoTextSheet, WeeklyBingoTextRow, "WeeklyBingoText");
+define_sheet!(WeeklyBingoTextSheet, WeeklyBingoTextRow, "WeeklyBingoText", language_support);

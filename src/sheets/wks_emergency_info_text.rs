@@ -12,4 +12,4 @@ impl WKSEmergencyInfoTextRow {
     string_field!(text, 0);
 }
 
-define_sheet!(WKSEmergencyInfoTextSheet, WKSEmergencyInfoTextRow, "WKSEmergencyInfoText");
+define_sheet!(WKSEmergencyInfoTextSheet, WKSEmergencyInfoTextRow, "WKSEmergencyInfoText", language_support);

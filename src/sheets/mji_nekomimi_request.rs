@@ -15,4 +15,4 @@ impl MJINekomimiRequestRow {
     u8_field!(unknown_3, 3);
 }
 
-define_sheet!(MJINekomimiRequestSheet, MJINekomimiRequestRow, "MJINekomimiRequest");
+define_sheet!(MJINekomimiRequestSheet, MJINekomimiRequestRow, "MJINekomimiRequest", no_language_support);

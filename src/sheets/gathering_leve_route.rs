@@ -23,4 +23,4 @@ impl GatheringLeveRouteRow {
     array_field!(pop_range, 12, 12, GatheringLeveRoutePopRange);
 }
 
-define_sheet!(GatheringLeveRouteSheet, GatheringLeveRouteRow, "GatheringLeveRoute");
+define_sheet!(GatheringLeveRouteSheet, GatheringLeveRouteRow, "GatheringLeveRoute", no_language_support);

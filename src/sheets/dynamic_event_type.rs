@@ -13,4 +13,4 @@ impl DynamicEventTypeRow {
     u32_field!(icon_objective_1, 1);
 }
 
-define_sheet!(DynamicEventTypeSheet, DynamicEventTypeRow, "DynamicEventType");
+define_sheet!(DynamicEventTypeSheet, DynamicEventTypeRow, "DynamicEventType", no_language_support);

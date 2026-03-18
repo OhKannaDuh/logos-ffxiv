@@ -17,4 +17,4 @@ impl EmjCharaViewCameraRow {
     f32_field!(unknown_5, 5);
 }
 
-define_sheet!(EmjCharaViewCameraSheet, EmjCharaViewCameraRow, "EmjCharaViewCamera");
+define_sheet!(EmjCharaViewCameraSheet, EmjCharaViewCameraRow, "EmjCharaViewCamera", no_language_support);

@@ -15,4 +15,4 @@ impl ScenarioTreeTipsRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(ScenarioTreeTipsSheet, ScenarioTreeTipsRow, "ScenarioTreeTips");
+define_sheet!(ScenarioTreeTipsSheet, ScenarioTreeTipsRow, "ScenarioTreeTips", no_language_support);

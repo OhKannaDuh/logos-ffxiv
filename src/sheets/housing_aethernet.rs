@@ -15,4 +15,4 @@ impl HousingAethernetRow {
     u8_field!(order, 3);
 }
 
-define_sheet!(HousingAethernetSheet, HousingAethernetRow, "HousingAethernet");
+define_sheet!(HousingAethernetSheet, HousingAethernetRow, "HousingAethernet", no_language_support);

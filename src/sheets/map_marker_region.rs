@@ -23,4 +23,4 @@ impl MapMarkerRegionRow {
     bool_field!(unknown_10, 11);
 }
 
-define_sheet!(MapMarkerRegionSheet, MapMarkerRegionRow, "MapMarkerRegion");
+define_sheet!(MapMarkerRegionSheet, MapMarkerRegionRow, "MapMarkerRegion", no_language_support);

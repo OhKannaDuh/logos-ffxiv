@@ -13,4 +13,4 @@ impl NotebookDivisionCategoryRow {
     u8_field!(index, 1);
 }
 
-define_sheet!(NotebookDivisionCategorySheet, NotebookDivisionCategoryRow, "NotebookDivisionCategory");
+define_sheet!(NotebookDivisionCategorySheet, NotebookDivisionCategoryRow, "NotebookDivisionCategory", language_support);

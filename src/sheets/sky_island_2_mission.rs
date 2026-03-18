@@ -37,4 +37,4 @@ impl SkyIsland2MissionRow {
     u8_field!(unknown_13, 18);
 }
 
-define_sheet!(SkyIsland2MissionSheet, SkyIsland2MissionRow, "SkyIsland2Mission");
+define_sheet!(SkyIsland2MissionSheet, SkyIsland2MissionRow, "SkyIsland2Mission", language_support);

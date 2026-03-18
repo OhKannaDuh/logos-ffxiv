@@ -19,4 +19,4 @@ impl LogFilterRow {
     u8_field!(preset, 5);
 }
 
-define_sheet!(LogFilterSheet, LogFilterRow, "LogFilter");
+define_sheet!(LogFilterSheet, LogFilterRow, "LogFilter", language_support);

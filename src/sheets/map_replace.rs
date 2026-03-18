@@ -20,4 +20,4 @@ impl MapReplaceRow {
     u8_field!(quest_sequence, 5);
 }
 
-define_sheet!(MapReplaceSheet, MapReplaceRow, "MapReplace");
+define_sheet!(MapReplaceSheet, MapReplaceRow, "MapReplace", no_language_support);

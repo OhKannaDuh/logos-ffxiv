@@ -13,4 +13,4 @@ impl MJICraftworksSupplyDefineRow {
     i16_field!(supply, 0);
 }
 
-define_sheet!(MJICraftworksSupplyDefineSheet, MJICraftworksSupplyDefineRow, "MJICraftworksSupplyDefine");
+define_sheet!(MJICraftworksSupplyDefineSheet, MJICraftworksSupplyDefineRow, "MJICraftworksSupplyDefine", no_language_support);

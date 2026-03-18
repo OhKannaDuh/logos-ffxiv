@@ -21,4 +21,4 @@ impl GCRankUldahFemaleTextRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(GCRankUldahFemaleTextSheet, GCRankUldahFemaleTextRow, "GCRankUldahFemaleText");
+define_sheet!(GCRankUldahFemaleTextSheet, GCRankUldahFemaleTextRow, "GCRankUldahFemaleText", language_support);

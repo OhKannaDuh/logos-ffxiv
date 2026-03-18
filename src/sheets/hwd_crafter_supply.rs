@@ -30,4 +30,4 @@ impl HWDCrafterSupplyRow {
     array_field!(hwd_crafter_supply_params, 0, 23, HWDCrafterSupplyHWDCrafterSupplyParams);
 }
 
-define_sheet!(HWDCrafterSupplySheet, HWDCrafterSupplyRow, "HWDCrafterSupply");
+define_sheet!(HWDCrafterSupplySheet, HWDCrafterSupplyRow, "HWDCrafterSupply", no_language_support);

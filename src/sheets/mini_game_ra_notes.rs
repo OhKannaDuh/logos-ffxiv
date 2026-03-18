@@ -18,4 +18,4 @@ impl MiniGameRANotesRow {
     u8_field!(unknown_6, 3);
 }
 
-define_sheet!(MiniGameRANotesSheet, MiniGameRANotesRow, "MiniGameRANotes");
+define_sheet!(MiniGameRANotesSheet, MiniGameRANotesRow, "MiniGameRANotes", no_language_support);

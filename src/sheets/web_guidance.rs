@@ -16,4 +16,4 @@ impl WebGuidanceRow {
     u8_field!(url, 1);
 }
 
-define_sheet!(WebGuidanceSheet, WebGuidanceRow, "WebGuidance");
+define_sheet!(WebGuidanceSheet, WebGuidanceRow, "WebGuidance", language_support);

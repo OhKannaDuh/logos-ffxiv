@@ -17,4 +17,4 @@ impl BehaviorPathRow {
     bool_field!(unknown_0, 4);
 }
 
-define_sheet!(BehaviorPathSheet, BehaviorPathRow, "BehaviorPath");
+define_sheet!(BehaviorPathSheet, BehaviorPathRow, "BehaviorPath", no_language_support);

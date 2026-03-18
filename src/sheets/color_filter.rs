@@ -27,4 +27,4 @@ impl ColorFilterRow {
     bool_field!(unknown_15, 4);
 }
 
-define_sheet!(ColorFilterSheet, ColorFilterRow, "ColorFilter");
+define_sheet!(ColorFilterSheet, ColorFilterRow, "ColorFilter", language_support);

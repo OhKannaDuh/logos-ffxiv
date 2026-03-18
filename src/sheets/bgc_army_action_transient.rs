@@ -12,4 +12,4 @@ impl BgcArmyActionTransientRow {
     string_field!(text, 0);
 }
 
-define_sheet!(BgcArmyActionTransientSheet, BgcArmyActionTransientRow, "BgcArmyActionTransient");
+define_sheet!(BgcArmyActionTransientSheet, BgcArmyActionTransientRow, "BgcArmyActionTransient", language_support);

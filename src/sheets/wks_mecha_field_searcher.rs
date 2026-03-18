@@ -13,4 +13,4 @@ impl WKSMechaFieldSearcherRow {
     u32_field!(unknown_1, 1);
 }
 
-define_sheet!(WKSMechaFieldSearcherSheet, WKSMechaFieldSearcherRow, "WKSMechaFieldSearcher");
+define_sheet!(WKSMechaFieldSearcherSheet, WKSMechaFieldSearcherRow, "WKSMechaFieldSearcher", no_language_support);

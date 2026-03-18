@@ -20,4 +20,4 @@ impl Relic3RateRow {
     i8_field!(unknown_8, 8);
 }
 
-define_sheet!(Relic3RateSheet, Relic3RateRow, "Relic3Rate");
+define_sheet!(Relic3RateSheet, Relic3RateRow, "Relic3Rate", no_language_support);

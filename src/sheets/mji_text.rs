@@ -12,4 +12,4 @@ impl MJITextRow {
     string_field!(text, 0);
 }
 
-define_sheet!(MJITextSheet, MJITextRow, "MJIText");
+define_sheet!(MJITextSheet, MJITextRow, "MJIText", language_support);

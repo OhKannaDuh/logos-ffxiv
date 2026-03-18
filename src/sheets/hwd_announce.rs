@@ -15,4 +15,4 @@ impl HWDAnnounceRow {
     u8_field!(unknown_1, 3);
 }
 
-define_sheet!(HWDAnnounceSheet, HWDAnnounceRow, "HWDAnnounce");
+define_sheet!(HWDAnnounceSheet, HWDAnnounceRow, "HWDAnnounce", language_support);

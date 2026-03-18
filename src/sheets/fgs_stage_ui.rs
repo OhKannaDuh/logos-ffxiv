@@ -19,4 +19,4 @@ impl FGSStageUIRow {
     u16_field!(unknown_7, 2);
 }
 
-define_sheet!(FGSStageUISheet, FGSStageUIRow, "FGSStageUI");
+define_sheet!(FGSStageUISheet, FGSStageUIRow, "FGSStageUI", no_language_support);

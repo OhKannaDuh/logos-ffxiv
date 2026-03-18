@@ -21,4 +21,4 @@ impl LevelRow {
     u8_field!(type_, 5);
 }
 
-define_sheet!(LevelSheet, LevelRow, "Level");
+define_sheet!(LevelSheet, LevelRow, "Level", no_language_support);

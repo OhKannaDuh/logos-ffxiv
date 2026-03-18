@@ -52,4 +52,4 @@ impl TripleTriadRow {
     bool_field!(unknown_0, 25);
 }
 
-define_sheet!(TripleTriadSheet, TripleTriadRow, "TripleTriad");
+define_sheet!(TripleTriadSheet, TripleTriadRow, "TripleTriad", no_language_support);

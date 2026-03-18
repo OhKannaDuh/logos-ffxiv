@@ -18,4 +18,4 @@ impl SubmarineRankRow {
     u8_field!(favor_bonus, 6);
 }
 
-define_sheet!(SubmarineRankSheet, SubmarineRankRow, "SubmarineRank");
+define_sheet!(SubmarineRankSheet, SubmarineRankRow, "SubmarineRank", no_language_support);

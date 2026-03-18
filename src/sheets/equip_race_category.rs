@@ -21,4 +21,4 @@ impl EquipRaceCategoryRow {
     bool_field!(female, 9);
 }
 
-define_sheet!(EquipRaceCategorySheet, EquipRaceCategoryRow, "EquipRaceCategory");
+define_sheet!(EquipRaceCategorySheet, EquipRaceCategoryRow, "EquipRaceCategory", no_language_support);

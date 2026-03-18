@@ -14,4 +14,4 @@ impl DeepDungeonFloorEffectUIRow {
     u32_field!(icon, 0);
 }
 
-define_sheet!(DeepDungeonFloorEffectUISheet, DeepDungeonFloorEffectUIRow, "DeepDungeonFloorEffectUI");
+define_sheet!(DeepDungeonFloorEffectUISheet, DeepDungeonFloorEffectUIRow, "DeepDungeonFloorEffectUI", language_support);

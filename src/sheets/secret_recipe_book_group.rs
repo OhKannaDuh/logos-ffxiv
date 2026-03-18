@@ -18,4 +18,4 @@ impl SecretRecipeBookGroupRow {
     array_field!(secret_recipe_book, 0, 8, SecretRecipeBookGroupSecretRecipeBook);
 }
 
-define_sheet!(SecretRecipeBookGroupSheet, SecretRecipeBookGroupRow, "SecretRecipeBookGroup");
+define_sheet!(SecretRecipeBookGroupSheet, SecretRecipeBookGroupRow, "SecretRecipeBookGroup", no_language_support);

@@ -12,4 +12,4 @@ impl DescriptionStandAloneRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(DescriptionStandAloneSheet, DescriptionStandAloneRow, "DescriptionStandAlone");
+define_sheet!(DescriptionStandAloneSheet, DescriptionStandAloneRow, "DescriptionStandAlone", no_language_support);

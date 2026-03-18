@@ -14,4 +14,4 @@ impl MinionStageRow {
     bool_field!(unknown_2, 1);
 }
 
-define_sheet!(MinionStageSheet, MinionStageRow, "MinionStage");
+define_sheet!(MinionStageSheet, MinionStageRow, "MinionStage", language_support);

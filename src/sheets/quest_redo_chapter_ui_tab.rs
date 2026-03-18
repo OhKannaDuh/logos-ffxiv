@@ -15,4 +15,4 @@ impl QuestRedoChapterUITabRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestRedoChapterUITabSheet, QuestRedoChapterUITabRow, "QuestRedoChapterUITab");
+define_sheet!(QuestRedoChapterUITabSheet, QuestRedoChapterUITabRow, "QuestRedoChapterUITab", language_support);

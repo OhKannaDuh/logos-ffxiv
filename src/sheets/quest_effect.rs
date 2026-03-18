@@ -22,4 +22,4 @@ impl QuestEffectRow {
     bool_field!(unknown_70, 14);
 }
 
-define_sheet!(QuestEffectSheet, QuestEffectRow, "QuestEffect");
+define_sheet!(QuestEffectSheet, QuestEffectRow, "QuestEffect", no_language_support);

@@ -18,4 +18,4 @@ impl ActionSettingRow {
     bool_field!(unknown_6, 5);
 }
 
-define_sheet!(ActionSettingSheet, ActionSettingRow, "ActionSetting");
+define_sheet!(ActionSettingSheet, ActionSettingRow, "ActionSetting", no_language_support);

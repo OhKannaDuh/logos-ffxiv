@@ -29,4 +29,4 @@ impl SatisfactionSupplyRewardRow {
     u8_field!(min_level_for_second_reward, 9);
 }
 
-define_sheet!(SatisfactionSupplyRewardSheet, SatisfactionSupplyRewardRow, "SatisfactionSupplyReward");
+define_sheet!(SatisfactionSupplyRewardSheet, SatisfactionSupplyRewardRow, "SatisfactionSupplyReward", no_language_support);

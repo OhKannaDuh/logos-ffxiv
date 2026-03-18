@@ -38,4 +38,4 @@ impl PartyContentRow {
     bool_field!(name, 2);
 }
 
-define_sheet!(PartyContentSheet, PartyContentRow, "PartyContent");
+define_sheet!(PartyContentSheet, PartyContentRow, "PartyContent", no_language_support);

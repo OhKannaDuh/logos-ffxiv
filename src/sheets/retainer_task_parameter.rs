@@ -29,4 +29,4 @@ impl RetainerTaskParameterRow {
     array_field!(perception_fsh, 8, 4, RetainerTaskParameterPerceptionFSH);
 }
 
-define_sheet!(RetainerTaskParameterSheet, RetainerTaskParameterRow, "RetainerTaskParameter");
+define_sheet!(RetainerTaskParameterSheet, RetainerTaskParameterRow, "RetainerTaskParameter", no_language_support);

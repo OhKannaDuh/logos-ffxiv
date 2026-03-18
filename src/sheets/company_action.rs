@@ -18,4 +18,4 @@ impl CompanyActionRow {
     bool_field!(purchasable, 6);
 }
 
-define_sheet!(CompanyActionSheet, CompanyActionRow, "CompanyAction");
+define_sheet!(CompanyActionSheet, CompanyActionRow, "CompanyAction", language_support);

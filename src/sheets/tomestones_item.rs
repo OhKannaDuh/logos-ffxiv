@@ -14,4 +14,4 @@ impl TomestonesItemRow {
     i8_field!(currency_inventory_slot, 1);
 }
 
-define_sheet!(TomestonesItemSheet, TomestonesItemRow, "TomestonesItem");
+define_sheet!(TomestonesItemSheet, TomestonesItemRow, "TomestonesItem", no_language_support);

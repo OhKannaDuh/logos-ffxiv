@@ -12,4 +12,4 @@ impl InstanceContentTextDataRow {
     string_field!(text, 0);
 }
 
-define_sheet!(InstanceContentTextDataSheet, InstanceContentTextDataRow, "InstanceContentTextData");
+define_sheet!(InstanceContentTextDataSheet, InstanceContentTextDataRow, "InstanceContentTextData", language_support);

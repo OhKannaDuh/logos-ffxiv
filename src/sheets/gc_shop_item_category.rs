@@ -12,4 +12,4 @@ impl GCShopItemCategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(GCShopItemCategorySheet, GCShopItemCategoryRow, "GCShopItemCategory");
+define_sheet!(GCShopItemCategorySheet, GCShopItemCategoryRow, "GCShopItemCategory", language_support);

@@ -12,4 +12,4 @@ impl ChatBubbleSampeTextListRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(ChatBubbleSampeTextListSheet, ChatBubbleSampeTextListRow, "ChatBubbleSampeTextList");
+define_sheet!(ChatBubbleSampeTextListSheet, ChatBubbleSampeTextListRow, "ChatBubbleSampeTextList", language_support);

@@ -17,4 +17,4 @@ impl GuildOrderOfficerRow {
     u32_field!(unknown_5, 5);
 }
 
-define_sheet!(GuildOrderOfficerSheet, GuildOrderOfficerRow, "GuildOrderOfficer");
+define_sheet!(GuildOrderOfficerSheet, GuildOrderOfficerRow, "GuildOrderOfficer", no_language_support);

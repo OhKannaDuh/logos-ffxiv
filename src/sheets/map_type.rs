@@ -12,4 +12,4 @@ impl MapTypeRow {
     u16_field!(parent_map_override, 0);
 }
 
-define_sheet!(MapTypeSheet, MapTypeRow, "MapType");
+define_sheet!(MapTypeSheet, MapTypeRow, "MapType", no_language_support);

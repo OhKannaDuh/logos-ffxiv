@@ -18,4 +18,4 @@ impl EventGimmickPathMoveRow {
     u8_field!(unknown_5, 2);
 }
 
-define_sheet!(EventGimmickPathMoveSheet, EventGimmickPathMoveRow, "EventGimmickPathMove");
+define_sheet!(EventGimmickPathMoveSheet, EventGimmickPathMoveRow, "EventGimmickPathMove", no_language_support);

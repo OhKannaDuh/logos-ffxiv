@@ -26,4 +26,4 @@ impl HousingFurnitureRow {
     bool_field!(unknown_6, 14);
 }
 
-define_sheet!(HousingFurnitureSheet, HousingFurnitureRow, "HousingFurniture");
+define_sheet!(HousingFurnitureSheet, HousingFurnitureRow, "HousingFurniture", no_language_support);

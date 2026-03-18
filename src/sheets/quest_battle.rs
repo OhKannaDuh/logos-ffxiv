@@ -22,4 +22,4 @@ impl QuestBattleRow {
     u8_field!(quest_battle_scene, 1);
 }
 
-define_sheet!(QuestBattleSheet, QuestBattleRow, "QuestBattle");
+define_sheet!(QuestBattleSheet, QuestBattleRow, "QuestBattle", no_language_support);

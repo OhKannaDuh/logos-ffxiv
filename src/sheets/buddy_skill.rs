@@ -16,4 +16,4 @@ impl BuddySkillRow {
     bool_field!(is_active, 1);
 }
 
-define_sheet!(BuddySkillSheet, BuddySkillRow, "BuddySkill");
+define_sheet!(BuddySkillSheet, BuddySkillRow, "BuddySkill", no_language_support);

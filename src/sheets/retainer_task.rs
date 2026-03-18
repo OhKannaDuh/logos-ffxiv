@@ -25,4 +25,4 @@ impl RetainerTaskRow {
     bool_field!(is_random, 0);
 }
 
-define_sheet!(RetainerTaskSheet, RetainerTaskRow, "RetainerTask");
+define_sheet!(RetainerTaskSheet, RetainerTaskRow, "RetainerTask", no_language_support);

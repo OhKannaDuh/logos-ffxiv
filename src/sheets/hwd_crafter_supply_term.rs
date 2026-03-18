@@ -12,4 +12,4 @@ impl HWDCrafterSupplyTermRow {
     string_field!(name, 0);
 }
 
-define_sheet!(HWDCrafterSupplyTermSheet, HWDCrafterSupplyTermRow, "HWDCrafterSupplyTerm");
+define_sheet!(HWDCrafterSupplyTermSheet, HWDCrafterSupplyTermRow, "HWDCrafterSupplyTerm", language_support);

@@ -18,4 +18,4 @@ impl CalendarRow {
     array_field!(calendar_struct, 0, 32, CalendarCalendarStruct);
 }
 
-define_sheet!(CalendarSheet, CalendarRow, "Calendar");
+define_sheet!(CalendarSheet, CalendarRow, "Calendar", no_language_support);

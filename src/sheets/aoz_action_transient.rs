@@ -31,4 +31,4 @@ impl AozActionTransientRow {
     bool_field!(cause_death, 19);
 }
 
-define_sheet!(AozActionTransientSheet, AozActionTransientRow, "AozActionTransient");
+define_sheet!(AozActionTransientSheet, AozActionTransientRow, "AozActionTransient", language_support);

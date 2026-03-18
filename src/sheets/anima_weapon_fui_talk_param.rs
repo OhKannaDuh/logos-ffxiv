@@ -13,4 +13,4 @@ impl AnimaWeaponFUITalkParamRow {
     string_field!(epilogue, 1);
 }
 
-define_sheet!(AnimaWeaponFUITalkParamSheet, AnimaWeaponFUITalkParamRow, "AnimaWeaponFUITalkParam");
+define_sheet!(AnimaWeaponFUITalkParamSheet, AnimaWeaponFUITalkParamRow, "AnimaWeaponFUITalkParam", language_support);

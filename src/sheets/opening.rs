@@ -20,4 +20,4 @@ impl OpeningRow {
     u32_field!(quest, 1);
 }
 
-define_sheet!(OpeningSheet, OpeningRow, "Opening");
+define_sheet!(OpeningSheet, OpeningRow, "Opening", no_language_support);

@@ -13,4 +13,4 @@ impl StainTransientRow {
     u32_field!(item_2, 1);
 }
 
-define_sheet!(StainTransientSheet, StainTransientRow, "StainTransient");
+define_sheet!(StainTransientSheet, StainTransientRow, "StainTransient", no_language_support);

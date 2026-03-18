@@ -36,4 +36,4 @@ impl AOZContentBriefingBNpcRow {
     bool_field!(flat_or_death_vuln, 24);
 }
 
-define_sheet!(AOZContentBriefingBNpcSheet, AOZContentBriefingBNpcRow, "AOZContentBriefingBNpc");
+define_sheet!(AOZContentBriefingBNpcSheet, AOZContentBriefingBNpcRow, "AOZContentBriefingBNpc", no_language_support);

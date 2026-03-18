@@ -17,4 +17,4 @@ impl GcArmyCaptureTacticsRow {
     u8_field!(damage_received, 3);
 }
 
-define_sheet!(GcArmyCaptureTacticsSheet, GcArmyCaptureTacticsRow, "GcArmyCaptureTactics");
+define_sheet!(GcArmyCaptureTacticsSheet, GcArmyCaptureTacticsRow, "GcArmyCaptureTactics", no_language_support);

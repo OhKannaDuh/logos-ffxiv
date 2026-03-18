@@ -17,4 +17,4 @@ impl SnipeTalkRow {
     u8_field!(unknown_3, 1);
 }
 
-define_sheet!(SnipeTalkSheet, SnipeTalkRow, "SnipeTalk");
+define_sheet!(SnipeTalkSheet, SnipeTalkRow, "SnipeTalk", language_support);

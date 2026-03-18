@@ -19,4 +19,4 @@ impl DpsChallengeRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(DpsChallengeSheet, DpsChallengeRow, "DpsChallenge");
+define_sheet!(DpsChallengeSheet, DpsChallengeRow, "DpsChallenge", language_support);

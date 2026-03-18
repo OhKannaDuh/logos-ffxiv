@@ -12,4 +12,4 @@ impl EurekaDungeonPortalRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(EurekaDungeonPortalSheet, EurekaDungeonPortalRow, "EurekaDungeonPortal");
+define_sheet!(EurekaDungeonPortalSheet, EurekaDungeonPortalRow, "EurekaDungeonPortal", no_language_support);

@@ -18,4 +18,4 @@ impl BGMRow {
     bool_field!(pass_end, 4);
 }
 
-define_sheet!(BGMSheet, BGMRow, "BGM");
+define_sheet!(BGMSheet, BGMRow, "BGM", no_language_support);

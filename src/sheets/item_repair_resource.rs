@@ -12,4 +12,4 @@ impl ItemRepairResourceRow {
     u32_field!(item, 0);
 }
 
-define_sheet!(ItemRepairResourceSheet, ItemRepairResourceRow, "ItemRepairResource");
+define_sheet!(ItemRepairResourceSheet, ItemRepairResourceRow, "ItemRepairResource", no_language_support);

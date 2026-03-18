@@ -12,4 +12,4 @@ impl ItemSortCategoryRow {
     u8_field!(param, 0);
 }
 
-define_sheet!(ItemSortCategorySheet, ItemSortCategoryRow, "ItemSortCategory");
+define_sheet!(ItemSortCategorySheet, ItemSortCategoryRow, "ItemSortCategory", no_language_support);

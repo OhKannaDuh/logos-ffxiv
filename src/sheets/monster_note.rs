@@ -25,4 +25,4 @@ impl MonsterNoteRow {
     array_field!(count, 6, 4, MonsterNoteCount);
 }
 
-define_sheet!(MonsterNoteSheet, MonsterNoteRow, "MonsterNote");
+define_sheet!(MonsterNoteSheet, MonsterNoteRow, "MonsterNote", language_support);

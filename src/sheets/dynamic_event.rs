@@ -29,4 +29,4 @@ impl DynamicEventRow {
     bool_field!(unknown_8, 4);
 }
 
-define_sheet!(DynamicEventSheet, DynamicEventRow, "DynamicEvent");
+define_sheet!(DynamicEventSheet, DynamicEventRow, "DynamicEvent", language_support);

@@ -13,4 +13,4 @@ impl GFateStelthRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(GFateStelthSheet, GFateStelthRow, "GFateStelth");
+define_sheet!(GFateStelthSheet, GFateStelthRow, "GFateStelth", language_support);

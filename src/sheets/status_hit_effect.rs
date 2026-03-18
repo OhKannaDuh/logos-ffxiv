@@ -12,4 +12,4 @@ impl StatusHitEffectRow {
     u16_field!(location, 0);
 }
 
-define_sheet!(StatusHitEffectSheet, StatusHitEffectRow, "StatusHitEffect");
+define_sheet!(StatusHitEffectSheet, StatusHitEffectRow, "StatusHitEffect", no_language_support);

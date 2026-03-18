@@ -19,4 +19,4 @@ impl UDS_EventRow {
     array_field!(property, 2, 32, UDS_EventProperty);
 }
 
-define_sheet!(UDS_EventSheet, UDS_EventRow, "UDS_Event");
+define_sheet!(UDS_EventSheet, UDS_EventRow, "UDS_Event", no_language_support);

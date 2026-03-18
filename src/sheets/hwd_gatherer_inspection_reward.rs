@@ -13,4 +13,4 @@ impl HWDGathererInspectionRewardRow {
     u16_field!(points, 1);
 }
 
-define_sheet!(HWDGathererInspectionRewardSheet, HWDGathererInspectionRewardRow, "HWDGathererInspectionReward");
+define_sheet!(HWDGathererInspectionRewardSheet, HWDGathererInspectionRewardRow, "HWDGathererInspectionReward", no_language_support);

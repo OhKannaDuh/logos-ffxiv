@@ -18,4 +18,4 @@ impl GatheringSubCategoryRow {
     u8_field!(unknown_0, 6);
 }
 
-define_sheet!(GatheringSubCategorySheet, GatheringSubCategoryRow, "GatheringSubCategory");
+define_sheet!(GatheringSubCategorySheet, GatheringSubCategoryRow, "GatheringSubCategory", language_support);

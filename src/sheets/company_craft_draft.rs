@@ -26,4 +26,4 @@ impl CompanyCraftDraftRow {
     array_field!(required_item_count, 6, 3, CompanyCraftDraftRequiredItemCount);
 }
 
-define_sheet!(CompanyCraftDraftSheet, CompanyCraftDraftRow, "CompanyCraftDraft");
+define_sheet!(CompanyCraftDraftSheet, CompanyCraftDraftRow, "CompanyCraftDraft", language_support);

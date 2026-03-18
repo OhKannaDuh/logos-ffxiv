@@ -12,4 +12,4 @@ impl HousingMateAuthorityRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(HousingMateAuthoritySheet, HousingMateAuthorityRow, "HousingMateAuthority");
+define_sheet!(HousingMateAuthoritySheet, HousingMateAuthorityRow, "HousingMateAuthority", language_support);

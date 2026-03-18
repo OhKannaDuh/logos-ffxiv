@@ -12,4 +12,4 @@ impl OpenContentCandidateNameRow {
     string_field!(name, 0);
 }
 
-define_sheet!(OpenContentCandidateNameSheet, OpenContentCandidateNameRow, "OpenContentCandidateName");
+define_sheet!(OpenContentCandidateNameSheet, OpenContentCandidateNameRow, "OpenContentCandidateName", language_support);

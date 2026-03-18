@@ -20,4 +20,4 @@ impl OrnamentCustomizeGroupRow {
     u8_field!(unknown_18, 0);
 }
 
-define_sheet!(OrnamentCustomizeGroupSheet, OrnamentCustomizeGroupRow, "OrnamentCustomizeGroup");
+define_sheet!(OrnamentCustomizeGroupSheet, OrnamentCustomizeGroupRow, "OrnamentCustomizeGroup", no_language_support);

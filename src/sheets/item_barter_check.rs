@@ -14,4 +14,4 @@ impl ItemBarterCheckRow {
     u16_field!(category, 0);
 }
 
-define_sheet!(ItemBarterCheckSheet, ItemBarterCheckRow, "ItemBarterCheck");
+define_sheet!(ItemBarterCheckSheet, ItemBarterCheckRow, "ItemBarterCheck", no_language_support);

@@ -13,4 +13,4 @@ impl ContentDirectorManagedSGRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(ContentDirectorManagedSGSheet, ContentDirectorManagedSGRow, "ContentDirectorManagedSG");
+define_sheet!(ContentDirectorManagedSGSheet, ContentDirectorManagedSGRow, "ContentDirectorManagedSG", no_language_support);

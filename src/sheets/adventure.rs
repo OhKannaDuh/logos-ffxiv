@@ -25,4 +25,4 @@ impl AdventureRow {
     bool_field!(is_initial, 10);
 }
 
-define_sheet!(AdventureSheet, AdventureRow, "Adventure");
+define_sheet!(AdventureSheet, AdventureRow, "Adventure", language_support);

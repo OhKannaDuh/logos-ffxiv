@@ -23,4 +23,4 @@ impl LeveRewardItemRow {
     array_field!(probability_percent, 8, 8, LeveRewardItemProbabilityPercent);
 }
 
-define_sheet!(LeveRewardItemSheet, LeveRewardItemRow, "LeveRewardItem");
+define_sheet!(LeveRewardItemSheet, LeveRewardItemRow, "LeveRewardItem", no_language_support);

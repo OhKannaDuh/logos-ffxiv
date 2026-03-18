@@ -23,4 +23,4 @@ impl GatheringRarePopTimeTableRow {
     array_field!(duration, 3, 3, GatheringRarePopTimeTableDuration);
 }
 
-define_sheet!(GatheringRarePopTimeTableSheet, GatheringRarePopTimeTableRow, "GatheringRarePopTimeTable");
+define_sheet!(GatheringRarePopTimeTableSheet, GatheringRarePopTimeTableRow, "GatheringRarePopTimeTable", no_language_support);

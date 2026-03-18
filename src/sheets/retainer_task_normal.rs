@@ -20,4 +20,4 @@ impl RetainerTaskNormalRow {
     array_field!(quantity, 3, 5, RetainerTaskNormalQuantity);
 }
 
-define_sheet!(RetainerTaskNormalSheet, RetainerTaskNormalRow, "RetainerTaskNormal");
+define_sheet!(RetainerTaskNormalSheet, RetainerTaskNormalRow, "RetainerTaskNormal", no_language_support);

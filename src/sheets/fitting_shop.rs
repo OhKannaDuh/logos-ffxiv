@@ -43,4 +43,4 @@ impl FittingShopRow {
     u16_field!(unknown_31, 31);
 }
 
-define_sheet!(FittingShopSheet, FittingShopRow, "FittingShop");
+define_sheet!(FittingShopSheet, FittingShopRow, "FittingShop", no_language_support);

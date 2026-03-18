@@ -24,4 +24,4 @@ impl SequentialEventRow {
     u16_field!(unknown_321, 0);
 }
 
-define_sheet!(SequentialEventSheet, SequentialEventRow, "SequentialEvent");
+define_sheet!(SequentialEventSheet, SequentialEventRow, "SequentialEvent", no_language_support);

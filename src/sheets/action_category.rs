@@ -12,4 +12,4 @@ impl ActionCategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(ActionCategorySheet, ActionCategoryRow, "ActionCategory");
+define_sheet!(ActionCategorySheet, ActionCategoryRow, "ActionCategory", language_support);

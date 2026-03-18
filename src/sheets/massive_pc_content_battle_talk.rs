@@ -18,4 +18,4 @@ impl MassivePcContentBattleTalkRow {
     u8_field!(unknown_6, 4);
 }
 
-define_sheet!(MassivePcContentBattleTalkSheet, MassivePcContentBattleTalkRow, "MassivePcContentBattleTalk");
+define_sheet!(MassivePcContentBattleTalkSheet, MassivePcContentBattleTalkRow, "MassivePcContentBattleTalk", no_language_support);

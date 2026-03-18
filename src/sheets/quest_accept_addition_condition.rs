@@ -16,4 +16,4 @@ impl QuestAcceptAdditionConditionRow {
     bool_field!(unknown_1, 4);
 }
 
-define_sheet!(QuestAcceptAdditionConditionSheet, QuestAcceptAdditionConditionRow, "QuestAcceptAdditionCondition");
+define_sheet!(QuestAcceptAdditionConditionSheet, QuestAcceptAdditionConditionRow, "QuestAcceptAdditionCondition", no_language_support);

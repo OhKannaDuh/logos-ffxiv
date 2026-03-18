@@ -18,4 +18,4 @@ impl DescriptionRow {
     bool_field!(unknown_1, 5);
 }
 
-define_sheet!(DescriptionSheet, DescriptionRow, "Description");
+define_sheet!(DescriptionSheet, DescriptionRow, "Description", language_support);

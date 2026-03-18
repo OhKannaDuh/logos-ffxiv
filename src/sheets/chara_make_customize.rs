@@ -18,4 +18,4 @@ impl CharaMakeCustomizeRow {
     bool_field!(is_purchasable, 3);
 }
 
-define_sheet!(CharaMakeCustomizeSheet, CharaMakeCustomizeRow, "CharaMakeCustomize");
+define_sheet!(CharaMakeCustomizeSheet, CharaMakeCustomizeRow, "CharaMakeCustomize", no_language_support);

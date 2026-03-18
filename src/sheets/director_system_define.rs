@@ -13,4 +13,4 @@ impl DirectorSystemDefineRow {
     i32_field!(unknown_1, 1);
 }
 
-define_sheet!(DirectorSystemDefineSheet, DirectorSystemDefineRow, "DirectorSystemDefine");
+define_sheet!(DirectorSystemDefineSheet, DirectorSystemDefineRow, "DirectorSystemDefine", no_language_support);

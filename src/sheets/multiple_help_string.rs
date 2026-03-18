@@ -13,4 +13,4 @@ impl MultipleHelpStringRow {
     string_field!(unknown_1, 1);
 }
 
-define_sheet!(MultipleHelpStringSheet, MultipleHelpStringRow, "MultipleHelpString");
+define_sheet!(MultipleHelpStringSheet, MultipleHelpStringRow, "MultipleHelpString", language_support);

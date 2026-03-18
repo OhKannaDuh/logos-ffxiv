@@ -12,4 +12,4 @@ impl CreditListTextRow {
     string_field!(name, 0);
 }
 
-define_sheet!(CreditListTextSheet, CreditListTextRow, "CreditListText");
+define_sheet!(CreditListTextSheet, CreditListTextRow, "CreditListText", language_support);

@@ -12,4 +12,4 @@ impl McGuffinRow {
     u8_field!(ui_data, 0);
 }
 
-define_sheet!(McGuffinSheet, McGuffinRow, "McGuffin");
+define_sheet!(McGuffinSheet, McGuffinRow, "McGuffin", no_language_support);

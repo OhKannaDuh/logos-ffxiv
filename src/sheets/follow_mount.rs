@@ -29,4 +29,4 @@ impl FollowMountRow {
     bool_field!(unknown_17, 15);
 }
 
-define_sheet!(FollowMountSheet, FollowMountRow, "FollowMount");
+define_sheet!(FollowMountSheet, FollowMountRow, "FollowMount", no_language_support);

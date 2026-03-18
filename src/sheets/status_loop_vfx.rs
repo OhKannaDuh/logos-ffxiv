@@ -24,4 +24,4 @@ impl StatusLoopVFXRow {
     bool_field!(unknown_6, 10);
 }
 
-define_sheet!(StatusLoopVFXSheet, StatusLoopVFXRow, "StatusLoopVFX");
+define_sheet!(StatusLoopVFXSheet, StatusLoopVFXRow, "StatusLoopVFX", no_language_support);

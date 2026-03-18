@@ -23,4 +23,4 @@ impl PlaceNameRow {
     u8_field!(map_condition, 11);
 }
 
-define_sheet!(PlaceNameSheet, PlaceNameRow, "PlaceName");
+define_sheet!(PlaceNameSheet, PlaceNameRow, "PlaceName", language_support);

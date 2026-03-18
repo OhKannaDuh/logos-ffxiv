@@ -23,4 +23,4 @@ impl EmjDaniRow {
     bool_field!(unknown_10, 3);
 }
 
-define_sheet!(EmjDaniSheet, EmjDaniRow, "EmjDani");
+define_sheet!(EmjDaniSheet, EmjDaniRow, "EmjDani", no_language_support);

@@ -23,4 +23,4 @@ impl DeepDungeonItemRow {
     u32_field!(action, 11);
 }
 
-define_sheet!(DeepDungeonItemSheet, DeepDungeonItemRow, "DeepDungeonItem");
+define_sheet!(DeepDungeonItemSheet, DeepDungeonItemRow, "DeepDungeonItem", language_support);

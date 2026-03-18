@@ -48,4 +48,4 @@ impl ItemFoodRow {
     array_field!(is_relative, 16, 3, ItemFoodIsRelative);
 }
 
-define_sheet!(ItemFoodSheet, ItemFoodRow, "ItemFood");
+define_sheet!(ItemFoodSheet, ItemFoodRow, "ItemFood", no_language_support);

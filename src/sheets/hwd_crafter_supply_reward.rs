@@ -14,4 +14,4 @@ impl HWDCrafterSupplyRewardRow {
     u16_field!(points, 2);
 }
 
-define_sheet!(HWDCrafterSupplyRewardSheet, HWDCrafterSupplyRewardRow, "HWDCrafterSupplyReward");
+define_sheet!(HWDCrafterSupplyRewardSheet, HWDCrafterSupplyRewardRow, "HWDCrafterSupplyReward", no_language_support);

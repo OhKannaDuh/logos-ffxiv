@@ -16,4 +16,4 @@ impl ContentTodoRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(ContentTodoSheet, ContentTodoRow, "ContentTodo");
+define_sheet!(ContentTodoSheet, ContentTodoRow, "ContentTodo", no_language_support);

@@ -12,4 +12,4 @@ impl VVDRouteDataRow {
     u16_field!(notebook_entry, 0);
 }
 
-define_sheet!(VVDRouteDataSheet, VVDRouteDataRow, "VVDRouteData");
+define_sheet!(VVDRouteDataSheet, VVDRouteDataRow, "VVDRouteData", no_language_support);

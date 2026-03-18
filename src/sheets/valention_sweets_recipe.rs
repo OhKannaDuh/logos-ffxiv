@@ -28,4 +28,4 @@ impl ValentionSweetsRecipeRow {
     u8_field!(unknown_16, 16);
 }
 
-define_sheet!(ValentionSweetsRecipeSheet, ValentionSweetsRecipeRow, "ValentionSweetsRecipe");
+define_sheet!(ValentionSweetsRecipeSheet, ValentionSweetsRecipeRow, "ValentionSweetsRecipe", language_support);

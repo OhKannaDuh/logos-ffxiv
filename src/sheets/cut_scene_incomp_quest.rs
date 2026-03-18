@@ -12,4 +12,4 @@ impl CutSceneIncompQuestRow {
     u32_field!(quest, 0);
 }
 
-define_sheet!(CutSceneIncompQuestSheet, CutSceneIncompQuestRow, "CutSceneIncompQuest");
+define_sheet!(CutSceneIncompQuestSheet, CutSceneIncompQuestRow, "CutSceneIncompQuest", no_language_support);

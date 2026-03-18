@@ -13,4 +13,4 @@ impl GathererCrafterToolRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(GathererCrafterToolSheet, GathererCrafterToolRow, "GathererCrafterTool");
+define_sheet!(GathererCrafterToolSheet, GathererCrafterToolRow, "GathererCrafterTool", no_language_support);

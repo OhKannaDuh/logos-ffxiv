@@ -12,4 +12,4 @@ impl TreasureModelRow {
     string_field!(path, 0);
 }
 
-define_sheet!(TreasureModelSheet, TreasureModelRow, "TreasureModel");
+define_sheet!(TreasureModelSheet, TreasureModelRow, "TreasureModel", no_language_support);

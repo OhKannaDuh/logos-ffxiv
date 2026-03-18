@@ -16,4 +16,4 @@ impl KineDriverOffGroupRow {
     i8_field!(unknown_4, 4);
 }
 
-define_sheet!(KineDriverOffGroupSheet, KineDriverOffGroupRow, "KineDriverOffGroup");
+define_sheet!(KineDriverOffGroupSheet, KineDriverOffGroupRow, "KineDriverOffGroup", no_language_support);

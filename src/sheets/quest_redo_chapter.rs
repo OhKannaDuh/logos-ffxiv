@@ -17,4 +17,4 @@ impl QuestRedoChapterRow {
     u8_field!(unknown_5, 3);
 }
 
-define_sheet!(QuestRedoChapterSheet, QuestRedoChapterRow, "QuestRedoChapter");
+define_sheet!(QuestRedoChapterSheet, QuestRedoChapterRow, "QuestRedoChapter", no_language_support);

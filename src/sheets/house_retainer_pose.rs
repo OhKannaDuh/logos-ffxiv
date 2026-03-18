@@ -12,4 +12,4 @@ impl HouseRetainerPoseRow {
     u16_field!(action_timeline, 0);
 }
 
-define_sheet!(HouseRetainerPoseSheet, HouseRetainerPoseRow, "HouseRetainerPose");
+define_sheet!(HouseRetainerPoseSheet, HouseRetainerPoseRow, "HouseRetainerPose", no_language_support);

@@ -12,4 +12,4 @@ impl TextCommandParamRow {
     string_field!(param, 0);
 }
 
-define_sheet!(TextCommandParamSheet, TextCommandParamRow, "TextCommandParam");
+define_sheet!(TextCommandParamSheet, TextCommandParamRow, "TextCommandParam", language_support);

@@ -19,4 +19,4 @@ impl HousingPileLimitRow {
     bool_field!(unknown_7, 7);
 }
 
-define_sheet!(HousingPileLimitSheet, HousingPileLimitRow, "HousingPileLimit");
+define_sheet!(HousingPileLimitSheet, HousingPileLimitRow, "HousingPileLimit", no_language_support);

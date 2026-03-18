@@ -14,4 +14,4 @@ impl FittingShopCategoryItemRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(FittingShopCategoryItemSheet, FittingShopCategoryItemRow, "FittingShopCategoryItem");
+define_sheet!(FittingShopCategoryItemSheet, FittingShopCategoryItemRow, "FittingShopCategoryItem", no_language_support);

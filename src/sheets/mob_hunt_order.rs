@@ -16,4 +16,4 @@ impl MobHuntOrderRow {
     u8_field!(mob_hunt_reward, 4);
 }
 
-define_sheet!(MobHuntOrderSheet, MobHuntOrderRow, "MobHuntOrder");
+define_sheet!(MobHuntOrderSheet, MobHuntOrderRow, "MobHuntOrder", no_language_support);

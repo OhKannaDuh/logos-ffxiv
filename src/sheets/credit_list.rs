@@ -17,4 +17,4 @@ impl CreditListRow {
     u8_field!(unknown_1, 4);
 }
 
-define_sheet!(CreditListSheet, CreditListRow, "CreditList");
+define_sheet!(CreditListSheet, CreditListRow, "CreditList", no_language_support);

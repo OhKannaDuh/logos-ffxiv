@@ -16,4 +16,4 @@ impl HWDInfoBoardArticleRow {
     bool_field!(unknown_2, 3);
 }
 
-define_sheet!(HWDInfoBoardArticleSheet, HWDInfoBoardArticleRow, "HWDInfoBoardArticle");
+define_sheet!(HWDInfoBoardArticleSheet, HWDInfoBoardArticleRow, "HWDInfoBoardArticle", language_support);

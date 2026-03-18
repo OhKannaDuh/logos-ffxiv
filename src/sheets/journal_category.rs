@@ -16,4 +16,4 @@ impl JournalCategoryRow {
     u8_field!(map_condition, 4);
 }
 
-define_sheet!(JournalCategorySheet, JournalCategoryRow, "JournalCategory");
+define_sheet!(JournalCategorySheet, JournalCategoryRow, "JournalCategory", language_support);

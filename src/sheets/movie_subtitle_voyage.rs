@@ -13,4 +13,4 @@ impl MovieSubtitleVoyageRow {
     f32_field!(end_time, 1);
 }
 
-define_sheet!(MovieSubtitleVoyageSheet, MovieSubtitleVoyageRow, "MovieSubtitleVoyage");
+define_sheet!(MovieSubtitleVoyageSheet, MovieSubtitleVoyageRow, "MovieSubtitleVoyage", language_support);

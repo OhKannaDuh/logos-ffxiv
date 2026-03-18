@@ -12,4 +12,4 @@ impl GCSupplyDefineRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(GCSupplyDefineSheet, GCSupplyDefineRow, "GCSupplyDefine");
+define_sheet!(GCSupplyDefineSheet, GCSupplyDefineRow, "GCSupplyDefine", no_language_support);

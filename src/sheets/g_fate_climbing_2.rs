@@ -12,4 +12,4 @@ impl GFateClimbing2Row {
     u32_field!(content_entry, 0);
 }
 
-define_sheet!(GFateClimbing2Sheet, GFateClimbing2Row, "GFateClimbing2");
+define_sheet!(GFateClimbing2Sheet, GFateClimbing2Row, "GFateClimbing2", no_language_support);

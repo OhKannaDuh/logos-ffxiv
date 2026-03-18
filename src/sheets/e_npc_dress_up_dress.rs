@@ -84,4 +84,4 @@ impl ENpcDressUpDressRow {
     bool_field!(unknown_44, 5);
 }
 
-define_sheet!(ENpcDressUpDressSheet, ENpcDressUpDressRow, "ENpcDressUpDress");
+define_sheet!(ENpcDressUpDressSheet, ENpcDressUpDressRow, "ENpcDressUpDress", no_language_support);

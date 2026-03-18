@@ -12,4 +12,4 @@ impl PreviewableItemsRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(PreviewableItemsSheet, PreviewableItemsRow, "PreviewableItems");
+define_sheet!(PreviewableItemsSheet, PreviewableItemsRow, "PreviewableItems", no_language_support);

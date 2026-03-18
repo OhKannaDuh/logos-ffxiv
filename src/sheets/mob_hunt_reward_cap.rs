@@ -12,4 +12,4 @@ impl MobHuntRewardCapRow {
     u32_field!(exp_cap, 0);
 }
 
-define_sheet!(MobHuntRewardCapSheet, MobHuntRewardCapRow, "MobHuntRewardCap");
+define_sheet!(MobHuntRewardCapSheet, MobHuntRewardCapRow, "MobHuntRewardCap", no_language_support);

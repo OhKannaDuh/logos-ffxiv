@@ -14,4 +14,4 @@ impl IKDSpotRow {
     u32_field!(place_name, 2);
 }
 
-define_sheet!(IKDSpotSheet, IKDSpotRow, "IKDSpot");
+define_sheet!(IKDSpotSheet, IKDSpotRow, "IKDSpot", no_language_support);

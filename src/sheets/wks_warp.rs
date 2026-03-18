@@ -14,4 +14,4 @@ impl WKSWarpRow {
     u16_field!(unknown_2, 2);
 }
 
-define_sheet!(WKSWarpSheet, WKSWarpRow, "WKSWarp");
+define_sheet!(WKSWarpSheet, WKSWarpRow, "WKSWarp", no_language_support);

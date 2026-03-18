@@ -17,4 +17,4 @@ impl OrnamentActionRow {
     array_field!(actions, 0, 6, OrnamentActionActions);
 }
 
-define_sheet!(OrnamentActionSheet, OrnamentActionRow, "OrnamentAction");
+define_sheet!(OrnamentActionSheet, OrnamentActionRow, "OrnamentAction", no_language_support);

@@ -12,4 +12,4 @@ impl LeveClientRow {
     string_field!(name, 0);
 }
 
-define_sheet!(LeveClientSheet, LeveClientRow, "LeveClient");
+define_sheet!(LeveClientSheet, LeveClientRow, "LeveClient", language_support);

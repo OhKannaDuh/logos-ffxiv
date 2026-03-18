@@ -40,4 +40,4 @@ impl ContentMemberTypeRow {
     bool_field!(allow_limited_jobs, 20);
 }
 
-define_sheet!(ContentMemberTypeSheet, ContentMemberTypeRow, "ContentMemberType");
+define_sheet!(ContentMemberTypeSheet, ContentMemberTypeRow, "ContentMemberType", no_language_support);

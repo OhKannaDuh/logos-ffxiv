@@ -20,4 +20,4 @@ impl CollectablesShopRow {
     u8_field!(reward_type, 2);
 }
 
-define_sheet!(CollectablesShopSheet, CollectablesShopRow, "CollectablesShop");
+define_sheet!(CollectablesShopSheet, CollectablesShopRow, "CollectablesShop", language_support);

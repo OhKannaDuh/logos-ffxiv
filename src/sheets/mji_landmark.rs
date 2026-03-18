@@ -45,4 +45,4 @@ impl MJILandmarkRow {
     array_field!(amount, 28, 5, MJILandmarkAmount);
 }
 
-define_sheet!(MJILandmarkSheet, MJILandmarkRow, "MJILandmark");
+define_sheet!(MJILandmarkSheet, MJILandmarkRow, "MJILandmark", no_language_support);

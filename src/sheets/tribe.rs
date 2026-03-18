@@ -21,4 +21,4 @@ impl TribeRow {
     i8_field!(pie, 9);
 }
 
-define_sheet!(TribeSheet, TribeRow, "Tribe");
+define_sheet!(TribeSheet, TribeRow, "Tribe", language_support);

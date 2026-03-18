@@ -14,4 +14,4 @@ impl AOZWeeklyRewardRow {
     u16_field!(unknown_2, 2);
 }
 
-define_sheet!(AOZWeeklyRewardSheet, AOZWeeklyRewardRow, "AOZWeeklyReward");
+define_sheet!(AOZWeeklyRewardSheet, AOZWeeklyRewardRow, "AOZWeeklyReward", no_language_support);

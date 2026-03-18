@@ -13,4 +13,4 @@ impl HWDDevLayerControlRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(HWDDevLayerControlSheet, HWDDevLayerControlRow, "HWDDevLayerControl");
+define_sheet!(HWDDevLayerControlSheet, HWDDevLayerControlRow, "HWDDevLayerControl", no_language_support);

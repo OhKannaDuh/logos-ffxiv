@@ -13,4 +13,4 @@ impl ModelStateRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(ModelStateSheet, ModelStateRow, "ModelState");
+define_sheet!(ModelStateSheet, ModelStateRow, "ModelState", no_language_support);

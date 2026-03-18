@@ -21,4 +21,4 @@ impl IndividualWeatherRow {
     array_field!(individual_weather_data, 0, 7, IndividualWeatherIndividualWeatherData);
 }
 
-define_sheet!(IndividualWeatherSheet, IndividualWeatherRow, "IndividualWeather");
+define_sheet!(IndividualWeatherSheet, IndividualWeatherRow, "IndividualWeather", no_language_support);

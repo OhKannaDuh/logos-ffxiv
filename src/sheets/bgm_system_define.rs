@@ -12,4 +12,4 @@ impl BGMSystemDefineRow {
     f32_field!(define, 0);
 }
 
-define_sheet!(BGMSystemDefineSheet, BGMSystemDefineRow, "BGMSystemDefine");
+define_sheet!(BGMSystemDefineSheet, BGMSystemDefineRow, "BGMSystemDefine", no_language_support);

@@ -33,4 +33,4 @@ impl WeeklyBingoMultipleOrderRow {
     u32_field!(unknown_19, 19);
 }
 
-define_sheet!(WeeklyBingoMultipleOrderSheet, WeeklyBingoMultipleOrderRow, "WeeklyBingoMultipleOrder");
+define_sheet!(WeeklyBingoMultipleOrderSheet, WeeklyBingoMultipleOrderRow, "WeeklyBingoMultipleOrder", no_language_support);

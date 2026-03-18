@@ -26,4 +26,4 @@ impl BankaCraftWorksSupplyRow {
     array_field!(item, 0, 4, BankaCraftWorksSupplyItem);
 }
 
-define_sheet!(BankaCraftWorksSupplySheet, BankaCraftWorksSupplyRow, "BankaCraftWorksSupply");
+define_sheet!(BankaCraftWorksSupplySheet, BankaCraftWorksSupplyRow, "BankaCraftWorksSupply", no_language_support);

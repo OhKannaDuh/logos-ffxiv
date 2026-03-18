@@ -14,4 +14,4 @@ impl ActionIndirectionRow {
     i8_field!(class_job, 1);
 }
 
-define_sheet!(ActionIndirectionSheet, ActionIndirectionRow, "ActionIndirection");
+define_sheet!(ActionIndirectionSheet, ActionIndirectionRow, "ActionIndirection", no_language_support);

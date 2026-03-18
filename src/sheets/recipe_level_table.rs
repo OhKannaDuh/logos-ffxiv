@@ -22,4 +22,4 @@ impl RecipeLevelTableRow {
     u8_field!(quality_modifier, 8);
 }
 
-define_sheet!(RecipeLevelTableSheet, RecipeLevelTableRow, "RecipeLevelTable");
+define_sheet!(RecipeLevelTableSheet, RecipeLevelTableRow, "RecipeLevelTable", no_language_support);

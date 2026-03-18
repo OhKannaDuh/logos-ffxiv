@@ -13,4 +13,4 @@ impl DawnMemberRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(DawnMemberSheet, DawnMemberRow, "DawnMember");
+define_sheet!(DawnMemberSheet, DawnMemberRow, "DawnMember", no_language_support);

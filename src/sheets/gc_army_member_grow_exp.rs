@@ -12,4 +12,4 @@ impl GcArmyMemberGrowExpRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(GcArmyMemberGrowExpSheet, GcArmyMemberGrowExpRow, "GcArmyMemberGrowExp");
+define_sheet!(GcArmyMemberGrowExpSheet, GcArmyMemberGrowExpRow, "GcArmyMemberGrowExp", no_language_support);

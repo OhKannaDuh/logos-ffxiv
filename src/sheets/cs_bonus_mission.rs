@@ -13,4 +13,4 @@ impl CSBonusMissionRow {
     u16_field!(content_1, 1);
 }
 
-define_sheet!(CSBonusMissionSheet, CSBonusMissionRow, "CSBonusMission");
+define_sheet!(CSBonusMissionSheet, CSBonusMissionRow, "CSBonusMission", no_language_support);

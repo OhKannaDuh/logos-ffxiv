@@ -13,4 +13,4 @@ impl GFateDanceRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(GFateDanceSheet, GFateDanceRow, "GFateDance");
+define_sheet!(GFateDanceSheet, GFateDanceRow, "GFateDance", no_language_support);

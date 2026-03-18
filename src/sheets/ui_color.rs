@@ -19,4 +19,4 @@ impl UIColorRow {
     u32_field!(unknown_3, 7);
 }
 
-define_sheet!(UIColorSheet, UIColorRow, "UIColor");
+define_sheet!(UIColorSheet, UIColorRow, "UIColor", no_language_support);

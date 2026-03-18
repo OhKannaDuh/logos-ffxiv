@@ -20,4 +20,4 @@ impl SpearfishingItemRow {
     bool_field!(is_visible, 8);
 }
 
-define_sheet!(SpearfishingItemSheet, SpearfishingItemRow, "SpearfishingItem");
+define_sheet!(SpearfishingItemSheet, SpearfishingItemRow, "SpearfishingItem", language_support);

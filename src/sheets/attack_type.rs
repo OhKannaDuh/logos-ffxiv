@@ -12,4 +12,4 @@ impl AttackTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(AttackTypeSheet, AttackTypeRow, "AttackType");
+define_sheet!(AttackTypeSheet, AttackTypeRow, "AttackType", language_support);

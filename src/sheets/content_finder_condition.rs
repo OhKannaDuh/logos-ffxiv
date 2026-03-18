@@ -114,4 +114,4 @@ impl ContentFinderConditionRow {
     bool_field!(is_registration_allowed_from_any_data_center, 55);
 }
 
-define_sheet!(ContentFinderConditionSheet, ContentFinderConditionRow, "ContentFinderCondition");
+define_sheet!(ContentFinderConditionSheet, ContentFinderConditionRow, "ContentFinderCondition", language_support);

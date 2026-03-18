@@ -12,4 +12,4 @@ impl QuestEffectDefineRow {
     u16_field!(effect, 0);
 }
 
-define_sheet!(QuestEffectDefineSheet, QuestEffectDefineRow, "QuestEffectDefine");
+define_sheet!(QuestEffectDefineSheet, QuestEffectDefineRow, "QuestEffectDefine", no_language_support);

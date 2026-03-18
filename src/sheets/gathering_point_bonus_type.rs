@@ -12,4 +12,4 @@ impl GatheringPointBonusTypeRow {
     string_field!(text, 0);
 }
 
-define_sheet!(GatheringPointBonusTypeSheet, GatheringPointBonusTypeRow, "GatheringPointBonusType");
+define_sheet!(GatheringPointBonusTypeSheet, GatheringPointBonusTypeRow, "GatheringPointBonusType", language_support);

@@ -19,4 +19,4 @@ impl FCRankRow {
     u8_field!(fc_chest_compartments, 7);
 }
 
-define_sheet!(FCRankSheet, FCRankRow, "FCRank");
+define_sheet!(FCRankSheet, FCRankRow, "FCRank", no_language_support);

@@ -37,4 +37,4 @@ impl BannerPresetRow {
     u8_field!(ambient_lighting_brightness, 25);
 }
 
-define_sheet!(BannerPresetSheet, BannerPresetRow, "BannerPreset");
+define_sheet!(BannerPresetSheet, BannerPresetRow, "BannerPreset", no_language_support);

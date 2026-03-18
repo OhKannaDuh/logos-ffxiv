@@ -13,4 +13,4 @@ impl MYCTemporaryItemUICategoryRow {
     string_field!(unknown_0, 1);
 }
 
-define_sheet!(MYCTemporaryItemUICategorySheet, MYCTemporaryItemUICategoryRow, "MYCTemporaryItemUICategory");
+define_sheet!(MYCTemporaryItemUICategorySheet, MYCTemporaryItemUICategoryRow, "MYCTemporaryItemUICategory", language_support);

@@ -13,4 +13,4 @@ impl SwitchTalkRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(SwitchTalkSheet, SwitchTalkRow, "SwitchTalk");
+define_sheet!(SwitchTalkSheet, SwitchTalkRow, "SwitchTalk", no_language_support);

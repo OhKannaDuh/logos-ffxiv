@@ -28,4 +28,4 @@ impl SkyIslandMapMarkerRow {
     u8_field!(unknown_16, 14);
 }
 
-define_sheet!(SkyIslandMapMarkerSheet, SkyIslandMapMarkerRow, "SkyIslandMapMarker");
+define_sheet!(SkyIslandMapMarkerSheet, SkyIslandMapMarkerRow, "SkyIslandMapMarker", no_language_support);

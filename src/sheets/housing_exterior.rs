@@ -16,4 +16,4 @@ impl HousingExteriorRow {
     u8_field!(housing_size, 3);
 }
 
-define_sheet!(HousingExteriorSheet, HousingExteriorRow, "HousingExterior");
+define_sheet!(HousingExteriorSheet, HousingExteriorRow, "HousingExterior", no_language_support);

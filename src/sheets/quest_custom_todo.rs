@@ -20,4 +20,4 @@ impl QuestCustomTodoRow {
     u8_field!(unknown_8, 0);
 }
 
-define_sheet!(QuestCustomTodoSheet, QuestCustomTodoRow, "QuestCustomTodo");
+define_sheet!(QuestCustomTodoSheet, QuestCustomTodoRow, "QuestCustomTodo", no_language_support);

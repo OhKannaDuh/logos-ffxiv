@@ -51,4 +51,4 @@ impl NpcEquipRow {
     bool_field!(unknown_0, 10);
 }
 
-define_sheet!(NpcEquipSheet, NpcEquipRow, "NpcEquip");
+define_sheet!(NpcEquipSheet, NpcEquipRow, "NpcEquip", no_language_support);

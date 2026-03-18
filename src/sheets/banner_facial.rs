@@ -17,4 +17,4 @@ impl BannerFacialRow {
     u8_field!(sort_key, 5);
 }
 
-define_sheet!(BannerFacialSheet, BannerFacialRow, "BannerFacial");
+define_sheet!(BannerFacialSheet, BannerFacialRow, "BannerFacial", no_language_support);

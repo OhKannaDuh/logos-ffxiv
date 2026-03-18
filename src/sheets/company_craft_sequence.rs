@@ -23,4 +23,4 @@ impl CompanyCraftSequenceRow {
     array_field!(company_craft_part, 6, 8, CompanyCraftSequenceCompanyCraftPart);
 }
 
-define_sheet!(CompanyCraftSequenceSheet, CompanyCraftSequenceRow, "CompanyCraftSequence");
+define_sheet!(CompanyCraftSequenceSheet, CompanyCraftSequenceRow, "CompanyCraftSequence", no_language_support);

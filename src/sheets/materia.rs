@@ -24,4 +24,4 @@ impl MateriaRow {
     u8_field!(base_param, 16);
 }
 
-define_sheet!(MateriaSheet, MateriaRow, "Materia");
+define_sheet!(MateriaSheet, MateriaRow, "Materia", no_language_support);

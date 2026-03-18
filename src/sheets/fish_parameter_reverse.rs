@@ -12,4 +12,4 @@ impl FishParameterReverseRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(FishParameterReverseSheet, FishParameterReverseRow, "FishParameterReverse");
+define_sheet!(FishParameterReverseSheet, FishParameterReverseRow, "FishParameterReverse", no_language_support);

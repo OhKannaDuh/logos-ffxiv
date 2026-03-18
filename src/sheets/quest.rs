@@ -222,4 +222,4 @@ impl QuestRow {
     bool_field!(unknown_13, 1652);
 }
 
-define_sheet!(QuestSheet, QuestRow, "Quest");
+define_sheet!(QuestSheet, QuestRow, "Quest", language_support);

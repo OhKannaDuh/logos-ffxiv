@@ -12,4 +12,4 @@ impl ItemBarterWarningRow {
     u32_field!(achievement, 0);
 }
 
-define_sheet!(ItemBarterWarningSheet, ItemBarterWarningRow, "ItemBarterWarning");
+define_sheet!(ItemBarterWarningSheet, ItemBarterWarningRow, "ItemBarterWarning", no_language_support);

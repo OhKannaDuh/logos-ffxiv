@@ -13,4 +13,4 @@ impl OrchestrionUiparamRow {
     u8_field!(orchestrion_category, 0);
 }
 
-define_sheet!(OrchestrionUiparamSheet, OrchestrionUiparamRow, "OrchestrionUiparam");
+define_sheet!(OrchestrionUiparamSheet, OrchestrionUiparamRow, "OrchestrionUiparam", no_language_support);

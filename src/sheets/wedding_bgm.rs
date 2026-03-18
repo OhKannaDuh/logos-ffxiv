@@ -13,4 +13,4 @@ impl WeddingBGMRow {
     u16_field!(song, 0);
 }
 
-define_sheet!(WeddingBGMSheet, WeddingBGMRow, "WeddingBGM");
+define_sheet!(WeddingBGMSheet, WeddingBGMRow, "WeddingBGM", language_support);

@@ -12,4 +12,4 @@ impl HousingUnplacementRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(HousingUnplacementSheet, HousingUnplacementRow, "HousingUnplacement");
+define_sheet!(HousingUnplacementSheet, HousingUnplacementRow, "HousingUnplacement", language_support);

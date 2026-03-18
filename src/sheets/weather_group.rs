@@ -13,4 +13,4 @@ impl WeatherGroupRow {
     i32_field!(weather_rate, 1);
 }
 
-define_sheet!(WeatherGroupSheet, WeatherGroupRow, "WeatherGroup");
+define_sheet!(WeatherGroupSheet, WeatherGroupRow, "WeatherGroup", no_language_support);

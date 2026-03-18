@@ -12,4 +12,4 @@ impl DynamicEventEnemyTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(DynamicEventEnemyTypeSheet, DynamicEventEnemyTypeRow, "DynamicEventEnemyType");
+define_sheet!(DynamicEventEnemyTypeSheet, DynamicEventEnemyTypeRow, "DynamicEventEnemyType", language_support);

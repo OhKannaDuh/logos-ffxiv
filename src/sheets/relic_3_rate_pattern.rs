@@ -14,4 +14,4 @@ impl Relic3RatePatternRow {
     i8_field!(unknown_2, 2);
 }
 
-define_sheet!(Relic3RatePatternSheet, Relic3RatePatternRow, "Relic3RatePattern");
+define_sheet!(Relic3RatePatternSheet, Relic3RatePatternRow, "Relic3RatePattern", no_language_support);

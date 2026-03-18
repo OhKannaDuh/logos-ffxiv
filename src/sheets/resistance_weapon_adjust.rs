@@ -21,4 +21,4 @@ impl ResistanceWeaponAdjustRow {
     u8_field!(unknown_0, 7);
 }
 
-define_sheet!(ResistanceWeaponAdjustSheet, ResistanceWeaponAdjustRow, "ResistanceWeaponAdjust");
+define_sheet!(ResistanceWeaponAdjustSheet, ResistanceWeaponAdjustRow, "ResistanceWeaponAdjust", no_language_support);

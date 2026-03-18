@@ -15,4 +15,4 @@ impl MJIItemPouchRow {
     u8_field!(unknown_0, 3);
 }
 
-define_sheet!(MJIItemPouchSheet, MJIItemPouchRow, "MJIItemPouch");
+define_sheet!(MJIItemPouchSheet, MJIItemPouchRow, "MJIItemPouch", no_language_support);

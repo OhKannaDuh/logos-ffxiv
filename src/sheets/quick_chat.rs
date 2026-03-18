@@ -16,4 +16,4 @@ impl QuickChatRow {
     i8_field!(quick_chat_transient, 3);
 }
 
-define_sheet!(QuickChatSheet, QuickChatRow, "QuickChat");
+define_sheet!(QuickChatSheet, QuickChatRow, "QuickChat", language_support);

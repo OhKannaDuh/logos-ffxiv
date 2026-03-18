@@ -13,4 +13,4 @@ impl AquariumWaterRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(AquariumWaterSheet, AquariumWaterRow, "AquariumWater");
+define_sheet!(AquariumWaterSheet, AquariumWaterRow, "AquariumWater", language_support);

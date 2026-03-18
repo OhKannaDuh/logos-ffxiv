@@ -14,4 +14,4 @@ impl QuestAroundPlayerHideRow {
     u8_field!(unknown_2, 0);
 }
 
-define_sheet!(QuestAroundPlayerHideSheet, QuestAroundPlayerHideRow, "QuestAroundPlayerHide");
+define_sheet!(QuestAroundPlayerHideSheet, QuestAroundPlayerHideRow, "QuestAroundPlayerHide", no_language_support);

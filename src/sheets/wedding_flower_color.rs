@@ -14,4 +14,4 @@ impl WeddingFlowerColorRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(WeddingFlowerColorSheet, WeddingFlowerColorRow, "WeddingFlowerColor");
+define_sheet!(WeddingFlowerColorSheet, WeddingFlowerColorRow, "WeddingFlowerColor", no_language_support);

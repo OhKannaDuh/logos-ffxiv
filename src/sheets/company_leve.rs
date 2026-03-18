@@ -48,4 +48,4 @@ impl CompanyLeveRow {
     u8_field!(rule_param, 177);
 }
 
-define_sheet!(CompanyLeveSheet, CompanyLeveRow, "CompanyLeve");
+define_sheet!(CompanyLeveSheet, CompanyLeveRow, "CompanyLeve", no_language_support);

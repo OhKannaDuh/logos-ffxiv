@@ -26,4 +26,4 @@ impl GcArmyMemberGrowRow {
     u8_field!(class_job, 0);
 }
 
-define_sheet!(GcArmyMemberGrowSheet, GcArmyMemberGrowRow, "GcArmyMemberGrow");
+define_sheet!(GcArmyMemberGrowSheet, GcArmyMemberGrowRow, "GcArmyMemberGrow", no_language_support);

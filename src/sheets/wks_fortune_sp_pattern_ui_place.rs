@@ -51,4 +51,4 @@ impl WKSFortuneSPPatternUIPlaceRow {
     u32_field!(unknown_39, 39);
 }
 
-define_sheet!(WKSFortuneSPPatternUIPlaceSheet, WKSFortuneSPPatternUIPlaceRow, "WKSFortuneSPPatternUIPlace");
+define_sheet!(WKSFortuneSPPatternUIPlaceSheet, WKSFortuneSPPatternUIPlaceRow, "WKSFortuneSPPatternUIPlace", no_language_support);

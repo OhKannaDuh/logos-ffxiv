@@ -15,4 +15,4 @@ impl LogKindRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(LogKindSheet, LogKindRow, "LogKind");
+define_sheet!(LogKindSheet, LogKindRow, "LogKind", language_support);

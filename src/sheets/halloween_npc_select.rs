@@ -18,4 +18,4 @@ impl HalloweenNpcSelectRow {
     u8_field!(expansion, 1);
 }
 
-define_sheet!(HalloweenNpcSelectSheet, HalloweenNpcSelectRow, "HalloweenNpcSelect");
+define_sheet!(HalloweenNpcSelectSheet, HalloweenNpcSelectRow, "HalloweenNpcSelect", language_support);

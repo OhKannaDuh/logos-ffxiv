@@ -15,4 +15,4 @@ impl AddonHudSizeRow {
     i16_field!(unknown_3, 1);
 }
 
-define_sheet!(AddonHudSizeSheet, AddonHudSizeRow, "AddonHudSize");
+define_sheet!(AddonHudSizeSheet, AddonHudSizeRow, "AddonHudSize", no_language_support);

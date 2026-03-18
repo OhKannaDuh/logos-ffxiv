@@ -23,4 +23,4 @@ impl MateriaJoinRateGatherCraftRow {
     array_field!(hq_overmeld_percent_slot, 4, 4, MateriaJoinRateGatherCraftHQOvermeldPercentSlot);
 }
 
-define_sheet!(MateriaJoinRateGatherCraftSheet, MateriaJoinRateGatherCraftRow, "MateriaJoinRateGatherCraft");
+define_sheet!(MateriaJoinRateGatherCraftSheet, MateriaJoinRateGatherCraftRow, "MateriaJoinRateGatherCraft", no_language_support);

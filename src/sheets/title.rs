@@ -15,4 +15,4 @@ impl TitleRow {
     u16_field!(order, 3);
 }
 
-define_sheet!(TitleSheet, TitleRow, "Title");
+define_sheet!(TitleSheet, TitleRow, "Title", language_support);

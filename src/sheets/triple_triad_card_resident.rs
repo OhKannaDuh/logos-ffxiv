@@ -27,4 +27,4 @@ impl TripleTriadCardResidentRow {
     bool_field!(unknown_1, 11);
 }
 
-define_sheet!(TripleTriadCardResidentSheet, TripleTriadCardResidentRow, "TripleTriadCardResident");
+define_sheet!(TripleTriadCardResidentSheet, TripleTriadCardResidentRow, "TripleTriadCardResident", no_language_support);

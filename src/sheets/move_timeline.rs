@@ -21,4 +21,4 @@ impl MoveTimelineRow {
     u16_field!(extra, 9);
 }
 
-define_sheet!(MoveTimelineSheet, MoveTimelineRow, "MoveTimeline");
+define_sheet!(MoveTimelineSheet, MoveTimelineRow, "MoveTimeline", no_language_support);

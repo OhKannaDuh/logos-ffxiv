@@ -25,4 +25,4 @@ impl PatchMarkRow {
     i8_field!(category, 0);
 }
 
-define_sheet!(PatchMarkSheet, PatchMarkRow, "PatchMark");
+define_sheet!(PatchMarkSheet, PatchMarkRow, "PatchMark", no_language_support);

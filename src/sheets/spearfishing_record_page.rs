@@ -18,4 +18,4 @@ impl SpearfishingRecordPageRow {
     u8_field!(unknown_4, 6);
 }
 
-define_sheet!(SpearfishingRecordPageSheet, SpearfishingRecordPageRow, "SpearfishingRecordPage");
+define_sheet!(SpearfishingRecordPageSheet, SpearfishingRecordPageRow, "SpearfishingRecordPage", no_language_support);

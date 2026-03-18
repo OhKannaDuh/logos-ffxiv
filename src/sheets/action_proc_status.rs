@@ -12,4 +12,4 @@ impl ActionProcStatusRow {
     u16_field!(status, 0);
 }
 
-define_sheet!(ActionProcStatusSheet, ActionProcStatusRow, "ActionProcStatus");
+define_sheet!(ActionProcStatusSheet, ActionProcStatusRow, "ActionProcStatus", no_language_support);

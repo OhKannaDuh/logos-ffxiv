@@ -46,4 +46,4 @@ impl WKSFunctionRow {
     array_field!(unknown_12, 16, 4, WKSFunctionUnknown12);
 }
 
-define_sheet!(WKSFunctionSheet, WKSFunctionRow, "WKSFunction");
+define_sheet!(WKSFunctionSheet, WKSFunctionRow, "WKSFunction", no_language_support);

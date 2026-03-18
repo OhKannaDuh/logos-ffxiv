@@ -13,4 +13,4 @@ impl TripleTriadCardObtainRow {
     u32_field!(text, 1);
 }
 
-define_sheet!(TripleTriadCardObtainSheet, TripleTriadCardObtainRow, "TripleTriadCardObtain");
+define_sheet!(TripleTriadCardObtainSheet, TripleTriadCardObtainRow, "TripleTriadCardObtain", no_language_support);

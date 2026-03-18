@@ -20,4 +20,4 @@ impl CreditFontRow {
     i8_field!(unknown_8, 8);
 }
 
-define_sheet!(CreditFontSheet, CreditFontRow, "CreditFont");
+define_sheet!(CreditFontSheet, CreditFontRow, "CreditFont", no_language_support);

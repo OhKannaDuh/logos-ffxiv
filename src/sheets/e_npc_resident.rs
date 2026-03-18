@@ -22,4 +22,4 @@ impl ENpcResidentRow {
     bool_field!(unknown_1, 10);
 }
 
-define_sheet!(ENpcResidentSheet, ENpcResidentRow, "ENpcResident");
+define_sheet!(ENpcResidentSheet, ENpcResidentRow, "ENpcResident", language_support);

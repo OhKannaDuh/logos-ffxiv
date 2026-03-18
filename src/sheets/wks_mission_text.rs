@@ -12,4 +12,4 @@ impl WKSMissionTextRow {
     string_field!(text, 0);
 }
 
-define_sheet!(WKSMissionTextSheet, WKSMissionTextRow, "WKSMissionText");
+define_sheet!(WKSMissionTextSheet, WKSMissionTextRow, "WKSMissionText", language_support);

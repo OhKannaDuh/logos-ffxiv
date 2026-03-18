@@ -18,4 +18,4 @@ impl MainCommandRow {
     i8_field!(sort_id, 3);
 }
 
-define_sheet!(MainCommandSheet, MainCommandRow, "MainCommand");
+define_sheet!(MainCommandSheet, MainCommandRow, "MainCommand", language_support);

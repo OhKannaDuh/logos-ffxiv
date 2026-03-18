@@ -12,4 +12,4 @@ impl AddonTransientRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(AddonTransientSheet, AddonTransientRow, "AddonTransient");
+define_sheet!(AddonTransientSheet, AddonTransientRow, "AddonTransient", language_support);

@@ -13,4 +13,4 @@ impl TutorialTankRow {
     u8_field!(objective, 0);
 }
 
-define_sheet!(TutorialTankSheet, TutorialTankRow, "TutorialTank");
+define_sheet!(TutorialTankSheet, TutorialTankRow, "TutorialTank", no_language_support);

@@ -12,4 +12,4 @@ impl InclusionShopSeriesRow {
     u32_field!(special_shop, 0);
 }
 
-define_sheet!(InclusionShopSeriesSheet, InclusionShopSeriesRow, "InclusionShopSeries");
+define_sheet!(InclusionShopSeriesSheet, InclusionShopSeriesRow, "InclusionShopSeries", no_language_support);

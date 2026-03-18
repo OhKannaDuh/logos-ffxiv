@@ -20,4 +20,4 @@ impl TripleTriadCardRow {
     i8_field!(unknown_5, 7);
 }
 
-define_sheet!(TripleTriadCardSheet, TripleTriadCardRow, "TripleTriadCard");
+define_sheet!(TripleTriadCardSheet, TripleTriadCardRow, "TripleTriadCard", language_support);

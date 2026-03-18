@@ -22,4 +22,4 @@ impl BallistaRow {
     i8_field!(far, 2);
 }
 
-define_sheet!(BallistaSheet, BallistaRow, "Ballista");
+define_sheet!(BallistaSheet, BallistaRow, "Ballista", no_language_support);

@@ -21,4 +21,4 @@ impl CutsceneRow {
     bool_field!(unknown_8, 9);
 }
 
-define_sheet!(CutsceneSheet, CutsceneRow, "Cutscene");
+define_sheet!(CutsceneSheet, CutsceneRow, "Cutscene", no_language_support);

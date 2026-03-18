@@ -19,4 +19,4 @@ impl RecipeLookupRow {
     u16_field!(cul, 7);
 }
 
-define_sheet!(RecipeLookupSheet, RecipeLookupRow, "RecipeLookup");
+define_sheet!(RecipeLookupSheet, RecipeLookupRow, "RecipeLookup", no_language_support);

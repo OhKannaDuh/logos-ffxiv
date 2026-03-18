@@ -48,4 +48,4 @@ impl StatusRow {
     bool_field!(unknown_7, 34);
 }
 
-define_sheet!(StatusSheet, StatusRow, "Status");
+define_sheet!(StatusSheet, StatusRow, "Status", language_support);

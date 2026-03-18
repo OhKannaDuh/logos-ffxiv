@@ -16,4 +16,4 @@ impl LegacyQuestRow {
     u16_field!(sort_key, 3);
 }
 
-define_sheet!(LegacyQuestSheet, LegacyQuestRow, "LegacyQuest");
+define_sheet!(LegacyQuestSheet, LegacyQuestRow, "LegacyQuest", language_support);

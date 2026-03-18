@@ -13,4 +13,4 @@ impl AozActionRow {
     u8_field!(rank, 1);
 }
 
-define_sheet!(AozActionSheet, AozActionRow, "AozAction");
+define_sheet!(AozActionSheet, AozActionRow, "AozAction", no_language_support);

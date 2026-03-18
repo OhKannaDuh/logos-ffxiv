@@ -13,4 +13,4 @@ impl EventSystemDefineRow {
     u32_field!(define_value, 1);
 }
 
-define_sheet!(EventSystemDefineSheet, EventSystemDefineRow, "EventSystemDefine");
+define_sheet!(EventSystemDefineSheet, EventSystemDefineRow, "EventSystemDefine", no_language_support);

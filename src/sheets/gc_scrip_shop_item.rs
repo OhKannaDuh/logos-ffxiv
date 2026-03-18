@@ -15,4 +15,4 @@ impl GCScripShopItemRow {
     u8_field!(sort_key, 3);
 }
 
-define_sheet!(GCScripShopItemSheet, GCScripShopItemRow, "GCScripShopItem");
+define_sheet!(GCScripShopItemSheet, GCScripShopItemRow, "GCScripShopItem", no_language_support);

@@ -15,4 +15,4 @@ impl BehaviorMoveRow {
     bool_field!(unknown_3, 3);
 }
 
-define_sheet!(BehaviorMoveSheet, BehaviorMoveRow, "BehaviorMove");
+define_sheet!(BehaviorMoveSheet, BehaviorMoveRow, "BehaviorMove", no_language_support);

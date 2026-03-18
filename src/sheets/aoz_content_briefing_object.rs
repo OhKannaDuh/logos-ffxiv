@@ -13,4 +13,4 @@ impl AOZContentBriefingObjectRow {
     u16_field!(unknown_0, 1);
 }
 
-define_sheet!(AOZContentBriefingObjectSheet, AOZContentBriefingObjectRow, "AOZContentBriefingObject");
+define_sheet!(AOZContentBriefingObjectSheet, AOZContentBriefingObjectRow, "AOZContentBriefingObject", no_language_support);

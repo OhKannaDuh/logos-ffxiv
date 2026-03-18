@@ -14,4 +14,4 @@ impl GCScripShopCategoryRow {
     i8_field!(sub_category, 2);
 }
 
-define_sheet!(GCScripShopCategorySheet, GCScripShopCategoryRow, "GCScripShopCategory");
+define_sheet!(GCScripShopCategorySheet, GCScripShopCategoryRow, "GCScripShopCategory", no_language_support);

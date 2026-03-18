@@ -13,4 +13,4 @@ impl UDS_PropertyRow {
     string_field!(type_, 1);
 }
 
-define_sheet!(UDS_PropertySheet, UDS_PropertyRow, "UDS_Property");
+define_sheet!(UDS_PropertySheet, UDS_PropertyRow, "UDS_Property", no_language_support);

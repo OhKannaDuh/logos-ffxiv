@@ -12,4 +12,4 @@ impl GatheringExpRow {
     i32_field!(exp, 0);
 }
 
-define_sheet!(GatheringExpSheet, GatheringExpRow, "GatheringExp");
+define_sheet!(GatheringExpSheet, GatheringExpRow, "GatheringExp", no_language_support);

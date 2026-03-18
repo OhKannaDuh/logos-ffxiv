@@ -23,4 +23,4 @@ impl HousingLandSetRow {
     u32_field!(unknown_range_2, 301);
 }
 
-define_sheet!(HousingLandSetSheet, HousingLandSetRow, "HousingLandSet");
+define_sheet!(HousingLandSetSheet, HousingLandSetRow, "HousingLandSet", no_language_support);

@@ -19,4 +19,4 @@ impl ConfigKeyRow {
     bool_field!(required, 3);
 }
 
-define_sheet!(ConfigKeySheet, ConfigKeyRow, "ConfigKey");
+define_sheet!(ConfigKeySheet, ConfigKeyRow, "ConfigKey", language_support);

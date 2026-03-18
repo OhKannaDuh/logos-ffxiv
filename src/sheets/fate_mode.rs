@@ -16,4 +16,4 @@ impl FateModeRow {
     u32_field!(objective_map_marker, 4);
 }
 
-define_sheet!(FateModeSheet, FateModeRow, "FateMode");
+define_sheet!(FateModeSheet, FateModeRow, "FateMode", no_language_support);

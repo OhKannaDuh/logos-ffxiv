@@ -12,4 +12,4 @@ impl EurekaStoryProgressRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(EurekaStoryProgressSheet, EurekaStoryProgressRow, "EurekaStoryProgress");
+define_sheet!(EurekaStoryProgressSheet, EurekaStoryProgressRow, "EurekaStoryProgress", no_language_support);

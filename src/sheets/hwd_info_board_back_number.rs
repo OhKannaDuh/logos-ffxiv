@@ -14,4 +14,4 @@ impl HWDInfoBoardBackNumberRow {
     u8_field!(unknown_2, 1);
 }
 
-define_sheet!(HWDInfoBoardBackNumberSheet, HWDInfoBoardBackNumberRow, "HWDInfoBoardBackNumber");
+define_sheet!(HWDInfoBoardBackNumberSheet, HWDInfoBoardBackNumberRow, "HWDInfoBoardBackNumber", language_support);

@@ -12,4 +12,4 @@ impl ClassJobResidentRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(ClassJobResidentSheet, ClassJobResidentRow, "ClassJobResident");
+define_sheet!(ClassJobResidentSheet, ClassJobResidentRow, "ClassJobResident", no_language_support);

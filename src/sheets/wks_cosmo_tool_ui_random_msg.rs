@@ -15,4 +15,4 @@ impl WKSCosmoToolUIRandomMsgRow {
     u8_field!(unknown_3, 2);
 }
 
-define_sheet!(WKSCosmoToolUIRandomMsgSheet, WKSCosmoToolUIRandomMsgRow, "WKSCosmoToolUIRandomMsg");
+define_sheet!(WKSCosmoToolUIRandomMsgSheet, WKSCosmoToolUIRandomMsgRow, "WKSCosmoToolUIRandomMsg", no_language_support);

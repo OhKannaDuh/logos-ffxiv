@@ -12,4 +12,4 @@ impl DeliveryQuestRow {
     i32_field!(quest, 0);
 }
 
-define_sheet!(DeliveryQuestSheet, DeliveryQuestRow, "DeliveryQuest");
+define_sheet!(DeliveryQuestSheet, DeliveryQuestRow, "DeliveryQuest", no_language_support);

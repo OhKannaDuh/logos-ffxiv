@@ -16,4 +16,4 @@ impl ExportedGatheringPointRow {
     u8_field!(gathering_point_type, 3);
 }
 
-define_sheet!(ExportedGatheringPointSheet, ExportedGatheringPointRow, "ExportedGatheringPoint");
+define_sheet!(ExportedGatheringPointSheet, ExportedGatheringPointRow, "ExportedGatheringPoint", no_language_support);

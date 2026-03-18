@@ -18,4 +18,4 @@ impl ContentNpcTalkRow {
     i32_field!(type_, 0);
 }
 
-define_sheet!(ContentNpcTalkSheet, ContentNpcTalkRow, "ContentNpcTalk");
+define_sheet!(ContentNpcTalkSheet, ContentNpcTalkRow, "ContentNpcTalk", no_language_support);

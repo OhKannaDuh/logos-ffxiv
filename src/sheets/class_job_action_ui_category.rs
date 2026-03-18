@@ -13,4 +13,4 @@ impl ClassJobActionUICategoryRow {
     string_field!(unknown_1, 1);
 }
 
-define_sheet!(ClassJobActionUICategorySheet, ClassJobActionUICategoryRow, "ClassJobActionUICategory");
+define_sheet!(ClassJobActionUICategorySheet, ClassJobActionUICategoryRow, "ClassJobActionUICategory", language_support);

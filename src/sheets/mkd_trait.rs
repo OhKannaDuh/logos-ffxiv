@@ -16,4 +16,4 @@ impl MKDTraitRow {
     u8_field!(level_unlock, 1);
 }
 
-define_sheet!(MKDTraitSheet, MKDTraitRow, "MKDTrait");
+define_sheet!(MKDTraitSheet, MKDTraitRow, "MKDTrait", language_support);

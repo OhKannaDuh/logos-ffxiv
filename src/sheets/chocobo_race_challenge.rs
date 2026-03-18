@@ -15,4 +15,4 @@ impl ChocoboRaceChallengeRow {
     u16_field!(unknown_3, 3);
 }
 
-define_sheet!(ChocoboRaceChallengeSheet, ChocoboRaceChallengeRow, "ChocoboRaceChallenge");
+define_sheet!(ChocoboRaceChallengeSheet, ChocoboRaceChallengeRow, "ChocoboRaceChallenge", language_support);

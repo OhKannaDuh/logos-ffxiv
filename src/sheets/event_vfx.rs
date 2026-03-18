@@ -17,4 +17,4 @@ impl EventVfxRow {
     u8_field!(unknown_5, 5);
 }
 
-define_sheet!(EventVfxSheet, EventVfxRow, "EventVfx");
+define_sheet!(EventVfxSheet, EventVfxRow, "EventVfx", language_support);

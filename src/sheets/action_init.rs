@@ -12,4 +12,4 @@ impl ActionInitRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(ActionInitSheet, ActionInitRow, "ActionInit");
+define_sheet!(ActionInitSheet, ActionInitRow, "ActionInit", no_language_support);

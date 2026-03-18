@@ -13,4 +13,4 @@ impl HWDSharedGroupControlParamRow {
     u8_field!(param_value, 1);
 }
 
-define_sheet!(HWDSharedGroupControlParamSheet, HWDSharedGroupControlParamRow, "HWDSharedGroupControlParam");
+define_sheet!(HWDSharedGroupControlParamSheet, HWDSharedGroupControlParamRow, "HWDSharedGroupControlParam", no_language_support);

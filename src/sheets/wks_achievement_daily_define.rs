@@ -32,4 +32,4 @@ impl WKSAchievementDailyDefineRow {
     u16_field!(reward_quantity, 0);
 }
 
-define_sheet!(WKSAchievementDailyDefineSheet, WKSAchievementDailyDefineRow, "WKSAchievementDailyDefine");
+define_sheet!(WKSAchievementDailyDefineSheet, WKSAchievementDailyDefineRow, "WKSAchievementDailyDefine", no_language_support);

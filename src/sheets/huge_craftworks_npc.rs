@@ -51,4 +51,4 @@ impl HugeCraftworksNpcRow {
     u16_field!(class_job_category, 1);
 }
 
-define_sheet!(HugeCraftworksNpcSheet, HugeCraftworksNpcRow, "HugeCraftworksNpc");
+define_sheet!(HugeCraftworksNpcSheet, HugeCraftworksNpcRow, "HugeCraftworksNpc", language_support);

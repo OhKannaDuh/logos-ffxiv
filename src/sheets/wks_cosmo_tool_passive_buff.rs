@@ -14,4 +14,4 @@ impl WKSCosmoToolPassiveBuffRow {
     u8_field!(unknown_2, 2);
 }
 
-define_sheet!(WKSCosmoToolPassiveBuffSheet, WKSCosmoToolPassiveBuffRow, "WKSCosmoToolPassiveBuff");
+define_sheet!(WKSCosmoToolPassiveBuffSheet, WKSCosmoToolPassiveBuffRow, "WKSCosmoToolPassiveBuff", no_language_support);

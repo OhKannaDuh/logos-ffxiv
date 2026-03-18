@@ -85,4 +85,4 @@ impl ItemLevelRow {
     u16_field!(unknown_0, 73);
 }
 
-define_sheet!(ItemLevelSheet, ItemLevelRow, "ItemLevel");
+define_sheet!(ItemLevelSheet, ItemLevelRow, "ItemLevel", no_language_support);

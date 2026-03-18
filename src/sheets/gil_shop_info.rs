@@ -12,4 +12,4 @@ impl GilShopInfoRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(GilShopInfoSheet, GilShopInfoRow, "GilShopInfo");
+define_sheet!(GilShopInfoSheet, GilShopInfoRow, "GilShopInfo", no_language_support);

@@ -17,4 +17,4 @@ impl ChocoboTaxiRow {
     bool_field!(unknown_1, 4);
 }
 
-define_sheet!(ChocoboTaxiSheet, ChocoboTaxiRow, "ChocoboTaxi");
+define_sheet!(ChocoboTaxiSheet, ChocoboTaxiRow, "ChocoboTaxi", no_language_support);

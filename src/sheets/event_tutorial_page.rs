@@ -14,4 +14,4 @@ impl EventTutorialPageRow {
     u32_field!(image, 0);
 }
 
-define_sheet!(EventTutorialPageSheet, EventTutorialPageRow, "EventTutorialPage");
+define_sheet!(EventTutorialPageSheet, EventTutorialPageRow, "EventTutorialPage", language_support);

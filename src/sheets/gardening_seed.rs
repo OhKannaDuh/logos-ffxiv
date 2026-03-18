@@ -17,4 +17,4 @@ impl GardeningSeedRow {
     bool_field!(unknown_1, 4);
 }
 
-define_sheet!(GardeningSeedSheet, GardeningSeedRow, "GardeningSeed");
+define_sheet!(GardeningSeedSheet, GardeningSeedRow, "GardeningSeed", no_language_support);

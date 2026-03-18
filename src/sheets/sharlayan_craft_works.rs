@@ -14,4 +14,4 @@ impl SharlayanCraftWorksRow {
     u16_field!(unknown_2, 1);
 }
 
-define_sheet!(SharlayanCraftWorksSheet, SharlayanCraftWorksRow, "SharlayanCraftWorks");
+define_sheet!(SharlayanCraftWorksSheet, SharlayanCraftWorksRow, "SharlayanCraftWorks", language_support);

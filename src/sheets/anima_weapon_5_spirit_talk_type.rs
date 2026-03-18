@@ -12,4 +12,4 @@ impl AnimaWeapon5SpiritTalkTypeRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(AnimaWeapon5SpiritTalkTypeSheet, AnimaWeapon5SpiritTalkTypeRow, "AnimaWeapon5SpiritTalkType");
+define_sheet!(AnimaWeapon5SpiritTalkTypeSheet, AnimaWeapon5SpiritTalkTypeRow, "AnimaWeapon5SpiritTalkType", no_language_support);

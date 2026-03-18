@@ -12,4 +12,4 @@ impl ContentEntryRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(ContentEntrySheet, ContentEntryRow, "ContentEntry");
+define_sheet!(ContentEntrySheet, ContentEntryRow, "ContentEntry", language_support);

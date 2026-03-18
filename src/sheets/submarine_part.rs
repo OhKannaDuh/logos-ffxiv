@@ -21,4 +21,4 @@ impl SubmarinePartRow {
     u8_field!(repair_materials, 9);
 }
 
-define_sheet!(SubmarinePartSheet, SubmarinePartRow, "SubmarinePart");
+define_sheet!(SubmarinePartSheet, SubmarinePartRow, "SubmarinePart", no_language_support);

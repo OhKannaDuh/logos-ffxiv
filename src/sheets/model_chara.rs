@@ -34,4 +34,4 @@ impl ModelCharaRow {
     bool_field!(unknown_13, 16);
 }
 
-define_sheet!(ModelCharaSheet, ModelCharaRow, "ModelChara");
+define_sheet!(ModelCharaSheet, ModelCharaRow, "ModelChara", no_language_support);

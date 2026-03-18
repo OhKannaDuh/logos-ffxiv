@@ -26,4 +26,4 @@ impl NpcYellRow {
     bool_field!(battle_talk_time, 10);
 }
 
-define_sheet!(NpcYellSheet, NpcYellRow, "NpcYell");
+define_sheet!(NpcYellSheet, NpcYellRow, "NpcYell", language_support);

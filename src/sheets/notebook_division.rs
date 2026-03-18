@@ -31,4 +31,4 @@ impl NotebookDivisionRow {
     bool_field!(requires_secret_recipe_book_group_unlock, 6);
 }
 
-define_sheet!(NotebookDivisionSheet, NotebookDivisionRow, "NotebookDivision");
+define_sheet!(NotebookDivisionSheet, NotebookDivisionRow, "NotebookDivision", language_support);

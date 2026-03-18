@@ -15,4 +15,4 @@ impl FieldMarkerRow {
     u16_field!(map_icon, 2);
 }
 
-define_sheet!(FieldMarkerSheet, FieldMarkerRow, "FieldMarker");
+define_sheet!(FieldMarkerSheet, FieldMarkerRow, "FieldMarker", language_support);

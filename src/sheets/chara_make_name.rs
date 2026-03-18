@@ -61,4 +61,4 @@ impl CharaMakeNameRow {
     string_field!(unknown_70_3, 49);
 }
 
-define_sheet!(CharaMakeNameSheet, CharaMakeNameRow, "CharaMakeName");
+define_sheet!(CharaMakeNameSheet, CharaMakeNameRow, "CharaMakeName", language_support);

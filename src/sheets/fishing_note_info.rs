@@ -18,4 +18,4 @@ impl FishingNoteInfoRow {
     u8_field!(is_collectable, 5);
 }
 
-define_sheet!(FishingNoteInfoSheet, FishingNoteInfoRow, "FishingNoteInfo");
+define_sheet!(FishingNoteInfoSheet, FishingNoteInfoRow, "FishingNoteInfo", no_language_support);

@@ -13,4 +13,4 @@ impl ChocoboRaceStatusRow {
     u16_field!(unknown_0, 1);
 }
 
-define_sheet!(ChocoboRaceStatusSheet, ChocoboRaceStatusRow, "ChocoboRaceStatus");
+define_sheet!(ChocoboRaceStatusSheet, ChocoboRaceStatusRow, "ChocoboRaceStatus", no_language_support);

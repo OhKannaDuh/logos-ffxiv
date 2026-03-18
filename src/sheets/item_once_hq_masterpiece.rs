@@ -13,4 +13,4 @@ impl ItemOnceHqMasterpieceRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(ItemOnceHqMasterpieceSheet, ItemOnceHqMasterpieceRow, "ItemOnceHqMasterpiece");
+define_sheet!(ItemOnceHqMasterpieceSheet, ItemOnceHqMasterpieceRow, "ItemOnceHqMasterpiece", no_language_support);

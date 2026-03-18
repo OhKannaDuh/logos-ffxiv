@@ -12,4 +12,4 @@ impl QuestHideRewardRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestHideRewardSheet, QuestHideRewardRow, "QuestHideReward");
+define_sheet!(QuestHideRewardSheet, QuestHideRewardRow, "QuestHideReward", no_language_support);

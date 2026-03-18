@@ -20,4 +20,4 @@ impl EventMountGimmickPathMoveRow {
     bool_field!(unknown_8, 8);
 }
 
-define_sheet!(EventMountGimmickPathMoveSheet, EventMountGimmickPathMoveRow, "EventMountGimmickPathMove");
+define_sheet!(EventMountGimmickPathMoveSheet, EventMountGimmickPathMoveRow, "EventMountGimmickPathMove", no_language_support);

@@ -13,4 +13,4 @@ impl WKSFortunePatternUIColorSetRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(WKSFortunePatternUIColorSetSheet, WKSFortunePatternUIColorSetRow, "WKSFortunePatternUIColorSet");
+define_sheet!(WKSFortunePatternUIColorSetSheet, WKSFortunePatternUIColorSetRow, "WKSFortunePatternUIColorSet", no_language_support);

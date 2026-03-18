@@ -16,4 +16,4 @@ impl WKSScoreListRow {
     i8_field!(unknown_4, 0);
 }
 
-define_sheet!(WKSScoreListSheet, WKSScoreListRow, "WKSScoreList");
+define_sheet!(WKSScoreListSheet, WKSScoreListRow, "WKSScoreList", no_language_support);

@@ -15,4 +15,4 @@ impl AddonLayoutRow {
     i32_field!(unknown_3, 3);
 }
 
-define_sheet!(AddonLayoutSheet, AddonLayoutRow, "AddonLayout");
+define_sheet!(AddonLayoutSheet, AddonLayoutRow, "AddonLayout", no_language_support);

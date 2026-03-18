@@ -14,4 +14,4 @@ impl GuardianDeityRow {
     u16_field!(icon, 2);
 }
 
-define_sheet!(GuardianDeitySheet, GuardianDeityRow, "GuardianDeity");
+define_sheet!(GuardianDeitySheet, GuardianDeityRow, "GuardianDeity", language_support);

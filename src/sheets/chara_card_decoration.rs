@@ -22,4 +22,4 @@ impl CharaCardDecorationRow {
     u8_field!(category, 8);
 }
 
-define_sheet!(CharaCardDecorationSheet, CharaCardDecorationRow, "CharaCardDecoration");
+define_sheet!(CharaCardDecorationSheet, CharaCardDecorationRow, "CharaCardDecoration", language_support);

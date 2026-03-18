@@ -16,4 +16,4 @@ impl ChocoboRaceAbilityRow {
     i8_field!(chocobo_race_ability_type, 3);
 }
 
-define_sheet!(ChocoboRaceAbilitySheet, ChocoboRaceAbilityRow, "ChocoboRaceAbility");
+define_sheet!(ChocoboRaceAbilitySheet, ChocoboRaceAbilityRow, "ChocoboRaceAbility", language_support);

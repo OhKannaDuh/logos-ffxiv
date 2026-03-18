@@ -19,4 +19,4 @@ impl GatheringPointBaseRow {
     u8_field!(gathering_level, 1);
 }
 
-define_sheet!(GatheringPointBaseSheet, GatheringPointBaseRow, "GatheringPointBase");
+define_sheet!(GatheringPointBaseSheet, GatheringPointBaseRow, "GatheringPointBase", no_language_support);

@@ -12,4 +12,4 @@ impl SEBattleRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(SEBattleSheet, SEBattleRow, "SEBattle");
+define_sheet!(SEBattleSheet, SEBattleRow, "SEBattle", no_language_support);

@@ -34,4 +34,4 @@ impl MJIProgressRow {
     u8_field!(unknown_19, 22);
 }
 
-define_sheet!(MJIProgressSheet, MJIProgressRow, "MJIProgress");
+define_sheet!(MJIProgressSheet, MJIProgressRow, "MJIProgress", language_support);

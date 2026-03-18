@@ -15,4 +15,4 @@ impl DawnMemberUIParamRow {
     string_field!(class_singular, 0);
 }
 
-define_sheet!(DawnMemberUIParamSheet, DawnMemberUIParamRow, "DawnMemberUIParam");
+define_sheet!(DawnMemberUIParamSheet, DawnMemberUIParamRow, "DawnMemberUIParam", language_support);

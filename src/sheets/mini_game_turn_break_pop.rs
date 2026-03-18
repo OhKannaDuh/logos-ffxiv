@@ -15,4 +15,4 @@ impl MiniGameTurnBreakPopRow {
     u8_field!(unknown_3, 2);
 }
 
-define_sheet!(MiniGameTurnBreakPopSheet, MiniGameTurnBreakPopRow, "MiniGameTurnBreakPop");
+define_sheet!(MiniGameTurnBreakPopSheet, MiniGameTurnBreakPopRow, "MiniGameTurnBreakPop", no_language_support);

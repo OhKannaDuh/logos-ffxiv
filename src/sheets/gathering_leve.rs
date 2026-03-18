@@ -40,4 +40,4 @@ impl GatheringLeveRow {
     bool_field!(use_secondary_tool, 18);
 }
 
-define_sheet!(GatheringLeveSheet, GatheringLeveRow, "GatheringLeve");
+define_sheet!(GatheringLeveSheet, GatheringLeveRow, "GatheringLeve", no_language_support);

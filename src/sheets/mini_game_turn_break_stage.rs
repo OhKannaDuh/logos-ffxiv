@@ -21,4 +21,4 @@ impl MiniGameTurnBreakStageRow {
     u8_field!(unknown_9, 9);
 }
 
-define_sheet!(MiniGameTurnBreakStageSheet, MiniGameTurnBreakStageRow, "MiniGameTurnBreakStage");
+define_sheet!(MiniGameTurnBreakStageSheet, MiniGameTurnBreakStageRow, "MiniGameTurnBreakStage", no_language_support);

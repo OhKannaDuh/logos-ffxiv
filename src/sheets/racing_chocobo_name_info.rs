@@ -23,4 +23,4 @@ impl RacingChocoboNameInfoRow {
     bool_field!(unknown_3, 4);
 }
 
-define_sheet!(RacingChocoboNameInfoSheet, RacingChocoboNameInfoRow, "RacingChocoboNameInfo");
+define_sheet!(RacingChocoboNameInfoSheet, RacingChocoboNameInfoRow, "RacingChocoboNameInfo", no_language_support);

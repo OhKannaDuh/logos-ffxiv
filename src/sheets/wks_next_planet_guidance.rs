@@ -13,4 +13,4 @@ impl WKSNextPlanetGuidanceRow {
     u32_field!(unknown_1, 0);
 }
 
-define_sheet!(WKSNextPlanetGuidanceSheet, WKSNextPlanetGuidanceRow, "WKSNextPlanetGuidance");
+define_sheet!(WKSNextPlanetGuidanceSheet, WKSNextPlanetGuidanceRow, "WKSNextPlanetGuidance", language_support);

@@ -14,4 +14,4 @@ impl WKSMissionToDoEvalutionRefinRow {
     u16_field!(unknown_2, 2);
 }
 
-define_sheet!(WKSMissionToDoEvalutionRefinSheet, WKSMissionToDoEvalutionRefinRow, "WKSMissionToDoEvalutionRefin");
+define_sheet!(WKSMissionToDoEvalutionRefinSheet, WKSMissionToDoEvalutionRefinRow, "WKSMissionToDoEvalutionRefin", no_language_support);

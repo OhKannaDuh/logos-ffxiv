@@ -29,4 +29,4 @@ impl IKDRouteRow {
     array_field!(time, 9, 3, IKDRouteTime);
 }
 
-define_sheet!(IKDRouteSheet, IKDRouteRow, "IKDRoute");
+define_sheet!(IKDRouteSheet, IKDRouteRow, "IKDRoute", language_support);

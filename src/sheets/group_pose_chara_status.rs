@@ -12,4 +12,4 @@ impl GroupPoseCharaStatusRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(GroupPoseCharaStatusSheet, GroupPoseCharaStatusRow, "GroupPoseCharaStatus");
+define_sheet!(GroupPoseCharaStatusSheet, GroupPoseCharaStatusRow, "GroupPoseCharaStatus", no_language_support);

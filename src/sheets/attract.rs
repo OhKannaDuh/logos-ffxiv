@@ -16,4 +16,4 @@ impl AttractRow {
     bool_field!(use_distance_between_hitboxes, 3);
 }
 
-define_sheet!(AttractSheet, AttractRow, "Attract");
+define_sheet!(AttractSheet, AttractRow, "Attract", no_language_support);

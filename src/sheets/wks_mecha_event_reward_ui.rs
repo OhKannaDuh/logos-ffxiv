@@ -16,4 +16,4 @@ impl WKSMechaEventRewardUIRow {
     bool_field!(unknown_4, 2);
 }
 
-define_sheet!(WKSMechaEventRewardUISheet, WKSMechaEventRewardUIRow, "WKSMechaEventRewardUI");
+define_sheet!(WKSMechaEventRewardUISheet, WKSMechaEventRewardUIRow, "WKSMechaEventRewardUI", no_language_support);

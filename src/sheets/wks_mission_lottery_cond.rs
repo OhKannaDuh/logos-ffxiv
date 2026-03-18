@@ -12,4 +12,4 @@ impl WKSMissionLotteryCondRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(WKSMissionLotteryCondSheet, WKSMissionLotteryCondRow, "WKSMissionLotteryCond");
+define_sheet!(WKSMissionLotteryCondSheet, WKSMissionLotteryCondRow, "WKSMissionLotteryCond", no_language_support);

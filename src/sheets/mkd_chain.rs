@@ -13,4 +13,4 @@ impl MKDChainRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(MKDChainSheet, MKDChainRow, "MKDChain");
+define_sheet!(MKDChainSheet, MKDChainRow, "MKDChain", no_language_support);

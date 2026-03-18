@@ -14,4 +14,4 @@ impl RPParameterRow {
     u8_field!(sex, 2);
 }
 
-define_sheet!(RPParameterSheet, RPParameterRow, "RPParameter");
+define_sheet!(RPParameterSheet, RPParameterRow, "RPParameter", no_language_support);

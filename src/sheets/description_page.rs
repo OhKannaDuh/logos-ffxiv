@@ -27,4 +27,4 @@ impl DescriptionPageRow {
     u8_field!(unknown_1, 0);
 }
 
-define_sheet!(DescriptionPageSheet, DescriptionPageRow, "DescriptionPage");
+define_sheet!(DescriptionPageSheet, DescriptionPageRow, "DescriptionPage", no_language_support);

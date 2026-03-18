@@ -25,4 +25,4 @@ impl ContentsNoteRow {
     u8_field!(reward_1, 6);
 }
 
-define_sheet!(ContentsNoteSheet, ContentsNoteRow, "ContentsNote");
+define_sheet!(ContentsNoteSheet, ContentsNoteRow, "ContentsNote", language_support);

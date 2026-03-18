@@ -12,4 +12,4 @@ impl LootModeTypeRow {
     bool_field!(additional_loot_rules_available, 0);
 }
 
-define_sheet!(LootModeTypeSheet, LootModeTypeRow, "LootModeType");
+define_sheet!(LootModeTypeSheet, LootModeTypeRow, "LootModeType", no_language_support);

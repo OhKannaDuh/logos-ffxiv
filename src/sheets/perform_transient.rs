@@ -12,4 +12,4 @@ impl PerformTransientRow {
     string_field!(text, 0);
 }
 
-define_sheet!(PerformTransientSheet, PerformTransientRow, "PerformTransient");
+define_sheet!(PerformTransientSheet, PerformTransientRow, "PerformTransient", language_support);

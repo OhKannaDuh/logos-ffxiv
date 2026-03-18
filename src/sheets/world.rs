@@ -17,4 +17,4 @@ impl WorldRow {
     bool_field!(is_public, 5);
 }
 
-define_sheet!(WorldSheet, WorldRow, "World");
+define_sheet!(WorldSheet, WorldRow, "World", no_language_support);

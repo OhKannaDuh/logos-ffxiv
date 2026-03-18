@@ -26,4 +26,4 @@ impl ParamGrowRow {
     u8_field!(quest_exp_modifier, 7);
 }
 
-define_sheet!(ParamGrowSheet, ParamGrowRow, "ParamGrow");
+define_sheet!(ParamGrowSheet, ParamGrowRow, "ParamGrow", no_language_support);

@@ -17,4 +17,4 @@ impl LogMessageRow {
     bool_field!(unknown_2, 4);
 }
 
-define_sheet!(LogMessageSheet, LogMessageRow, "LogMessage");
+define_sheet!(LogMessageSheet, LogMessageRow, "LogMessage", language_support);

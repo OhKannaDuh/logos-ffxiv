@@ -14,4 +14,4 @@ impl MJIStockyardManagementAreaRow {
     u8_field!(unknown_0, 1);
 }
 
-define_sheet!(MJIStockyardManagementAreaSheet, MJIStockyardManagementAreaRow, "MJIStockyardManagementArea");
+define_sheet!(MJIStockyardManagementAreaSheet, MJIStockyardManagementAreaRow, "MJIStockyardManagementArea", no_language_support);

@@ -12,4 +12,4 @@ impl ErrorRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(ErrorSheet, ErrorRow, "Error");
+define_sheet!(ErrorSheet, ErrorRow, "Error", language_support);

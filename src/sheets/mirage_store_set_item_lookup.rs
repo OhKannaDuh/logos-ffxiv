@@ -17,4 +17,4 @@ impl MirageStoreSetItemLookupRow {
     array_field!(item, 0, 5, MirageStoreSetItemLookupItem);
 }
 
-define_sheet!(MirageStoreSetItemLookupSheet, MirageStoreSetItemLookupRow, "MirageStoreSetItemLookup");
+define_sheet!(MirageStoreSetItemLookupSheet, MirageStoreSetItemLookupRow, "MirageStoreSetItemLookup", no_language_support);

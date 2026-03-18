@@ -13,4 +13,4 @@ impl InstanceContentRewardItemRow {
     i8_field!(unknown_1, 1);
 }
 
-define_sheet!(InstanceContentRewardItemSheet, InstanceContentRewardItemRow, "InstanceContentRewardItem");
+define_sheet!(InstanceContentRewardItemSheet, InstanceContentRewardItemRow, "InstanceContentRewardItem", no_language_support);

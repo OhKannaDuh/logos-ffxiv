@@ -15,4 +15,4 @@ impl WKSMissionInfoRow {
     u16_field!(unknown_3, 3);
 }
 
-define_sheet!(WKSMissionInfoSheet, WKSMissionInfoRow, "WKSMissionInfo");
+define_sheet!(WKSMissionInfoSheet, WKSMissionInfoRow, "WKSMissionInfo", no_language_support);

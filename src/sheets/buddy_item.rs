@@ -16,4 +16,4 @@ impl BuddyItemRow {
     bool_field!(unknown_0, 3);
 }
 
-define_sheet!(BuddyItemSheet, BuddyItemRow, "BuddyItem");
+define_sheet!(BuddyItemSheet, BuddyItemRow, "BuddyItem", no_language_support);

@@ -23,4 +23,4 @@ impl WKSMissionSupplyItemRow {
     array_field!(item_count, 3, 3, WKSMissionSupplyItemItemCount);
 }
 
-define_sheet!(WKSMissionSupplyItemSheet, WKSMissionSupplyItemRow, "WKSMissionSupplyItem");
+define_sheet!(WKSMissionSupplyItemSheet, WKSMissionSupplyItemRow, "WKSMissionSupplyItem", no_language_support);

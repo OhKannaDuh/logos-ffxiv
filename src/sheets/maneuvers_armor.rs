@@ -23,4 +23,4 @@ impl ManeuversArmorRow {
     bool_field!(unknown_2, 4);
 }
 
-define_sheet!(ManeuversArmorSheet, ManeuversArmorRow, "ManeuversArmor");
+define_sheet!(ManeuversArmorSheet, ManeuversArmorRow, "ManeuversArmor", language_support);

@@ -27,4 +27,4 @@ impl BannerConditionRow {
     bool_field!(unknown_0, 11);
 }
 
-define_sheet!(BannerConditionSheet, BannerConditionRow, "BannerCondition");
+define_sheet!(BannerConditionSheet, BannerConditionRow, "BannerCondition", no_language_support);

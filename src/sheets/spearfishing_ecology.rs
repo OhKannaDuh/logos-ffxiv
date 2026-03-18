@@ -15,4 +15,4 @@ impl SpearfishingEcologyRow {
     string_field!(unknown_3, 3);
 }
 
-define_sheet!(SpearfishingEcologySheet, SpearfishingEcologyRow, "SpearfishingEcology");
+define_sheet!(SpearfishingEcologySheet, SpearfishingEcologyRow, "SpearfishingEcology", language_support);

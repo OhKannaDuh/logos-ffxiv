@@ -38,4 +38,4 @@ impl WKSDevGradeRow {
     bool_field!(unknown_24, 6);
 }
 
-define_sheet!(WKSDevGradeSheet, WKSDevGradeRow, "WKSDevGrade");
+define_sheet!(WKSDevGradeSheet, WKSDevGradeRow, "WKSDevGrade", language_support);

@@ -12,4 +12,4 @@ impl HousingPlacementRow {
     string_field!(text, 0);
 }
 
-define_sheet!(HousingPlacementSheet, HousingPlacementRow, "HousingPlacement");
+define_sheet!(HousingPlacementSheet, HousingPlacementRow, "HousingPlacement", language_support);

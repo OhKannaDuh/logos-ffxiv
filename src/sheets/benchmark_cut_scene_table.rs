@@ -18,4 +18,4 @@ impl BenchmarkCutSceneTableRow {
     bool_field!(unknown_6, 5);
 }
 
-define_sheet!(BenchmarkCutSceneTableSheet, BenchmarkCutSceneTableRow, "BenchmarkCutSceneTable");
+define_sheet!(BenchmarkCutSceneTableSheet, BenchmarkCutSceneTableRow, "BenchmarkCutSceneTable", no_language_support);

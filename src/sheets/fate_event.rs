@@ -29,4 +29,4 @@ impl FateEventRow {
     array_field!(text, 56, 8, FateEventText);
 }
 
-define_sheet!(FateEventSheet, FateEventRow, "FateEvent");
+define_sheet!(FateEventSheet, FateEventRow, "FateEvent", language_support);

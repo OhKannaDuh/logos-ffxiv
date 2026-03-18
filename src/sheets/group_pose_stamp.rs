@@ -22,4 +22,4 @@ impl GroupPoseStampRow {
     bool_field!(unknown_7, 9);
 }
 
-define_sheet!(GroupPoseStampSheet, GroupPoseStampRow, "GroupPoseStamp");
+define_sheet!(GroupPoseStampSheet, GroupPoseStampRow, "GroupPoseStamp", language_support);

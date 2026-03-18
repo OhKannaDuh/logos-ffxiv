@@ -15,4 +15,4 @@ impl SatisfactionArbitrationRow {
     u8_field!(unknown_0, 3);
 }
 
-define_sheet!(SatisfactionArbitrationSheet, SatisfactionArbitrationRow, "SatisfactionArbitration");
+define_sheet!(SatisfactionArbitrationSheet, SatisfactionArbitrationRow, "SatisfactionArbitration", no_language_support);

@@ -26,4 +26,4 @@ impl GuildleveAssignmentRow {
     bool_field!(unknown_6, 9);
 }
 
-define_sheet!(GuildleveAssignmentSheet, GuildleveAssignmentRow, "GuildleveAssignment");
+define_sheet!(GuildleveAssignmentSheet, GuildleveAssignmentRow, "GuildleveAssignment", language_support);

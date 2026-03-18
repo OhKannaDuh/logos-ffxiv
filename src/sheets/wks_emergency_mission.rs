@@ -13,4 +13,4 @@ impl WKSEmergencyMissionRow {
     u16_field!(wks_emergency_mission_group_row_id, 0);
 }
 
-define_sheet!(WKSEmergencyMissionSheet, WKSEmergencyMissionRow, "WKSEmergencyMission");
+define_sheet!(WKSEmergencyMissionSheet, WKSEmergencyMissionRow, "WKSEmergencyMission", no_language_support);

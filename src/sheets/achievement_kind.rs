@@ -13,4 +13,4 @@ impl AchievementKindRow {
     u8_field!(order, 1);
 }
 
-define_sheet!(AchievementKindSheet, AchievementKindRow, "AchievementKind");
+define_sheet!(AchievementKindSheet, AchievementKindRow, "AchievementKind", language_support);

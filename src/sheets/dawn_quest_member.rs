@@ -17,4 +17,4 @@ impl DawnQuestMemberRow {
     u8_field!(class, 5);
 }
 
-define_sheet!(DawnQuestMemberSheet, DawnQuestMemberRow, "DawnQuestMember");
+define_sheet!(DawnQuestMemberSheet, DawnQuestMemberRow, "DawnQuestMember", no_language_support);

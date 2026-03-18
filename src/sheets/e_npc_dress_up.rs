@@ -13,4 +13,4 @@ impl ENpcDressUpRow {
     u8_field!(e_npc_dress_up_dress, 1);
 }
 
-define_sheet!(ENpcDressUpSheet, ENpcDressUpRow, "ENpcDressUp");
+define_sheet!(ENpcDressUpSheet, ENpcDressUpRow, "ENpcDressUp", no_language_support);

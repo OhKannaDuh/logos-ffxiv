@@ -12,4 +12,4 @@ impl ItemStainConditionRow {
     u32_field!(unlock_quest, 0);
 }
 
-define_sheet!(ItemStainConditionSheet, ItemStainConditionRow, "ItemStainCondition");
+define_sheet!(ItemStainConditionSheet, ItemStainConditionRow, "ItemStainCondition", no_language_support);

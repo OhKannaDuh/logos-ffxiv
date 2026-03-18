@@ -12,4 +12,4 @@ impl LoadingTipsSubRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(LoadingTipsSubSheet, LoadingTipsSubRow, "LoadingTipsSub");
+define_sheet!(LoadingTipsSubSheet, LoadingTipsSubRow, "LoadingTipsSub", language_support);

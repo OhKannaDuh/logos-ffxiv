@@ -13,4 +13,4 @@ impl SubmarineMapRow {
     u32_field!(image, 1);
 }
 
-define_sheet!(SubmarineMapSheet, SubmarineMapRow, "SubmarineMap");
+define_sheet!(SubmarineMapSheet, SubmarineMapRow, "SubmarineMap", language_support);

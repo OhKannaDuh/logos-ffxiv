@@ -27,4 +27,4 @@ impl SharlayanCraftWorksSupplyRow {
     array_field!(item, 0, 4, SharlayanCraftWorksSupplyItem);
 }
 
-define_sheet!(SharlayanCraftWorksSupplySheet, SharlayanCraftWorksSupplyRow, "SharlayanCraftWorksSupply");
+define_sheet!(SharlayanCraftWorksSupplySheet, SharlayanCraftWorksSupplyRow, "SharlayanCraftWorksSupply", no_language_support);

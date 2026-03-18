@@ -18,4 +18,4 @@ impl ChatBubbleTypeRow {
     u8_field!(unknown_6, 6);
 }
 
-define_sheet!(ChatBubbleTypeSheet, ChatBubbleTypeRow, "ChatBubbleType");
+define_sheet!(ChatBubbleTypeSheet, ChatBubbleTypeRow, "ChatBubbleType", language_support);

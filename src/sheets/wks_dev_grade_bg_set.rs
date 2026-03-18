@@ -52,4 +52,4 @@ impl WKSDevGradeBGSetRow {
     bool_field!(unknown_40, 40);
 }
 
-define_sheet!(WKSDevGradeBGSetSheet, WKSDevGradeBGSetRow, "WKSDevGradeBGSet");
+define_sheet!(WKSDevGradeBGSetSheet, WKSDevGradeBGSetRow, "WKSDevGradeBGSet", no_language_support);

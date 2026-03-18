@@ -33,4 +33,4 @@ impl AnimaWeapon5TradeItemRow {
     array_field!(is_hq, 20, 8, AnimaWeapon5TradeItemIsHQ);
 }
 
-define_sheet!(AnimaWeapon5TradeItemSheet, AnimaWeapon5TradeItemRow, "AnimaWeapon5TradeItem");
+define_sheet!(AnimaWeapon5TradeItemSheet, AnimaWeapon5TradeItemRow, "AnimaWeapon5TradeItem", no_language_support);

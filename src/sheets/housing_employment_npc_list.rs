@@ -14,4 +14,4 @@ impl HousingEmploymentNpcListRow {
     u8_field!(race, 0);
 }
 
-define_sheet!(HousingEmploymentNpcListSheet, HousingEmploymentNpcListRow, "HousingEmploymentNpcList");
+define_sheet!(HousingEmploymentNpcListSheet, HousingEmploymentNpcListRow, "HousingEmploymentNpcList", no_language_support);

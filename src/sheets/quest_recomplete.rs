@@ -12,4 +12,4 @@ impl QuestRecompleteRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(QuestRecompleteSheet, QuestRecompleteRow, "QuestRecomplete");
+define_sheet!(QuestRecompleteSheet, QuestRecompleteRow, "QuestRecomplete", no_language_support);

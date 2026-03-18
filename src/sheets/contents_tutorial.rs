@@ -20,4 +20,4 @@ impl ContentsTutorialRow {
     array_field!(page, 3, 8, ContentsTutorialPage);
 }
 
-define_sheet!(ContentsTutorialSheet, ContentsTutorialRow, "ContentsTutorial");
+define_sheet!(ContentsTutorialSheet, ContentsTutorialRow, "ContentsTutorial", language_support);

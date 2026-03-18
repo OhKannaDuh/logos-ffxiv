@@ -25,4 +25,4 @@ impl GatheringPointRow {
     bool_field!(unknown_1, 2);
 }
 
-define_sheet!(GatheringPointSheet, GatheringPointRow, "GatheringPoint");
+define_sheet!(GatheringPointSheet, GatheringPointRow, "GatheringPoint", no_language_support);

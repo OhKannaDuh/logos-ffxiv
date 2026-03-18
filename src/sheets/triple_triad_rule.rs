@@ -18,4 +18,4 @@ impl TripleTriadRuleRow {
     bool_field!(unknown_4, 4);
 }
 
-define_sheet!(TripleTriadRuleSheet, TripleTriadRuleRow, "TripleTriadRule");
+define_sheet!(TripleTriadRuleSheet, TripleTriadRuleRow, "TripleTriadRule", language_support);

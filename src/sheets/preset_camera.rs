@@ -30,4 +30,4 @@ impl PresetCameraRow {
     u16_field!(eid, 0);
 }
 
-define_sheet!(PresetCameraSheet, PresetCameraRow, "PresetCamera");
+define_sheet!(PresetCameraSheet, PresetCameraRow, "PresetCamera", no_language_support);

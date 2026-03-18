@@ -13,4 +13,4 @@ impl OpeningSystemDefineRow {
     u32_field!(unknown_1, 1);
 }
 
-define_sheet!(OpeningSystemDefineSheet, OpeningSystemDefineRow, "OpeningSystemDefine");
+define_sheet!(OpeningSystemDefineSheet, OpeningSystemDefineRow, "OpeningSystemDefine", no_language_support);

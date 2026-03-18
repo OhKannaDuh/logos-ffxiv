@@ -20,4 +20,4 @@ impl EurekaAetherItemRow {
     i8_field!(article, 7);
 }
 
-define_sheet!(EurekaAetherItemSheet, EurekaAetherItemRow, "EurekaAetherItem");
+define_sheet!(EurekaAetherItemSheet, EurekaAetherItemRow, "EurekaAetherItem", language_support);

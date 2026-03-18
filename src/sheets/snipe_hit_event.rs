@@ -16,4 +16,4 @@ impl SnipeHitEventRow {
     u8_field!(unknown_4, 4);
 }
 
-define_sheet!(SnipeHitEventSheet, SnipeHitEventRow, "SnipeHitEvent");
+define_sheet!(SnipeHitEventSheet, SnipeHitEventRow, "SnipeHitEvent", no_language_support);

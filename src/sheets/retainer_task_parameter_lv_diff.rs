@@ -13,4 +13,4 @@ impl RetainerTaskParameterLvDiffRow {
     u8_field!(unknown_1, 1);
 }
 
-define_sheet!(RetainerTaskParameterLvDiffSheet, RetainerTaskParameterLvDiffRow, "RetainerTaskParameterLvDiff");
+define_sheet!(RetainerTaskParameterLvDiffSheet, RetainerTaskParameterLvDiffRow, "RetainerTaskParameterLvDiff", no_language_support);

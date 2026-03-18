@@ -17,4 +17,4 @@ impl MassivePcContentTodoRow {
     bool_field!(unknown_5, 4);
 }
 
-define_sheet!(MassivePcContentTodoSheet, MassivePcContentTodoRow, "MassivePcContentTodo");
+define_sheet!(MassivePcContentTodoSheet, MassivePcContentTodoRow, "MassivePcContentTodo", no_language_support);

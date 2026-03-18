@@ -19,4 +19,4 @@ impl PetActionRow {
     bool_field!(unknown_0, 7);
 }
 
-define_sheet!(PetActionSheet, PetActionRow, "PetAction");
+define_sheet!(PetActionSheet, PetActionRow, "PetAction", language_support);

@@ -12,4 +12,4 @@ impl SpearfishingItemReverseRow {
     bool_field!(unknown_0, 0);
 }
 
-define_sheet!(SpearfishingItemReverseSheet, SpearfishingItemReverseRow, "SpearfishingItemReverse");
+define_sheet!(SpearfishingItemReverseSheet, SpearfishingItemReverseRow, "SpearfishingItemReverse", no_language_support);

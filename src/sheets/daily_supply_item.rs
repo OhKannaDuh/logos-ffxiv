@@ -29,4 +29,4 @@ impl DailySupplyItemRow {
     array_field!(recipe_level, 16, 8, DailySupplyItemRecipeLevel);
 }
 
-define_sheet!(DailySupplyItemSheet, DailySupplyItemRow, "DailySupplyItem");
+define_sheet!(DailySupplyItemSheet, DailySupplyItemRow, "DailySupplyItem", no_language_support);

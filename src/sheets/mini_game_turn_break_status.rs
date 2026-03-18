@@ -17,4 +17,4 @@ impl MiniGameTurnBreakStatusRow {
     bool_field!(unknown_5, 2);
 }
 
-define_sheet!(MiniGameTurnBreakStatusSheet, MiniGameTurnBreakStatusRow, "MiniGameTurnBreakStatus");
+define_sheet!(MiniGameTurnBreakStatusSheet, MiniGameTurnBreakStatusRow, "MiniGameTurnBreakStatus", language_support);

@@ -14,4 +14,4 @@ impl CutScreenImageRow {
     i16_field!(unknown_0, 2);
 }
 
-define_sheet!(CutScreenImageSheet, CutScreenImageRow, "CutScreenImage");
+define_sheet!(CutScreenImageSheet, CutScreenImageRow, "CutScreenImage", no_language_support);

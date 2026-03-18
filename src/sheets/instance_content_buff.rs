@@ -13,4 +13,4 @@ impl InstanceContentBuffRow {
     u16_field!(echo_death, 1);
 }
 
-define_sheet!(InstanceContentBuffSheet, InstanceContentBuffRow, "InstanceContentBuff");
+define_sheet!(InstanceContentBuffSheet, InstanceContentBuffRow, "InstanceContentBuff", no_language_support);

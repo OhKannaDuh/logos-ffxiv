@@ -12,4 +12,4 @@ impl FCAuthorityCategoryRow {
     string_field!(name, 0);
 }
 
-define_sheet!(FCAuthorityCategorySheet, FCAuthorityCategoryRow, "FCAuthorityCategory");
+define_sheet!(FCAuthorityCategorySheet, FCAuthorityCategoryRow, "FCAuthorityCategory", language_support);

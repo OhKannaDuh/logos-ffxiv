@@ -15,4 +15,4 @@ impl RacingChocoboItemRow {
     u8_field!(unknown_1, 3);
 }
 
-define_sheet!(RacingChocoboItemSheet, RacingChocoboItemRow, "RacingChocoboItem");
+define_sheet!(RacingChocoboItemSheet, RacingChocoboItemRow, "RacingChocoboItem", no_language_support);

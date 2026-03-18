@@ -23,4 +23,4 @@ impl MateriaJoinRateRow {
     array_field!(hq_overmeld_percent_slot, 4, 4, MateriaJoinRateHQOvermeldPercentSlot);
 }
 
-define_sheet!(MateriaJoinRateSheet, MateriaJoinRateRow, "MateriaJoinRate");
+define_sheet!(MateriaJoinRateSheet, MateriaJoinRateRow, "MateriaJoinRate", no_language_support);

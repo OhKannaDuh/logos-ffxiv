@@ -19,4 +19,4 @@ impl DeepDungeonLayerRow {
     bool_field!(unknown_0, 7);
 }
 
-define_sheet!(DeepDungeonLayerSheet, DeepDungeonLayerRow, "DeepDungeonLayer");
+define_sheet!(DeepDungeonLayerSheet, DeepDungeonLayerRow, "DeepDungeonLayer", no_language_support);

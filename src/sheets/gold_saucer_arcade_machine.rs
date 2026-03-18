@@ -54,4 +54,4 @@ impl GoldSaucerArcadeMachineRow {
     i8_field!(unknown_37, 14);
 }
 
-define_sheet!(GoldSaucerArcadeMachineSheet, GoldSaucerArcadeMachineRow, "GoldSaucerArcadeMachine");
+define_sheet!(GoldSaucerArcadeMachineSheet, GoldSaucerArcadeMachineRow, "GoldSaucerArcadeMachine", language_support);

@@ -18,4 +18,4 @@ impl WeeklyLotBonusThresholdRow {
     u16_field!(unknown_6, 6);
 }
 
-define_sheet!(WeeklyLotBonusThresholdSheet, WeeklyLotBonusThresholdRow, "WeeklyLotBonusThreshold");
+define_sheet!(WeeklyLotBonusThresholdSheet, WeeklyLotBonusThresholdRow, "WeeklyLotBonusThreshold", no_language_support);

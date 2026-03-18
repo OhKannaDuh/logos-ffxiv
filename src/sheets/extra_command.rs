@@ -15,4 +15,4 @@ impl ExtraCommandRow {
     i8_field!(order, 3);
 }
 
-define_sheet!(ExtraCommandSheet, ExtraCommandRow, "ExtraCommand");
+define_sheet!(ExtraCommandSheet, ExtraCommandRow, "ExtraCommand", language_support);

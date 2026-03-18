@@ -15,4 +15,4 @@ impl VVDNotebookContentsRow {
     i32_field!(image, 1);
 }
 
-define_sheet!(VVDNotebookContentsSheet, VVDNotebookContentsRow, "VVDNotebookContents");
+define_sheet!(VVDNotebookContentsSheet, VVDNotebookContentsRow, "VVDNotebookContents", language_support);

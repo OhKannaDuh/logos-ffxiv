@@ -30,4 +30,4 @@ impl DynamicEventUITypeRow {
     bool_field!(unknown_18, 3);
 }
 
-define_sheet!(DynamicEventUITypeSheet, DynamicEventUITypeRow, "DynamicEventUIType");
+define_sheet!(DynamicEventUITypeSheet, DynamicEventUITypeRow, "DynamicEventUIType", no_language_support);

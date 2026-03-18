@@ -33,4 +33,4 @@ impl TofuObjectRow {
     bool_field!(unknown_15, 20);
 }
 
-define_sheet!(TofuObjectSheet, TofuObjectRow, "TofuObject");
+define_sheet!(TofuObjectSheet, TofuObjectRow, "TofuObject", language_support);

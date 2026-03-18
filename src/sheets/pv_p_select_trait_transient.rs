@@ -12,4 +12,4 @@ impl PvPSelectTraitTransientRow {
     string_field!(unknown_0, 0);
 }
 
-define_sheet!(PvPSelectTraitTransientSheet, PvPSelectTraitTransientRow, "PvPSelectTraitTransient");
+define_sheet!(PvPSelectTraitTransientSheet, PvPSelectTraitTransientRow, "PvPSelectTraitTransient", language_support);

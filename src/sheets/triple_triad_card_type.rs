@@ -12,4 +12,4 @@ impl TripleTriadCardTypeRow {
     string_field!(name, 0);
 }
 
-define_sheet!(TripleTriadCardTypeSheet, TripleTriadCardTypeRow, "TripleTriadCardType");
+define_sheet!(TripleTriadCardTypeSheet, TripleTriadCardTypeRow, "TripleTriadCardType", language_support);

@@ -12,4 +12,4 @@ impl MJIGatheringRow {
     u8_field!(gathering_object, 0);
 }
 
-define_sheet!(MJIGatheringSheet, MJIGatheringRow, "MJIGathering");
+define_sheet!(MJIGatheringSheet, MJIGatheringRow, "MJIGathering", no_language_support);

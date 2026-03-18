@@ -13,4 +13,4 @@ impl RaidFinderParamRow {
     bool_field!(separated_healer_roles, 0);
 }
 
-define_sheet!(RaidFinderParamSheet, RaidFinderParamRow, "RaidFinderParam");
+define_sheet!(RaidFinderParamSheet, RaidFinderParamRow, "RaidFinderParam", no_language_support);

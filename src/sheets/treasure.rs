@@ -23,4 +23,4 @@ impl TreasureRow {
     bool_field!(unknown_9, 10);
 }
 
-define_sheet!(TreasureSheet, TreasureRow, "Treasure");
+define_sheet!(TreasureSheet, TreasureRow, "Treasure", language_support);

@@ -15,4 +15,4 @@ impl ItemUICategoryRow {
     u8_field!(order_major, 3);
 }
 
-define_sheet!(ItemUICategorySheet, ItemUICategoryRow, "ItemUICategory");
+define_sheet!(ItemUICategorySheet, ItemUICategoryRow, "ItemUICategory", language_support);

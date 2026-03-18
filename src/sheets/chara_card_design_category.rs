@@ -13,4 +13,4 @@ impl CharaCardDesignCategoryRow {
     u8_field!(sort_key, 0);
 }
 
-define_sheet!(CharaCardDesignCategorySheet, CharaCardDesignCategoryRow, "CharaCardDesignCategory");
+define_sheet!(CharaCardDesignCategorySheet, CharaCardDesignCategoryRow, "CharaCardDesignCategory", language_support);

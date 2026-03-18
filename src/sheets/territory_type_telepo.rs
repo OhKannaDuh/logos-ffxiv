@@ -15,4 +15,4 @@ impl TerritoryTypeTelepoRow {
     u8_field!(relay, 3);
 }
 
-define_sheet!(TerritoryTypeTelepoSheet, TerritoryTypeTelepoRow, "TerritoryTypeTelepo");
+define_sheet!(TerritoryTypeTelepoSheet, TerritoryTypeTelepoRow, "TerritoryTypeTelepo", no_language_support);

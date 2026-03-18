@@ -18,4 +18,4 @@ impl WeeklyBingoOrderDataRow {
     u8_field!(unknown_1, 6);
 }
 
-define_sheet!(WeeklyBingoOrderDataSheet, WeeklyBingoOrderDataRow, "WeeklyBingoOrderData");
+define_sheet!(WeeklyBingoOrderDataSheet, WeeklyBingoOrderDataRow, "WeeklyBingoOrderData", no_language_support);

@@ -16,4 +16,4 @@ impl VVDVoteRouteRow {
     i32_field!(unknown_4, 4);
 }
 
-define_sheet!(VVDVoteRouteSheet, VVDVoteRouteRow, "VVDVoteRoute");
+define_sheet!(VVDVoteRouteSheet, VVDVoteRouteRow, "VVDVoteRoute", no_language_support);

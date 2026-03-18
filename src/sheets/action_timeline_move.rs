@@ -17,4 +17,4 @@ impl ActionTimelineMoveRow {
     bool_field!(unknown_5, 5);
 }
 
-define_sheet!(ActionTimelineMoveSheet, ActionTimelineMoveRow, "ActionTimelineMove");
+define_sheet!(ActionTimelineMoveSheet, ActionTimelineMoveRow, "ActionTimelineMove", no_language_support);

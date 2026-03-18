@@ -12,4 +12,4 @@ impl AirshipExplorationLogRow {
     string_field!(text, 0);
 }
 
-define_sheet!(AirshipExplorationLogSheet, AirshipExplorationLogRow, "AirshipExplorationLog");
+define_sheet!(AirshipExplorationLogSheet, AirshipExplorationLogRow, "AirshipExplorationLog", language_support);

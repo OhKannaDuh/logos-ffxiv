@@ -12,4 +12,4 @@ impl DescriptionStringRow {
     string_field!(text, 0);
 }
 
-define_sheet!(DescriptionStringSheet, DescriptionStringRow, "DescriptionString");
+define_sheet!(DescriptionStringSheet, DescriptionStringRow, "DescriptionString", language_support);

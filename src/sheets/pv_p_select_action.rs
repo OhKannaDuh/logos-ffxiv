@@ -12,4 +12,4 @@ impl PvPSelectActionRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(PvPSelectActionSheet, PvPSelectActionRow, "PvPSelectAction");
+define_sheet!(PvPSelectActionSheet, PvPSelectActionRow, "PvPSelectAction", no_language_support);

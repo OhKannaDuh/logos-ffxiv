@@ -16,4 +16,4 @@ impl TomestoneConvertRow {
     bool_field!(unknown_4, 0);
 }
 
-define_sheet!(TomestoneConvertSheet, TomestoneConvertRow, "TomestoneConvert");
+define_sheet!(TomestoneConvertSheet, TomestoneConvertRow, "TomestoneConvert", language_support);

@@ -12,4 +12,4 @@ impl CustomTalkNestHandlersRow {
     u32_field!(nest_handler, 0);
 }
 
-define_sheet!(CustomTalkNestHandlersSheet, CustomTalkNestHandlersRow, "CustomTalkNestHandlers");
+define_sheet!(CustomTalkNestHandlersSheet, CustomTalkNestHandlersRow, "CustomTalkNestHandlers", no_language_support);

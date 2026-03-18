@@ -38,4 +38,4 @@ impl AetheryteRow {
     bool_field!(invisible, 19);
 }
 
-define_sheet!(AetheryteSheet, AetheryteRow, "Aetheryte");
+define_sheet!(AetheryteSheet, AetheryteRow, "Aetheryte", language_support);

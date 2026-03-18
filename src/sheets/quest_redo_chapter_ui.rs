@@ -22,4 +22,4 @@ impl QuestRedoChapterUIRow {
     u8_field!(unknown_1, 4);
 }
 
-define_sheet!(QuestRedoChapterUISheet, QuestRedoChapterUIRow, "QuestRedoChapterUI");
+define_sheet!(QuestRedoChapterUISheet, QuestRedoChapterUIRow, "QuestRedoChapterUI", language_support);

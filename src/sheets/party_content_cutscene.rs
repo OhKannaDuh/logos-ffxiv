@@ -13,4 +13,4 @@ impl PartyContentCutsceneRow {
     u32_field!(unknown_0, 1);
 }
 
-define_sheet!(PartyContentCutsceneSheet, PartyContentCutsceneRow, "PartyContentCutscene");
+define_sheet!(PartyContentCutsceneSheet, PartyContentCutsceneRow, "PartyContentCutscene", no_language_support);

@@ -94,4 +94,4 @@ impl SpecialShopRow {
     bool_field!(unknown_4, 2051);
 }
 
-define_sheet!(SpecialShopSheet, SpecialShopRow, "SpecialShop");
+define_sheet!(SpecialShopSheet, SpecialShopRow, "SpecialShop", language_support);

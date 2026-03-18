@@ -12,4 +12,4 @@ impl BNpcBasePopVfxRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(BNpcBasePopVfxSheet, BNpcBasePopVfxRow, "BNpcBasePopVfx");
+define_sheet!(BNpcBasePopVfxSheet, BNpcBasePopVfxRow, "BNpcBasePopVfx", no_language_support);

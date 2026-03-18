@@ -27,4 +27,4 @@ impl RelicRow {
     u8_field!(note_selection_3, 15);
 }
 
-define_sheet!(RelicSheet, RelicRow, "Relic");
+define_sheet!(RelicSheet, RelicRow, "Relic", no_language_support);

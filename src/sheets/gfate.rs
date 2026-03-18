@@ -33,4 +33,4 @@ impl GFATERow {
     u8_field!(unknown_11, 1);
 }
 
-define_sheet!(GFATESheet, GFATERow, "GFATE");
+define_sheet!(GFATESheet, GFATERow, "GFATE", no_language_support);

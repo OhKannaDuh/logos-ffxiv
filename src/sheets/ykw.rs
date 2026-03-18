@@ -20,4 +20,4 @@ impl YKWRow {
     array_field!(location, 3, 6, YKWLocation);
 }
 
-define_sheet!(YKWSheet, YKWRow, "YKW");
+define_sheet!(YKWSheet, YKWRow, "YKW", language_support);

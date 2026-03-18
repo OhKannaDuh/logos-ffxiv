@@ -13,4 +13,4 @@ impl GuideRow {
     u16_field!(guide_page, 1);
 }
 
-define_sheet!(GuideSheet, GuideRow, "Guide");
+define_sheet!(GuideSheet, GuideRow, "Guide", no_language_support);

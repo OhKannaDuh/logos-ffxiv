@@ -19,4 +19,4 @@ impl PreHandlerRow {
     u8_field!(unknown_2, 7);
 }
 
-define_sheet!(PreHandlerSheet, PreHandlerRow, "PreHandler");
+define_sheet!(PreHandlerSheet, PreHandlerRow, "PreHandler", language_support);

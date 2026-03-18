@@ -13,4 +13,4 @@ impl GathererReductionRewardRow {
     bool_field!(unknown_1, 1);
 }
 
-define_sheet!(GathererReductionRewardSheet, GathererReductionRewardRow, "GathererReductionReward");
+define_sheet!(GathererReductionRewardSheet, GathererReductionRewardRow, "GathererReductionReward", no_language_support);

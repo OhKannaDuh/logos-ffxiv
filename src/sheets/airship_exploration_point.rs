@@ -25,4 +25,4 @@ impl AirshipExplorationPointRow {
     bool_field!(passengers, 2);
 }
 
-define_sheet!(AirshipExplorationPointSheet, AirshipExplorationPointRow, "AirshipExplorationPoint");
+define_sheet!(AirshipExplorationPointSheet, AirshipExplorationPointRow, "AirshipExplorationPoint", language_support);

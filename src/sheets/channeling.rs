@@ -17,4 +17,4 @@ impl ChannelingRow {
     bool_field!(unknown_70, 5);
 }
 
-define_sheet!(ChannelingSheet, ChannelingRow, "Channeling");
+define_sheet!(ChannelingSheet, ChannelingRow, "Channeling", no_language_support);

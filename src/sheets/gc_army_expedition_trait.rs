@@ -22,4 +22,4 @@ impl GcArmyExpeditionTraitRow {
     u8_field!(unknown_10, 9);
 }
 
-define_sheet!(GcArmyExpeditionTraitSheet, GcArmyExpeditionTraitRow, "GcArmyExpeditionTrait");
+define_sheet!(GcArmyExpeditionTraitSheet, GcArmyExpeditionTraitRow, "GcArmyExpeditionTrait", language_support);

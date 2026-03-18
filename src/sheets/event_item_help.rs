@@ -13,4 +13,4 @@ impl EventItemHelpRow {
     bool_field!(unknown_0, 1);
 }
 
-define_sheet!(EventItemHelpSheet, EventItemHelpRow, "EventItemHelp");
+define_sheet!(EventItemHelpSheet, EventItemHelpRow, "EventItemHelp", language_support);

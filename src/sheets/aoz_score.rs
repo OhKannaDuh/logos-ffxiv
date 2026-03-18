@@ -15,4 +15,4 @@ impl AOZScoreRow {
     bool_field!(is_visible, 0);
 }
 
-define_sheet!(AOZScoreSheet, AOZScoreRow, "AOZScore");
+define_sheet!(AOZScoreSheet, AOZScoreRow, "AOZScore", language_support);

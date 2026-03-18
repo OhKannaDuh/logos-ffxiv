@@ -17,4 +17,4 @@ impl GuildOrderGuideRow {
     u32_field!(unknown_5, 5);
 }
 
-define_sheet!(GuildOrderGuideSheet, GuildOrderGuideRow, "GuildOrderGuide");
+define_sheet!(GuildOrderGuideSheet, GuildOrderGuideRow, "GuildOrderGuide", no_language_support);

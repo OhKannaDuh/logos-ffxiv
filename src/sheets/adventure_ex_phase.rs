@@ -16,4 +16,4 @@ impl AdventureExPhaseRow {
     u8_field!(expansion, 3);
 }
 
-define_sheet!(AdventureExPhaseSheet, AdventureExPhaseRow, "AdventureExPhase");
+define_sheet!(AdventureExPhaseSheet, AdventureExPhaseRow, "AdventureExPhase", no_language_support);

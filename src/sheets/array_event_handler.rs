@@ -17,4 +17,4 @@ impl ArrayEventHandlerRow {
     array_field!(data, 0, 16, ArrayEventHandlerData);
 }
 
-define_sheet!(ArrayEventHandlerSheet, ArrayEventHandlerRow, "ArrayEventHandler");
+define_sheet!(ArrayEventHandlerSheet, ArrayEventHandlerRow, "ArrayEventHandler", no_language_support);

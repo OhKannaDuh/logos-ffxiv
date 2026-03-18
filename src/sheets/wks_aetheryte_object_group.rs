@@ -14,4 +14,4 @@ impl WKSAetheryteObjectGroupRow {
     u16_field!(unknown_2, 1);
 }
 
-define_sheet!(WKSAetheryteObjectGroupSheet, WKSAetheryteObjectGroupRow, "WKSAetheryteObjectGroup");
+define_sheet!(WKSAetheryteObjectGroupSheet, WKSAetheryteObjectGroupRow, "WKSAetheryteObjectGroup", no_language_support);

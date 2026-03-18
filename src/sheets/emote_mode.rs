@@ -19,4 +19,4 @@ impl EmoteModeRow {
     bool_field!(unknown_0, 7);
 }
 
-define_sheet!(EmoteModeSheet, EmoteModeRow, "EmoteMode");
+define_sheet!(EmoteModeSheet, EmoteModeRow, "EmoteMode", no_language_support);

@@ -14,4 +14,4 @@ impl CraftActionIndirectionRow {
     i8_field!(unknown_2, 2);
 }
 
-define_sheet!(CraftActionIndirectionSheet, CraftActionIndirectionRow, "CraftActionIndirection");
+define_sheet!(CraftActionIndirectionSheet, CraftActionIndirectionRow, "CraftActionIndirection", no_language_support);

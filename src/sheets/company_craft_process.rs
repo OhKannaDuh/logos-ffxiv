@@ -29,4 +29,4 @@ impl CompanyCraftProcessRow {
     array_field!(sets_required, 24, 12, CompanyCraftProcessSetsRequired);
 }
 
-define_sheet!(CompanyCraftProcessSheet, CompanyCraftProcessRow, "CompanyCraftProcess");
+define_sheet!(CompanyCraftProcessSheet, CompanyCraftProcessRow, "CompanyCraftProcess", no_language_support);

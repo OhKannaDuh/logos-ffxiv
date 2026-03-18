@@ -27,4 +27,4 @@ impl HowToRow {
     bool_field!(announce, 1);
 }
 
-define_sheet!(HowToSheet, HowToRow, "HowTo");
+define_sheet!(HowToSheet, HowToRow, "HowTo", language_support);

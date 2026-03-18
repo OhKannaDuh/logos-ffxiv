@@ -13,4 +13,4 @@ impl GameRewardObtainTypeRow {
     u32_field!(text, 1);
 }
 
-define_sheet!(GameRewardObtainTypeSheet, GameRewardObtainTypeRow, "GameRewardObtainType");
+define_sheet!(GameRewardObtainTypeSheet, GameRewardObtainTypeRow, "GameRewardObtainType", no_language_support);

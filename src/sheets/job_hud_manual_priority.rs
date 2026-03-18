@@ -17,4 +17,4 @@ impl JobHudManualPriorityRow {
     array_field!(job_hud_manual, 0, 8, JobHudManualPriorityJobHudManual);
 }
 
-define_sheet!(JobHudManualPrioritySheet, JobHudManualPriorityRow, "JobHudManualPriority");
+define_sheet!(JobHudManualPrioritySheet, JobHudManualPriorityRow, "JobHudManualPriority", no_language_support);

@@ -23,4 +23,4 @@ impl SpearfishingNotebookRow {
     bool_field!(is_shadow_node, 1);
 }
 
-define_sheet!(SpearfishingNotebookSheet, SpearfishingNotebookRow, "SpearfishingNotebook");
+define_sheet!(SpearfishingNotebookSheet, SpearfishingNotebookRow, "SpearfishingNotebook", no_language_support);

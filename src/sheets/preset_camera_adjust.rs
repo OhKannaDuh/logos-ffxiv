@@ -27,4 +27,4 @@ impl PresetCameraAdjustRow {
     f32_field!(unknown_0, 15);
 }
 
-define_sheet!(PresetCameraAdjustSheet, PresetCameraAdjustRow, "PresetCameraAdjust");
+define_sheet!(PresetCameraAdjustSheet, PresetCameraAdjustRow, "PresetCameraAdjust", no_language_support);

@@ -12,4 +12,4 @@ impl DynamicEventSetRow {
     u16_field!(unknown_0, 0);
 }
 
-define_sheet!(DynamicEventSetSheet, DynamicEventSetRow, "DynamicEventSet");
+define_sheet!(DynamicEventSetSheet, DynamicEventSetRow, "DynamicEventSet", no_language_support);

@@ -13,4 +13,4 @@ impl MovieSubtitle500Row {
     f32_field!(end_time, 1);
 }
 
-define_sheet!(MovieSubtitle500Sheet, MovieSubtitle500Row, "MovieSubtitle500");
+define_sheet!(MovieSubtitle500Sheet, MovieSubtitle500Row, "MovieSubtitle500", language_support);

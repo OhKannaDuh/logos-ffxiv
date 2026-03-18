@@ -12,4 +12,4 @@ impl ContentEventItemRow {
     u32_field!(event_item, 0);
 }
 
-define_sheet!(ContentEventItemSheet, ContentEventItemRow, "ContentEventItem");
+define_sheet!(ContentEventItemSheet, ContentEventItemRow, "ContentEventItem", no_language_support);

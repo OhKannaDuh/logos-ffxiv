@@ -21,4 +21,4 @@ impl CharaCardDesignTypeRow {
     bool_field!(unknown_9, 9);
 }
 
-define_sheet!(CharaCardDesignTypeSheet, CharaCardDesignTypeRow, "CharaCardDesignType");
+define_sheet!(CharaCardDesignTypeSheet, CharaCardDesignTypeRow, "CharaCardDesignType", no_language_support);

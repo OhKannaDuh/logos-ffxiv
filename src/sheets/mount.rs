@@ -65,4 +65,4 @@ impl MountRow {
     bool_field!(unknown_19, 53);
 }
 
-define_sheet!(MountSheet, MountRow, "Mount");
+define_sheet!(MountSheet, MountRow, "Mount", language_support);

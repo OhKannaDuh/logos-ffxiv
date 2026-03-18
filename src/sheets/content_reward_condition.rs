@@ -12,4 +12,4 @@ impl ContentRewardConditionRow {
     u8_field!(unknown_0, 0);
 }
 
-define_sheet!(ContentRewardConditionSheet, ContentRewardConditionRow, "ContentRewardCondition");
+define_sheet!(ContentRewardConditionSheet, ContentRewardConditionRow, "ContentRewardCondition", no_language_support);

@@ -12,4 +12,4 @@ impl GatheringNotebookItemRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(GatheringNotebookItemSheet, GatheringNotebookItemRow, "GatheringNotebookItem");
+define_sheet!(GatheringNotebookItemSheet, GatheringNotebookItemRow, "GatheringNotebookItem", no_language_support);

@@ -18,4 +18,4 @@ impl FittingShopItemSetRow {
     string_field!(name, 6);
 }
 
-define_sheet!(FittingShopItemSetSheet, FittingShopItemSetRow, "FittingShopItemSet");
+define_sheet!(FittingShopItemSetSheet, FittingShopItemSetRow, "FittingShopItemSet", language_support);

@@ -15,4 +15,4 @@ impl LinkRaceRow {
     bool_field!(unknown_3, 3);
 }
 
-define_sheet!(LinkRaceSheet, LinkRaceRow, "LinkRace");
+define_sheet!(LinkRaceSheet, LinkRaceRow, "LinkRace", no_language_support);

@@ -12,4 +12,4 @@ impl RacingChocoboGradeRow {
     i32_field!(unknown_0, 0);
 }
 
-define_sheet!(RacingChocoboGradeSheet, RacingChocoboGradeRow, "RacingChocoboGrade");
+define_sheet!(RacingChocoboGradeSheet, RacingChocoboGradeRow, "RacingChocoboGrade", no_language_support);

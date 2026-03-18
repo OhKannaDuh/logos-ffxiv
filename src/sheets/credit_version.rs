@@ -12,4 +12,4 @@ impl CreditVersionRow {
     u32_field!(unknown_0, 0);
 }
 
-define_sheet!(CreditVersionSheet, CreditVersionRow, "CreditVersion");
+define_sheet!(CreditVersionSheet, CreditVersionRow, "CreditVersion", no_language_support);

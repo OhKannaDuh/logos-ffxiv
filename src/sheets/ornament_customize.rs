@@ -18,4 +18,4 @@ impl OrnamentCustomizeRow {
     i16_field!(unknown_6, 6);
 }
 
-define_sheet!(OrnamentCustomizeSheet, OrnamentCustomizeRow, "OrnamentCustomize");
+define_sheet!(OrnamentCustomizeSheet, OrnamentCustomizeRow, "OrnamentCustomize", no_language_support);

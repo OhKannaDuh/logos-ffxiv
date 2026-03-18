@@ -23,4 +23,4 @@ impl RaceRow {
     u8_field!(ex_pac, 11);
 }
 
-define_sheet!(RaceSheet, RaceRow, "Race");
+define_sheet!(RaceSheet, RaceRow, "Race", language_support);

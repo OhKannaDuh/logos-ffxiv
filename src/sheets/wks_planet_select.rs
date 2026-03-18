@@ -16,4 +16,4 @@ impl WKSPlanetSelectRow {
     u8_field!(unknown_4, 0);
 }
 
-define_sheet!(WKSPlanetSelectSheet, WKSPlanetSelectRow, "WKSPlanetSelect");
+define_sheet!(WKSPlanetSelectSheet, WKSPlanetSelectRow, "WKSPlanetSelect", language_support);

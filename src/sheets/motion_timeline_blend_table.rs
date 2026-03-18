@@ -17,4 +17,4 @@ impl MotionTimelineBlendTableRow {
     u8_field!(blend_fram_type_c, 5);
 }
 
-define_sheet!(MotionTimelineBlendTableSheet, MotionTimelineBlendTableRow, "MotionTimelineBlendTable");
+define_sheet!(MotionTimelineBlendTableSheet, MotionTimelineBlendTableRow, "MotionTimelineBlendTable", no_language_support);

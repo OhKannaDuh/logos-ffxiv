@@ -13,4 +13,4 @@ impl AOZArrangementRow {
     u16_field!(position, 1);
 }
 
-define_sheet!(AOZArrangementSheet, AOZArrangementRow, "AOZArrangement");
+define_sheet!(AOZArrangementSheet, AOZArrangementRow, "AOZArrangement", no_language_support);

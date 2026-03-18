@@ -78,4 +78,4 @@ impl BNpcPartsRow {
     bool_field!(unknown_36, 0);
 }
 
-define_sheet!(BNpcPartsSheet, BNpcPartsRow, "BNpcParts");
+define_sheet!(BNpcPartsSheet, BNpcPartsRow, "BNpcParts", no_language_support);

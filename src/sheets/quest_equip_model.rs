@@ -13,4 +13,4 @@ impl QuestEquipModelRow {
     i8_field!(unknown_1, 0);
 }
 
-define_sheet!(QuestEquipModelSheet, QuestEquipModelRow, "QuestEquipModel");
+define_sheet!(QuestEquipModelSheet, QuestEquipModelRow, "QuestEquipModel", no_language_support);

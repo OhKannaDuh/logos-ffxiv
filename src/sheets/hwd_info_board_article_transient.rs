@@ -14,4 +14,4 @@ impl HWDInfoBoardArticleTransientRow {
     u32_field!(image, 0);
 }
 
-define_sheet!(HWDInfoBoardArticleTransientSheet, HWDInfoBoardArticleTransientRow, "HWDInfoBoardArticleTransient");
+define_sheet!(HWDInfoBoardArticleTransientSheet, HWDInfoBoardArticleTransientRow, "HWDInfoBoardArticleTransient", language_support);

@@ -16,4 +16,4 @@ impl HousingMapMarkerInfoRow {
     u16_field!(map, 4);
 }
 
-define_sheet!(HousingMapMarkerInfoSheet, HousingMapMarkerInfoRow, "HousingMapMarkerInfo");
+define_sheet!(HousingMapMarkerInfoSheet, HousingMapMarkerInfoRow, "HousingMapMarkerInfo", no_language_support);

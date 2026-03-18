@@ -13,4 +13,4 @@ impl HousingMerchantPoseRow {
     u16_field!(action_timeline, 0);
 }
 
-define_sheet!(HousingMerchantPoseSheet, HousingMerchantPoseRow, "HousingMerchantPose");
+define_sheet!(HousingMerchantPoseSheet, HousingMerchantPoseRow, "HousingMerchantPose", language_support);

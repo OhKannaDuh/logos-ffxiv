@@ -20,4 +20,4 @@ impl AnimationLODRow {
     array_field!(animation_enable, 3, 8, AnimationLODAnimationEnable);
 }
 
-define_sheet!(AnimationLODSheet, AnimationLODRow, "AnimationLOD");
+define_sheet!(AnimationLODSheet, AnimationLODRow, "AnimationLOD", no_language_support);

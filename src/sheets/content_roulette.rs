@@ -67,4 +67,4 @@ impl ContentRouletteRow {
     bool_field!(is_registration_allowed_from_any_data_center, 46);
 }
 
-define_sheet!(ContentRouletteSheet, ContentRouletteRow, "ContentRoulette");
+define_sheet!(ContentRouletteSheet, ContentRouletteRow, "ContentRoulette", language_support);

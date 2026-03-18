@@ -12,4 +12,4 @@ impl PartyContentTextDataRow {
     string_field!(data, 0);
 }
 
-define_sheet!(PartyContentTextDataSheet, PartyContentTextDataRow, "PartyContentTextData");
+define_sheet!(PartyContentTextDataSheet, PartyContentTextDataRow, "PartyContentTextData", language_support);

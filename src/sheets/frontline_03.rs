@@ -23,4 +23,4 @@ impl Frontline03Row {
     array_field!(ovoo_data, 0, 3, Frontline03OvooData);
 }
 
-define_sheet!(Frontline03Sheet, Frontline03Row, "Frontline03");
+define_sheet!(Frontline03Sheet, Frontline03Row, "Frontline03", no_language_support);

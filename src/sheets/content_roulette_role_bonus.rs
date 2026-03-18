@@ -23,4 +23,4 @@ impl ContentRouletteRoleBonusRow {
     u8_field!(unknown_9, 11);
 }
 
-define_sheet!(ContentRouletteRoleBonusSheet, ContentRouletteRoleBonusRow, "ContentRouletteRoleBonus");
+define_sheet!(ContentRouletteRoleBonusSheet, ContentRouletteRoleBonusRow, "ContentRouletteRoleBonus", no_language_support);

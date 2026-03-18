@@ -13,4 +13,4 @@ impl InstanceContentGuideRow {
     u32_field!(unknown_0, 1);
 }
 
-define_sheet!(InstanceContentGuideSheet, InstanceContentGuideRow, "InstanceContentGuide");
+define_sheet!(InstanceContentGuideSheet, InstanceContentGuideRow, "InstanceContentGuide", no_language_support);

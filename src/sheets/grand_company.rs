@@ -21,4 +21,4 @@ impl GrandCompanyRow {
     i8_field!(monster_note, 9);
 }
 
-define_sheet!(GrandCompanySheet, GrandCompanyRow, "GrandCompany");
+define_sheet!(GrandCompanySheet, GrandCompanyRow, "GrandCompany", language_support);

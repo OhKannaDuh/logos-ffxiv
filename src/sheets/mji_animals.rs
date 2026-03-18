@@ -22,4 +22,4 @@ impl MJIAnimalsRow {
     u8_field!(unknown_1, 3);
 }
 
-define_sheet!(MJIAnimalsSheet, MJIAnimalsRow, "MJIAnimals");
+define_sheet!(MJIAnimalsSheet, MJIAnimalsRow, "MJIAnimals", no_language_support);

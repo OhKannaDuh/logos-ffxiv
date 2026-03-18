@@ -12,4 +12,4 @@ impl CollectablesShopItemGroupRow {
     string_field!(name, 0);
 }
 
-define_sheet!(CollectablesShopItemGroupSheet, CollectablesShopItemGroupRow, "CollectablesShopItemGroup");
+define_sheet!(CollectablesShopItemGroupSheet, CollectablesShopItemGroupRow, "CollectablesShopItemGroup", language_support);

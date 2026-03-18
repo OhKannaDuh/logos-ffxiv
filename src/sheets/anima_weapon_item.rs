@@ -17,4 +17,4 @@ impl AnimaWeaponItemRow {
     array_field!(item, 0, 14, AnimaWeaponItemItem);
 }
 
-define_sheet!(AnimaWeaponItemSheet, AnimaWeaponItemRow, "AnimaWeaponItem");
+define_sheet!(AnimaWeaponItemSheet, AnimaWeaponItemRow, "AnimaWeaponItem", no_language_support);

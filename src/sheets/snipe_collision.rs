@@ -16,4 +16,4 @@ impl SnipeCollisionRow {
     u8_field!(unknown_4, 1);
 }
 
-define_sheet!(SnipeCollisionSheet, SnipeCollisionRow, "SnipeCollision");
+define_sheet!(SnipeCollisionSheet, SnipeCollisionRow, "SnipeCollision", no_language_support);

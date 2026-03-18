@@ -13,4 +13,4 @@ impl StorySystemDefineRow {
     u32_field!(unknown_1, 1);
 }
 
-define_sheet!(StorySystemDefineSheet, StorySystemDefineRow, "StorySystemDefine");
+define_sheet!(StorySystemDefineSheet, StorySystemDefineRow, "StorySystemDefine", no_language_support);

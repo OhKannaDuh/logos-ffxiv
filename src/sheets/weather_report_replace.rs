@@ -13,4 +13,4 @@ impl WeatherReportReplaceRow {
     u16_field!(place_name_parent, 1);
 }
 
-define_sheet!(WeatherReportReplaceSheet, WeatherReportReplaceRow, "WeatherReportReplace");
+define_sheet!(WeatherReportReplaceSheet, WeatherReportReplaceRow, "WeatherReportReplace", no_language_support);

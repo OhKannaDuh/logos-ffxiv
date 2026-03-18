@@ -49,4 +49,4 @@ impl RelicNoteRow {
     array_field!(monster_count, 24, 10, RelicNoteMonsterCount);
 }
 
-define_sheet!(RelicNoteSheet, RelicNoteRow, "RelicNote");
+define_sheet!(RelicNoteSheet, RelicNoteRow, "RelicNote", no_language_support);

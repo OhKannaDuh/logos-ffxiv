@@ -13,4 +13,4 @@ impl PointMenuRow {
     u32_field!(unknown_1, 0);
 }
 
-define_sheet!(PointMenuSheet, PointMenuRow, "PointMenu");
+define_sheet!(PointMenuSheet, PointMenuRow, "PointMenu", language_support);

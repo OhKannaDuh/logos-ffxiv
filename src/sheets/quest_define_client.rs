@@ -13,4 +13,4 @@ impl QuestDefineClientRow {
     u32_field!(target, 1);
 }
 
-define_sheet!(QuestDefineClientSheet, QuestDefineClientRow, "QuestDefineClient");
+define_sheet!(QuestDefineClientSheet, QuestDefineClientRow, "QuestDefineClient", no_language_support);

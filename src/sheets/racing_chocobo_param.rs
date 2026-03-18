@@ -12,4 +12,4 @@ impl RacingChocoboParamRow {
     string_field!(name, 0);
 }
 
-define_sheet!(RacingChocoboParamSheet, RacingChocoboParamRow, "RacingChocoboParam");
+define_sheet!(RacingChocoboParamSheet, RacingChocoboParamRow, "RacingChocoboParam", language_support);
