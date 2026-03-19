@@ -91,7 +91,7 @@ macro_rules! define_row {
 pub use define_row;
 
 #[macro_export]
-macro_rules! define_subrow {
+macro_rules! define_element {
     ($row_ty:ident, $field_count:expr) => {
         #[derive(Debug, Copy, Clone)]
         pub struct $row_ty<'a>(&'a [physis::excel::Field]);
@@ -108,7 +108,7 @@ macro_rules! define_subrow {
     };
 }
 
-pub use define_subrow;
+pub use define_element;
 
 // FIELDS
 #[macro_export]
