@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(DpsChallengeOfficerChallengeName, 1);
 impl<'a> DpsChallengeOfficerChallengeName<'a> {
-    u16_field!(field_0, 1);
+    u16_field!(field_0, 0);
 }
 
 

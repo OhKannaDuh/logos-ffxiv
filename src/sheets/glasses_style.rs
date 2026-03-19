@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(GlassesStyleGlasses, 1);
 impl<'a> GlassesStyleGlasses<'a> {
-    string_field!(field_0, 15);
+    string_field!(field_0, 0);
 }
 
 

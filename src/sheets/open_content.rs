@@ -8,8 +8,8 @@ use crate::macros::*;
 
 define_subrow!(OpenContentOpenContentData, 2);
 impl<'a> OpenContentOpenContentData<'a> {
-    u32_field!(candidate_name, 16);
-    u16_field!(content, 0);
+    u32_field!(candidate_name, 0);
+    u16_field!(content, 1);
 }
 
 

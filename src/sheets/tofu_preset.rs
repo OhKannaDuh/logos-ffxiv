@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(TofuPresetObjects, 1);
 impl<'a> TofuPresetObjects<'a> {
-    string_field!(field_0, 3);
+    string_field!(field_0, 0);
 }
 
 

@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(GoldSaucerTalkChoicesText, 1);
 impl<'a> GoldSaucerTalkChoicesText<'a> {
-    string_field!(field_0, 17);
+    string_field!(field_0, 0);
 }
 
 define_subrow!(GoldSaucerTalkChoicesTalk, 1);
 impl<'a> GoldSaucerTalkChoicesTalk<'a> {
-    string_field!(field_0, 17);
+    string_field!(field_0, 0);
 }
 
 

@@ -8,11 +8,11 @@ use crate::macros::*;
 
 define_subrow!(HousingLandSetLandSet, 5);
 impl<'a> HousingLandSetLandSet<'a> {
-    u32_field!(unknown_range_1, 60);
-    u32_field!(placard_id, 120);
-    u32_field!(unknown_range_2, 180);
-    u32_field!(initial_price, 240);
-    u8_field!(plot_size, 0);
+    u32_field!(unknown_range_1, 0);
+    u32_field!(placard_id, 1);
+    u32_field!(unknown_range_2, 2);
+    u32_field!(initial_price, 3);
+    u8_field!(plot_size, 4);
 }
 
 

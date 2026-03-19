@@ -8,11 +8,11 @@ use crate::macros::*;
 
 define_subrow!(GFATEGFATEParams, 5);
 impl<'a> GFATEGFATEParams<'a> {
-    u32_field!(lgb_pop_range, 7);
-    u32_field!(icon, 23);
-    bool_field!(unknown_0, 39);
-    bool_field!(unknown_1, 55);
-    bool_field!(unknown_2, 71);
+    u32_field!(lgb_pop_range, 0);
+    u32_field!(icon, 1);
+    bool_field!(unknown_0, 2);
+    bool_field!(unknown_1, 3);
+    bool_field!(unknown_2, 4);
 }
 
 

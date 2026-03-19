@@ -8,27 +8,27 @@ use crate::macros::*;
 
 define_subrow!(TripleTriadItemPossibleReward, 1);
 impl<'a> TripleTriadItemPossibleReward<'a> {
-    u32_field!(field_0, 26);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(TripleTriadPreviousQuest, 1);
 impl<'a> TripleTriadPreviousQuest<'a> {
-    u32_field!(field_0, 26);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(TripleTriadTripleTriadCardFixed, 1);
 impl<'a> TripleTriadTripleTriadCardFixed<'a> {
-    u32_field!(field_0, 26);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(TripleTriadTripleTriadCardVariable, 1);
 impl<'a> TripleTriadTripleTriadCardVariable<'a> {
-    u32_field!(field_0, 26);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(TripleTriadTripleTriadRule, 1);
 impl<'a> TripleTriadTripleTriadRule<'a> {
-    u32_field!(field_0, 26);
+    u32_field!(field_0, 0);
 }
 
 

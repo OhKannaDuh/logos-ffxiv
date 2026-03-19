@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(CraftLeveTalkTalk, 1);
 impl<'a> CraftLeveTalkTalk<'a> {
-    u32_field!(field_0, 12);
+    u32_field!(field_0, 0);
 }
 
 

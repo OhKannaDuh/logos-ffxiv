@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(ENpcBaseENpcData, 1);
 impl<'a> ENpcBaseENpcData<'a> {
-    u32_field!(field_0, 2);
+    u32_field!(field_0, 0);
 }
 
 

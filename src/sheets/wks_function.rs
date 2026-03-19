@@ -8,27 +8,27 @@ use crate::macros::*;
 
 define_subrow!(WKSFunctionRequiredQuests0, 1);
 impl<'a> WKSFunctionRequiredQuests0<'a> {
-    u32_field!(field_0, 8);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(WKSFunctionRequiredQuests1, 1);
 impl<'a> WKSFunctionRequiredQuests1<'a> {
-    u32_field!(field_0, 8);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(WKSFunctionRequiredQuests2, 1);
 impl<'a> WKSFunctionRequiredQuests2<'a> {
-    u32_field!(field_0, 8);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(WKSFunctionRequiredDevGrade, 1);
 impl<'a> WKSFunctionRequiredDevGrade<'a> {
-    u32_field!(field_0, 8);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(WKSFunctionUnknown12, 1);
 impl<'a> WKSFunctionUnknown12<'a> {
-    u32_field!(field_0, 8);
+    u32_field!(field_0, 0);
 }
 
 

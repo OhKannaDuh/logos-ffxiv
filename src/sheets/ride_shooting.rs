@@ -8,20 +8,20 @@ use crate::macros::*;
 
 define_subrow!(RideShootingRideShootingParams, 14);
 impl<'a> RideShootingRideShootingParams<'a> {
-    u32_field!(unknown_0, 6);
-    u32_field!(pop_range, 14);
-    u32_field!(e_npc, 22);
-    u32_field!(unknown_1, 38);
-    u32_field!(unknown_2, 54);
-    u32_field!(unknown_3, 70);
-    u32_field!(unknown_4, 86);
-    u32_field!(unknown_5, 102);
-    u8_field!(e_npc_scale, 30);
-    u8_field!(unknown_6, 46);
-    u8_field!(unknown_7, 62);
-    u8_field!(unknown_8, 78);
-    u8_field!(unknown_9, 94);
-    u8_field!(unknown_10, 110);
+    u32_field!(unknown_0, 0);
+    u32_field!(pop_range, 1);
+    u32_field!(e_npc, 2);
+    u32_field!(unknown_1, 3);
+    u32_field!(unknown_2, 4);
+    u32_field!(unknown_3, 5);
+    u32_field!(unknown_4, 6);
+    u32_field!(unknown_5, 7);
+    u8_field!(e_npc_scale, 8);
+    u8_field!(unknown_6, 9);
+    u8_field!(unknown_7, 10);
+    u8_field!(unknown_8, 11);
+    u8_field!(unknown_9, 12);
+    u8_field!(unknown_10, 13);
 }
 
 

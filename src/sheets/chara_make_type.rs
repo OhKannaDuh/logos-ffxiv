@@ -8,58 +8,58 @@ use crate::macros::*;
 
 define_subrow!(CharaMakeTypeCharaMakeStruct, 10);
 impl<'a> CharaMakeTypeCharaMakeStruct<'a> {
-    u32_field!(menu, 3);
-    u32_field!(sub_menu_mask, 143);
-    u32_field!(customize, 171);
+    u32_field!(menu, 0);
+    u32_field!(sub_menu_mask, 1);
+    u32_field!(customize, 2);
     array_field!(sub_menu_param, 3, 100, CharaMakeTypeCharaMakeStruct);
     array_field!(unknown_0, 103, 6, CharaMakeTypeCharaMakeStruct);
-    u8_field!(init_val, 31);
-    u8_field!(sub_menu_type, 59);
-    u8_field!(sub_menu_num, 87);
-    u8_field!(look_at, 115);
+    u8_field!(init_val, 109);
+    u8_field!(sub_menu_type, 110);
+    u8_field!(sub_menu_num, 111);
+    u8_field!(look_at, 112);
     array_field!(sub_menu_graphic, 113, 10, CharaMakeTypeCharaMakeStruct);
 }
 
 define_subrow!(CharaMakeTypeCharaMakeStructSubMenuParam, 1);
 impl<'a> CharaMakeTypeCharaMakeStructSubMenuParam<'a> {
-    u32_field!(field_0, 3);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(CharaMakeTypeCharaMakeStructUnknown0, 1);
 impl<'a> CharaMakeTypeCharaMakeStructUnknown0<'a> {
-    u32_field!(field_0, 3);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(CharaMakeTypeCharaMakeStructSubMenuGraphic, 1);
 impl<'a> CharaMakeTypeCharaMakeStructSubMenuGraphic<'a> {
-    u32_field!(field_0, 3);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(CharaMakeTypeVoiceStruct, 1);
 impl<'a> CharaMakeTypeVoiceStruct<'a> {
-    u32_field!(field_0, 3);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(CharaMakeTypeFacialFeatureOption, 7);
 impl<'a> CharaMakeTypeFacialFeatureOption<'a> {
-    u32_field!(option_1, 3);
-    u32_field!(option_2, 143);
-    u32_field!(option_3, 171);
-    u32_field!(option_4, 199);
-    u32_field!(option_5, 227);
-    u32_field!(option_6, 255);
-    u32_field!(option_7, 283);
+    u32_field!(option_1, 0);
+    u32_field!(option_2, 1);
+    u32_field!(option_3, 2);
+    u32_field!(option_4, 3);
+    u32_field!(option_5, 4);
+    u32_field!(option_6, 5);
+    u32_field!(option_7, 6);
 }
 
 define_subrow!(CharaMakeTypeEquipment, 7);
 impl<'a> CharaMakeTypeEquipment<'a> {
-    u32_field!(helmet, 3);
-    u32_field!(top, 143);
-    u32_field!(gloves, 171);
-    u32_field!(legs, 199);
-    u32_field!(shoes, 227);
-    u32_field!(weapon, 255);
-    u32_field!(sub_weapon, 283);
+    u32_field!(helmet, 0);
+    u32_field!(top, 1);
+    u32_field!(gloves, 2);
+    u32_field!(legs, 3);
+    u32_field!(shoes, 4);
+    u32_field!(weapon, 5);
+    u32_field!(sub_weapon, 6);
 }
 
 

@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(EmjVoiceNpcVoLines, 1);
 impl<'a> EmjVoiceNpcVoLines<'a> {
-    u32_field!(field_0, 2);
+    u32_field!(field_0, 0);
 }
 
 

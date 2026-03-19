@@ -8,8 +8,8 @@ use crate::macros::*;
 
 define_subrow!(QuestBattleQuestBattleParams, 2);
 impl<'a> QuestBattleQuestBattleParams<'a> {
-    string_field!(script_instruction, 4);
-    u32_field!(script_value, 224);
+    string_field!(script_instruction, 0);
+    u32_field!(script_value, 1);
 }
 
 

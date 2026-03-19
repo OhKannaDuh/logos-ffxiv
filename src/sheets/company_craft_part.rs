@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(CompanyCraftPartCompanyCraftProcess, 1);
 impl<'a> CompanyCraftPartCompanyCraftProcess<'a> {
-    u16_field!(field_0, 2);
+    u16_field!(field_0, 0);
 }
 
 

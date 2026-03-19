@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(BannerConditionUnlockCriteria1, 1);
 impl<'a> BannerConditionUnlockCriteria1<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 

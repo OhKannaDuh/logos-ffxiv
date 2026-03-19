@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(MonsterNoteMonsterNoteTarget, 1);
 impl<'a> MonsterNoteMonsterNoteTarget<'a> {
-    string_field!(field_0, 9);
+    string_field!(field_0, 0);
 }
 
 define_subrow!(MonsterNoteCount, 1);
 impl<'a> MonsterNoteCount<'a> {
-    string_field!(field_0, 9);
+    string_field!(field_0, 0);
 }
 
 

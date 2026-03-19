@@ -9,37 +9,37 @@ use crate::macros::*;
 define_subrow!(QuestQuestParams, 2);
 impl<'a> QuestQuestParams<'a> {
     string_field!(script_instruction, 0);
-    string_field!(script_arg, 50);
+    string_field!(script_arg, 1);
 }
 
 define_subrow!(QuestQuestListenerParams, 18);
 impl<'a> QuestQuestListenerParams<'a> {
     string_field!(listener, 0);
-    string_field!(condition_value, 50);
-    u32_field!(behavior, 100);
-    string_field!(actor_spawn_seq, 51);
-    u32_field!(actor_despawn_seq, 101);
-    string_field!(unknown_0, 52);
-    u32_field!(unknown_1, 102);
-    string_field!(quest_u_int_8_a, 53);
-    u32_field!(condition_type, 103);
-    string_field!(condition_operator, 54);
-    u32_field!(visible_bool, 104);
-    string_field!(condition_bool, 55);
-    u32_field!(item_bool, 105);
-    string_field!(announce_bool, 56);
-    u32_field!(behavior_bool, 106);
-    string_field!(accept_bool, 57);
-    u32_field!(qualified_bool, 107);
-    string_field!(can_target_bool, 58);
+    string_field!(condition_value, 1);
+    u32_field!(behavior, 2);
+    string_field!(actor_spawn_seq, 3);
+    u32_field!(actor_despawn_seq, 4);
+    string_field!(unknown_0, 5);
+    u32_field!(unknown_1, 6);
+    string_field!(quest_u_int_8_a, 7);
+    u32_field!(condition_type, 8);
+    string_field!(condition_operator, 9);
+    u32_field!(visible_bool, 10);
+    string_field!(condition_bool, 11);
+    u32_field!(item_bool, 12);
+    string_field!(announce_bool, 13);
+    u32_field!(behavior_bool, 14);
+    string_field!(accept_bool, 15);
+    u32_field!(qualified_bool, 16);
+    string_field!(can_target_bool, 17);
 }
 
 define_subrow!(QuestTodoParams, 4);
 impl<'a> QuestTodoParams<'a> {
     array_field!(to_do_location, 0, 8, QuestTodoParams);
-    u32_field!(to_do_complete_seq, 103);
-    string_field!(to_do_qty, 54);
-    u32_field!(countable_num, 104);
+    u32_field!(to_do_complete_seq, 8);
+    string_field!(to_do_qty, 9);
+    u32_field!(countable_num, 10);
 }
 
 define_subrow!(QuestTodoParamsToDoLocation, 1);

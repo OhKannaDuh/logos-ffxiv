@@ -8,22 +8,22 @@ use crate::macros::*;
 
 define_subrow!(InstanceContentBossExp, 1);
 impl<'a> InstanceContentBossExp<'a> {
-    u32_field!(field_0, 17);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(InstanceContentBossCurrencyA, 1);
 impl<'a> InstanceContentBossCurrencyA<'a> {
-    u32_field!(field_0, 17);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(InstanceContentBossCurrencyB, 1);
 impl<'a> InstanceContentBossCurrencyB<'a> {
-    u32_field!(field_0, 17);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(InstanceContentBossCurrencyC, 1);
 impl<'a> InstanceContentBossCurrencyC<'a> {
-    u32_field!(field_0, 17);
+    u32_field!(field_0, 0);
 }
 
 

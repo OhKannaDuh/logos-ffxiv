@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(BaseParamMeldParam, 1);
 impl<'a> BaseParamMeldParam<'a> {
-    string_field!(field_0, 1);
+    string_field!(field_0, 0);
 }
 
 

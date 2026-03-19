@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(YKWLocation, 1);
 impl<'a> YKWLocation<'a> {
-    string_field!(field_0, 8);
+    string_field!(field_0, 0);
 }
 
 

@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(MKDDataCurrencyItem, 1);
 impl<'a> MKDDataCurrencyItem<'a> {
-    u32_field!(field_0, 9);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(MKDDataCurrencyName, 1);
 impl<'a> MKDDataCurrencyName<'a> {
-    u32_field!(field_0, 9);
+    u32_field!(field_0, 0);
 }
 
 

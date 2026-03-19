@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(InclusionShopCategory, 1);
 impl<'a> InclusionShopCategory<'a> {
-    string_field!(field_0, 2);
+    string_field!(field_0, 0);
 }
 
 

@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(WKSAchievementDailyDefineRewardItem, 1);
 impl<'a> WKSAchievementDailyDefineRewardItem<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(WKSAchievementDailyDefineSuccessPointsRequired, 1);
 impl<'a> WKSAchievementDailyDefineSuccessPointsRequired<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 

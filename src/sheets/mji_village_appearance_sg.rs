@@ -8,8 +8,8 @@ use crate::macros::*;
 
 define_subrow!(MJIVillageAppearanceSGVillageAppearanceData, 2);
 impl<'a> MJIVillageAppearanceSGVillageAppearanceData<'a> {
-    u32_field!(unknown_param, 5);
-    u16_field!(sgb, 0);
+    u32_field!(unknown_param, 0);
+    u16_field!(sgb, 1);
 }
 
 

@@ -16,10 +16,10 @@ impl<'a> CompanyLeveCompanyLeveStruct<'a> {
     u16_field!(b_npc_name, 0);
     array_field!(to_do_param, 1, 6, CompanyLeveCompanyLeveStruct);
     u16_field!(base_id, 7);
-    u32_field!(items_involved, 24);
-    u32_field!(enemy_level, 56);
-    u32_field!(items_involved_qty, 64);
-    u32_field!(item_drop_rate, 72);
+    u32_field!(items_involved, 8);
+    u32_field!(enemy_level, 9);
+    u32_field!(items_involved_qty, 10);
+    u32_field!(item_drop_rate, 11);
     array_field!(num_of_appearance, 12, 8, CompanyLeveCompanyLeveStruct);
 }
 

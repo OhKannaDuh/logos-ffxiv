@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(BeastRankBonusItemQuantity, 1);
 impl<'a> BeastRankBonusItemQuantity<'a> {
-    u32_field!(field_0, 8);
+    u32_field!(field_0, 0);
 }
 
 

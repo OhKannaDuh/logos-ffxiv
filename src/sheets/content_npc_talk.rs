@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(ContentNpcTalkContentTalk, 1);
 impl<'a> ContentNpcTalkContentTalk<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 

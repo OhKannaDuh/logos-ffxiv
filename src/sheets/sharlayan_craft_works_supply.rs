@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(SharlayanCraftWorksSupplyItem, 11);
 impl<'a> SharlayanCraftWorksSupplyItem<'a> {
-    u32_field!(item_id, 4);
-    u32_field!(xp_reward, 16);
-    u16_field!(collectability_mid, 8);
-    u16_field!(collectability_high, 12);
-    u16_field!(gil_reward, 24);
-    u8_field!(level, 0);
-    u8_field!(high_xp_multiplier, 20);
-    u8_field!(high_gil_multiplier, 28);
-    u8_field!(unknown_8, 32);
-    u8_field!(scrip_reward, 36);
-    u8_field!(high_scrip_multiplier, 40);
+    u32_field!(item_id, 0);
+    u32_field!(xp_reward, 1);
+    u16_field!(collectability_mid, 2);
+    u16_field!(collectability_high, 3);
+    u16_field!(gil_reward, 4);
+    u8_field!(level, 5);
+    u8_field!(high_xp_multiplier, 6);
+    u8_field!(high_gil_multiplier, 7);
+    u8_field!(unknown_8, 8);
+    u8_field!(scrip_reward, 9);
+    u8_field!(high_scrip_multiplier, 10);
 }
 
 

@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(GuildleveAssignmentTalkTalk, 1);
 impl<'a> GuildleveAssignmentTalkTalk<'a> {
-    u32_field!(field_0, 10);
+    u32_field!(field_0, 0);
 }
 
 

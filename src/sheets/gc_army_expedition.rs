@@ -8,15 +8,15 @@ use crate::macros::*;
 
 define_subrow!(GcArmyExpeditionExpeditionParams, 9);
 impl<'a> GcArmyExpeditionExpeditionParams<'a> {
-    string_field!(reward_item, 8);
-    string_field!(required_physical, 9);
-    i32_field!(required_mental, 10);
-    u16_field!(required_tactical, 22);
-    u16_field!(reward_quantity, 34);
-    u16_field!(percent_physical_met, 46);
-    u8_field!(percent_mental_met, 16);
-    u8_field!(percent_tactical_met, 28);
-    u8_field!(percent_all_met, 40);
+    string_field!(reward_item, 0);
+    string_field!(required_physical, 1);
+    i32_field!(required_mental, 2);
+    u16_field!(required_tactical, 3);
+    u16_field!(reward_quantity, 4);
+    u16_field!(percent_physical_met, 5);
+    u8_field!(percent_mental_met, 6);
+    u8_field!(percent_tactical_met, 7);
+    u8_field!(percent_all_met, 8);
 }
 
 

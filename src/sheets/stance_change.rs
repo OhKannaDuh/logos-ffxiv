@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(StanceChangeAction, 1);
 impl<'a> StanceChangeAction<'a> {
-    f32_field!(field_0, 4);
+    f32_field!(field_0, 0);
 }
 
 

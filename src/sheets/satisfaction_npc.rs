@@ -8,33 +8,33 @@ use crate::macros::*;
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParams, 5);
 impl<'a> SatisfactionNpcSatisfactionNpcParams<'a> {
-    i32_field!(supply_index, 4);
+    i32_field!(supply_index, 0);
     array_field!(item, 1, 3, SatisfactionNpcSatisfactionNpcParams);
-    u16_field!(satisfaction_required, 10);
+    u16_field!(satisfaction_required, 4);
     array_field!(item_count, 5, 3, SatisfactionNpcSatisfactionNpcParams);
     array_field!(is_hq, 8, 3, SatisfactionNpcSatisfactionNpcParams);
 }
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParamsItem, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsItem<'a> {
-    i32_field!(field_0, 4);
+    i32_field!(field_0, 0);
 }
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParamsItemCount, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsItemCount<'a> {
-    i32_field!(field_0, 4);
+    i32_field!(field_0, 0);
 }
 
 define_subrow!(SatisfactionNpcSatisfactionNpcParamsIsHQ, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsIsHQ<'a> {
-    i32_field!(field_0, 4);
+    i32_field!(field_0, 0);
 }
 
 define_subrow!(SatisfactionNpcRankParams, 3);
 impl<'a> SatisfactionNpcRankParams<'a> {
-    i32_field!(image_id, 4);
-    i32_field!(unknown_1, 16);
-    i32_field!(quest, 34);
+    i32_field!(image_id, 0);
+    i32_field!(unknown_1, 1);
+    i32_field!(quest, 2);
 }
 
 

@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(MJIBuildingSgb, 1);
 impl<'a> MJIBuildingSgb<'a> {
-    u32_field!(field_0, 29);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(MJIBuildingMaterial, 1);
 impl<'a> MJIBuildingMaterial<'a> {
-    u32_field!(field_0, 29);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(MJIBuildingAmount, 1);
 impl<'a> MJIBuildingAmount<'a> {
-    u32_field!(field_0, 29);
+    u32_field!(field_0, 0);
 }
 
 

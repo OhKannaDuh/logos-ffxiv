@@ -8,8 +8,8 @@ use crate::macros::*;
 
 define_subrow!(QuestRedoQuestRedoParam, 2);
 impl<'a> QuestRedoQuestRedoParam<'a> {
-    u32_field!(quest, 4);
-    u8_field!(unknown_param, 36);
+    u32_field!(quest, 0);
+    u8_field!(unknown_param, 1);
 }
 
 

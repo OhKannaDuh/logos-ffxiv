@@ -9,19 +9,19 @@ use crate::macros::*;
 define_subrow!(HWDCrafterSupplyHWDCrafterSupplyParams, 14);
 impl<'a> HWDCrafterSupplyHWDCrafterSupplyParams<'a> {
     u32_field!(item_trade_in, 0);
-    u16_field!(base_collectable_rating, 92);
-    u16_field!(mid_collectable_rating, 115);
-    u16_field!(high_collectable_rating, 138);
-    u16_field!(base_collectable_reward, 161);
-    u16_field!(mid_collectable_reward, 184);
-    u16_field!(high_collectable_reward, 207);
-    u16_field!(base_collectable_reward_post_phase, 230);
-    u16_field!(mid_collectable_reward_post_phase, 253);
-    u16_field!(high_collectable_reward_post_phase, 276);
-    u8_field!(level, 23);
-    u8_field!(level_max, 46);
-    u8_field!(unknown_0, 69);
-    u8_field!(term_name, 299);
+    u16_field!(base_collectable_rating, 1);
+    u16_field!(mid_collectable_rating, 2);
+    u16_field!(high_collectable_rating, 3);
+    u16_field!(base_collectable_reward, 4);
+    u16_field!(mid_collectable_reward, 5);
+    u16_field!(high_collectable_reward, 6);
+    u16_field!(base_collectable_reward_post_phase, 7);
+    u16_field!(mid_collectable_reward_post_phase, 8);
+    u16_field!(high_collectable_reward_post_phase, 9);
+    u8_field!(level, 10);
+    u8_field!(level_max, 11);
+    u8_field!(unknown_0, 12);
+    u8_field!(term_name, 13);
 }
 
 

@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(MonsterNoteTargetPlaceNameZone, 1);
 impl<'a> MonsterNoteTargetPlaceNameZone<'a> {
-    i32_field!(field_0, 1);
+    i32_field!(field_0, 0);
 }
 
 define_subrow!(MonsterNoteTargetPlaceNameLocation, 1);
 impl<'a> MonsterNoteTargetPlaceNameLocation<'a> {
-    i32_field!(field_0, 1);
+    i32_field!(field_0, 0);
 }
 
 

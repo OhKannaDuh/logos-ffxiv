@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(PartyContentLGBEventObject, 1);
 impl<'a> PartyContentLGBEventObject<'a> {
-    u32_field!(field_0, 5);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(PartyContentLGBEventRange, 1);
 impl<'a> PartyContentLGBEventRange<'a> {
-    u32_field!(field_0, 5);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(PartyContentLGBEventObject2, 1);
 impl<'a> PartyContentLGBEventObject2<'a> {
-    u32_field!(field_0, 5);
+    u32_field!(field_0, 0);
 }
 
 

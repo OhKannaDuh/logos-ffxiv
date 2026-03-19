@@ -9,8 +9,8 @@ use crate::macros::*;
 define_subrow!(TelepoRelayRelays, 3);
 impl<'a> TelepoRelayRelays<'a> {
     u16_field!(enter_territory, 0);
-    u16_field!(exit_territory, 9);
-    u16_field!(cost, 18);
+    u16_field!(exit_territory, 1);
+    u16_field!(cost, 2);
 }
 
 

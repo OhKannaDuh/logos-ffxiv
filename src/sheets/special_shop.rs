@@ -13,15 +13,15 @@ impl<'a> SpecialShopItem<'a> {
     array_field!(item, 5, 2, SpecialShopItem);
     array_field!(category, 7, 2, SpecialShopItem);
     array_field!(item_cost, 9, 3, SpecialShopItem);
-    i32_field!(quest, 961);
+    i32_field!(quest, 12);
     array_field!(unknown_0, 13, 4, SpecialShopItem);
-    i32_field!(achievement_unlock, 1681);
-    i32_field!(unknown_2, 1741);
+    i32_field!(achievement_unlock, 17);
+    i32_field!(unknown_2, 18);
     array_field!(collectability_cost, 19, 3, SpecialShopItem);
-    u16_field!(patch_number, 1141);
+    u16_field!(patch_number, 22);
     array_field!(hq_cost, 23, 3, SpecialShopItem);
     array_field!(unknown_1, 26, 5, SpecialShopItem);
-    u8_field!(order, 1801);
+    u8_field!(order, 31);
     array_field!(receive_hq, 32, 2, SpecialShopItem);
 }
 

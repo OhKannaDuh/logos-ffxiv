@@ -9,10 +9,10 @@ use crate::macros::*;
 define_subrow!(EventCustomIconTypeIcons, 5);
 impl<'a> EventCustomIconTypeIcons<'a> {
     u32_field!(announce_quest, 0);
-    u32_field!(announce_quest_locked, 10);
-    u32_field!(map_announce_quest_1, 20);
-    u32_field!(map_announce_quest_locked, 30);
-    u32_field!(map_announce_quest_2, 40);
+    u32_field!(announce_quest_locked, 1);
+    u32_field!(map_announce_quest_1, 2);
+    u32_field!(map_announce_quest_locked, 3);
+    u32_field!(map_announce_quest_2, 4);
 }
 
 

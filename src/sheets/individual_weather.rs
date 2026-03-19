@@ -8,11 +8,11 @@ use crate::macros::*;
 
 define_subrow!(IndividualWeatherIndividualWeatherData, 4);
 impl<'a> IndividualWeatherIndividualWeatherData<'a> {
-    u32_field!(quest, 14);
+    u32_field!(quest, 0);
     // quest progress maybe
-    u32_field!(unknown_0, 21);
-    u8_field!(weather, 0);
-    u8_field!(unknown_1, 7);
+    u32_field!(unknown_0, 1);
+    u8_field!(weather, 2);
+    u8_field!(unknown_1, 3);
 }
 
 

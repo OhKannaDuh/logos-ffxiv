@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(ResistanceWeaponAdjustBaseParam, 1);
 impl<'a> ResistanceWeaponAdjustBaseParam<'a> {
-    u32_field!(field_0, 6);
+    u32_field!(field_0, 0);
 }
 
 

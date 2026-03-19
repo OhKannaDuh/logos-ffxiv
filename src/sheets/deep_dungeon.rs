@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(DeepDungeonPomanderSlot, 1);
 impl<'a> DeepDungeonPomanderSlot<'a> {
-    u8_field!(field_0, 2);
+    u8_field!(field_0, 0);
 }
 
 define_subrow!(DeepDungeonMagiciteSlot, 1);
 impl<'a> DeepDungeonMagiciteSlot<'a> {
-    u8_field!(field_0, 2);
+    u8_field!(field_0, 0);
 }
 
 

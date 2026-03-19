@@ -8,10 +8,10 @@ use crate::macros::*;
 
 define_subrow!(GcArmyMemberGrowMemberParams, 4);
 impl<'a> GcArmyMemberGrowMemberParams<'a> {
-    u16_field!(equip_preset, 2);
-    u8_field!(physical, 63);
-    u8_field!(mental, 124);
-    u8_field!(tactical, 185);
+    u16_field!(equip_preset, 0);
+    u8_field!(physical, 1);
+    u8_field!(mental, 2);
+    u8_field!(tactical, 3);
 }
 
 

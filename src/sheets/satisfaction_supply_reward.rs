@@ -8,10 +8,10 @@ use crate::macros::*;
 
 define_subrow!(SatisfactionSupplyRewardSatisfactionSupplyRewardData, 4);
 impl<'a> SatisfactionSupplyRewardSatisfactionSupplyRewardData<'a> {
-    u16_field!(reward_currency, 1);
-    u16_field!(quantity_low, 2);
-    u16_field!(quantity_mid, 3);
-    u16_field!(quantity_high, 4);
+    u16_field!(reward_currency, 0);
+    u16_field!(quantity_low, 1);
+    u16_field!(quantity_mid, 2);
+    u16_field!(quantity_high, 3);
 }
 
 

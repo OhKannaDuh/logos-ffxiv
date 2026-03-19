@@ -8,8 +8,8 @@ use crate::macros::*;
 
 define_subrow!(WarpLogicWarpParams, 2);
 impl<'a> WarpLogicWarpParams<'a> {
-    string_field!(function, 3);
-    u32_field!(argument, 13);
+    string_field!(function, 0);
+    u32_field!(argument, 1);
 }
 
 

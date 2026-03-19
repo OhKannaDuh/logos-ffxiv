@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(WKSEmergencyInfoEmergencyProblem, 1);
 impl<'a> WKSEmergencyInfoEmergencyProblem<'a> {
-    u16_field!(field_0, 2);
+    u16_field!(field_0, 0);
 }
 
 

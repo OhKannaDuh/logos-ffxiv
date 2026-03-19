@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(CompleteJournalCutscene, 1);
 impl<'a> CompleteJournalCutscene<'a> {
-    string_field!(field_0, 5);
+    string_field!(field_0, 0);
 }
 
 

@@ -8,8 +8,8 @@ use crate::macros::*;
 
 define_subrow!(StoryStoryParams, 2);
 impl<'a> StoryStoryParams<'a> {
-    string_field!(instruction, 1);
-    u32_field!(argument, 41);
+    string_field!(instruction, 0);
+    u32_field!(argument, 1);
 }
 
 define_subrow!(StoryStoryDefine, 7);
@@ -17,42 +17,42 @@ impl<'a> StoryStoryDefine<'a> {
     array_field!(completed_quest, 0, 3, StoryStoryDefine);
     array_field!(accepted_quest, 3, 3, StoryStoryDefine);
     array_field!(layer_set, 6, 2, StoryStoryDefine);
-    string_field!(sequence, 5);
-    u32_field!(completed_quest_operator, 45);
-    string_field!(accepted_quest_operator, 6);
+    string_field!(sequence, 8);
+    u32_field!(completed_quest_operator, 9);
+    string_field!(accepted_quest_operator, 10);
     array_field!(accepted_quest_sequence, 11, 3, StoryStoryDefine);
 }
 
 define_subrow!(StoryStoryDefineCompletedQuest, 1);
 impl<'a> StoryStoryDefineCompletedQuest<'a> {
-    string_field!(field_0, 1);
+    string_field!(field_0, 0);
 }
 
 define_subrow!(StoryStoryDefineAcceptedQuest, 1);
 impl<'a> StoryStoryDefineAcceptedQuest<'a> {
-    string_field!(field_0, 1);
+    string_field!(field_0, 0);
 }
 
 define_subrow!(StoryStoryDefineLayerSet, 1);
 impl<'a> StoryStoryDefineLayerSet<'a> {
-    string_field!(field_0, 1);
+    string_field!(field_0, 0);
 }
 
 define_subrow!(StoryStoryDefineAcceptedQuestSequence, 1);
 impl<'a> StoryStoryDefineAcceptedQuestSequence<'a> {
-    string_field!(field_0, 1);
+    string_field!(field_0, 0);
 }
 
 define_subrow!(StoryStoryListener, 3);
 impl<'a> StoryStoryListener<'a> {
-    string_field!(listener, 1);
-    u32_field!(sequence_begin, 41);
+    string_field!(listener, 0);
+    u32_field!(sequence_begin, 1);
     string_field!(sequence_end, 2);
 }
 
 define_subrow!(StoryLayerSetTerritoryType, 1);
 impl<'a> StoryLayerSetTerritoryType<'a> {
-    string_field!(field_0, 1);
+    string_field!(field_0, 0);
 }
 
 

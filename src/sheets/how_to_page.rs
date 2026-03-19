@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(HowToPageText, 1);
 impl<'a> HowToPageText<'a> {
-    string_field!(field_0, 4);
+    string_field!(field_0, 0);
 }
 
 

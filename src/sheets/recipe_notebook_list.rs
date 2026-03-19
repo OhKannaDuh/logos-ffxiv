@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(RecipeNotebookListRecipe, 1);
 impl<'a> RecipeNotebookListRecipe<'a> {
-    i32_field!(field_0, 1);
+    i32_field!(field_0, 0);
 }
 
 

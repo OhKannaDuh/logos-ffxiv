@@ -9,18 +9,18 @@ use crate::macros::*;
 define_subrow!(PvPSeriesLevelRewards, 3);
 impl<'a> PvPSeriesLevelRewards<'a> {
     array_field!(level_reward_item, 0, 2, PvPSeriesLevelRewards);
-    i32_field!(unknown_0, 129);
+    i32_field!(unknown_0, 2);
     array_field!(level_reward_count, 3, 2, PvPSeriesLevelRewards);
 }
 
 define_subrow!(PvPSeriesLevelRewardsLevelRewardItem, 1);
 impl<'a> PvPSeriesLevelRewardsLevelRewardItem<'a> {
-    i32_field!(field_0, 1);
+    i32_field!(field_0, 0);
 }
 
 define_subrow!(PvPSeriesLevelRewardsLevelRewardCount, 1);
 impl<'a> PvPSeriesLevelRewardsLevelRewardCount<'a> {
-    i32_field!(field_0, 1);
+    i32_field!(field_0, 0);
 }
 
 

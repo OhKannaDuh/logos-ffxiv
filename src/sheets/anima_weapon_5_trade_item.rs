@@ -8,17 +8,17 @@ use crate::macros::*;
 
 define_subrow!(AnimaWeapon5TradeItemItem, 1);
 impl<'a> AnimaWeapon5TradeItemItem<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(AnimaWeapon5TradeItemQuantity, 1);
 impl<'a> AnimaWeapon5TradeItemQuantity<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 define_subrow!(AnimaWeapon5TradeItemIsHQ, 1);
 impl<'a> AnimaWeapon5TradeItemIsHQ<'a> {
-    u32_field!(field_0, 1);
+    u32_field!(field_0, 0);
 }
 
 

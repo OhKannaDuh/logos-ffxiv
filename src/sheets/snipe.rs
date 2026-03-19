@@ -8,18 +8,18 @@ use crate::macros::*;
 
 define_subrow!(SnipeSnipeData, 7);
 impl<'a> SnipeSnipeData<'a> {
-    u32_field!(data_event_npc, 17);
-    u16_field!(unknown_0, 25);
-    u16_field!(unknown_1, 33);
-    u16_field!(unknown_2, 49);
-    u16_field!(unknown_3, 57);
-    u8_field!(unknown_4, 41);
-    u8_field!(unknown_5, 65);
+    u32_field!(data_event_npc, 0);
+    u16_field!(unknown_0, 1);
+    u16_field!(unknown_1, 2);
+    u16_field!(unknown_2, 3);
+    u16_field!(unknown_3, 4);
+    u8_field!(unknown_4, 5);
+    u8_field!(unknown_5, 6);
 }
 
 define_subrow!(SnipeEventNPC, 1);
 impl<'a> SnipeEventNPC<'a> {
-    u32_field!(field_0, 17);
+    u32_field!(field_0, 0);
 }
 
 

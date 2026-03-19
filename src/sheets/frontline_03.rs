@@ -8,12 +8,12 @@ use crate::macros::*;
 
 define_subrow!(Frontline03OvooData, 7);
 impl<'a> Frontline03OvooData<'a> {
-    u32_field!(empty_icon, 9);
-    u32_field!(maelstrom_icon, 12);
-    u32_field!(twin_adder_icon, 15);
-    u32_field!(immortal_flames_icon, 18);
-    u8_field!(unknown_0, 0);
-    u8_field!(unknown_1, 3);
+    u32_field!(empty_icon, 0);
+    u32_field!(maelstrom_icon, 1);
+    u32_field!(twin_adder_icon, 2);
+    u32_field!(immortal_flames_icon, 3);
+    u8_field!(unknown_0, 4);
+    u8_field!(unknown_1, 5);
     u8_field!(unknown_2, 6);
 }
 

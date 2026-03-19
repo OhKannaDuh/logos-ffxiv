@@ -8,11 +8,11 @@ use crate::macros::*;
 
 define_subrow!(SequentialEventUnknownStruct, 5);
 impl<'a> SequentialEventUnknownStruct<'a> {
-    u32_field!(unknown_1, 67);
-    u32_field!(unknown_2, 131);
-    u16_field!(unknown_3, 3);
-    u16_field!(unknown_4, 195);
-    u16_field!(unknown_5, 259);
+    u32_field!(unknown_1, 0);
+    u32_field!(unknown_2, 1);
+    u16_field!(unknown_3, 2);
+    u16_field!(unknown_4, 3);
+    u16_field!(unknown_5, 4);
 }
 
 

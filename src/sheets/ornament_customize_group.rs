@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(OrnamentCustomizeGroupCustomize, 1);
 impl<'a> OrnamentCustomizeGroupCustomize<'a> {
-    u16_field!(field_0, 1);
+    u16_field!(field_0, 0);
 }
 
 

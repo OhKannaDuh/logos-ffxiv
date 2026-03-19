@@ -8,7 +8,7 @@ use crate::macros::*;
 
 define_subrow!(ContentsTutorialPage, 1);
 impl<'a> ContentsTutorialPage<'a> {
-    string_field!(field_0, 9);
+    string_field!(field_0, 0);
 }
 
 
