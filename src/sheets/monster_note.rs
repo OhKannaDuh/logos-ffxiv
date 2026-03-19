@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MonsterNoteMonsterNoteTarget, 1);
+define_element!(MonsterNoteMonsterNoteTarget, 1);
 impl<'a> MonsterNoteMonsterNoteTarget<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(MonsterNoteCount, 1);
+define_element!(MonsterNoteCount, 1);
 impl<'a> MonsterNoteCount<'a> {
     string_field!(field_0, 0);
 }

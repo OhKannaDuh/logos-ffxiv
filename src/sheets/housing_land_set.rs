@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(HousingLandSetLandSet, 5);
+define_element!(HousingLandSetLandSet, 5);
 impl<'a> HousingLandSetLandSet<'a> {
     u32_field!(unknown_range_1, 0);
     u32_field!(placard_id, 1);

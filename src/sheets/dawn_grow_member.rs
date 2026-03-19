@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DawnGrowMemberSelectImage, 1);
+define_element!(DawnGrowMemberSelectImage, 1);
 impl<'a> DawnGrowMemberSelectImage<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(DawnGrowMemberPortraitImage, 1);
+define_element!(DawnGrowMemberPortraitImage, 1);
 impl<'a> DawnGrowMemberPortraitImage<'a> {
     u32_field!(field_0, 0);
 }

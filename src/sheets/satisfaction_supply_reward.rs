@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SatisfactionSupplyRewardSatisfactionSupplyRewardData, 4);
+define_element!(SatisfactionSupplyRewardSatisfactionSupplyRewardData, 4);
 impl<'a> SatisfactionSupplyRewardSatisfactionSupplyRewardData<'a> {
     u16_field!(reward_currency, 0);
     u16_field!(quantity_low, 1);

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(BeastRankBonusItemQuantity, 1);
+define_element!(BeastRankBonusItemQuantity, 1);
 impl<'a> BeastRankBonusItemQuantity<'a> {
     u32_field!(field_0, 0);
 }

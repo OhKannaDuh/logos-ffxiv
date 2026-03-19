@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJIFarmPastureRankRankData, 9);
+define_element!(MJIFarmPastureRankRankData, 9);
 impl<'a> MJIFarmPastureRankRankData<'a> {
     array_field!(sgb, 0, 4, MJIFarmPastureRankRankData);
     u32_field!(unknown_0, 4);
@@ -19,7 +19,7 @@ impl<'a> MJIFarmPastureRankRankData<'a> {
     u8_field!(unknown_7, 11);
 }
 
-define_subrow!(MJIFarmPastureRankRankDataSGB, 1);
+define_element!(MJIFarmPastureRankRankDataSGB, 1);
 impl<'a> MJIFarmPastureRankRankDataSGB<'a> {
     u32_field!(field_0, 0);
 }

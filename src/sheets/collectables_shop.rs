@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CollectablesShopShopItems, 1);
+define_element!(CollectablesShopShopItems, 1);
 impl<'a> CollectablesShopShopItems<'a> {
     string_field!(field_0, 0);
 }

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(OrnamentActionActions, 1);
+define_element!(OrnamentActionActions, 1);
 impl<'a> OrnamentActionActions<'a> {
     u16_field!(field_0, 0);
 }

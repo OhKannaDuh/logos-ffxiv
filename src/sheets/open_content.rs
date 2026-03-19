@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(OpenContentOpenContentData, 2);
+define_element!(OpenContentOpenContentData, 2);
 impl<'a> OpenContentOpenContentData<'a> {
     u32_field!(candidate_name, 0);
     u16_field!(content, 1);

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(AetherCurrentCompFlgSetAetherCurrents, 1);
+define_element!(AetherCurrentCompFlgSetAetherCurrents, 1);
 impl<'a> AetherCurrentCompFlgSetAetherCurrents<'a> {
     i32_field!(field_0, 0);
 }

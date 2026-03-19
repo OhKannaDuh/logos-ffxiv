@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CompanyCraftDraftRequiredItem, 1);
+define_element!(CompanyCraftDraftRequiredItem, 1);
 impl<'a> CompanyCraftDraftRequiredItem<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(CompanyCraftDraftRequiredItemCount, 1);
+define_element!(CompanyCraftDraftRequiredItemCount, 1);
 impl<'a> CompanyCraftDraftRequiredItemCount<'a> {
     string_field!(field_0, 0);
 }

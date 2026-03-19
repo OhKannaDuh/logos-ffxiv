@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(HWDGathererInspectionHWDGathererInspectionData, 6);
+define_element!(HWDGathererInspectionHWDGathererInspectionData, 6);
 impl<'a> HWDGathererInspectionHWDGathererInspectionData<'a> {
     u32_field!(required_item, 0);
     u32_field!(fish_parameter, 1);
@@ -16,7 +16,7 @@ impl<'a> HWDGathererInspectionHWDGathererInspectionData<'a> {
     u8_field!(phase, 6);
 }
 
-define_subrow!(HWDGathererInspectionHWDGathererInspectionDataReward, 1);
+define_element!(HWDGathererInspectionHWDGathererInspectionDataReward, 1);
 impl<'a> HWDGathererInspectionHWDGathererInspectionDataReward<'a> {
     u32_field!(field_0, 0);
 }

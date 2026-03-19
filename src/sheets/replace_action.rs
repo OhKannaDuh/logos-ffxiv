@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ReplaceActionReplaceActions, 1);
+define_element!(ReplaceActionReplaceActions, 1);
 impl<'a> ReplaceActionReplaceActions<'a> {
     i32_field!(field_0, 0);
 }

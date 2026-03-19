@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJILandmarkPlaceSGB, 1);
+define_element!(MJILandmarkPlaceSGB, 1);
 impl<'a> MJILandmarkPlaceSGB<'a> {
     u32_field!(field_0, 0);
 }

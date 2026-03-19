@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(IndividualWeatherIndividualWeatherData, 4);
+define_element!(IndividualWeatherIndividualWeatherData, 4);
 impl<'a> IndividualWeatherIndividualWeatherData<'a> {
     u32_field!(quest, 0);
     // quest progress maybe

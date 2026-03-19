@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(AnimationLODAnimationEnable, 1);
+define_element!(AnimationLODAnimationEnable, 1);
 impl<'a> AnimationLODAnimationEnable<'a> {
     f32_field!(field_0, 0);
 }

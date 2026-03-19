@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WeeklyLotBonusWeeklyLotBonusParam, 3);
+define_element!(WeeklyLotBonusWeeklyLotBonusParam, 3);
 impl<'a> WeeklyLotBonusWeeklyLotBonusParam<'a> {
     u16_field!(unknown_0, 0);
     u8_field!(weekly_lot_bonus_threshold, 1);

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GilShopItemQuestRequired, 1);
+define_element!(GilShopItemQuestRequired, 1);
 impl<'a> GilShopItemQuestRequired<'a> {
     i32_field!(field_0, 0);
 }

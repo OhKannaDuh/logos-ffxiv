@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(EmoteActionTimeline, 1);
+define_element!(EmoteActionTimeline, 1);
 impl<'a> EmoteActionTimeline<'a> {
     string_field!(field_0, 0);
 }

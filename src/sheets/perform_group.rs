@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(PerformGroupPerform, 1);
+define_element!(PerformGroupPerform, 1);
 impl<'a> PerformGroupPerform<'a> {
     u8_field!(field_0, 0);
 }

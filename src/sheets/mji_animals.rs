@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJIAnimalsReward, 1);
+define_element!(MJIAnimalsReward, 1);
 impl<'a> MJIAnimalsReward<'a> {
     u32_field!(field_0, 0);
 }

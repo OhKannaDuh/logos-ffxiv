@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ArrayEventHandlerData, 1);
+define_element!(ArrayEventHandlerData, 1);
 impl<'a> ArrayEventHandlerData<'a> {
     u32_field!(field_0, 0);
 }

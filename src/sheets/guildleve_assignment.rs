@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GuildleveAssignmentQuest, 1);
+define_element!(GuildleveAssignmentQuest, 1);
 impl<'a> GuildleveAssignmentQuest<'a> {
     string_field!(field_0, 0);
 }

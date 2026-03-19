@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(HugeCraftworksNpcHugeCraftworksTurnInParam, 9);
+define_element!(HugeCraftworksNpcHugeCraftworksTurnInParam, 9);
 impl<'a> HugeCraftworksNpcHugeCraftworksTurnInParam<'a> {
     u32_field!(requested_item, 0);
     u16_field!(unknown_0, 1);
@@ -19,24 +19,24 @@ impl<'a> HugeCraftworksNpcHugeCraftworksTurnInParam<'a> {
     bool_field!(unknown_6, 8);
 }
 
-define_subrow!(HugeCraftworksNpcHugeCraftworksRewardParam, 3);
+define_element!(HugeCraftworksNpcHugeCraftworksRewardParam, 3);
 impl<'a> HugeCraftworksNpcHugeCraftworksRewardParam<'a> {
     array_field!(reward_item, 0, 2, HugeCraftworksNpcHugeCraftworksRewardParam);
     array_field!(reward_quantity, 2, 2, HugeCraftworksNpcHugeCraftworksRewardParam);
     array_field!(reward_hq, 4, 2, HugeCraftworksNpcHugeCraftworksRewardParam);
 }
 
-define_subrow!(HugeCraftworksNpcHugeCraftworksRewardParamRewardItem, 1);
+define_element!(HugeCraftworksNpcHugeCraftworksRewardParamRewardItem, 1);
 impl<'a> HugeCraftworksNpcHugeCraftworksRewardParamRewardItem<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(HugeCraftworksNpcHugeCraftworksRewardParamRewardQuantity, 1);
+define_element!(HugeCraftworksNpcHugeCraftworksRewardParamRewardQuantity, 1);
 impl<'a> HugeCraftworksNpcHugeCraftworksRewardParamRewardQuantity<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(HugeCraftworksNpcHugeCraftworksRewardParamRewardHQ, 1);
+define_element!(HugeCraftworksNpcHugeCraftworksRewardParamRewardHQ, 1);
 impl<'a> HugeCraftworksNpcHugeCraftworksRewardParamRewardHQ<'a> {
     u32_field!(field_0, 0);
 }

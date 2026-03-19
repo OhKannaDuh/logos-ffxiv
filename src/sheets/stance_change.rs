@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(StanceChangeAction, 1);
+define_element!(StanceChangeAction, 1);
 impl<'a> StanceChangeAction<'a> {
     f32_field!(field_0, 0);
 }

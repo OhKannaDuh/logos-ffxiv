@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GoldSaucerTalkChoicesText, 1);
+define_element!(GoldSaucerTalkChoicesText, 1);
 impl<'a> GoldSaucerTalkChoicesText<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(GoldSaucerTalkChoicesTalk, 1);
+define_element!(GoldSaucerTalkChoicesTalk, 1);
 impl<'a> GoldSaucerTalkChoicesTalk<'a> {
     string_field!(field_0, 0);
 }

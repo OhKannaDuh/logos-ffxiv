@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CompanyCraftPartCompanyCraftProcess, 1);
+define_element!(CompanyCraftPartCompanyCraftProcess, 1);
 impl<'a> CompanyCraftPartCompanyCraftProcess<'a> {
     u16_field!(field_0, 0);
 }

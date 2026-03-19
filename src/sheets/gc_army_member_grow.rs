@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GcArmyMemberGrowMemberParams, 4);
+define_element!(GcArmyMemberGrowMemberParams, 4);
 impl<'a> GcArmyMemberGrowMemberParams<'a> {
     u16_field!(equip_preset, 0);
     u8_field!(physical, 1);

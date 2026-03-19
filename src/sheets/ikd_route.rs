@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(IKDRouteSpot, 1);
+define_element!(IKDRouteSpot, 1);
 impl<'a> IKDRouteSpot<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(IKDRouteTime, 1);
+define_element!(IKDRouteTime, 1);
 impl<'a> IKDRouteTime<'a> {
     string_field!(field_0, 0);
 }

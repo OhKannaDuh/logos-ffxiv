@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RetainerTaskNormalQuantity, 1);
+define_element!(RetainerTaskNormalQuantity, 1);
 impl<'a> RetainerTaskNormalQuantity<'a> {
     i32_field!(field_0, 0);
 }

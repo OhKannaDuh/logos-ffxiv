@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(HowToHowToPagePC, 1);
+define_element!(HowToHowToPagePC, 1);
 impl<'a> HowToHowToPagePC<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(HowToHowToPageController, 1);
+define_element!(HowToHowToPageController, 1);
 impl<'a> HowToHowToPageController<'a> {
     string_field!(field_0, 0);
 }

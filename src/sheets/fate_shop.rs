@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(FateShopSpecialShop, 1);
+define_element!(FateShopSpecialShop, 1);
 impl<'a> FateShopSpecialShop<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(FateShopDefaultTalk, 1);
+define_element!(FateShopDefaultTalk, 1);
 impl<'a> FateShopDefaultTalk<'a> {
     u32_field!(field_0, 0);
 }

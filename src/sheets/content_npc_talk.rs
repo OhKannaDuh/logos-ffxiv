@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ContentNpcTalkContentTalk, 1);
+define_element!(ContentNpcTalkContentTalk, 1);
 impl<'a> ContentNpcTalkContentTalk<'a> {
     u32_field!(field_0, 0);
 }

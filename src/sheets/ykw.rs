@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(YKWLocation, 1);
+define_element!(YKWLocation, 1);
 impl<'a> YKWLocation<'a> {
     string_field!(field_0, 0);
 }

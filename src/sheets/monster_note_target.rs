@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MonsterNoteTargetPlaceNameZone, 1);
+define_element!(MonsterNoteTargetPlaceNameZone, 1);
 impl<'a> MonsterNoteTargetPlaceNameZone<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(MonsterNoteTargetPlaceNameLocation, 1);
+define_element!(MonsterNoteTargetPlaceNameLocation, 1);
 impl<'a> MonsterNoteTargetPlaceNameLocation<'a> {
     i32_field!(field_0, 0);
 }

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(EventIconPriorityIcon, 1);
+define_element!(EventIconPriorityIcon, 1);
 impl<'a> EventIconPriorityIcon<'a> {
     u32_field!(field_0, 0);
 }

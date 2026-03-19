@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(PhysicsGroupSimulationTime, 1);
+define_element!(PhysicsGroupSimulationTime, 1);
 impl<'a> PhysicsGroupSimulationTime<'a> {
     f32_field!(field_0, 0);
 }
 
-define_subrow!(PhysicsGroupPS3SimulationTime, 1);
+define_element!(PhysicsGroupPS3SimulationTime, 1);
 impl<'a> PhysicsGroupPS3SimulationTime<'a> {
     f32_field!(field_0, 0);
 }
 
-define_subrow!(PhysicsGroupConfigSwitch, 1);
+define_element!(PhysicsGroupConfigSwitch, 1);
 impl<'a> PhysicsGroupConfigSwitch<'a> {
     f32_field!(field_0, 0);
 }

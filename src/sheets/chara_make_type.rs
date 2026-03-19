@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CharaMakeTypeCharaMakeStruct, 10);
+define_element!(CharaMakeTypeCharaMakeStruct, 10);
 impl<'a> CharaMakeTypeCharaMakeStruct<'a> {
     u32_field!(menu, 0);
     u32_field!(sub_menu_mask, 1);
@@ -20,27 +20,27 @@ impl<'a> CharaMakeTypeCharaMakeStruct<'a> {
     array_field!(sub_menu_graphic, 113, 10, CharaMakeTypeCharaMakeStruct);
 }
 
-define_subrow!(CharaMakeTypeCharaMakeStructSubMenuParam, 1);
+define_element!(CharaMakeTypeCharaMakeStructSubMenuParam, 1);
 impl<'a> CharaMakeTypeCharaMakeStructSubMenuParam<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(CharaMakeTypeCharaMakeStructUnknown0, 1);
+define_element!(CharaMakeTypeCharaMakeStructUnknown0, 1);
 impl<'a> CharaMakeTypeCharaMakeStructUnknown0<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(CharaMakeTypeCharaMakeStructSubMenuGraphic, 1);
+define_element!(CharaMakeTypeCharaMakeStructSubMenuGraphic, 1);
 impl<'a> CharaMakeTypeCharaMakeStructSubMenuGraphic<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(CharaMakeTypeVoiceStruct, 1);
+define_element!(CharaMakeTypeVoiceStruct, 1);
 impl<'a> CharaMakeTypeVoiceStruct<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(CharaMakeTypeFacialFeatureOption, 7);
+define_element!(CharaMakeTypeFacialFeatureOption, 7);
 impl<'a> CharaMakeTypeFacialFeatureOption<'a> {
     u32_field!(option_1, 0);
     u32_field!(option_2, 1);
@@ -51,7 +51,7 @@ impl<'a> CharaMakeTypeFacialFeatureOption<'a> {
     u32_field!(option_7, 6);
 }
 
-define_subrow!(CharaMakeTypeEquipment, 7);
+define_element!(CharaMakeTypeEquipment, 7);
 impl<'a> CharaMakeTypeEquipment<'a> {
     u32_field!(helmet, 0);
     u32_field!(top, 1);

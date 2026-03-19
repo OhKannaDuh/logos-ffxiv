@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MateriaJoinRateNQOvermeldPercentSlot, 1);
+define_element!(MateriaJoinRateNQOvermeldPercentSlot, 1);
 impl<'a> MateriaJoinRateNQOvermeldPercentSlot<'a> {
     f32_field!(field_0, 0);
 }
 
-define_subrow!(MateriaJoinRateHQOvermeldPercentSlot, 1);
+define_element!(MateriaJoinRateHQOvermeldPercentSlot, 1);
 impl<'a> MateriaJoinRateHQOvermeldPercentSlot<'a> {
     f32_field!(field_0, 0);
 }

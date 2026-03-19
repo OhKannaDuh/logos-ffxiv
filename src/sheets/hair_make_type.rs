@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(HairMakeTypeCharaMakeStruct, 10);
+define_element!(HairMakeTypeCharaMakeStruct, 10);
 impl<'a> HairMakeTypeCharaMakeStruct<'a> {
     u32_field!(menu, 0);
     u32_field!(sub_menu_mask, 1);
@@ -20,22 +20,22 @@ impl<'a> HairMakeTypeCharaMakeStruct<'a> {
     array_field!(sub_menu_graphic, 113, 10, HairMakeTypeCharaMakeStruct);
 }
 
-define_subrow!(HairMakeTypeCharaMakeStructSubMenuParam, 1);
+define_element!(HairMakeTypeCharaMakeStructSubMenuParam, 1);
 impl<'a> HairMakeTypeCharaMakeStructSubMenuParam<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(HairMakeTypeCharaMakeStructUnknown0, 1);
+define_element!(HairMakeTypeCharaMakeStructUnknown0, 1);
 impl<'a> HairMakeTypeCharaMakeStructUnknown0<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(HairMakeTypeCharaMakeStructSubMenuGraphic, 1);
+define_element!(HairMakeTypeCharaMakeStructSubMenuGraphic, 1);
 impl<'a> HairMakeTypeCharaMakeStructSubMenuGraphic<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(HairMakeTypeFacialFeatureOption, 7);
+define_element!(HairMakeTypeFacialFeatureOption, 7);
 impl<'a> HairMakeTypeFacialFeatureOption<'a> {
     u32_field!(option_1, 0);
     u32_field!(option_2, 1);

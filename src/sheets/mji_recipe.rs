@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJIRecipeMaterial, 1);
+define_element!(MJIRecipeMaterial, 1);
 impl<'a> MJIRecipeMaterial<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(MJIRecipeAmount, 1);
+define_element!(MJIRecipeAmount, 1);
 impl<'a> MJIRecipeAmount<'a> {
     u32_field!(field_0, 0);
 }

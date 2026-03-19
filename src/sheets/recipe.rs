@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RecipeIngredient, 1);
+define_element!(RecipeIngredient, 1);
 impl<'a> RecipeIngredient<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(RecipeAmountIngredient, 1);
+define_element!(RecipeAmountIngredient, 1);
 impl<'a> RecipeAmountIngredient<'a> {
     u32_field!(field_0, 0);
 }

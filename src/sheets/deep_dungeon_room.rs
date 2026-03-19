@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DeepDungeonRoomLevel, 1);
+define_element!(DeepDungeonRoomLevel, 1);
 impl<'a> DeepDungeonRoomLevel<'a> {
     u32_field!(field_0, 0);
 }

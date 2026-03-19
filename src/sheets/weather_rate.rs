@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WeatherRateWeather, 1);
+define_element!(WeatherRateWeather, 1);
 impl<'a> WeatherRateWeather<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(WeatherRateRate, 1);
+define_element!(WeatherRateRate, 1);
 impl<'a> WeatherRateRate<'a> {
     i32_field!(field_0, 0);
 }

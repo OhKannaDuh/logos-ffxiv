@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GuildleveAssignmentTalkTalk, 1);
+define_element!(GuildleveAssignmentTalkTalk, 1);
 impl<'a> GuildleveAssignmentTalkTalk<'a> {
     u32_field!(field_0, 0);
 }

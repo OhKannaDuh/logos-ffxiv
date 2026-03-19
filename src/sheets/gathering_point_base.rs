@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GatheringPointBaseItem, 1);
+define_element!(GatheringPointBaseItem, 1);
 impl<'a> GatheringPointBaseItem<'a> {
     i32_field!(field_0, 0);
 }

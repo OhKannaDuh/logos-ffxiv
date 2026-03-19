@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GatheringNotebookListGatheringItem, 1);
+define_element!(GatheringNotebookListGatheringItem, 1);
 impl<'a> GatheringNotebookListGatheringItem<'a> {
     i32_field!(field_0, 0);
 }

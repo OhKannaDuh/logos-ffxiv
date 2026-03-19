@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(LeveRewardItemGroupItem, 1);
+define_element!(LeveRewardItemGroupItem, 1);
 impl<'a> LeveRewardItemGroupItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(LeveRewardItemGroupCount, 1);
+define_element!(LeveRewardItemGroupCount, 1);
 impl<'a> LeveRewardItemGroupCount<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(LeveRewardItemGroupIsHQ, 1);
+define_element!(LeveRewardItemGroupIsHQ, 1);
 impl<'a> LeveRewardItemGroupIsHQ<'a> {
     i32_field!(field_0, 0);
 }

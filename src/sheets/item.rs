@@ -6,22 +6,22 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ItemBaseParamValue, 1);
+define_element!(ItemBaseParamValue, 1);
 impl<'a> ItemBaseParamValue<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(ItemBaseParamValueSpecial, 1);
+define_element!(ItemBaseParamValueSpecial, 1);
 impl<'a> ItemBaseParamValueSpecial<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(ItemBaseParam, 1);
+define_element!(ItemBaseParam, 1);
 impl<'a> ItemBaseParam<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(ItemBaseParamSpecial, 1);
+define_element!(ItemBaseParamSpecial, 1);
 impl<'a> ItemBaseParamSpecial<'a> {
     string_field!(field_0, 0);
 }

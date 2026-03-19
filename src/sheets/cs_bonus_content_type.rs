@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CSBonusContentTypeDialogue, 1);
+define_element!(CSBonusContentTypeDialogue, 1);
 impl<'a> CSBonusContentTypeDialogue<'a> {
     u32_field!(field_0, 0);
 }

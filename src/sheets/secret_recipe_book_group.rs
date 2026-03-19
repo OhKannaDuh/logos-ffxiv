@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SecretRecipeBookGroupSecretRecipeBook, 1);
+define_element!(SecretRecipeBookGroupSecretRecipeBook, 1);
 impl<'a> SecretRecipeBookGroupSecretRecipeBook<'a> {
     u16_field!(field_0, 0);
 }

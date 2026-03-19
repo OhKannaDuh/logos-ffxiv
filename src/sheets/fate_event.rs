@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(FateEventEventParameters, 7);
+define_element!(FateEventEventParameters, 7);
 impl<'a> FateEventEventParameters<'a> {
     u32_field!(gesture, 0);
     i32_field!(lip_sync, 1);
@@ -17,7 +17,7 @@ impl<'a> FateEventEventParameters<'a> {
     bool_field!(is_auto_shake, 6);
 }
 
-define_subrow!(FateEventText, 1);
+define_element!(FateEventText, 1);
 impl<'a> FateEventText<'a> {
     u32_field!(field_0, 0);
 }

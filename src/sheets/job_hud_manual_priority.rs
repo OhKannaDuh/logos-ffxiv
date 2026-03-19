@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(JobHudManualPriorityJobHudManual, 1);
+define_element!(JobHudManualPriorityJobHudManual, 1);
 impl<'a> JobHudManualPriorityJobHudManual<'a> {
     u8_field!(field_0, 0);
 }

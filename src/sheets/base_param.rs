@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(BaseParamMeldParam, 1);
+define_element!(BaseParamMeldParam, 1);
 impl<'a> BaseParamMeldParam<'a> {
     string_field!(field_0, 0);
 }

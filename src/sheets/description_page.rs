@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DescriptionPageImage, 1);
+define_element!(DescriptionPageImage, 1);
 impl<'a> DescriptionPageImage<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(DescriptionPageText, 1);
+define_element!(DescriptionPageText, 1);
 impl<'a> DescriptionPageText<'a> {
     u32_field!(field_0, 0);
 }

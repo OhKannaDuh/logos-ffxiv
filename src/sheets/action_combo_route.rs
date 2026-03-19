@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ActionComboRouteAction, 1);
+define_element!(ActionComboRouteAction, 1);
 impl<'a> ActionComboRouteAction<'a> {
     string_field!(field_0, 0);
 }

@@ -6,14 +6,14 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSCosmoToolClassStages, 3);
+define_element!(WKSCosmoToolClassStages, 3);
 impl<'a> WKSCosmoToolClassStages<'a> {
     u32_field!(unknown_0, 0);
     i32_field!(item, 1);
     u16_field!(name, 2);
 }
 
-define_subrow!(WKSCosmoToolClassTypes, 3);
+define_element!(WKSCosmoToolClassTypes, 3);
 impl<'a> WKSCosmoToolClassTypes<'a> {
     u32_field!(icon, 0);
     i32_field!(name, 1);

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RacingChocoboNameInfoName, 1);
+define_element!(RacingChocoboNameInfoName, 1);
 impl<'a> RacingChocoboNameInfoName<'a> {
     u16_field!(field_0, 0);
 }

@@ -6,32 +6,32 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RelicNoteMonsterNoteTargetCommon, 1);
+define_element!(RelicNoteMonsterNoteTargetCommon, 1);
 impl<'a> RelicNoteMonsterNoteTargetCommon<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(RelicNoteMonsterNoteTargetNM, 1);
+define_element!(RelicNoteMonsterNoteTargetNM, 1);
 impl<'a> RelicNoteMonsterNoteTargetNM<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(RelicNoteFate, 1);
+define_element!(RelicNoteFate, 1);
 impl<'a> RelicNoteFate<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(RelicNotePlaceNameFate, 1);
+define_element!(RelicNotePlaceNameFate, 1);
 impl<'a> RelicNotePlaceNameFate<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(RelicNoteLeve, 1);
+define_element!(RelicNoteLeve, 1);
 impl<'a> RelicNoteLeve<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(RelicNoteMonsterCount, 1);
+define_element!(RelicNoteMonsterCount, 1);
 impl<'a> RelicNoteMonsterCount<'a> {
     u32_field!(field_0, 0);
 }

@@ -6,22 +6,22 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(InstanceContentBossExp, 1);
+define_element!(InstanceContentBossExp, 1);
 impl<'a> InstanceContentBossExp<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(InstanceContentBossCurrencyA, 1);
+define_element!(InstanceContentBossCurrencyA, 1);
 impl<'a> InstanceContentBossCurrencyA<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(InstanceContentBossCurrencyB, 1);
+define_element!(InstanceContentBossCurrencyB, 1);
 impl<'a> InstanceContentBossCurrencyB<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(InstanceContentBossCurrencyC, 1);
+define_element!(InstanceContentBossCurrencyC, 1);
 impl<'a> InstanceContentBossCurrencyC<'a> {
     u32_field!(field_0, 0);
 }

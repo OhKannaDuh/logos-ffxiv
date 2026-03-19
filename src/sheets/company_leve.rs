@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CompanyLeveRoutePointTime, 1);
+define_element!(CompanyLeveRoutePointTime, 1);
 impl<'a> CompanyLeveRoutePointTime<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(CompanyLeveCompanyLeveStruct, 8);
+define_element!(CompanyLeveCompanyLeveStruct, 8);
 impl<'a> CompanyLeveCompanyLeveStruct<'a> {
     u16_field!(b_npc_name, 0);
     array_field!(to_do_param, 1, 6, CompanyLeveCompanyLeveStruct);
@@ -23,17 +23,17 @@ impl<'a> CompanyLeveCompanyLeveStruct<'a> {
     array_field!(num_of_appearance, 12, 8, CompanyLeveCompanyLeveStruct);
 }
 
-define_subrow!(CompanyLeveCompanyLeveStructToDoParam, 1);
+define_element!(CompanyLeveCompanyLeveStructToDoParam, 1);
 impl<'a> CompanyLeveCompanyLeveStructToDoParam<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(CompanyLeveCompanyLeveStructNumOfAppearance, 1);
+define_element!(CompanyLeveCompanyLeveStructNumOfAppearance, 1);
 impl<'a> CompanyLeveCompanyLeveStructNumOfAppearance<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(CompanyLeveToDoSequence, 1);
+define_element!(CompanyLeveToDoSequence, 1);
 impl<'a> CompanyLeveToDoSequence<'a> {
     u16_field!(field_0, 0);
 }

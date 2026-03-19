@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ContentExActionName, 1);
+define_element!(ContentExActionName, 1);
 impl<'a> ContentExActionName<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(ContentExActionCharges, 1);
+define_element!(ContentExActionCharges, 1);
 impl<'a> ContentExActionCharges<'a> {
     u32_field!(field_0, 0);
 }

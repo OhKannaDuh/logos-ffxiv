@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GFATEGFATEParams, 5);
+define_element!(GFATEGFATEParams, 5);
 impl<'a> GFATEGFATEParams<'a> {
     u32_field!(lgb_pop_range, 0);
     u32_field!(icon, 1);

@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ZoneSharedGroupRequirementRow, 1);
+define_element!(ZoneSharedGroupRequirementRow, 1);
 impl<'a> ZoneSharedGroupRequirementRow<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(ZoneSharedGroupRequirementQuestSequence, 1);
+define_element!(ZoneSharedGroupRequirementQuestSequence, 1);
 impl<'a> ZoneSharedGroupRequirementQuestSequence<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(ZoneSharedGroupRequirementType, 1);
+define_element!(ZoneSharedGroupRequirementType, 1);
 impl<'a> ZoneSharedGroupRequirementType<'a> {
     u32_field!(field_0, 0);
 }

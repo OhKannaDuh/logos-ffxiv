@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MirageStoreSetItemLookupItem, 1);
+define_element!(MirageStoreSetItemLookupItem, 1);
 impl<'a> MirageStoreSetItemLookupItem<'a> {
     u32_field!(field_0, 0);
 }

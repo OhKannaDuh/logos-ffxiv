@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DeepDungeonMap5XDeepDungeonRoom, 1);
+define_element!(DeepDungeonMap5XDeepDungeonRoom, 1);
 impl<'a> DeepDungeonMap5XDeepDungeonRoom<'a> {
     u16_field!(field_0, 0);
 }

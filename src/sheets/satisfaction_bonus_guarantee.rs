@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SatisfactionBonusGuaranteeBonusDoH, 1);
+define_element!(SatisfactionBonusGuaranteeBonusDoH, 1);
 impl<'a> SatisfactionBonusGuaranteeBonusDoH<'a> {
     u8_field!(field_0, 0);
 }
 
-define_subrow!(SatisfactionBonusGuaranteeBonusDoL, 1);
+define_element!(SatisfactionBonusGuaranteeBonusDoL, 1);
 impl<'a> SatisfactionBonusGuaranteeBonusDoL<'a> {
     u8_field!(field_0, 0);
 }
 
-define_subrow!(SatisfactionBonusGuaranteeBonusFisher, 1);
+define_element!(SatisfactionBonusGuaranteeBonusFisher, 1);
 impl<'a> SatisfactionBonusGuaranteeBonusFisher<'a> {
     u8_field!(field_0, 0);
 }

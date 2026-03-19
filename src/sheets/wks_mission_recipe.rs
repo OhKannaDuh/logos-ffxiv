@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSMissionRecipeRecipe, 1);
+define_element!(WKSMissionRecipeRecipe, 1);
 impl<'a> WKSMissionRecipeRecipe<'a> {
     u32_field!(field_0, 0);
 }

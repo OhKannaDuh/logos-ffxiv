@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJICraftworksPopularityPopularity, 1);
+define_element!(MJICraftworksPopularityPopularity, 1);
 impl<'a> MJICraftworksPopularityPopularity<'a> {
     u8_field!(field_0, 0);
 }

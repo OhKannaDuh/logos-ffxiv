@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MKDSupportJobAction, 1);
+define_element!(MKDSupportJobAction, 1);
 impl<'a> MKDSupportJobAction<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(MKDSupportJobLevelUnlock, 1);
+define_element!(MKDSupportJobLevelUnlock, 1);
 impl<'a> MKDSupportJobLevelUnlock<'a> {
     string_field!(field_0, 0);
 }

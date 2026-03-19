@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DeepDungeonPomanderSlot, 1);
+define_element!(DeepDungeonPomanderSlot, 1);
 impl<'a> DeepDungeonPomanderSlot<'a> {
     u8_field!(field_0, 0);
 }
 
-define_subrow!(DeepDungeonMagiciteSlot, 1);
+define_element!(DeepDungeonMagiciteSlot, 1);
 impl<'a> DeepDungeonMagiciteSlot<'a> {
     u8_field!(field_0, 0);
 }

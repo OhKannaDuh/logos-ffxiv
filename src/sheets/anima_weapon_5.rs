@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(AnimaWeapon5Parameter, 1);
+define_element!(AnimaWeapon5Parameter, 1);
 impl<'a> AnimaWeapon5Parameter<'a> {
     i32_field!(field_0, 0);
 }

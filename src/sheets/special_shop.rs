@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SpecialShopItem, 15);
+define_element!(SpecialShopItem, 15);
 impl<'a> SpecialShopItem<'a> {
     array_field!(receive_count, 0, 2, SpecialShopItem);
     array_field!(currency_cost, 2, 3, SpecialShopItem);
@@ -25,52 +25,52 @@ impl<'a> SpecialShopItem<'a> {
     array_field!(receive_hq, 32, 2, SpecialShopItem);
 }
 
-define_subrow!(SpecialShopItemReceiveCount, 1);
+define_element!(SpecialShopItemReceiveCount, 1);
 impl<'a> SpecialShopItemReceiveCount<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemCurrencyCost, 1);
+define_element!(SpecialShopItemCurrencyCost, 1);
 impl<'a> SpecialShopItemCurrencyCost<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemItem, 1);
+define_element!(SpecialShopItemItem, 1);
 impl<'a> SpecialShopItemItem<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemCategory, 1);
+define_element!(SpecialShopItemCategory, 1);
 impl<'a> SpecialShopItemCategory<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemItemCost, 1);
+define_element!(SpecialShopItemItemCost, 1);
 impl<'a> SpecialShopItemItemCost<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemUnknown0, 1);
+define_element!(SpecialShopItemUnknown0, 1);
 impl<'a> SpecialShopItemUnknown0<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemCollectabilityCost, 1);
+define_element!(SpecialShopItemCollectabilityCost, 1);
 impl<'a> SpecialShopItemCollectabilityCost<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemHqCost, 1);
+define_element!(SpecialShopItemHqCost, 1);
 impl<'a> SpecialShopItemHqCost<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemUnknown1, 1);
+define_element!(SpecialShopItemUnknown1, 1);
 impl<'a> SpecialShopItemUnknown1<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(SpecialShopItemReceiveHq, 1);
+define_element!(SpecialShopItemReceiveHq, 1);
 impl<'a> SpecialShopItemReceiveHq<'a> {
     string_field!(field_0, 0);
 }

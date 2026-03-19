@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RideShootingRideShootingParams, 14);
+define_element!(RideShootingRideShootingParams, 14);
 impl<'a> RideShootingRideShootingParams<'a> {
     u32_field!(unknown_0, 0);
     u32_field!(pop_range, 1);

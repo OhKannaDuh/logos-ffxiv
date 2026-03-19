@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CompanyCraftDraftCategoryCompanyCraftType, 1);
+define_element!(CompanyCraftDraftCategoryCompanyCraftType, 1);
 impl<'a> CompanyCraftDraftCategoryCompanyCraftType<'a> {
     string_field!(field_0, 0);
 }

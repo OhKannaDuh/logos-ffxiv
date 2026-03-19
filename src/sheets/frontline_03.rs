@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(Frontline03OvooData, 7);
+define_element!(Frontline03OvooData, 7);
 impl<'a> Frontline03OvooData<'a> {
     u32_field!(empty_icon, 0);
     u32_field!(maelstrom_icon, 1);

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(FittingShopItemSetItem, 1);
+define_element!(FittingShopItemSetItem, 1);
 impl<'a> FittingShopItemSetItem<'a> {
     i32_field!(field_0, 0);
 }

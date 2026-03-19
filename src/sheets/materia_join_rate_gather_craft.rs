@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MateriaJoinRateGatherCraftNQOvermeldPercentSlot, 1);
+define_element!(MateriaJoinRateGatherCraftNQOvermeldPercentSlot, 1);
 impl<'a> MateriaJoinRateGatherCraftNQOvermeldPercentSlot<'a> {
     f32_field!(field_0, 0);
 }
 
-define_subrow!(MateriaJoinRateGatherCraftHQOvermeldPercentSlot, 1);
+define_element!(MateriaJoinRateGatherCraftHQOvermeldPercentSlot, 1);
 impl<'a> MateriaJoinRateGatherCraftHQOvermeldPercentSlot<'a> {
     f32_field!(field_0, 0);
 }

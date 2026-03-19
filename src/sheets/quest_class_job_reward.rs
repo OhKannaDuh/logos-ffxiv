@@ -6,22 +6,22 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(QuestClassJobRewardRewardItem, 1);
+define_element!(QuestClassJobRewardRewardItem, 1);
 impl<'a> QuestClassJobRewardRewardItem<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(QuestClassJobRewardRequiredItem, 1);
+define_element!(QuestClassJobRewardRequiredItem, 1);
 impl<'a> QuestClassJobRewardRequiredItem<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(QuestClassJobRewardRewardAmount, 1);
+define_element!(QuestClassJobRewardRewardAmount, 1);
 impl<'a> QuestClassJobRewardRewardAmount<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(QuestClassJobRewardRequiredAmount, 1);
+define_element!(QuestClassJobRewardRequiredAmount, 1);
 impl<'a> QuestClassJobRewardRequiredAmount<'a> {
     u32_field!(field_0, 0);
 }

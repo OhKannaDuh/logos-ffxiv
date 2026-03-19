@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CalendarCalendarStruct, 2);
+define_element!(CalendarCalendarStruct, 2);
 impl<'a> CalendarCalendarStruct<'a> {
     u8_field!(month, 0);
     u8_field!(day, 1);

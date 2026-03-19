@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GatheringLeveRouteGatheringPoint, 1);
+define_element!(GatheringLeveRouteGatheringPoint, 1);
 impl<'a> GatheringLeveRouteGatheringPoint<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(GatheringLeveRoutePopRange, 1);
+define_element!(GatheringLeveRoutePopRange, 1);
 impl<'a> GatheringLeveRoutePopRange<'a> {
     i32_field!(field_0, 0);
 }

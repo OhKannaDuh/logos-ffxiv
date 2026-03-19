@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJICraftworksObjectTheme, 1);
+define_element!(MJICraftworksObjectTheme, 1);
 impl<'a> MJICraftworksObjectTheme<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(MJICraftworksObjectMaterial, 1);
+define_element!(MJICraftworksObjectMaterial, 1);
 impl<'a> MJICraftworksObjectMaterial<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(MJICraftworksObjectAmount, 1);
+define_element!(MJICraftworksObjectAmount, 1);
 impl<'a> MJICraftworksObjectAmount<'a> {
     u16_field!(field_0, 0);
 }

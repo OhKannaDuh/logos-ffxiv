@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(OrnamentCustomizeGroupCustomize, 1);
+define_element!(OrnamentCustomizeGroupCustomize, 1);
 impl<'a> OrnamentCustomizeGroupCustomize<'a> {
     u16_field!(field_0, 0);
 }

@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSMissionUnitClassJobCategory, 1);
+define_element!(WKSMissionUnitClassJobCategory, 1);
 impl<'a> WKSMissionUnitClassJobCategory<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(WKSMissionUnitMissionToDo, 1);
+define_element!(WKSMissionUnitMissionToDo, 1);
 impl<'a> WKSMissionUnitMissionToDo<'a> {
     string_field!(field_0, 0);
 }

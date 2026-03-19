@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJIRankLogMessage, 1);
+define_element!(MJIRankLogMessage, 1);
 impl<'a> MJIRankLogMessage<'a> {
     u32_field!(field_0, 0);
 }

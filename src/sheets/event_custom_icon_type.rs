@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(EventCustomIconTypeIcons, 5);
+define_element!(EventCustomIconTypeIcons, 5);
 impl<'a> EventCustomIconTypeIcons<'a> {
     u32_field!(announce_quest, 0);
     u32_field!(announce_quest_locked, 1);

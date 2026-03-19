@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(LotteryExchangeShopLotteryExchangeParams, 4);
+define_element!(LotteryExchangeShopLotteryExchangeParams, 4);
 impl<'a> LotteryExchangeShopLotteryExchangeParams<'a> {
     string_field!(amount_accepted, 0);
     u32_field!(item_accepted, 1);
@@ -14,7 +14,7 @@ impl<'a> LotteryExchangeShopLotteryExchangeParams<'a> {
     u8_field!(unknown_1, 3);
 }
 
-define_subrow!(LotteryExchangeShopLogMessage, 1);
+define_element!(LotteryExchangeShopLogMessage, 1);
 impl<'a> LotteryExchangeShopLogMessage<'a> {
     string_field!(field_0, 0);
 }

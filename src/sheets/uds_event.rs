@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(UDS_EventProperty, 1);
+define_element!(UDS_EventProperty, 1);
 impl<'a> UDS_EventProperty<'a> {
     string_field!(field_0, 0);
 }

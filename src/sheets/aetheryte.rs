@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(AetheryteLevel, 1);
+define_element!(AetheryteLevel, 1);
 impl<'a> AetheryteLevel<'a> {
     string_field!(field_0, 0);
 }

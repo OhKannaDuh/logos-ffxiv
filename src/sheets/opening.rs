@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(OpeningVariables, 2);
+define_element!(OpeningVariables, 2);
 impl<'a> OpeningVariables<'a> {
     string_field!(name, 0);
     u32_field!(value, 1);

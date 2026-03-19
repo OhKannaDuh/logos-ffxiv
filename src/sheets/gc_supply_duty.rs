@@ -6,18 +6,18 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GCSupplyDutySupplyData, 2);
+define_element!(GCSupplyDutySupplyData, 2);
 impl<'a> GCSupplyDutySupplyData<'a> {
     array_field!(item, 0, 3, GCSupplyDutySupplyData);
     array_field!(item_count, 3, 3, GCSupplyDutySupplyData);
 }
 
-define_subrow!(GCSupplyDutySupplyDataItem, 1);
+define_element!(GCSupplyDutySupplyDataItem, 1);
 impl<'a> GCSupplyDutySupplyDataItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(GCSupplyDutySupplyDataItemCount, 1);
+define_element!(GCSupplyDutySupplyDataItemCount, 1);
 impl<'a> GCSupplyDutySupplyDataItemCount<'a> {
     i32_field!(field_0, 0);
 }

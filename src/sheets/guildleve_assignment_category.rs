@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GuildleveAssignmentCategoryCategory, 1);
+define_element!(GuildleveAssignmentCategoryCategory, 1);
 impl<'a> GuildleveAssignmentCategoryCategory<'a> {
     i32_field!(field_0, 0);
 }

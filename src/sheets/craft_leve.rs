@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CraftLeveItem, 1);
+define_element!(CraftLeveItem, 1);
 impl<'a> CraftLeveItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(CraftLeveItemCount, 1);
+define_element!(CraftLeveItemCount, 1);
 impl<'a> CraftLeveItemCount<'a> {
     i32_field!(field_0, 0);
 }

@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MandervilleWeaponEnhanceMateria, 1);
+define_element!(MandervilleWeaponEnhanceMateria, 1);
 impl<'a> MandervilleWeaponEnhanceMateria<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(MandervilleWeaponEnhanceMateriaBigValueIndex, 1);
+define_element!(MandervilleWeaponEnhanceMateriaBigValueIndex, 1);
 impl<'a> MandervilleWeaponEnhanceMateriaBigValueIndex<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(MandervilleWeaponEnhanceMateriaSmallValueIndex, 1);
+define_element!(MandervilleWeaponEnhanceMateriaSmallValueIndex, 1);
 impl<'a> MandervilleWeaponEnhanceMateriaSmallValueIndex<'a> {
     u32_field!(field_0, 0);
 }

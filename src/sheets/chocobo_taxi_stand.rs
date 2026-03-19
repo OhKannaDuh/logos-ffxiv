@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ChocoboTaxiStandTargetLocations, 1);
+define_element!(ChocoboTaxiStandTargetLocations, 1);
 impl<'a> ChocoboTaxiStandTargetLocations<'a> {
     string_field!(field_0, 0);
 }

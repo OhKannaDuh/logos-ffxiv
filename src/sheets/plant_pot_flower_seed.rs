@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(PlantPotFlowerSeedSeedIcon, 1);
+define_element!(PlantPotFlowerSeedSeedIcon, 1);
 impl<'a> PlantPotFlowerSeedSeedIcon<'a> {
     u32_field!(field_0, 0);
 }

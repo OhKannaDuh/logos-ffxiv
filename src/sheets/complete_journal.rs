@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CompleteJournalCutscene, 1);
+define_element!(CompleteJournalCutscene, 1);
 impl<'a> CompleteJournalCutscene<'a> {
     string_field!(field_0, 0);
 }

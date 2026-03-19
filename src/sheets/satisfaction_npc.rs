@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SatisfactionNpcSatisfactionNpcParams, 5);
+define_element!(SatisfactionNpcSatisfactionNpcParams, 5);
 impl<'a> SatisfactionNpcSatisfactionNpcParams<'a> {
     i32_field!(supply_index, 0);
     array_field!(item, 1, 3, SatisfactionNpcSatisfactionNpcParams);
@@ -15,22 +15,22 @@ impl<'a> SatisfactionNpcSatisfactionNpcParams<'a> {
     array_field!(is_hq, 8, 3, SatisfactionNpcSatisfactionNpcParams);
 }
 
-define_subrow!(SatisfactionNpcSatisfactionNpcParamsItem, 1);
+define_element!(SatisfactionNpcSatisfactionNpcParamsItem, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(SatisfactionNpcSatisfactionNpcParamsItemCount, 1);
+define_element!(SatisfactionNpcSatisfactionNpcParamsItemCount, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsItemCount<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(SatisfactionNpcSatisfactionNpcParamsIsHQ, 1);
+define_element!(SatisfactionNpcSatisfactionNpcParamsIsHQ, 1);
 impl<'a> SatisfactionNpcSatisfactionNpcParamsIsHQ<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(SatisfactionNpcRankParams, 3);
+define_element!(SatisfactionNpcRankParams, 3);
 impl<'a> SatisfactionNpcRankParams<'a> {
     i32_field!(image_id, 0);
     i32_field!(unknown_1, 1);

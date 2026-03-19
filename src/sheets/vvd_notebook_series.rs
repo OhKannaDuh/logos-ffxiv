@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(VVDNotebookSeriesContents, 1);
+define_element!(VVDNotebookSeriesContents, 1);
 impl<'a> VVDNotebookSeriesContents<'a> {
     string_field!(field_0, 0);
 }

@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MateriaItem, 1);
+define_element!(MateriaItem, 1);
 impl<'a> MateriaItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(MateriaValue, 1);
+define_element!(MateriaValue, 1);
 impl<'a> MateriaValue<'a> {
     i32_field!(field_0, 0);
 }

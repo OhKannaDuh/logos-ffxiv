@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(HWDCrafterSupplyHWDCrafterSupplyParams, 14);
+define_element!(HWDCrafterSupplyHWDCrafterSupplyParams, 14);
 impl<'a> HWDCrafterSupplyHWDCrafterSupplyParams<'a> {
     u32_field!(item_trade_in, 0);
     u16_field!(base_collectable_rating, 1);

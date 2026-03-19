@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RetainerTaskParameterItemLevelDoW, 1);
+define_element!(RetainerTaskParameterItemLevelDoW, 1);
 impl<'a> RetainerTaskParameterItemLevelDoW<'a> {
     i16_field!(field_0, 0);
 }
 
-define_subrow!(RetainerTaskParameterPerceptionDoL, 1);
+define_element!(RetainerTaskParameterPerceptionDoL, 1);
 impl<'a> RetainerTaskParameterPerceptionDoL<'a> {
     i16_field!(field_0, 0);
 }
 
-define_subrow!(RetainerTaskParameterPerceptionFSH, 1);
+define_element!(RetainerTaskParameterPerceptionFSH, 1);
 impl<'a> RetainerTaskParameterPerceptionFSH<'a> {
     i16_field!(field_0, 0);
 }

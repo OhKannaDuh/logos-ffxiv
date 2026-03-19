@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(LeveRewardItemLeveRewardItemGroup, 1);
+define_element!(LeveRewardItemLeveRewardItemGroup, 1);
 impl<'a> LeveRewardItemLeveRewardItemGroup<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(LeveRewardItemProbabilityPercent, 1);
+define_element!(LeveRewardItemProbabilityPercent, 1);
 impl<'a> LeveRewardItemProbabilityPercent<'a> {
     u16_field!(field_0, 0);
 }

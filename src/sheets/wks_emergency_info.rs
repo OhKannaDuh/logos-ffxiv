@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSEmergencyInfoEmergencyProblem, 1);
+define_element!(WKSEmergencyInfoEmergencyProblem, 1);
 impl<'a> WKSEmergencyInfoEmergencyProblem<'a> {
     u16_field!(field_0, 0);
 }

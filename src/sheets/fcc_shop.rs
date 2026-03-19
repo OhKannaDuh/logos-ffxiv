@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(FccShopItemData, 3);
+define_element!(FccShopItemData, 3);
 impl<'a> FccShopItemData<'a> {
     string_field!(item, 0);
     u32_field!(cost, 1);

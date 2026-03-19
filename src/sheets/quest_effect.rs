@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(QuestEffectUnknownStruct, 3);
+define_element!(QuestEffectUnknownStruct, 3);
 impl<'a> QuestEffectUnknownStruct<'a> {
     u32_field!(unknown_1, 0);
     u32_field!(unknown_70, 1);

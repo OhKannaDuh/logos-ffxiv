@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(TradeScreenImageItems, 1);
+define_element!(TradeScreenImageItems, 1);
 impl<'a> TradeScreenImageItems<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(TradeScreenImageItemIcons, 1);
+define_element!(TradeScreenImageItemIcons, 1);
 impl<'a> TradeScreenImageItemIcons<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(TradeScreenImageItemValues, 1);
+define_element!(TradeScreenImageItemValues, 1);
 impl<'a> TradeScreenImageItemValues<'a> {
     u32_field!(field_0, 0);
 }

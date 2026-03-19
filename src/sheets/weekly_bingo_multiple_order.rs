@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WeeklyBingoMultipleOrderContent, 1);
+define_element!(WeeklyBingoMultipleOrderContent, 1);
 impl<'a> WeeklyBingoMultipleOrderContent<'a> {
     u32_field!(field_0, 0);
 }

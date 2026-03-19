@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSAchievementDailyDefineRewardItem, 1);
+define_element!(WKSAchievementDailyDefineRewardItem, 1);
 impl<'a> WKSAchievementDailyDefineRewardItem<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(WKSAchievementDailyDefineSuccessPointsRequired, 1);
+define_element!(WKSAchievementDailyDefineSuccessPointsRequired, 1);
 impl<'a> WKSAchievementDailyDefineSuccessPointsRequired<'a> {
     u32_field!(field_0, 0);
 }

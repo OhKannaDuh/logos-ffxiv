@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GcArmyExpeditionExpeditionParams, 9);
+define_element!(GcArmyExpeditionExpeditionParams, 9);
 impl<'a> GcArmyExpeditionExpeditionParams<'a> {
     string_field!(reward_item, 0);
     string_field!(required_physical, 1);

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(TelepoRelayRelays, 3);
+define_element!(TelepoRelayRelays, 3);
 impl<'a> TelepoRelayRelays<'a> {
     u16_field!(enter_territory, 0);
     u16_field!(exit_territory, 1);

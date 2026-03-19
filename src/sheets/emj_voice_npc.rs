@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(EmjVoiceNpcVoLines, 1);
+define_element!(EmjVoiceNpcVoLines, 1);
 impl<'a> EmjVoiceNpcVoLines<'a> {
     u32_field!(field_0, 0);
 }

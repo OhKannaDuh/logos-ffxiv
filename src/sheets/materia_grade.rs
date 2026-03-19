@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MateriaGradeOvermeldNQPercent, 1);
+define_element!(MateriaGradeOvermeldNQPercent, 1);
 impl<'a> MateriaGradeOvermeldNQPercent<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(MateriaGradeOvermeldHQPercent, 1);
+define_element!(MateriaGradeOvermeldHQPercent, 1);
 impl<'a> MateriaGradeOvermeldHQPercent<'a> {
     u16_field!(field_0, 0);
 }

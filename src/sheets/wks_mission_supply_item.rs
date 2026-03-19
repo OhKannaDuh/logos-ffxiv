@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSMissionSupplyItemItem, 1);
+define_element!(WKSMissionSupplyItemItem, 1);
 impl<'a> WKSMissionSupplyItemItem<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(WKSMissionSupplyItemItemCount, 1);
+define_element!(WKSMissionSupplyItemItemCount, 1);
 impl<'a> WKSMissionSupplyItemItemCount<'a> {
     u16_field!(field_0, 0);
 }

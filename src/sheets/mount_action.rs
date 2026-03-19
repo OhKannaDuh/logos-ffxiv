@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MountActionAction, 1);
+define_element!(MountActionAction, 1);
 impl<'a> MountActionAction<'a> {
     u16_field!(field_0, 0);
 }

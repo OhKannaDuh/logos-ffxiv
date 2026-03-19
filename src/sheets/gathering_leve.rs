@@ -6,22 +6,22 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GatheringLeveRoute, 1);
+define_element!(GatheringLeveRoute, 1);
 impl<'a> GatheringLeveRoute<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(GatheringLeveRequiredItem, 1);
+define_element!(GatheringLeveRequiredItem, 1);
 impl<'a> GatheringLeveRequiredItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(GatheringLeveObjective, 1);
+define_element!(GatheringLeveObjective, 1);
 impl<'a> GatheringLeveObjective<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(GatheringLeveRequiredItemQuantity, 1);
+define_element!(GatheringLeveRequiredItemQuantity, 1);
 impl<'a> GatheringLeveRequiredItemQuantity<'a> {
     i32_field!(field_0, 0);
 }

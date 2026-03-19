@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ENpcBaseENpcData, 1);
+define_element!(ENpcBaseENpcData, 1);
 impl<'a> ENpcBaseENpcData<'a> {
     u32_field!(field_0, 0);
 }

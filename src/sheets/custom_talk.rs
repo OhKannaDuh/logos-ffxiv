@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CustomTalkScript, 2);
+define_element!(CustomTalkScript, 2);
 impl<'a> CustomTalkScript<'a> {
     string_field!(script_instruction, 0);
     u32_field!(script_arg, 1);

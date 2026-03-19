@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SnipeSnipeData, 7);
+define_element!(SnipeSnipeData, 7);
 impl<'a> SnipeSnipeData<'a> {
     u32_field!(data_event_npc, 0);
     u16_field!(unknown_0, 1);
@@ -17,7 +17,7 @@ impl<'a> SnipeSnipeData<'a> {
     u8_field!(unknown_5, 6);
 }
 
-define_subrow!(SnipeEventNPC, 1);
+define_element!(SnipeEventNPC, 1);
 impl<'a> SnipeEventNPC<'a> {
     u32_field!(field_0, 0);
 }

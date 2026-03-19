@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(QuestRedoQuestRedoParam, 2);
+define_element!(QuestRedoQuestRedoParam, 2);
 impl<'a> QuestRedoQuestRedoParam<'a> {
     u32_field!(quest, 0);
     u8_field!(unknown_param, 1);

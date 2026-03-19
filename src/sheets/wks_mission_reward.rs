@@ -6,22 +6,22 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSMissionRewardExpModifier, 1);
+define_element!(WKSMissionRewardExpModifier, 1);
 impl<'a> WKSMissionRewardExpModifier<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(WKSMissionRewardResearchReward, 1);
+define_element!(WKSMissionRewardResearchReward, 1);
 impl<'a> WKSMissionRewardResearchReward<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(WKSMissionRewardTool, 1);
+define_element!(WKSMissionRewardTool, 1);
 impl<'a> WKSMissionRewardTool<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(WKSMissionRewardTypeIndex, 1);
+define_element!(WKSMissionRewardTypeIndex, 1);
 impl<'a> WKSMissionRewardTypeIndex<'a> {
     u32_field!(field_0, 0);
 }

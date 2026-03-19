@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ContentsTutorialPage, 1);
+define_element!(ContentsTutorialPage, 1);
 impl<'a> ContentsTutorialPage<'a> {
     string_field!(field_0, 0);
 }

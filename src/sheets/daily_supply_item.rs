@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DailySupplyItemItem, 1);
+define_element!(DailySupplyItemItem, 1);
 impl<'a> DailySupplyItemItem<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(DailySupplyItemQuantity, 1);
+define_element!(DailySupplyItemQuantity, 1);
 impl<'a> DailySupplyItemQuantity<'a> {
     i32_field!(field_0, 0);
 }
 
-define_subrow!(DailySupplyItemRecipeLevel, 1);
+define_element!(DailySupplyItemRecipeLevel, 1);
 impl<'a> DailySupplyItemRecipeLevel<'a> {
     i32_field!(field_0, 0);
 }

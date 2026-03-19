@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(InclusionShopCategory, 1);
+define_element!(InclusionShopCategory, 1);
 impl<'a> InclusionShopCategory<'a> {
     string_field!(field_0, 0);
 }

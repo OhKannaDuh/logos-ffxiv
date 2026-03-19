@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(NotoriousMonsterTerritoryNotoriousMonsters, 1);
+define_element!(NotoriousMonsterTerritoryNotoriousMonsters, 1);
 impl<'a> NotoriousMonsterTerritoryNotoriousMonsters<'a> {
     u16_field!(field_0, 0);
 }

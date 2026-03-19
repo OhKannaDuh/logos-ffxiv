@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GatheringRarePopTimeTableStartTime, 1);
+define_element!(GatheringRarePopTimeTableStartTime, 1);
 impl<'a> GatheringRarePopTimeTableStartTime<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(GatheringRarePopTimeTableDuration, 1);
+define_element!(GatheringRarePopTimeTableDuration, 1);
 impl<'a> GatheringRarePopTimeTableDuration<'a> {
     u16_field!(field_0, 0);
 }

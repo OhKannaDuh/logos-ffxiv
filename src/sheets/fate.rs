@@ -6,23 +6,23 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(FateStatusText, 1);
+define_element!(FateStatusText, 1);
 impl<'a> FateStatusText<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(FateUnknown2, 1);
+define_element!(FateUnknown2, 1);
 impl<'a> FateUnknown2<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(FateObjectiveIcon, 2);
+define_element!(FateObjectiveIcon, 2);
 impl<'a> FateObjectiveIcon<'a> {
     string_field!(layout_id, 0);
     string_field!(icon, 1);
 }
 
-define_subrow!(FateStatusValue, 1);
+define_element!(FateStatusValue, 1);
 impl<'a> FateStatusValue<'a> {
     string_field!(field_0, 0);
 }

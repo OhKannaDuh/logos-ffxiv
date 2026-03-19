@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(BattleLeveTime, 1);
+define_element!(BattleLeveTime, 1);
 impl<'a> BattleLeveTime<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(BattleLeveLeveData, 9);
+define_element!(BattleLeveLeveData, 9);
 impl<'a> BattleLeveLeveData<'a> {
     u16_field!(b_npc_name, 0);
     u16_field!(to_do_number_involved, 1);
@@ -24,27 +24,27 @@ impl<'a> BattleLeveLeveData<'a> {
     array_field!(num_of_appearance, 12, 8, BattleLeveLeveData);
 }
 
-define_subrow!(BattleLeveLeveDataToDoParam, 1);
+define_element!(BattleLeveLeveDataToDoParam, 1);
 impl<'a> BattleLeveLeveDataToDoParam<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(BattleLeveLeveDataNumOfAppearance, 1);
+define_element!(BattleLeveLeveDataNumOfAppearance, 1);
 impl<'a> BattleLeveLeveDataNumOfAppearance<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(BattleLeveToDoSequence, 1);
+define_element!(BattleLeveToDoSequence, 1);
 impl<'a> BattleLeveToDoSequence<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(BattleLeveObjectives, 1);
+define_element!(BattleLeveObjectives, 1);
 impl<'a> BattleLeveObjectives<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(BattleLeveHelp, 1);
+define_element!(BattleLeveHelp, 1);
 impl<'a> BattleLeveHelp<'a> {
     u16_field!(field_0, 0);
 }

@@ -6,13 +6,13 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(QuestQuestParams, 2);
+define_element!(QuestQuestParams, 2);
 impl<'a> QuestQuestParams<'a> {
     string_field!(script_instruction, 0);
     string_field!(script_arg, 1);
 }
 
-define_subrow!(QuestQuestListenerParams, 18);
+define_element!(QuestQuestListenerParams, 18);
 impl<'a> QuestQuestListenerParams<'a> {
     string_field!(listener, 0);
     string_field!(condition_value, 1);
@@ -34,7 +34,7 @@ impl<'a> QuestQuestListenerParams<'a> {
     string_field!(can_target_bool, 17);
 }
 
-define_subrow!(QuestTodoParams, 4);
+define_element!(QuestTodoParams, 4);
 impl<'a> QuestTodoParams<'a> {
     array_field!(to_do_location, 0, 8, QuestTodoParams);
     u32_field!(to_do_complete_seq, 8);
@@ -42,82 +42,82 @@ impl<'a> QuestTodoParams<'a> {
     u32_field!(countable_num, 10);
 }
 
-define_subrow!(QuestTodoParamsToDoLocation, 1);
+define_element!(QuestTodoParamsToDoLocation, 1);
 impl<'a> QuestTodoParamsToDoLocation<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestReward, 1);
+define_element!(QuestReward, 1);
 impl<'a> QuestReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestOptionalItemReward, 1);
+define_element!(QuestOptionalItemReward, 1);
 impl<'a> QuestOptionalItemReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestSystemReward, 1);
+define_element!(QuestSystemReward, 1);
 impl<'a> QuestSystemReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestItemCatalyst, 1);
+define_element!(QuestItemCatalyst, 1);
 impl<'a> QuestItemCatalyst<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestItemCountCatalyst, 1);
+define_element!(QuestItemCountCatalyst, 1);
 impl<'a> QuestItemCountCatalyst<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestItemCountReward, 1);
+define_element!(QuestItemCountReward, 1);
 impl<'a> QuestItemCountReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestRewardStain, 1);
+define_element!(QuestRewardStain, 1);
 impl<'a> QuestRewardStain<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestOptionalItemCountReward, 1);
+define_element!(QuestOptionalItemCountReward, 1);
 impl<'a> QuestOptionalItemCountReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestOptionalItemStainReward, 1);
+define_element!(QuestOptionalItemStainReward, 1);
 impl<'a> QuestOptionalItemStainReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestGeneralActionReward, 1);
+define_element!(QuestGeneralActionReward, 1);
 impl<'a> QuestGeneralActionReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestOptionalItemIsHQReward, 1);
+define_element!(QuestOptionalItemIsHQReward, 1);
 impl<'a> QuestOptionalItemIsHQReward<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestPreviousQuest, 1);
+define_element!(QuestPreviousQuest, 1);
 impl<'a> QuestPreviousQuest<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestQuestLock, 1);
+define_element!(QuestQuestLock, 1);
 impl<'a> QuestQuestLock<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestInstanceContent, 1);
+define_element!(QuestInstanceContent, 1);
 impl<'a> QuestInstanceContent<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(QuestClassJobLevel, 1);
+define_element!(QuestClassJobLevel, 1);
 impl<'a> QuestClassJobLevel<'a> {
     string_field!(field_0, 0);
 }

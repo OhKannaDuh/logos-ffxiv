@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CompanyCraftProcessSupplyItem, 1);
+define_element!(CompanyCraftProcessSupplyItem, 1);
 impl<'a> CompanyCraftProcessSupplyItem<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(CompanyCraftProcessSetQuantity, 1);
+define_element!(CompanyCraftProcessSetQuantity, 1);
 impl<'a> CompanyCraftProcessSetQuantity<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(CompanyCraftProcessSetsRequired, 1);
+define_element!(CompanyCraftProcessSetsRequired, 1);
 impl<'a> CompanyCraftProcessSetsRequired<'a> {
     u16_field!(field_0, 0);
 }

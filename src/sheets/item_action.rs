@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ItemActionData, 1);
+define_element!(ItemActionData, 1);
 impl<'a> ItemActionData<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(ItemActionDataHQ, 1);
+define_element!(ItemActionDataHQ, 1);
 impl<'a> ItemActionDataHQ<'a> {
     u16_field!(field_0, 0);
 }

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(BankaCraftWorksSupplyItem, 10);
+define_element!(BankaCraftWorksSupplyItem, 10);
 impl<'a> BankaCraftWorksSupplyItem<'a> {
     u32_field!(item_id, 0);
     u32_field!(xp_reward, 1);

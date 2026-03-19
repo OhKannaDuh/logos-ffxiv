@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(PvPActionGrandCompany, 1);
+define_element!(PvPActionGrandCompany, 1);
 impl<'a> PvPActionGrandCompany<'a> {
     u16_field!(field_0, 0);
 }

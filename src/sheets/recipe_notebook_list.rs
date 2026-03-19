@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(RecipeNotebookListRecipe, 1);
+define_element!(RecipeNotebookListRecipe, 1);
 impl<'a> RecipeNotebookListRecipe<'a> {
     i32_field!(field_0, 0);
 }

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(GimmickRectParams, 1);
+define_element!(GimmickRectParams, 1);
 impl<'a> GimmickRectParams<'a> {
     u32_field!(field_0, 0);
 }

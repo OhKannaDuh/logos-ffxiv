@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(StatusLoopVFXVFX, 1);
+define_element!(StatusLoopVFXVFX, 1);
 impl<'a> StatusLoopVFXVFX<'a> {
     u16_field!(field_0, 0);
 }

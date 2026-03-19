@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SequentialEventUnknownStruct, 5);
+define_element!(SequentialEventUnknownStruct, 5);
 impl<'a> SequentialEventUnknownStruct<'a> {
     u32_field!(unknown_1, 0);
     u32_field!(unknown_2, 1);

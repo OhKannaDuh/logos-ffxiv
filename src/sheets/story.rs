@@ -6,13 +6,13 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(StoryStoryParams, 2);
+define_element!(StoryStoryParams, 2);
 impl<'a> StoryStoryParams<'a> {
     string_field!(instruction, 0);
     u32_field!(argument, 1);
 }
 
-define_subrow!(StoryStoryDefine, 7);
+define_element!(StoryStoryDefine, 7);
 impl<'a> StoryStoryDefine<'a> {
     array_field!(completed_quest, 0, 3, StoryStoryDefine);
     array_field!(accepted_quest, 3, 3, StoryStoryDefine);
@@ -23,34 +23,34 @@ impl<'a> StoryStoryDefine<'a> {
     array_field!(accepted_quest_sequence, 11, 3, StoryStoryDefine);
 }
 
-define_subrow!(StoryStoryDefineCompletedQuest, 1);
+define_element!(StoryStoryDefineCompletedQuest, 1);
 impl<'a> StoryStoryDefineCompletedQuest<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(StoryStoryDefineAcceptedQuest, 1);
+define_element!(StoryStoryDefineAcceptedQuest, 1);
 impl<'a> StoryStoryDefineAcceptedQuest<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(StoryStoryDefineLayerSet, 1);
+define_element!(StoryStoryDefineLayerSet, 1);
 impl<'a> StoryStoryDefineLayerSet<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(StoryStoryDefineAcceptedQuestSequence, 1);
+define_element!(StoryStoryDefineAcceptedQuestSequence, 1);
 impl<'a> StoryStoryDefineAcceptedQuestSequence<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(StoryStoryListener, 3);
+define_element!(StoryStoryListener, 3);
 impl<'a> StoryStoryListener<'a> {
     string_field!(listener, 0);
     u32_field!(sequence_begin, 1);
     string_field!(sequence_end, 2);
 }
 
-define_subrow!(StoryLayerSetTerritoryType, 1);
+define_element!(StoryLayerSetTerritoryType, 1);
 impl<'a> StoryLayerSetTerritoryType<'a> {
     string_field!(field_0, 0);
 }

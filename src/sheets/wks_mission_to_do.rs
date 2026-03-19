@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSMissionToDoRequiredItem, 1);
+define_element!(WKSMissionToDoRequiredItem, 1);
 impl<'a> WKSMissionToDoRequiredItem<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(WKSMissionToDoRequiredItemQuantity, 1);
+define_element!(WKSMissionToDoRequiredItemQuantity, 1);
 impl<'a> WKSMissionToDoRequiredItemQuantity<'a> {
     u32_field!(field_0, 0);
 }

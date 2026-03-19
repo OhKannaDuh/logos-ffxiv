@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(MJIVillageAppearanceSGVillageAppearanceData, 2);
+define_element!(MJIVillageAppearanceSGVillageAppearanceData, 2);
 impl<'a> MJIVillageAppearanceSGVillageAppearanceData<'a> {
     u32_field!(unknown_param, 0);
     u16_field!(sgb, 1);

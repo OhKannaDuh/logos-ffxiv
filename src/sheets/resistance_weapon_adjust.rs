@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(ResistanceWeaponAdjustBaseParam, 1);
+define_element!(ResistanceWeaponAdjustBaseParam, 1);
 impl<'a> ResistanceWeaponAdjustBaseParam<'a> {
     u32_field!(field_0, 0);
 }

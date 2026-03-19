@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(FishingSpotItem, 1);
+define_element!(FishingSpotItem, 1);
 impl<'a> FishingSpotItem<'a> {
     string_field!(field_0, 0);
 }

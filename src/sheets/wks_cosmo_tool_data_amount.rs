@@ -6,18 +6,18 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(WKSCosmoToolDataAmountStages, 2);
+define_element!(WKSCosmoToolDataAmountStages, 2);
 impl<'a> WKSCosmoToolDataAmountStages<'a> {
     array_field!(required_amount, 0, 6, WKSCosmoToolDataAmountStages);
     array_field!(max_amount, 6, 6, WKSCosmoToolDataAmountStages);
 }
 
-define_subrow!(WKSCosmoToolDataAmountStagesRequiredAmount, 1);
+define_element!(WKSCosmoToolDataAmountStagesRequiredAmount, 1);
 impl<'a> WKSCosmoToolDataAmountStagesRequiredAmount<'a> {
     u16_field!(field_0, 0);
 }
 
-define_subrow!(WKSCosmoToolDataAmountStagesMaxAmount, 1);
+define_element!(WKSCosmoToolDataAmountStagesMaxAmount, 1);
 impl<'a> WKSCosmoToolDataAmountStagesMaxAmount<'a> {
     u16_field!(field_0, 0);
 }

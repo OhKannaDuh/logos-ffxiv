@@ -6,27 +6,27 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(TripleTriadItemPossibleReward, 1);
+define_element!(TripleTriadItemPossibleReward, 1);
 impl<'a> TripleTriadItemPossibleReward<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(TripleTriadPreviousQuest, 1);
+define_element!(TripleTriadPreviousQuest, 1);
 impl<'a> TripleTriadPreviousQuest<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(TripleTriadTripleTriadCardFixed, 1);
+define_element!(TripleTriadTripleTriadCardFixed, 1);
 impl<'a> TripleTriadTripleTriadCardFixed<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(TripleTriadTripleTriadCardVariable, 1);
+define_element!(TripleTriadTripleTriadCardVariable, 1);
 impl<'a> TripleTriadTripleTriadCardVariable<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(TripleTriadTripleTriadRule, 1);
+define_element!(TripleTriadTripleTriadRule, 1);
 impl<'a> TripleTriadTripleTriadRule<'a> {
     u32_field!(field_0, 0);
 }

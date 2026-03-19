@@ -6,12 +6,12 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(NotebookDivisionSecretRecipeBookGroups, 1);
+define_element!(NotebookDivisionSecretRecipeBookGroups, 1);
 impl<'a> NotebookDivisionSecretRecipeBookGroups<'a> {
     string_field!(field_0, 0);
 }
 
-define_subrow!(NotebookDivisionAllowedCraftTypes, 1);
+define_element!(NotebookDivisionAllowedCraftTypes, 1);
 impl<'a> NotebookDivisionAllowedCraftTypes<'a> {
     string_field!(field_0, 0);
 }

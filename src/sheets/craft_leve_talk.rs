@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(CraftLeveTalkTalk, 1);
+define_element!(CraftLeveTalkTalk, 1);
 impl<'a> CraftLeveTalkTalk<'a> {
     u32_field!(field_0, 0);
 }

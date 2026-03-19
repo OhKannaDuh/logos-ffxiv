@@ -6,17 +6,17 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(PartyContentLGBEventObject, 1);
+define_element!(PartyContentLGBEventObject, 1);
 impl<'a> PartyContentLGBEventObject<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(PartyContentLGBEventRange, 1);
+define_element!(PartyContentLGBEventRange, 1);
 impl<'a> PartyContentLGBEventRange<'a> {
     u32_field!(field_0, 0);
 }
 
-define_subrow!(PartyContentLGBEventObject2, 1);
+define_element!(PartyContentLGBEventObject2, 1);
 impl<'a> PartyContentLGBEventObject2<'a> {
     u32_field!(field_0, 0);
 }

@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(PetAbilities, 1);
+define_element!(PetAbilities, 1);
 impl<'a> PetAbilities<'a> {
     string_field!(field_0, 0);
 }

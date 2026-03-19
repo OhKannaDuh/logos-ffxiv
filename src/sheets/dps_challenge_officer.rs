@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DpsChallengeOfficerChallengeName, 1);
+define_element!(DpsChallengeOfficerChallengeName, 1);
 impl<'a> DpsChallengeOfficerChallengeName<'a> {
     u16_field!(field_0, 0);
 }

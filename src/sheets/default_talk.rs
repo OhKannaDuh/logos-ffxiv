@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(DefaultTalkDefaultTalkParams, 6);
+define_element!(DefaultTalkDefaultTalkParams, 6);
 impl<'a> DefaultTalkDefaultTalkParams<'a> {
     u16_field!(action_timeline_pose, 0);
     u16_field!(unknown_0, 1);
@@ -16,7 +16,7 @@ impl<'a> DefaultTalkDefaultTalkParams<'a> {
     bool_field!(unknown_4, 5);
 }
 
-define_subrow!(DefaultTalkText, 1);
+define_element!(DefaultTalkText, 1);
 impl<'a> DefaultTalkText<'a> {
     u16_field!(field_0, 0);
 }

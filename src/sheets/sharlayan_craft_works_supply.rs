@@ -6,7 +6,7 @@
 use crate::Sheet;
 use crate::macros::*;
 
-define_subrow!(SharlayanCraftWorksSupplyItem, 11);
+define_element!(SharlayanCraftWorksSupplyItem, 11);
 impl<'a> SharlayanCraftWorksSupplyItem<'a> {
     u32_field!(item_id, 0);
     u32_field!(xp_reward, 1);
